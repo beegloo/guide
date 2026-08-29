@@ -1,25 +1,18 @@
-# AGENTS.md
+# Beegloo Brand Guide
 
-## Project
+## Regras permanentes
 
-Beegloo Guide is a React application built with Vite. GitHub is the source of truth.
-
-## Working conventions
-
-- Use `npm install` to install dependencies.
-- Use `npm run dev` for local development.
-- Use `npm run build` before handing off changes.
-- Keep source code in `src/` and static files in `public/`.
-- Keep official logos in `public/logos/`.
-- Preserve official SVG assets byte-for-byte. Do not reformat, optimize, minify, or otherwise modify their internal content when copying them.
-- Never commit secrets, `.env` files, `node_modules/`, `dist/`, or `.vercel/`.
-- Do not deploy unless explicitly requested.
-- Keep changes focused, accessible, responsive, and suitable for deployment on Vercel.
-
-## Verification
-
-Run the production build after code or configuration changes:
-
-```sh
-npm run build
-```
+- Este repositório é a cópia canônica local do Beegloo Brand Guide.
+- Preserve fundos pastel suaves, grandes superfícies e cards sem borda, raios fortes e bastante respiro.
+- Use Outfit como tipografia principal.
+- Azul e rosa formam o núcleo cromático; marrom e verde são complementares.
+- Mantenha completas as escalas de cor 50–950.
+- Cubra Linguagem Visual, Logo, Cores, Tipografia, Formas/UI, Mascote, Composição, Aplicações e Diretrizes para IA.
+- `public/logos/Padrão.svg`, `Sobre.svg`, `Ícone Azul.svg` e `Ícone Rosa.svg` são oficiais: quando fornecidos, não altere, otimize ou reformate nenhum byte interno.
+- Nunca substitua logos oficiais por aproximações. Se um asset estiver ausente, sinalize a pendência.
+- Antes de remover qualquer temporário, confirme que nenhum conteúdo exclusivo ficou fora deste repositório.
+- Execute `npm run build` antes de concluir mudanças relevantes.
+- Mantenha o código em `src/` e arquivos estáticos em `public/`.
+- Não versione segredos, arquivos `.env`, `node_modules/`, `dist/` ou `.vercel/`.
+- Mantenha as mudanças acessíveis, responsivas e adequadas à publicação na Vercel.
+- Não publique sem solicitação explícita.

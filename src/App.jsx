@@ -1,11 +1,38 @@
-export default function App() {
-  return (
-    <main>
-      <section className="welcome" aria-labelledby="page-title">
-        <p className="eyebrow">Beegloo</p>
-        <h1 id="page-title">Guide</h1>
-        <p>The project is ready for its next chapter.</p>
-      </section>
-    </main>
-  )
+const sections = [['visual','Linguagem visual'],['logo','Logo'],['cores','Cores'],['tipo','Tipografia'],['ui','Formas / UI'],['mascote','Mascote'],['composicao','Composição'],['aplicacoes','Aplicações'],['ia','Diretrizes para IA']]
+const scales = {
+  Azul:['#f1f7ff','#e4efff','#c9dfff','#9fc6ff','#6aa7ff','#3f85ff','#2563eb','#1d4ed8','#1e40af','#1e3a8a','#172554'],
+  Rosa:['#fff1f7','#ffe4ef','#ffc9df','#ff9fc8','#ff6aa8','#f43f8b','#db2777','#be185d','#9d174d','#831843','#500724'],
+  Marrom:['#fbf7f4','#f5ece6','#ead8cb','#d9bba8','#c29479','#a87154','#8d563f','#754333','#60372c','#512f28','#2d1713'],
+  Verde:['#f1faf5','#ddf4e7','#bce8cf','#91d5ad','#62bd88','#3a9f68','#258153','#206744','#1d5239','#19442f','#0c261a']
 }
+const steps=['50','100','200','300','400','500','600','700','800','900','950']
+const logos=[['Padrão.svg','Padrão','plain'],['Sobre.svg','Sobre cor','blue'],['Ícone Azul.svg','Ícone azul','pink'],['Ícone Rosa.svg','Ícone rosa','brown']]
+
+function Heading({n,title,children}){return <header className="heading"><p>{n}</p><h2>{title}</h2>{children&&<div>{children}</div>}</header>}
+function Logo({file,label,tone}){return <figure className={`logo-card ${tone}`}><div><img src={`/logos/${file}`} alt={`Beegloo — ${label}`} onError={e=>{e.currentTarget.hidden=true;e.currentTarget.nextElementSibling.hidden=false}}/><span hidden>beegloo</span></div><figcaption><b>{label}</b><small>{file}</small></figcaption></figure>}
+
+export default function App(){return <>
+  <header className="top"><a className="brand" href="#top"><i>b</i>beegloo</a><nav>{sections.map(([id,label])=><a key={id} href={`#${id}`}>{label}</a>)}</nav></header>
+  <main id="top">
+    <section className="hero"><div><p className="eyebrow">Brand guide · 2026</p><h1>Uma marca que faz ideias <em>florescerem.</em></h1><p>Clara, calorosa e cheia de espaço para brincar. Este é o sistema vivo da Beegloo.</p></div><div className="hero-art"><i/><i/><b>b</b><span>✦</span></div></section>
+
+    <section id="visual" className="section blue-wash"><Heading n="01 · Linguagem visual" title="Leve por natureza. Memorável por escolha.">A Beegloo combina formas generosas, cor expressiva e uma voz direta para transformar complexidade em proximidade.</Heading><div className="cards three">{[['◯','Clareza gentil','Hierarquia evidente e linguagem simples, sem perder calor humano.'],['✦','Otimismo útil','Cor e personalidade sempre ajudam a orientar, nunca apenas decoram.'],['⌁','Movimento orgânico','Curvas, sobreposições e assimetrias trazem energia com equilíbrio.']].map(x=><article key={x[1]}><span>{x[0]}</span><h3>{x[1]}</h3><p>{x[2]}</p></article>)}</div></section>
+
+    <section id="logo" className="section"><Heading n="02 · Logo" title="Quatro assinaturas. Uma personalidade.">Use apenas os arquivos oficiais, mantendo proporções, cores e área de respiro.</Heading><div className="logos">{logos.map(x=><Logo key={x[0]} file={x[0]} label={x[1]} tone={x[2]}/>)}</div><div className="rules">{[['Área de proteção','Reserve ao redor da marca pelo menos a largura do “b”.'],['Tamanho mínimo','24 px para o ícone e 96 px para a assinatura.'],['Não altere','Sem distorção, contorno, sombra ou troca arbitrária de cor.']].map(x=><p key={x[0]}><b>{x[0]}</b><br/>{x[1]}</p>)}</div></section>
+
+    <section id="cores" className="section pink-wash"><Heading n="03 · Cores" title="Azul e rosa no centro. Natureza ao redor.">Azul organiza e dá confiança; rosa cria energia e afeto. Marrom e verde aterrissam o sistema.</Heading><div className="palettes">{Object.entries(scales).map(([name,colors])=><article key={name}><h3>{name}</h3><div>{colors.map((color,i)=><span key={color} style={{background:color,color:i>6?'white':'#22203a'}}><b>{steps[i]}</b><small>{color}</small></span>)}</div></article>)}</div></section>
+
+    <section id="tipo" className="section"><Heading n="04 · Tipografia" title="Outfit fala Beegloo.">Geométrica sem ser rígida, amigável sem perder precisão.</Heading><div className="type-hero"><div><b>Aa</b><h3>Outfit</h3><small>Google Fonts · 300–800</small></div><p>Ideias grandes<br/><em>pedem espaço.</em></p></div><div className="type-scale"><p className="display">Display · 72/68</p><p className="title">Heading · 40/44</p><p className="bodycopy">Texto · 18/28 — Uma boa mensagem aproxima pessoas, produtos e possibilidades.</p><p>LEGENDA · 12/16 · 0.12EM</p></div></section>
+
+    <section id="ui" className="section green-wash"><Heading n="05 · Formas e UI" title="Superfícies que acolhem conteúdo.">Cards sem borda, raios fortes e bastante respiro formam a base da interface.</Heading><div className="ui-grid"><div className="radii">{['16','24','40','∞'].map(x=><span key={x}>{x}</span>)}</div><article><small>NOVO CAMINHO</small><h3>Comece com uma ideia.</h3><p>Dê espaço para ela crescer, conecte as partes e simplifique o próximo passo.</p><button>Explorar agora →</button></article></div><div className="chips"><button>Produto</button><button>Criatividade</button><button>Comunidade</button></div></section>
+
+    <section id="mascote" className="section mascot-section"><Heading n="06 · Mascote" title="Uma companhia curiosa, nunca um enfeite.">O mascote aparece para orientar, celebrar ou tornar uma ideia mais fácil de entender.</Heading><div className="mascot-grid"><div className="mascot"><i/><b>b</b><i/></div><div><h3>Expressivo e simples</h3><p>Olhar curioso, gesto leve e silhueta reconhecível. Preserve a construção original e evite excesso de detalhe.</p><ul><li>Use em momentos de descoberta ou conquista.</li><li>Mantenha contraste claro com o fundo.</li><li>Não use como substituto permanente do logo.</li></ul></div></div></section>
+
+    <section id="composicao" className="section brown-wash"><Heading n="07 · Composição" title="Grandes gestos, ritmo tranquilo.">Construa páginas como uma conversa: uma ideia forte por vez, alternando densidade e pausa.</Heading><div className="cards three">{[['01','Comece amplo','Título dominante e uma única mensagem principal.'],['02','Agrupe por sentido','Cards viram famílias quando compartilham fundo e ritmo.'],['03','Termine respirando','Espaço vazio também comunica confiança e clareza.']].map(x=><article key={x[0]}><span>{x[0]}</span><h3>{x[1]}</h3><p>{x[2]}</p></article>)}</div></section>
+
+    <section id="aplicacoes" className="section"><Heading n="08 · Aplicações" title="O sistema em movimento.">A identidade deve se reconhecer em qualquer escala, do ícone ao lançamento.</Heading><div className="apps"><article className="phone"><div><small>Olá, João</small><h3>O que vamos cultivar hoje?</h3><button>Começar →</button></div></article><article className="social"><b>beegloo</b><h3>Boas ideias<br/>crescem juntas.</h3><i>✦</i></article><article className="poster"><p>MAKE<br/><em>ROOM</em><br/>FOR IDEAS</p><b>beegloo</b></article></div></section>
+
+    <section id="ia" className="section ai"><Heading n="09 · Diretrizes para IA" title="Consistência também se ensina.">Ao gerar textos ou imagens, descreva o sistema — não apenas o resultado.</Heading><div className="ai-grid"><article><h3>Inclua no prompt</h3><ul><li>Marca brasileira, otimista e acolhedora</li><li>Fundos pastel suaves e luz difusa</li><li>Azul e rosa como cores protagonistas</li><li>Formas arredondadas, composição arejada</li><li>Visual contemporâneo, humano e simples</li></ul></article><article><h3>Evite</h3><ul><li>Neon agressivo ou fundos pretos dominantes</li><li>Interfaces densas, bordas finas em excesso</li><li>Estética corporativa fria ou genérica</li><li>Alterar, redesenhar ou “melhorar” o logo</li><li>Personagens hiper-realistas ou infantis</li></ul></article></div><div className="prompt"><b>EXEMPLO DE PROMPT</b><p>“Crie uma composição editorial para a Beegloo, com fundo azul pastel, grandes formas orgânicas arredondadas, detalhes rosa e verde, luz suave, bastante espaço negativo e tipografia Outfit. Tom otimista, claro e contemporâneo.”</p></div></section>
+  </main>
+  <footer><a className="brand" href="#top"><i>b</i>beegloo</a><p>Brand guide · Um sistema vivo.</p><a href="#top">Voltar ao topo ↑</a></footer>
+</>}
