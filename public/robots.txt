@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Contexto canônico para agentes: /llms.txt e /llms-full.txt

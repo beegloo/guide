@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-08-30T15:30:51.891Z",
+  "documents": [
+    {
+      "path": "README.md",
+      "title": "Beegloo Brand Guide — fonte canônica",
+      "category": "general",
+      "status": "active",
+      "lastReviewed": null,
+      "source": "/ai/README.md"
+    },
+    {
+      "path": "ai/brand-context.md",
+      "title": "Contexto portátil da marca Beegloo",
+      "category": "ai",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/ai/brand-context.md"
+    },
+    {
+      "path": "ai/delivery-checklist.md",
+      "title": "Checklist de entrega",
+      "category": "ai",
+      "status": "active",
+      "lastReviewed": null,
+      "source": "/ai/ai/delivery-checklist.md"
+    },
+    {
+      "path": "ai/prompt-contract.md",
+      "title": "Contrato de prompt para IA",
+      "category": "ai",
+      "status": "active",
+      "lastReviewed": null,
+      "source": "/ai/ai/prompt-contract.md"
+    },
+    {
+      "path": "decisions/_template.md",
+      "title": "Decisão criativa — AAAA-MM-DD",
+      "category": "decisions",
+      "status": "exploratory",
+      "lastReviewed": null,
+      "source": "/ai/decisions/_template.md"
+    },
+    {
+      "path": "foundations/sources-of-truth.md",
+      "title": "Fontes de verdade",
+      "category": "foundations",
+      "status": "official",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/foundations/sources-of-truth.md"
+    },
+    {
+      "path": "products/catalog.md",
+      "title": "Catálogo de produtos",
+      "category": "products",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/catalog.md"
+    }
+  ]
+}

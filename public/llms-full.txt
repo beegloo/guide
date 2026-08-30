@@ -1,0 +1,263 @@
+# Beegloo Brand Guide — contexto integral
+
+<!-- source: docs/README.md -->
+
+# Beegloo Brand Guide — fonte canônica
+
+Este diretório guarda o conhecimento editorial da marca. A interface em React apresenta esse conteúdo para pessoas; os arquivos públicos gerados em `public/ai/`, `public/llms.txt`, `public/llms-full.txt` e `public/brand-context.json` o apresentam para agentes de IA.
+
+## Como a fonte de verdade funciona
+
+1. Regras e decisões vivem em `docs/`.
+2. Tokens estruturados vivem em `docs/tokens/`.
+3. Assets oficiais vivem em `public/logos/` e nunca são reformatados.
+4. `npm run generate:ai` publica cópias legíveis e um manifesto para máquinas.
+5. `npm run build` sempre executa essa geração antes de compilar o site.
+
+Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/llms-full.txt` ou `public/brand-context.json`.
+
+## Estados editoriais
+
+- `oficial`: homologado e obrigatório.
+- `ativo`: regra em uso, ainda sem registro formal de homologação.
+- `exploratório`: hipótese que não deve ser tratada como regra.
+- `pendente`: informação ausente; a IA deve perguntar e não inferir.
+- `substituído`: preservado apenas como histórico, com link para a regra vigente.
+
+## Estrutura
+
+- `foundations/`: princípios e precedência das fontes.
+- `identity/`: logo, cor, tipografia, formas e mascote.
+- `products/`: catálogo factual e famílias.
+- `photography/`: direção e fidelidade.
+- `commercial/`: menu boards, hierarquia e preços.
+- `ai/`: contexto portátil, contrato de prompt e checklist.
+- `decisions/`: memória datada das consultorias.
+- `references/`: exemplos aprovados, rejeitados e exploratórios.
+- `tokens/`: dados estruturados consumíveis por software.
+
+---
+
+<!-- source: docs/ai/brand-context.md -->
+
+# Contexto portátil da marca Beegloo
+
+Status: ativo  
+Última revisão: 2026-08-30
+
+Use este documento como contexto inicial em qualquer ferramenta de IA antes de criar, revisar ou implementar trabalhos para a Beegloo.
+
+## Essência
+
+A Beegloo é leve antes de pesada, divertida sem excesso, acolhedora sem infantilização automática, contemporânea sem parecer corporativa genérica, arredondada, expressiva, arejada e comercialmente clara. Quando houver produto, o produto real é protagonista.
+
+## Sistema visual
+
+- Outfit é a tipografia principal.
+- Azul e rosa formam o núcleo cromático.
+- Marrom e verde são famílias complementares.
+- Use fundos pastel suaves, grandes superfícies, cards sem borda pesada, raios fortes e bastante espaço negativo.
+- Cor e formas devem orientar hierarquia; não são decoração automática.
+- Evite cantos duros dominantes, sombras pesadas, neon, fundo preto dominante, saturação agressiva, excesso de blobs, estética SaaS genérica, estética genérica de confeitaria e luxo escuro.
+
+## Identidade imutável
+
+Nunca redesenhe, reconstrua, vetorize novamente, aproxime com texto ou CSS, distorça, recolora arbitrariamente ou “melhore” um logo da Beegloo. Use apenas os SVGs oficiais listados em `sources-of-truth.md`.
+
+Não existe atualmente um asset de mascote homologado neste repositório. Não invente poses, expressões ou uma construção do mascote. Trate seu uso como pendente até que o asset seja fornecido.
+
+## Produtos e embalagens
+
+As famílias conhecidas são CROC, SHAKE, SUNNY e CREMIX. Grafia, sabores, tamanhos, ingredientes, variações, fotografias e embalagens ainda precisam de catálogo factual homologado. Não traduza, pluralize, abrevie, complete ou altere nomes; não invente sabores, ingredientes ou variantes.
+
+Produtos, fotografias e embalagens fornecidos são fontes de verdade. Não invente, redesenhe, complete, substitua ou “melhore” formato, volume, tampa, copo, pote, rótulo, marca, texto, cor, ingrediente, cobertura ou proporção sem autorização explícita.
+
+## Fotografia
+
+A fotografia deve ser apetitosa, clara, reconhecível, leve, contemporânea, fiel ao produto real, bem separada do fundo e compatível com a paleta. Evite comida plástica, brilho artificial intenso, ingredientes inexistentes, excesso de elementos voando, embalagem escondida, distorção de escala, perspectiva impossível e sombras inconsistentes.
+
+## Comunicação comercial
+
+Em menu boards, o público deve identificar rapidamente categoria, produto, diferença entre opções, preço e decisão esperada. Use produto e preço em primeiro plano, uma ideia comercial forte por tela, poucos níveis de informação, fotos grandes, naming consistente e contraste para leitura à distância. Valores e textos nunca podem ser inventados.
+
+## Mascote
+
+Quando houver construção oficial, o mascote poderá orientar, celebrar, educar ou cumprir função narrativa. Normalmente deve ser evitado quando o produto precisa dominar, em menu boards densos, comunicação premium, materiais técnicos ou layouts pequenos. Nunca substitui o logo.
+
+## Regra operacional para IA
+
+Antes de produzir qualquer saída, separe explicitamente:
+
+- Imutável: logo, produto, embalagem, naming, preços, textos aprovados, sabores, quantidades, formato final e restrições legais.
+- Explorável: fundo, cenografia, composição, formas de apoio, luz ambiental, sombras externas, enquadramento, ritmo e espaço negativo.
+- Pendente: qualquer fato necessário que ainda não tenha fonte homologada.
+
+Se houver conflito, siga a ordem de precedência das fontes. Se faltar um fato imutável, pergunte; não improvise.
+
+---
+
+<!-- source: docs/ai/delivery-checklist.md -->
+
+# Checklist de entrega
+
+Status: ativo
+
+## Identidade
+
+- [ ] O logo é um SVG oficial e não foi reconstruído.
+- [ ] Proporções, cores, área de proteção e tamanho mínimo foram respeitados.
+- [ ] Outfit e a paleta canônica foram usadas corretamente.
+
+## Produto
+
+- [ ] Naming, categoria, sabor, formato e cor correspondem à fonte oficial.
+- [ ] Embalagem, rótulos, ingredientes, proporção e escala permanecem fiéis.
+- [ ] Nenhum fato de produto foi inventado.
+
+## Comercial
+
+- [ ] Produto e preço são encontrados rapidamente.
+- [ ] A ordem de leitura é clara e legível à distância.
+- [ ] Valores e textos vieram do briefing aprovado.
+- [ ] Informações legais obrigatórias estão presentes.
+
+## Direção de arte
+
+- [ ] A composição é leve, arejada e comercialmente clara.
+- [ ] As formas têm função e o produto continua protagonista.
+- [ ] O uso ou a ausência do mascote foi consciente.
+
+## IA e aprovação
+
+- [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
+- [ ] O resultado foi comparado com referências reais.
+- [ ] Estudos conceituais estão identificados.
+- [ ] A aprovação humana e a decisão reutilizável foram registradas.
+
+---
+
+<!-- source: docs/ai/prompt-contract.md -->
+
+# Contrato de prompt para IA
+
+Status: ativo
+
+Todo briefing para IA deve conter estes blocos:
+
+## Objetivo e entrega
+
+Canal, formato, dimensões, público, ação esperada e prazo.
+
+## Fontes anexadas
+
+Liste o catálogo, briefing aprovado, logos, fotos, embalagens, referências e decisões aplicáveis. Identifique o status de cada item.
+
+## Imutável
+
+Logo, produto, embalagem, naming, preços, textos aprovados, sabores, quantidades, formato final e restrições legais.
+
+## Explorável
+
+Fundo, cenografia, composição, formas de apoio, luz ambiental, sombras externas, enquadramento, ritmo e espaço negativo.
+
+## Pendente
+
+Liste lacunas factuais. A IA deve pedir confirmação e não preencher por conta própria.
+
+## Critérios de avaliação
+
+Fidelidade, aderência à marca, hierarquia, legibilidade, clareza comercial e acabamento.
+
+## Instrução de abertura recomendada
+
+“Leia primeiro o contexto oficial da Beegloo no link fornecido. Resuma os fatos imutáveis, os elementos exploráveis e as pendências. Não inicie a criação até demonstrar que distinguiu esses três grupos.”
+
+---
+
+<!-- source: docs/decisions/_template.md -->
+
+# Decisão criativa — AAAA-MM-DD
+
+Status: exploratório
+
+## Contexto
+
+Tipo de peça, objetivo e canal.
+
+## Problema
+
+O que precisava ser resolvido.
+
+## Decisão aprovada
+
+Descrição objetiva da decisão.
+
+## O que passa a ser regra
+
+Regra reutilizável em futuros trabalhos.
+
+## O que vale apenas para esta peça
+
+Decisões circunstanciais que não devem virar padrão geral.
+
+## Referências
+
+Links ou caminhos para imagens e documentos.
+
+## Aprovação
+
+Responsável, data e status: exploratória, aprovada, substituída ou obsoleta.
+
+---
+
+<!-- source: docs/foundations/sources-of-truth.md -->
+
+# Fontes de verdade
+
+Status: oficial  
+Última revisão: 2026-08-30
+
+## Ordem de precedência
+
+Quando duas fontes entrarem em conflito, use esta ordem:
+
+1. Ativo ou documento explicitamente homologado.
+2. Briefing comercial atual e aprovado.
+3. Catálogo oficial de produtos.
+4. Este guia de marca.
+5. Peça anteriormente aprovada.
+6. Referência conceitual.
+7. Resultado gerado por IA.
+
+## Regras obrigatórias
+
+- As URLs públicas dos logos oficiais são `/brand/logos/primary.svg`, `/brand/logos/on-color.svg`, `/brand/logos/icon-blue.svg` e `/brand/logos/icon-pink.svg`.
+- Os bytes internos dos SVGs não podem ser alterados, otimizados ou reformatados. As URLs públicas usam cópias byte a byte das versões de renderização que acompanham a referência visual aprovada.
+- Fotos oficiais de produtos são referências factuais.
+- Embalagens oficiais não podem ser redesenhadas ou inventadas.
+- Naming e grafia vêm do catálogo de produtos.
+- Preços e textos comerciais vêm de briefing aprovado.
+- Referências de direção de arte orientam estilo, mas não substituem fatos de produto.
+- Uma imagem gerada por IA nunca se torna automaticamente referência oficial.
+
+Se um ativo ou fato necessário estiver ausente, interrompa a produção factual, registre a pendência e solicite a fonte correta. Não complete lacunas por inferência.
+
+---
+
+<!-- source: docs/products/catalog.md -->
+
+# Catálogo de produtos
+
+Status: pendente  
+Última revisão: 2026-08-30
+
+Este arquivo existe para impedir inferências enquanto o catálogo factual não é homologado.
+
+| Família | Grafia conhecida | Categoria | Sabores e variações | Embalagens e fotos oficiais | Situação comercial |
+| --- | --- | --- | --- | --- | --- |
+| CROC | CROC | pendente | pendente | pendente | pendente |
+| SHAKE | SHAKE | pendente | pendente | pendente | pendente |
+| SUNNY | SUNNY | pendente | pendente | pendente | pendente |
+| CREMIX | CREMIX | pendente | pendente | pendente | pendente |
+
+Não traduzir, pluralizar, abreviar, completar ou alterar nomes. Não criar sabores, tamanhos, ingredientes, complementos ou variantes com base em aparência ou inferência.

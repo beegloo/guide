@@ -1,0 +1,20 @@
+# Beegloo Brand Guide
+
+> Fonte oficial de contexto para pessoas e agentes de IA. Leia o contexto essencial antes de iniciar qualquer trabalho e consulte as fontes específicas quando necessário.
+
+## Comece aqui
+
+- [Contexto portátil completo](/ai/ai/brand-context.md)
+- [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
+- [Contrato de prompt](/ai/ai/prompt-contract.md)
+- [Checklist de entrega](/ai/ai/delivery-checklist.md)
+- [Catálogo e pendências de produto](/ai/products/catalog.md)
+- [Contexto integral em um arquivo](/llms-full.txt)
+- [Manifesto estruturado JSON](/brand-context.json)
+
+## Assets oficiais
+
+- [Assinatura padrão](/brand/logos/primary.svg)
+- [Assinatura sobre cor](/brand/logos/on-color.svg)
+- [Ícone azul](/brand/logos/icon-blue.svg)
+- [Ícone rosa](/brand/logos/icon-pink.svg)
