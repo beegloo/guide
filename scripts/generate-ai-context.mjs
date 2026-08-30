@@ -21,8 +21,8 @@ const markdownFiles = allFiles.filter((file) => file.endsWith('.md'))
 const colors = JSON.parse(await readFile(path.join(docsRoot, 'tokens/colors.json'), 'utf8'))
 const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
 const statusLabels = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', marketing: 'Marketing e criação comercial', ui: 'Produto e UI', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', decisions: 'Decisões' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'case-studies', 'references', 'decisions']
+const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', marketing: 'Marketing e criação comercial', ui: 'Produto e UI', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', benchmarks: 'Benchmarks de avaliação', decisions: 'Decisões' }
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'case-studies', 'references', 'benchmarks', 'decisions']
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
@@ -49,7 +49,8 @@ for (const source of markdownFiles) {
   const destination = path.join(aiRoot, relative)
   await mkdir(path.dirname(destination), { recursive: true })
   await writeFile(destination, content)
-  sections.push(`<!-- source: docs/${relative} -->\n\n${content.trim()}`)
+  const category = relative.includes(path.sep) ? relative.split(path.sep)[0] : 'general'
+  if (category !== 'benchmarks') sections.push(`<!-- source: docs/${relative} -->\n\n${content.trim()}`)
   const title = content.match(/^#\s+(.+)$/m)?.[1] ?? path.basename(relative, '.md')
   const statusLabel = content.match(/^Status:\s*([^\n]+)/mi)?.[1]?.trim() ?? 'ativo'
   const status = statusValues[statusLabel.toLocaleLowerCase('pt-BR')] ?? 'active'
@@ -57,15 +58,16 @@ for (const source of markdownFiles) {
   documents.push({
     path: relative.split(path.sep).join('/'),
     title,
-    category: relative.includes(path.sep) ? relative.split(path.sep)[0] : 'general',
+    category,
     status,
     lastReviewed,
     source: `/ai/${relative.split(path.sep).join('/')}`,
   })
 }
 
+const creativeDocuments = documents.filter((document) => document.category !== 'benchmarks')
 const documentIndex = categoryOrder.flatMap((category) => {
-  const categoryDocuments = documents.filter((document) => document.category === category)
+  const categoryDocuments = creativeDocuments.filter((document) => document.category === category)
   if (categoryDocuments.length === 0) return []
   return [`### ${categoryTitles[category]}`, ...categoryDocuments.map((document) => `- [${document.title}](${document.source}) — ${statusLabels[document.status]}`), '']
 }).join('\n')
@@ -79,6 +81,7 @@ const llms = `# Beegloo Brand Guide
 - [Contexto portátil completo](/ai/ai/brand-context.md)
 - [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
 - [Marketing e criação comercial](/ai/marketing/principles.md)
+- [Princípios de direção de arte](/ai/marketing/art-direction.md)
 - [Produto e UI](/ai/ui/principles.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
 - [Processo criativo com IA](/ai/ai/process.md)
@@ -122,13 +125,14 @@ const manifest = {
   productCatalogStatus: 'pending',
   mascotAssetStatus: 'missing',
   channelGuides: { marketing: '/ai/marketing/principles.md', ui: '/ai/ui/principles.md' },
+  evaluation: { index: '/ai/benchmarks/README.md', loadPolicy: 'after-creation-only' },
   invariants: [
     'Never recreate or modify official logos.',
     'Never infer product, packaging, naming, flavor, price, or legal facts.',
     'AI output is not an official reference without explicit human approval.',
   ],
-  documents: markdownFiles.map((file) => `/ai/${path.relative(docsRoot, file).split(path.sep).join('/')}`),
-  documentIndex: documents,
+  documents: creativeDocuments.map((document) => document.source),
+  documentIndex: creativeDocuments,
 }
 
 await writeFile(path.join(publicRoot, 'llms.txt'), llms)

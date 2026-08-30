@@ -18,7 +18,7 @@ Este guide orienta trabalhos cujo objetivo principal é comunicar, vender, gerar
 
 Quando houver conflito, as exigências do meio prevalecem sobre padrões genéricos de aplicação. Consulte [Composição](../foundations/composition.md) para os princípios transversais.
 
-A qualidade publicitária deve ser calibrada pelas [referências aprovadas do canal](../references/library.md), quando existirem. Elas estabelecem um quality bar de impacto, ritmo e acabamento sem funcionar como templates de composição.
+A qualidade publicitária deve ser construída com os [princípios gerais de direção de arte](art-direction.md) e calibrada por [referências gerais do canal](../references/library.md), quando existirem. Elas não funcionam como templates nem incluem benchmarks específicos reservados para avaliação posterior.
 
 ## Formas não são componentes por padrão
 
@@ -45,6 +45,7 @@ Textos como “estudo conceitual”, “preço pendente”, “imagem pendente�
 
 ## Guias especializados
 
+- [Princípios de direção de arte](art-direction.md)
 - [Menu boards](menu-boards.md)
 - [Hierarquia comercial](commercial-hierarchy.md)
 - [Sistema de preços](pricing.md)

@@ -25,6 +25,7 @@ Status: ativo
 ## Direção de arte
 
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
+- [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
@@ -37,5 +38,6 @@ Status: ativo
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
 - [ ] Cada pendência foi avaliada conforme a etapa; somente assets indispensáveis bloquearam a validação.
 - [ ] O resultado foi comparado com referências reais.
+- [ ] Quando houver teste com holdout, o benchmark só foi aberto depois que a direção candidata estava criada e congelada.
 - [ ] Estudos conceituais estão identificados.
 - [ ] A aprovação humana e a decisão reutilizável foram registradas.

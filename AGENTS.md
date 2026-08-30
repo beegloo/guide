@@ -4,16 +4,18 @@
 
 1. Comece pelos fundamentos: `docs/ai/brand-context.md` como contexto portátil, `docs/foundations/brand-essence.md` para identidade e `docs/foundations/sources-of-truth.md` para precedência e conflitos.
 2. Identifique o canal antes de escolher a gramática composicional.
-3. Para trabalhos que comunicam ou vendem, leia `docs/marketing/principles.md`. Para interfaces funcionais, leia `docs/ui/principles.md`.
+3. Para trabalhos que comunicam ou vendem, leia `docs/marketing/principles.md` e `docs/marketing/art-direction.md`. Para interfaces funcionais, leia `docs/ui/principles.md`.
 4. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
 5. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
 6. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
+7. Não carregue `docs/benchmarks/` antes da criação. Benchmarks são holdouts de avaliação e só podem ser consultados depois que a direção candidata estiver criada e congelada.
 
 ## Arquitetura de conteúdo
 
 - `docs/` é a fonte canônica editorial do Beegloo Brand Guide.
 - Edite regras, decisões e conteúdo de marca somente em `docs/`.
 - `public/ai/`, `public/llms.txt`, `public/llms-full.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
+- `public/llms-full.txt` contém apenas creative input; benchmarks continuam disponíveis separadamente em `public/ai/benchmarks/` para avaliação posterior.
 - Após qualquer mudança em `docs/`, execute `npm run generate:ai` e versione os artefatos públicos atualizados junto com a fonte.
 - Antes de concluir mudanças relevantes, execute `npm run build`.
 - Registre novas consultorias, decisões, exceções, substituições de regra e homologações em `docs/decisions/`. Use `docs/decisions/_template.md` como base e preserve o histórico; não reescreva silenciosamente decisões anteriores.

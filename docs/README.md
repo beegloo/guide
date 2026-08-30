@@ -38,6 +38,7 @@ Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéric
 - `marketing/`: guide de canal e especializações para fotografia, menu boards, hierarquia e preços.
 - `ui/`: guide de canal para produto digital e interfaces funcionais.
 - `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
+- `benchmarks/`: holdouts específicos carregados somente após a criação, durante avaliação.
 - `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.
 - `references/`: tipos de referência e exemplos aprovados, rejeitados ou exploratórios.

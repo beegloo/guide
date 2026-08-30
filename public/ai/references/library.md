@@ -5,18 +5,17 @@ Status: ativo
 
 Antes de registrar uma peça, classifique seu papel conforme [Tipos de referência](types.md) e indique a quais canais ela se aplica. Aprovação editorial, função da referência e canal são dimensões diferentes: uma peça aprovada ainda deve ser identificada como mood reference, brand reference ou source of truth e não se torna padrão universal de composição.
 
-## Aprovadas
+## Referências gerais aprovadas
 
 Peças validadas que representam corretamente o sistema. Cada registro deve explicar o que funciona, qual decisão exemplifica e em quais contextos pode orientar novos trabalhos.
 
-- [Direção aprovada do menu board](approved/menu-board-direction.md) — quality bar de direção publicitária; não é template de layout.
+Nenhuma referência geral de canal foi registrada formalmente nesta categoria ainda.
 
-## Rejeitadas
+## Referências gerais rejeitadas
 
 Peças que se aproximaram do resultado, mas contêm problemas. Cada registro deve explicar o erro, se ele é estrutural ou de acabamento e o que não deve ser repetido.
 
-- [Menu board com vazamento de UI](rejected/menu-board-ui-leakage.md) — exemplo crítico de gramática de interface aplicada a marketing.
-- [Menu board esquemático](rejected/menu-board-schematic.md) — exemplo crítico de placeholder sem peso visual suficiente.
+Nenhuma referência geral foi registrada formalmente nesta categoria. Exemplos específicos usados apenas para comparação posterior pertencem a `docs/benchmarks/` e não devem ser consultados antes da criação.
 
 ## Exploratórias
 
@@ -26,6 +25,6 @@ Uma peça gerada por IA somente pode entrar em “aprovadas” após validação
 
 ## Como usar a biblioteca
 
-**Rules constrain. References calibrate.** Regras evitam erros; referências ajudam a reconhecer nível de qualidade, ritmo, escala, impacto e direção. Consulte registros do canal antes da exploração, mas preserve briefing, fontes de verdade, regras de marca e decisões homologadas como autoridades próprias.
+**Rules constrain. References calibrate.** Regras evitam erros; referências gerais ajudam a reconhecer nível de qualidade, ritmo, escala, impacto e direção. Consulte apenas registros permitidos do canal antes da exploração e preserve briefing, fontes de verdade, regras de marca e decisões homologadas como autoridades próprias.
 
-Referências aprovadas calibram o olhar e não autorizam copiar literalmente composição, identidade proprietária ou solução de layout. Referências rejeitadas servem para crítica e diagnóstico; não são fontes de verdade nem exemplos a reproduzir.
+Referências aprovadas calibram o olhar e não autorizam copiar literalmente composição, identidade proprietária ou solução de layout. Um benchmark específico não é referência pré-criação: ele permanece isolado até a etapa de avaliação.

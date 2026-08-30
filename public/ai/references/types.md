@@ -18,3 +18,7 @@ Define identidade, paleta, tipografia, linguagem visual e comportamento da marca
 Representa um fato real que deve ser preservado fielmente, como logo oficial, produto, embalagem, fotografia real, preço aprovado ou especificação. Uma source of truth nunca deve ser tratada apenas como inspiração visual, estilizada para combinar com um mood ou substituída por uma aproximação.
 
 Quando uma mesma entrega contiver os três tipos, mantenha seus papéis separados: o mood orienta direção, a brand reference orienta identidade e a source of truth limita a execução factual.
+
+## Benchmark não é tipo de referência
+
+Um benchmark é um holdout usado para avaliar qualidade depois da criação. Ele não deve ser classificado como creative input nem carregado durante exploração. Mood reference, brand reference e source of truth orientam ou limitam o trabalho; [benchmarks](../benchmarks/README.md) medem posteriormente uma direção já produzida e congelada.

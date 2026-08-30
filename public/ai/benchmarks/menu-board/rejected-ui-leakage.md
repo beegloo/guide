@@ -1,10 +1,10 @@
-# Menu board com vazamento de UI
+# Benchmark crítico — vazamento de UI
 
 Status: ativo
 Última revisão: 2026-08-30
 
-- **Classificação editorial:** rejeitada.
-- **Tipo de referência:** Mood reference usada para crítica negativa.
+- **Classificação editorial:** benchmark rejeitado para crítica.
+- **Política de carregamento:** somente depois que a direção candidata tiver sido criada; não usar para conduzir exploração.
 - **Canal:** Marketing / Commercial Creative — menu board.
 - **Asset visual associado:** pendente; o arquivo do teste rejeitado ainda não está no repositório.
 - **Data do caso:** 2026-08-30.
@@ -39,4 +39,4 @@ A estrutura facilitava organização, mas enfraquecia desejo, protagonismo do pr
 - Equivalência visual rígida entre todos os produtos.
 - Aparência de dashboard, catálogo de componentes ou wireframe.
 
-Esta referência ajuda a reconhecer um problema, não autoriza reutilizar sua solução visual.
+Este benchmark ajuda a diagnosticar um problema depois da criação. Não autoriza reutilizar sua solução visual nem deve restringir antecipadamente a diversidade da exploração.

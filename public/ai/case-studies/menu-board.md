@@ -67,7 +67,15 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Observação:** as regras textuais passaram a evitar invenções factuais, reconstruções de assets e parte do vazamento de UI, mas ainda permitiam direções conceituais corretas demais e publicitariamente fracas.
 
-**Aprendizado reutilizável:** **Rules constrain. References calibrate.** Regras delimitam erros; referências aprovadas ajudam a reconhecer o nível desejado de impacto, ritmo, escala, profundidade e acabamento. A [biblioteca de referências](../references/library.md) registra a direção aprovada e os testes rejeitados como memória crítica, sem transformar nenhum layout em template universal.
+**Aprendizado reutilizável:** **Rules constrain. References calibrate.** Regras delimitam erros; referências gerais ajudam a reconhecer o nível desejado de impacto, ritmo, escala, profundidade e acabamento sem oferecer uma resposta-alvo.
+
+## Creative input e benchmark de avaliação
+
+**Observação:** inicialmente, a direção aprovada no Lovart foi registrada junto às referências de calibração. Percebemos que carregá-la antes da criação contaminaria o experimento: um agente poderia convergir para a solução conhecida em vez de demonstrar que aprendeu direção de arte com o guide.
+
+**Observação:** a direção aprovada e os testes rejeitados específicos foram isolados como holdouts. O agente deve produzir e congelar uma direção usando fundamentos, guide de Marketing, princípios gerais de direção de arte e referências gerais permitidas. Só depois a avaliação pode abrir os [benchmarks](../benchmarks/README.md).
+
+**Aprendizado reutilizável:** não treine a exploração com a resposta que pretende testar. Um benchmark avalia qualidade depois da criação; não deve vazar a solução-alvo para o creative input.
 
 ## Conteúdo comercial e fidelidade
 

@@ -7,7 +7,7 @@ Status: ativo
 
 1. Identifique o canal e o objetivo principal da entrega.
 2. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
-3. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
+3. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) e [Princípios de direção de arte](../marketing/art-direction.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
 4. Identifique o nível de maturidade visual e a etapa atual do processo.
 5. Separe o que é imutável, explorável e pendente.
 6. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
@@ -60,7 +60,9 @@ Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, lo
 
 Classificar cada entrada como [mood reference, brand reference ou source of truth](../references/types.md). Registrar o que uma referência de direção exemplifica — ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo — sem pedir apenas para “copiar o estilo”.
 
-Antes da exploração, consultar as referências relevantes do canal na [biblioteca](../references/library.md), quando existirem. **Rules constrain. References calibrate.** Referências ajudam a reconhecer quality bar, ritmo, escala e impacto, mas não substituem briefing, fontes de verdade, regras de marca ou decisões homologadas. Uma referência aprovada não autoriza copiar literalmente sua composição.
+Antes da exploração, consultar apenas referências gerais relevantes do canal na [biblioteca](../references/library.md), quando existirem. **Rules constrain. References calibrate.** Referências ajudam a reconhecer quality bar, ritmo, escala e impacto, mas não substituem briefing, fontes de verdade, regras de marca ou decisões homologadas. Uma referência aprovada não autoriza copiar literalmente sua composição.
+
+Não consulte `docs/benchmarks/` durante briefing ou exploração. **A benchmark evaluates quality after creation; it must not leak the target solution into exploration.** Benchmark é ferramenta de avaliação, não creative input ou briefing.
 
 ## 3. Exploração visual
 
@@ -84,4 +86,6 @@ Revisar uma classe de problema de cada vez: fidelidade, direção de arte, hiera
 
 ## 7. Validação final
 
-Comparar o resultado com fatos imutáveis, referências reais e [checklist de entrega](delivery-checklist.md). A aprovação humana deve ser registrada em `docs/decisions/` quando estabelecer ou alterar uma regra reutilizável.
+Primeiro, escolha e congele a direção candidata produzida sem acesso à resposta-alvo. Somente então, quando o objetivo incluir comparação de qualidade, consulte os [benchmarks de avaliação](../benchmarks/README.md). Compare impacto, hierarquia, desejo, ritmo, escala, profundidade e integração sem copiar o layout nem tratar benchmark como nova fonte factual.
+
+Comparar também o resultado com fatos imutáveis, referências reais permitidas e [checklist de entrega](delivery-checklist.md). A aprovação humana deve ser registrada em `docs/decisions/` quando estabelecer ou alterar uma regra reutilizável.

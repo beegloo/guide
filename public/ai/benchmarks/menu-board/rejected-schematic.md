@@ -1,10 +1,10 @@
-# Menu board esquemático
+# Benchmark crítico — direção esquemática
 
 Status: ativo
 Última revisão: 2026-08-30
 
-- **Classificação editorial:** rejeitada.
-- **Tipo de referência:** Mood reference usada para crítica negativa.
+- **Classificação editorial:** benchmark rejeitado para crítica.
+- **Política de carregamento:** somente depois que a direção candidata tiver sido criada; não usar para conduzir exploração.
 - **Canal:** Marketing / Commercial Creative — menu board.
 - **Asset visual associado:** pendente; o arquivo do teste rejeitado ainda não está no repositório.
 - **Data do caso:** 2026-08-30.
@@ -41,4 +41,4 @@ O estudo comunicava organização e pendência, mas não permitia avaliar adequa
 - Simetria e equivalência sem intenção comercial.
 - Labels de processo incorporados à comunicação final ou conceitual para consumidor.
 
-Esta referência não exige fotografias factuais durante toda exploração. Ela exige que qualquer representação conceitual preserve o peso visual necessário para julgar a composição.
+Este benchmark não exige fotografias factuais durante toda exploração. Na avaliação posterior, ele ajuda a verificar se qualquer representação conceitual preservou o peso visual necessário para julgar a composição.
