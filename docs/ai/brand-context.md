@@ -1,6 +1,6 @@
 # Contexto portátil da marca Beegloo
 
-Status: ativo  
+Status: ativo
 Última revisão: 2026-08-30
 
 Use este documento como contexto inicial em qualquer ferramenta de IA antes de criar, revisar ou implementar trabalhos para a Beegloo.

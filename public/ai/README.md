@@ -27,6 +27,7 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 - `products/`: catálogo factual e famílias.
 - `photography/`: direção e fidelidade.
 - `commercial/`: menu boards, hierarquia e preços.
+- `applications/`: composição e aplicações prioritárias.
 - `ai/`: contexto portátil, contrato de prompt e checklist.
 - `decisions/`: memória datada das consultorias.
 - `references/`: exemplos aprovados, rejeitados e exploratórios.

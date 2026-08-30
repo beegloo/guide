@@ -1,6 +1,6 @@
 # Fontes de verdade
 
-Status: oficial  
+Status: oficial
 Última revisão: 2026-08-30
 
 ## Ordem de precedência

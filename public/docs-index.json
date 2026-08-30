@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T15:30:51.891Z",
+  "generatedAt": "2026-08-30T15:48:52.750Z",
   "documents": [
     {
       "path": "README.md",
@@ -26,12 +26,52 @@
       "source": "/ai/ai/delivery-checklist.md"
     },
     {
+      "path": "ai/process.md",
+      "title": "Processo criativo com IA",
+      "category": "ai",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/ai/process.md"
+    },
+    {
       "path": "ai/prompt-contract.md",
       "title": "Contrato de prompt para IA",
       "category": "ai",
       "status": "active",
       "lastReviewed": null,
       "source": "/ai/ai/prompt-contract.md"
+    },
+    {
+      "path": "applications/composition.md",
+      "title": "Composição e aplicações",
+      "category": "applications",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/applications/composition.md"
+    },
+    {
+      "path": "commercial/hierarchy.md",
+      "title": "Hierarquia comercial",
+      "category": "commercial",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/commercial/hierarchy.md"
+    },
+    {
+      "path": "commercial/menu-boards.md",
+      "title": "Menu boards",
+      "category": "commercial",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/commercial/menu-boards.md"
+    },
+    {
+      "path": "commercial/pricing.md",
+      "title": "Sistema de preços",
+      "category": "commercial",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/commercial/pricing.md"
     },
     {
       "path": "decisions/_template.md",
@@ -42,6 +82,14 @@
       "source": "/ai/decisions/_template.md"
     },
     {
+      "path": "foundations/brand-essence.md",
+      "title": "Essência da marca",
+      "category": "foundations",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/foundations/brand-essence.md"
+    },
+    {
       "path": "foundations/sources-of-truth.md",
       "title": "Fontes de verdade",
       "category": "foundations",
@@ -50,12 +98,108 @@
       "source": "/ai/foundations/sources-of-truth.md"
     },
     {
+      "path": "identity/colors.md",
+      "title": "Sistema de cores",
+      "category": "identity",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/identity/colors.md"
+    },
+    {
+      "path": "identity/logo.md",
+      "title": "Sistema de logo",
+      "category": "identity",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/identity/logo.md"
+    },
+    {
+      "path": "identity/mascot.md",
+      "title": "Uso do mascote",
+      "category": "identity",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/identity/mascot.md"
+    },
+    {
+      "path": "identity/shapes-and-ui.md",
+      "title": "Formas e interface",
+      "category": "identity",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/identity/shapes-and-ui.md"
+    },
+    {
+      "path": "identity/typography.md",
+      "title": "Sistema tipográfico",
+      "category": "identity",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/identity/typography.md"
+    },
+    {
+      "path": "photography/principles.md",
+      "title": "Direção fotográfica",
+      "category": "photography",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/photography/principles.md"
+    },
+    {
       "path": "products/catalog.md",
       "title": "Catálogo de produtos",
       "category": "products",
       "status": "pending",
       "lastReviewed": "2026-08-30",
       "source": "/ai/products/catalog.md"
+    },
+    {
+      "path": "products/cremix.md",
+      "title": "CREMIX",
+      "category": "products",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/cremix.md"
+    },
+    {
+      "path": "products/croc.md",
+      "title": "CROC",
+      "category": "products",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/croc.md"
+    },
+    {
+      "path": "products/product-fidelity.md",
+      "title": "Fidelidade de produtos e embalagens",
+      "category": "products",
+      "status": "official",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/product-fidelity.md"
+    },
+    {
+      "path": "products/shake.md",
+      "title": "SHAKE",
+      "category": "products",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/shake.md"
+    },
+    {
+      "path": "products/sunny.md",
+      "title": "SUNNY",
+      "category": "products",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/sunny.md"
+    },
+    {
+      "path": "references/library.md",
+      "title": "Biblioteca de referências",
+      "category": "references",
+      "status": "pending",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/references/library.md"
     }
   ]
 }

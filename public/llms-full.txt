@@ -31,6 +31,7 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 - `products/`: catálogo factual e famílias.
 - `photography/`: direção e fidelidade.
 - `commercial/`: menu boards, hierarquia e preços.
+- `applications/`: composição e aplicações prioritárias.
 - `ai/`: contexto portátil, contrato de prompt e checklist.
 - `decisions/`: memória datada das consultorias.
 - `references/`: exemplos aprovados, rejeitados e exploratórios.
@@ -42,7 +43,7 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 
 # Contexto portátil da marca Beegloo
 
-Status: ativo  
+Status: ativo
 Última revisão: 2026-08-30
 
 Use este documento como contexto inicial em qualquer ferramenta de IA antes de criar, revisar ou implementar trabalhos para a Beegloo.
@@ -136,6 +137,43 @@ Status: ativo
 
 ---
 
+<!-- source: docs/ai/process.md -->
+
+# Processo criativo com IA
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## 1. Briefing factual
+
+Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, logos, fotografias, embalagens, restrições e decisão sobre mascote.
+
+## 2. Referência de direção
+
+Selecionar uma peça aprovada e registrar o que ela exemplifica: ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo. Não pedir apenas para “copiar o estilo”.
+
+## 3. Exploração visual
+
+Gerar estudos de direção antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial.
+
+## 4. Produto por produto
+
+Trabalhar CROC, SHAKE, SUNNY e CREMIX separadamente quando necessário. Validar fidelidade, embalagem, cor, forma, ingredientes, sabor, escala e recorte.
+
+## 5. Composição comercial
+
+Montar produto, naming, preço, hierarquia, branding, respiro e restrições legais.
+
+## 6. Crítica por rodada
+
+Revisar uma classe de problema de cada vez: fidelidade, direção de arte, hierarquia, legibilidade, consistência e acabamento.
+
+## 7. Validação final
+
+Comparar o resultado com fatos imutáveis, referências reais e checklist de entrega. A aprovação humana deve ser registrada.
+
+---
+
 <!-- source: docs/ai/prompt-contract.md -->
 
 # Contrato de prompt para IA
@@ -171,6 +209,145 @@ Fidelidade, aderência à marca, hierarquia, legibilidade, clareza comercial e a
 ## Instrução de abertura recomendada
 
 “Leia primeiro o contexto oficial da Beegloo no link fornecido. Resuma os fatos imutáveis, os elementos exploráveis e as pendências. Não inicie a criação até demonstrar que distinguiu esses três grupos.”
+
+---
+
+<!-- source: docs/applications/composition.md -->
+
+# Composição e aplicações
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Ritmo
+
+- Começar com uma ideia dominante.
+- Agrupar elementos por sentido, não apenas por proximidade.
+- Alternar momentos densos com áreas de pausa.
+- Tratar espaço vazio como sinal de clareza e confiança.
+- Manter produto, naming e preço como um conjunto comercial legível.
+
+## Aplicações prioritárias
+
+- Cardápio e menu board.
+- Loja e sinalização.
+- Social.
+- Experiências digitais.
+- Fotografia e campanhas de produto.
+
+Cada aplicação crítica ainda precisa de pelo menos uma referência explicitamente aprovada.
+
+---
+
+<!-- source: docs/commercial/hierarchy.md -->
+
+# Hierarquia comercial
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Ordem de informação
+
+1. Categoria.
+2. Nome do produto.
+3. Descrição.
+4. Preço.
+5. Complemento comercial.
+6. Observação legal.
+
+## Regras
+
+- Produto e preço devem ser encontrados rapidamente.
+- Usar poucos níveis tipográficos.
+- A categoria orienta sem competir com o produto.
+- A descrição ajuda a decidir; não deve transformar a peça em catálogo.
+- Informações legais permanecem legíveis no tamanho final.
+- A hierarquia deve ser testada à distância e em poucos segundos.
+
+---
+
+<!-- source: docs/commercial/menu-boards.md -->
+
+# Menu boards
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Objetivo comercial
+
+Em poucos segundos e à distância, o cliente deve identificar:
+
+1. A categoria.
+2. O produto.
+3. A diferença entre opções.
+4. O preço.
+5. A decisão esperada.
+
+## Princípios
+
+- Produto e preço em primeiro plano.
+- Uma ideia comercial forte por tela.
+- Poucos níveis de informação.
+- Contraste suficiente para leitura à distância.
+- Fotos grandes e reconhecíveis.
+- Naming curto e consistente.
+- Respiro entre categorias.
+- Branding sustentando a venda sem competir com ela.
+
+Evitar aparência de catálogo ou aplicativo, excesso de badges, selos, efeitos e textos auxiliares.
+
+## Formato 1920 × 1080
+
+Ainda precisam ser homologados:
+
+- Safe areas e margens mínimas.
+- Regiões críticas da tela.
+- Distância estimada de visualização.
+- Tamanhos mínimos de categoria, produto, descrição e preço.
+- Limite de produtos por tela.
+- Relação mínima entre fotografia e área total.
+
+Toda peça deve passar por teste em escala reduzida e, quando possível, em monitor ou televisão real.
+
+## Estruturas previstas
+
+- Produto-herói.
+- Duas categorias lado a lado.
+- Grade curta de produtos.
+- Família com variações.
+- Combo.
+- Lançamento.
+- Promoção temporária.
+
+Os exemplos aprovados para cada estrutura ainda estão pendentes.
+
+---
+
+<!-- source: docs/commercial/pricing.md -->
+
+# Sistema de preços
+
+Status: ativo
+Última revisão: 2026-08-30
+
+O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o produto.
+
+## Regras permanentes
+
+- Valores nunca podem ser inventados.
+- Preços e textos comerciais vêm do briefing aprovado.
+- Em estudos sem valor aprovado, usar marcador claramente fictício ou indicar a pendência.
+- Não apresentar preço anterior, desconto, adicional ou combo sem fonte comercial atual.
+
+## Pendente de homologação
+
+- Uso formal de `R$`.
+- Separação e escala de reais e centavos.
+- “A partir de”.
+- Preço promocional e preço anterior.
+- Combos, adicionais e tamanhos.
+- Alinhamento e espaçamento.
+- Informações legais obrigatórias por canal.
 
 ---
 
@@ -210,11 +387,57 @@ Responsável, data e status: exploratória, aprovada, substituída ou obsoleta.
 
 ---
 
+<!-- source: docs/foundations/brand-essence.md -->
+
+# Essência da marca
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Direção geral
+
+A Beegloo é:
+
+- Leve antes de pesada.
+- Divertida sem excesso.
+- Acolhedora sem infantilização automática.
+- Contemporânea sem aparência corporativa genérica.
+- Arredondada e expressiva.
+- Colorida com intenção.
+- Arejada.
+- Comercialmente clara.
+- Focada no produto real quando houver produto.
+
+## Princípios de composição
+
+- Uma ideia forte por vez.
+- Hierarquia simples e reconhecível.
+- Espaço negativo como parte ativa da identidade.
+- Formas gráficas com função, não como preenchimento automático.
+- Branding sustentando a mensagem, sem competir com produto e preço.
+
+## Evitar
+
+- Cantos duros dominantes.
+- Bordas excessivas.
+- Sombras pesadas.
+- Gradientes neon.
+- Fundo preto dominante.
+- Saturação agressiva.
+- Excesso de formas orgânicas sem função.
+- Layout de SaaS aplicado a peças comerciais.
+- Estética genérica de confeitaria.
+- Infantilização automática.
+- Luxo escuro incompatível com a marca.
+- Logo, produto ou embalagem recriados.
+
+---
+
 <!-- source: docs/foundations/sources-of-truth.md -->
 
 # Fontes de verdade
 
-Status: oficial  
+Status: oficial
 Última revisão: 2026-08-30
 
 ## Ordem de precedência
@@ -244,11 +467,244 @@ Se um ativo ou fato necessário estiver ausente, interrompa a produção factual
 
 ---
 
+<!-- source: docs/identity/colors.md -->
+
+# Sistema de cores
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Os valores estruturados canônicos vivem em `docs/tokens/colors.json` e são publicados em `/brand-context.json`.
+
+## Papéis cromáticos
+
+- Azul: cor de núcleo; organiza, cria confiança e estrutura.
+- Rosa: cor de núcleo; adiciona energia, afeto e ênfase.
+- Marrom: complementar; aproxima de matéria, alimento e calor.
+- Verde: complementar; adiciona frescor e equilíbrio.
+
+## Uso
+
+- Priorizar fundos claros e pastéis.
+- Usar azul e rosa como protagonistas, sem exigir presença igual em toda composição.
+- Usar marrom e verde para complementar, não substituir automaticamente o núcleo.
+- Preservar respiro entre grandes áreas de cor.
+- Validar contraste de texto e controles antes da aprovação.
+
+## Pendente de homologação
+
+- Proporções cromáticas recomendadas por aplicação.
+- Combinações formais permitidas.
+- Combinações formalmente proibidas.
+- Tokens completos para estados de interface.
+
+---
+
+<!-- source: docs/identity/logo.md -->
+
+# Sistema de logo
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Fontes oficiais
+
+As URLs públicas de renderização são:
+
+- Assinatura principal: `/brand/logos/primary.svg`.
+- Assinatura sobre cor: `/brand/logos/on-color.svg`.
+- Ícone azul: `/brand/logos/icon-blue.svg`.
+- Ícone rosa: `/brand/logos/icon-pink.svg`.
+
+Os arquivos-fonte e as versões de renderização aprovadas devem permanecer byte a byte intactos.
+
+## Regras obrigatórias
+
+- Não redesenhar.
+- Não reinterpretar.
+- Não vetorizar novamente.
+- Não aproximar com tipografia, CSS ou formas genéricas.
+- Não recolorir arbitrariamente.
+- Não distorcer.
+- Não adicionar contorno, sombra ou efeitos.
+- Não otimizar de maneira que altere a geometria.
+- Não pedir que uma IA “melhore” o logo.
+
+## Uso mínimo atualmente registrado
+
+- Ícone: mínimo de 24 px.
+- Assinatura: mínimo de 96 px.
+- Área de proteção: reservar ao redor da marca pelo menos a largura do “b”.
+
+## Homologação pendente
+
+Ainda precisam ser registrados para cada versão:
+
+- Nome oficial definitivo.
+- Fundos permitidos.
+- Restrições específicas.
+- Responsável pela homologação.
+- Data da última aprovação.
+- Eventuais versões monocromáticas ou negativas.
+
+---
+
+<!-- source: docs/identity/mascot.md -->
+
+# Uso do mascote
+
+Status: pendente
+Última revisão: 2026-08-30
+
+O repositório ainda não contém uma construção homologada do mascote. Até que o asset seja fornecido, nenhuma pose, expressão ou silhueta pode ser inventada.
+
+## Pode ser adequado em
+
+- Descoberta.
+- Conquista.
+- Educação.
+- Comunicação institucional.
+- Experiência infantil específica.
+- Campanhas com função narrativa.
+- Momentos de orientação.
+
+## Normalmente evitar em
+
+- Menu boards densos.
+- Peças em que o produto deve dominar.
+- Comunicação premium.
+- Layouts com pouco espaço.
+- Materiais técnicos.
+- Situações em que seria apenas enfeite.
+
+## Regras
+
+- Usar somente construção oficial.
+- Não criar poses ou expressões por IA sem aprovação.
+- Não substituir o logo.
+- Não competir com fotografia e preço.
+- Não infantilizar a comunicação sem intenção.
+- Registrar as versões oficiais quando forem fornecidas.
+
+---
+
+<!-- source: docs/identity/shapes-and-ui.md -->
+
+# Formas e interface
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Linguagem
+
+- Superfícies claras e amplas.
+- Cards sem borda pesada.
+- Separação por tonalidade, respiro e forma.
+- Raios generosos.
+- Controles arredondados.
+- Poucas sombras e baixa intensidade.
+- Movimento orgânico usado com intenção.
+
+## Raios de referência
+
+- 16 px para elementos compactos.
+- 28 px para cards e painéis médios.
+- 44 px para grandes superfícies editoriais.
+- Formato de pílula para tags, chips e ações curtas.
+
+Os valores são referências do guia visual atual. Um sistema formal de tokens de interface ainda deve ser homologado.
+
+---
+
+<!-- source: docs/identity/typography.md -->
+
+# Sistema tipográfico
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Outfit é a família tipográfica principal.
+
+## Papéis iniciais
+
+- Display: pesos 700–800.
+- Títulos: pesos 600–700.
+- Nomes de produto: pesos 700–800.
+- Preços: pesos 700–800.
+- Texto: pesos 400–500.
+- Legendas: pesos 500–600.
+- Informações legais: pesos 400–500.
+
+## Regras
+
+- Usar hierarquia clara e poucos níveis por composição.
+- Evitar linhas longas em texto corrido.
+- Aplicar caixa alta somente quando houver função de categoria, legenda ou sinalização.
+- Tratar números e preços como informação comercial, não como ornamento.
+- Garantir contraste e legibilidade no tamanho final de uso.
+
+## Pendente
+
+- Escala tipográfica por aplicação.
+- Entrelinha e tracking por papel.
+- Largura máxima formal de linha.
+- Substituta técnica quando Outfit não estiver disponível.
+
+---
+
+<!-- source: docs/photography/principles.md -->
+
+# Direção fotográfica
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Princípios
+
+A fotografia Beegloo deve ser:
+
+- Apetitosa.
+- Clara.
+- Reconhecível.
+- Leve.
+- Contemporânea.
+- Fiel ao produto real.
+- Bem separada do fundo.
+- Compatível com a paleta da marca.
+
+## Evitar
+
+- Comida plástica ou excessivamente perfeita.
+- Brilho artificial intenso.
+- Ingredientes inexistentes.
+- Excesso de elementos voando.
+- Cenografia que esconda a embalagem.
+- Distorção de escala.
+- Perspectivas impossíveis.
+- Sombras inconsistentes.
+- Alteração do produto para parecer “mais premium”.
+
+## Especificação pendente por família
+
+Para CROC, SHAKE, SUNNY e CREMIX ainda precisam ser definidos:
+
+- Ângulos preferenciais.
+- Altura de câmera.
+- Distância aparente.
+- Fundo recomendado.
+- Tipo de luz e dureza da sombra.
+- Quantidade visível.
+- Necessidade de mostrar embalagem, textura ou interior.
+- Recorte permitido.
+- Relação entre foto principal e miniaturas.
+
+---
+
 <!-- source: docs/products/catalog.md -->
 
 # Catálogo de produtos
 
-Status: pendente  
+Status: pendente
 Última revisão: 2026-08-30
 
 Este arquivo existe para impedir inferências enquanto o catálogo factual não é homologado.
@@ -261,3 +717,171 @@ Este arquivo existe para impedir inferências enquanto o catálogo factual não 
 | CREMIX | CREMIX | pendente | pendente | pendente | pendente |
 
 Não traduzir, pluralizar, abreviar, completar ou alterar nomes. Não criar sabores, tamanhos, ingredientes, complementos ou variantes com base em aparência ou inferência.
+
+---
+
+<!-- source: docs/products/cremix.md -->
+
+# CREMIX
+
+Status: pendente
+Última revisão: 2026-08-30
+
+Grafia conhecida: `CREMIX`. Não traduzir, pluralizar, abreviar ou completar.
+
+## Informações aguardando homologação
+
+- Categoria e descrição oficial.
+- Características visuais.
+- Sabores e variações existentes.
+- Produto e embalagem correspondentes.
+- Elementos imutáveis.
+- Fotografias oficiais.
+- Situação comercial: permanente, sazonal ou promocional.
+- Exemplos corretos e erros comuns.
+
+Não produzir uma representação factual de CREMIX sem receber essas fontes.
+
+---
+
+<!-- source: docs/products/croc.md -->
+
+# CROC
+
+Status: pendente
+Última revisão: 2026-08-30
+
+Grafia conhecida: `CROC`. Não traduzir, pluralizar, abreviar ou completar.
+
+## Informações aguardando homologação
+
+- Categoria e descrição oficial.
+- Características visuais.
+- Sabores e variações existentes.
+- Produto e embalagem correspondentes.
+- Elementos imutáveis.
+- Fotografias oficiais.
+- Situação comercial: permanente, sazonal ou promocional.
+- Exemplos corretos e erros comuns.
+
+Não produzir uma representação factual de CROC sem receber essas fontes.
+
+---
+
+<!-- source: docs/products/product-fidelity.md -->
+
+# Fidelidade de produtos e embalagens
+
+Status: oficial
+Última revisão: 2026-08-30
+
+> Produtos, fotografias e embalagens fornecidos são fontes de verdade. Não inventar, redesenhar, completar, substituir ou “melhorar” formato, volume, tampa, copo, pote, rótulo, marca, texto, cor, ingrediente, cobertura ou proporção sem autorização explícita.
+
+## Pode ser explorado quando o briefing permitir
+
+- Fundo.
+- Cenografia.
+- Composição.
+- Formas gráficas de apoio.
+- Luz ambiental.
+- Sombras externas.
+- Recorte.
+- Enquadramento.
+- Relação espacial entre elementos.
+
+## Deve permanecer imutável
+
+- Geometria da embalagem.
+- Tampa e fechamento.
+- Rótulo, logo e textos impressos.
+- Cor oficial.
+- Formato do produto.
+- Ingredientes visíveis.
+- Cobertura e recheio.
+- Quantidade aparente.
+- Proporção entre produto e embalagem.
+- Sabor representado.
+
+## Referência insuficiente
+
+Se a imagem fornecida não permitir reprodução fiel:
+
+1. Solicitar novas fotos ou ângulos.
+2. Identificar a imagem como estudo conceitual.
+3. Usar espaço reservado quando apropriado.
+4. Nunca apresentar uma invenção como produto final.
+
+---
+
+<!-- source: docs/products/shake.md -->
+
+# SHAKE
+
+Status: pendente
+Última revisão: 2026-08-30
+
+Grafia conhecida: `SHAKE`. Não traduzir, pluralizar, abreviar ou completar.
+
+## Informações aguardando homologação
+
+- Categoria e descrição oficial.
+- Características visuais.
+- Sabores e variações existentes.
+- Produto e embalagem correspondentes.
+- Elementos imutáveis.
+- Fotografias oficiais.
+- Situação comercial: permanente, sazonal ou promocional.
+- Exemplos corretos e erros comuns.
+
+Não produzir uma representação factual de SHAKE sem receber essas fontes.
+
+---
+
+<!-- source: docs/products/sunny.md -->
+
+# SUNNY
+
+Status: pendente
+Última revisão: 2026-08-30
+
+Grafia conhecida: `SUNNY`. Não traduzir, pluralizar, abreviar ou completar.
+
+## Informações aguardando homologação
+
+- Categoria e descrição oficial.
+- Características visuais.
+- Sabores e variações existentes.
+- Produto e embalagem correspondentes.
+- Elementos imutáveis.
+- Fotografias oficiais.
+- Situação comercial: permanente, sazonal ou promocional.
+- Exemplos corretos e erros comuns.
+
+Não produzir uma representação factual de SUNNY sem receber essas fontes.
+
+---
+
+<!-- source: docs/references/library.md -->
+
+# Biblioteca de referências
+
+Status: pendente
+Última revisão: 2026-08-30
+
+## Aprovadas
+
+Peças validadas que representam corretamente o sistema. Cada registro deve explicar o que funciona, qual decisão exemplifica e em quais contextos pode orientar novos trabalhos.
+
+Nenhuma peça foi registrada formalmente nesta categoria ainda.
+
+## Rejeitadas
+
+Peças que se aproximaram do resultado, mas contêm problemas. Cada registro deve explicar o erro, se ele é estrutural ou de acabamento e o que não deve ser repetido.
+
+Nenhuma peça foi registrada formalmente nesta categoria ainda.
+
+## Exploratórias
+
+Estudos ainda não homologados. Devem permanecer claramente identificados como não oficiais.
+
+Uma peça gerada por IA somente pode entrar em “aprovadas” após validação humana explícita.

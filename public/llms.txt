@@ -11,6 +11,55 @@
 - [Catálogo e pendências de produto](/ai/products/catalog.md)
 - [Contexto integral em um arquivo](/llms-full.txt)
 - [Manifesto estruturado JSON](/brand-context.json)
+- [Documentação para pessoas](/docs)
+
+## Documentos disponíveis
+
+### Visão geral
+- [Beegloo Brand Guide — fonte canônica](/ai/README.md) — ativo
+
+### Fundamentos
+- [Essência da marca](/ai/foundations/brand-essence.md) — ativo
+- [Fontes de verdade](/ai/foundations/sources-of-truth.md) — oficial
+
+### Identidade
+- [Sistema de cores](/ai/identity/colors.md) — ativo
+- [Sistema de logo](/ai/identity/logo.md) — ativo
+- [Uso do mascote](/ai/identity/mascot.md) — pendente
+- [Formas e interface](/ai/identity/shapes-and-ui.md) — ativo
+- [Sistema tipográfico](/ai/identity/typography.md) — ativo
+
+### Produtos
+- [Catálogo de produtos](/ai/products/catalog.md) — pendente
+- [CREMIX](/ai/products/cremix.md) — pendente
+- [CROC](/ai/products/croc.md) — pendente
+- [Fidelidade de produtos e embalagens](/ai/products/product-fidelity.md) — oficial
+- [SHAKE](/ai/products/shake.md) — pendente
+- [SUNNY](/ai/products/sunny.md) — pendente
+
+### Fotografia
+- [Direção fotográfica](/ai/photography/principles.md) — ativo
+
+### Comercial
+- [Hierarquia comercial](/ai/commercial/hierarchy.md) — ativo
+- [Menu boards](/ai/commercial/menu-boards.md) — ativo
+- [Sistema de preços](/ai/commercial/pricing.md) — ativo
+
+### Aplicações
+- [Composição e aplicações](/ai/applications/composition.md) — ativo
+
+### Inteligência artificial
+- [Contexto portátil da marca Beegloo](/ai/ai/brand-context.md) — ativo
+- [Checklist de entrega](/ai/ai/delivery-checklist.md) — ativo
+- [Processo criativo com IA](/ai/ai/process.md) — ativo
+- [Contrato de prompt para IA](/ai/ai/prompt-contract.md) — ativo
+
+### Referências
+- [Biblioteca de referências](/ai/references/library.md) — pendente
+
+### Decisões
+- [Decisão criativa — AAAA-MM-DD](/ai/decisions/_template.md) — exploratório
+
 
 ## Assets oficiais
 

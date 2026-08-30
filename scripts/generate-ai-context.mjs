@@ -20,6 +20,9 @@ const allFiles = await walk(docsRoot)
 const markdownFiles = allFiles.filter((file) => file.endsWith('.md'))
 const colors = JSON.parse(await readFile(path.join(docsRoot, 'tokens/colors.json'), 'utf8'))
 const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
+const statusLabels = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
+const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', photography: 'Fotografia', commercial: 'Comercial', applications: 'Aplicações', ai: 'Inteligência artificial', references: 'Referências', decisions: 'Decisões' }
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'references', 'decisions']
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
@@ -61,6 +64,12 @@ for (const source of markdownFiles) {
   })
 }
 
+const documentIndex = categoryOrder.flatMap((category) => {
+  const categoryDocuments = documents.filter((document) => document.category === category)
+  if (categoryDocuments.length === 0) return []
+  return [`### ${categoryTitles[category]}`, ...categoryDocuments.map((document) => `- [${document.title}](${document.source}) — ${statusLabels[document.status]}`), '']
+}).join('\n')
+
 const llms = `# Beegloo Brand Guide
 
 > Fonte oficial de contexto para pessoas e agentes de IA. Leia o contexto essencial antes de iniciar qualquer trabalho e consulte as fontes específicas quando necessário.
@@ -74,6 +83,11 @@ const llms = `# Beegloo Brand Guide
 - [Catálogo e pendências de produto](/ai/products/catalog.md)
 - [Contexto integral em um arquivo](/llms-full.txt)
 - [Manifesto estruturado JSON](/brand-context.json)
+- [Documentação para pessoas](/docs)
+
+## Documentos disponíveis
+
+${documentIndex}
 
 ## Assets oficiais
 
@@ -110,6 +124,7 @@ const manifest = {
     'AI output is not an official reference without explicit human approval.',
   ],
   documents: markdownFiles.map((file) => `/ai/${path.relative(docsRoot, file).split(path.sep).join('/')}`),
+  documentIndex: documents,
 }
 
 await writeFile(path.join(publicRoot, 'llms.txt'), llms)

@@ -7,12 +7,14 @@ const categoryNames = {
   products: 'Produtos',
   photography: 'Fotografia',
   commercial: 'Comercial',
+  applications: 'Aplicações',
   ai: 'Inteligência artificial',
   decisions: 'Decisões',
   references: 'Referências',
 }
 
 const statusNames = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'references', 'decisions']
 
 const specialLine = /^(#{1,6}\s|[-*]\s|\d+\.\s|>\s|```|---$|\|)/
 
@@ -104,6 +106,7 @@ export default function DocsExplorer() {
   const [content, setContent] = useState('')
   const [query, setQuery] = useState('')
   const [error, setError] = useState('')
+  const [copyState, setCopyState] = useState('Copiar link')
 
   useEffect(() => {
     const controller = new AbortController()
@@ -143,6 +146,16 @@ export default function DocsExplorer() {
     return groups
   }, {}), [filtered])
   const current = documents.find((document) => document.path === selected)
+  const stats = useMemo(() => documents.reduce((summary, document) => {
+    summary.total += 1
+    summary[document.status] = (summary[document.status] || 0) + 1
+    return summary
+  }, { total: 0 }), [documents])
+
+  useEffect(() => {
+    if (!current) return
+    document.title = `${current.title} · Beegloo`
+  }, [current])
 
   const openDocument = (event, path) => {
     event.preventDefault()
@@ -153,14 +166,25 @@ export default function DocsExplorer() {
     setSelected(path)
   }
 
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href)
+      setCopyState('Link copiado')
+    } catch {
+      setCopyState('Não foi possível copiar')
+    }
+    window.setTimeout(() => setCopyState('Copiar link'), 1800)
+  }
+
   return <div className="docs-shell">
     <aside className="docs-sidebar" aria-label="Documentos do guia">
+      <div className="docs-summary"><strong>{stats.total}</strong><span>documentos</span><small>{stats.pending || 0} pendentes</small></div>
       <label htmlFor="docs-search">Buscar documentação</label>
       <input id="docs-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Nome, tema ou status"/>
       <nav>
-        {Object.entries(grouped).map(([category, items]) => <section key={category}>
+        {categoryOrder.filter((category) => grouped[category]?.length).map((category) => <section key={category}>
           <h3>{categoryNames[category] || category}</h3>
-          {items.map((document) => <a className={document.path === selected ? 'active' : ''} href={`?doc=${encodeURIComponent(document.path)}#docs`} onClick={(event) => openDocument(event, document.path)} key={document.path} aria-current={document.path === selected ? 'page' : undefined}>
+          {grouped[category].map((document) => <a className={document.path === selected ? 'active' : ''} href={`?doc=${encodeURIComponent(document.path)}#docs`} onClick={(event) => openDocument(event, document.path)} key={document.path} aria-current={document.path === selected ? 'page' : undefined}>
             <span>{document.title}</span><small>{statusNames[document.status] || document.status}</small>
           </a>)}
         </section>)}
@@ -168,7 +192,7 @@ export default function DocsExplorer() {
       {documents.length > 0 && filtered.length === 0 ? <p className="docs-empty">Nenhum documento encontrado.</p> : null}
     </aside>
     <article className="docs-reader" aria-live="polite">
-      <header><div><small>FONTE CANÔNICA · MARKDOWN</small><strong>{current?.path || selected}</strong></div>{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}</header>
+      <header><div><small>FONTE CANÔNICA · MARKDOWN</small><strong>{current?.path || selected}</strong></div><div className="docs-actions">{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}<button type="button" onClick={copyLink}>{copyState}</button></div></header>
       {error ? <p className="docs-error">{error}</p> : content ? <Markdown source={content}/> : <p className="docs-loading">Carregando documento…</p>}
     </article>
   </div>

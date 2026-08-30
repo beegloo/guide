@@ -1,6 +1,6 @@
 # Catálogo de produtos
 
-Status: pendente  
+Status: pendente
 Última revisão: 2026-08-30
 
 Este arquivo existe para impedir inferências enquanto o catálogo factual não é homologado.

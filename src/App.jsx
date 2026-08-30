@@ -44,5 +44,6 @@ function DocsPage() {
 }
 
 export default function App() {
-  return window.location.pathname === '/docs' ? <DocsPage/> : <GuidePage/>
+  const path = window.location.pathname.replace(/\/+$/, '') || '/'
+  return path === '/docs' ? <DocsPage/> : <GuidePage/>
 }
