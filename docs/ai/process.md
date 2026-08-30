@@ -13,6 +13,24 @@ A liberdade criativa deve diminuir conforme aumenta a importância factual. Logo
 
 Não peça à IA para resolver simultaneamente várias decisões criativas ainda abertas. Separe direção de arte, escolha de direção, fidelidade factual, composição comercial e acabamento em rodadas com critérios próprios.
 
+**Generation creates the environment. Composition inserts the truth.** Modelos generativos podem criar fundo, cenografia, luz, enquadramento, ritmo, formas de apoio e atmosfera. Assets oficiais ou factuais devem entrar depois como elementos de composição, usando seus arquivos de origem; não devem ser reconstruídos dentro da imagem gerada.
+
+Quando logo, wordmark, rótulo, texto impresso ou outro asset oficial influencia peso, posição, contraste, respiro ou hierarquia, use o arquivo oficial já durante a validação da direção de arte. Não remova automaticamente o logo de um estudo conceitual quando sua presença for necessária para avaliar a composição. A regra é **não gerar o logo**, e não “não usar logo”.
+
+## Níveis de maturidade visual
+
+### 1. Direção conceitual
+
+Pode usar placeholders quando os fatos reais ainda não forem necessários para avaliar a direção. O estudo deve permanecer identificado como conceitual.
+
+### 2. Direção de arte validável
+
+Deve usar assets oficiais reais quando eles influenciarem a decisão visual, como logo e textos aprovados. O ambiente ainda pode ser explorado, mas a validação não pode depender de uma reconstrução generativa de fonte de verdade.
+
+### 3. Execução final
+
+Deve usar fontes de verdade para produto, embalagem, logo, preço, textos e demais fatos reais. Nenhum placeholder ou aproximação pode ser apresentado como conteúdo final.
+
 ## 1. Briefing factual
 
 Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, logos, fotografias, embalagens, restrições e decisão sobre mascote. Classificar o que é imutável, explorável e pendente antes de criar.

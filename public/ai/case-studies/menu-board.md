@@ -31,6 +31,14 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md).
 
+## Teste posterior de produção
+
+**Observação:** um teste posterior confirmou que a IA compreendeu o processo criativo: explorou direções distintas e trabalhou direção de arte antes da execução final.
+
+**Observação:** a falha ocorreu na produção. O modelo redesenhou e inventou o logo dentro da imagem gerada, embora o asset oficial devesse ter sido preservado.
+
+**Aprendizado reutilizável:** geração e composição têm responsabilidades diferentes. A geração cria o ambiente; a composição insere fontes de verdade. Quando um asset oficial influencia a avaliação visual, seu arquivo real deve ser composto no estudo em vez de ser omitido ou reconstruído pelo modelo.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.

@@ -108,7 +108,8 @@ Status: ativo
 
 ## Identidade
 
-- [ ] O logo é um SVG oficial e não foi reconstruído.
+- [ ] O logo foi inserido a partir de um SVG oficial e não reconstruído pelo modelo generativo.
+- [ ] Quando necessário para validar peso, posição, contraste, respiro ou hierarquia, o asset oficial esteve presente no estudo.
 - [ ] Proporções, cores, área de proteção e tamanho mínimo foram respeitados.
 - [ ] Outfit e a paleta canônica foram usadas corretamente.
 
@@ -133,6 +134,8 @@ Status: ativo
 
 ## IA e aprovação
 
+- [ ] O nível de maturidade visual — conceitual, validável ou final — foi identificado.
+- [ ] A geração criou apenas o ambiente; assets oficiais e factuais foram inseridos por composição a partir de fontes de verdade.
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
 - [ ] O resultado foi comparado com referências reais.
 - [ ] Estudos conceituais estão identificados.
@@ -156,6 +159,24 @@ Decisões aprovadas ficam **congeladas**. A IA não deve reinterpretá-las em ro
 A liberdade criativa deve diminuir conforme aumenta a importância factual. Logo, produto, embalagem, preço, naming, ingredientes e demais fatos reais têm liberdade criativa praticamente nula. Composição, fundo, luz, enquadramento e formas de apoio podem ter maior liberdade quando o briefing permitir. As listas canônicas de elementos imutáveis e exploráveis estão no [contrato de prompt](prompt-contract.md) e em [fidelidade de produtos e embalagens](../products/product-fidelity.md).
 
 Não peça à IA para resolver simultaneamente várias decisões criativas ainda abertas. Separe direção de arte, escolha de direção, fidelidade factual, composição comercial e acabamento em rodadas com critérios próprios.
+
+**Generation creates the environment. Composition inserts the truth.** Modelos generativos podem criar fundo, cenografia, luz, enquadramento, ritmo, formas de apoio e atmosfera. Assets oficiais ou factuais devem entrar depois como elementos de composição, usando seus arquivos de origem; não devem ser reconstruídos dentro da imagem gerada.
+
+Quando logo, wordmark, rótulo, texto impresso ou outro asset oficial influencia peso, posição, contraste, respiro ou hierarquia, use o arquivo oficial já durante a validação da direção de arte. Não remova automaticamente o logo de um estudo conceitual quando sua presença for necessária para avaliar a composição. A regra é **não gerar o logo**, e não “não usar logo”.
+
+## Níveis de maturidade visual
+
+### 1. Direção conceitual
+
+Pode usar placeholders quando os fatos reais ainda não forem necessários para avaliar a direção. O estudo deve permanecer identificado como conceitual.
+
+### 2. Direção de arte validável
+
+Deve usar assets oficiais reais quando eles influenciarem a decisão visual, como logo e textos aprovados. O ambiente ainda pode ser explorado, mas a validação não pode depender de uma reconstrução generativa de fonte de verdade.
+
+### 3. Execução final
+
+Deve usar fontes de verdade para produto, embalagem, logo, preço, textos e demais fatos reais. Nenhum placeholder ou aproximação pode ser apresentado como conteúdo final.
 
 ## 1. Briefing factual
 
@@ -288,6 +309,14 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 **Observação:** múltiplas direções foram geradas antes da execução. A diversidade entre propostas tornou a escolha mais consciente e evitou confundir pequenas variações com caminhos realmente distintos.
 
 **Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md).
+
+## Teste posterior de produção
+
+**Observação:** um teste posterior confirmou que a IA compreendeu o processo criativo: explorou direções distintas e trabalhou direção de arte antes da execução final.
+
+**Observação:** a falha ocorreu na produção. O modelo redesenhou e inventou o logo dentro da imagem gerada, embora o asset oficial devesse ter sido preservado.
+
+**Aprendizado reutilizável:** geração e composição têm responsabilidades diferentes. A geração cria o ambiente; a composição insere fontes de verdade. Quando um asset oficial influencia a avaliação visual, seu arquivo real deve ser composto no estudo em vez de ser omitido ou reconstruído pelo modelo.
 
 ## Escolha e congelamento
 

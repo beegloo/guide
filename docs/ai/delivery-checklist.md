@@ -4,7 +4,8 @@ Status: ativo
 
 ## Identidade
 
-- [ ] O logo é um SVG oficial e não foi reconstruído.
+- [ ] O logo foi inserido a partir de um SVG oficial e não reconstruído pelo modelo generativo.
+- [ ] Quando necessário para validar peso, posição, contraste, respiro ou hierarquia, o asset oficial esteve presente no estudo.
 - [ ] Proporções, cores, área de proteção e tamanho mínimo foram respeitados.
 - [ ] Outfit e a paleta canônica foram usadas corretamente.
 
@@ -29,6 +30,8 @@ Status: ativo
 
 ## IA e aprovação
 
+- [ ] O nível de maturidade visual — conceitual, validável ou final — foi identificado.
+- [ ] A geração criou apenas o ambiente; assets oficiais e factuais foram inseridos por composição a partir de fontes de verdade.
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
 - [ ] O resultado foi comparado com referências reais.
 - [ ] Estudos conceituais estão identificados.
