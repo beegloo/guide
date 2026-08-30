@@ -63,6 +63,12 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** uma decisão aprovada não deve voltar a ser variável por padrão. Se precisar mudar, deve ser explicitamente reaberta.
 
+## Calibração por referências
+
+**Observação:** as regras textuais passaram a evitar invenções factuais, reconstruções de assets e parte do vazamento de UI, mas ainda permitiam direções conceituais corretas demais e publicitariamente fracas.
+
+**Aprendizado reutilizável:** **Rules constrain. References calibrate.** Regras delimitam erros; referências aprovadas ajudam a reconhecer o nível desejado de impacto, ritmo, escala, profundidade e acabamento. A [biblioteca de referências](../references/library.md) registra a direção aprovada e os testes rejeitados como memória crítica, sem transformar nenhum layout em template universal.
+
 ## Conteúdo comercial e fidelidade
 
 **Observação:** preços e conteúdo comercial entraram depois da definição da direção, quando já podiam ser tratados como informação a compor, e não como parte da exploração visual.

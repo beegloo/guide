@@ -18,6 +18,8 @@ Este guide orienta trabalhos cujo objetivo principal é comunicar, vender, gerar
 
 Quando houver conflito, as exigências do meio prevalecem sobre padrões genéricos de aplicação. Consulte [Composição](../foundations/composition.md) para os princípios transversais.
 
+A qualidade publicitária deve ser calibrada pelas [referências aprovadas do canal](../references/library.md), quando existirem. Elas estabelecem um quality bar de impacto, ritmo e acabamento sem funcionar como templates de composição.
+
 ## Formas não são componentes por padrão
 
 Em marketing, uma forma arredondada pode funcionar como:

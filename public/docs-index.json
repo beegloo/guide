@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T21:51:59.436Z",
+  "generatedAt": "2026-08-30T23:23:06.830Z",
   "documents": [
     {
       "path": "README.md",
@@ -218,12 +218,36 @@
       "source": "/ai/products/sunny.md"
     },
     {
+      "path": "references/approved/menu-board-direction.md",
+      "title": "Direção aprovada do menu board",
+      "category": "references",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/references/approved/menu-board-direction.md"
+    },
+    {
       "path": "references/library.md",
       "title": "Biblioteca de referências",
       "category": "references",
-      "status": "pending",
+      "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/references/library.md"
+    },
+    {
+      "path": "references/rejected/menu-board-schematic.md",
+      "title": "Menu board esquemático",
+      "category": "references",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/references/rejected/menu-board-schematic.md"
+    },
+    {
+      "path": "references/rejected/menu-board-ui-leakage.md",
+      "title": "Menu board com vazamento de UI",
+      "category": "references",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/references/rejected/menu-board-ui-leakage.md"
     },
     {
       "path": "references/types.md",

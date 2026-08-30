@@ -61,7 +61,10 @@
 - [Case study — processo criativo do menu board](/ai/case-studies/menu-board.md) — ativo
 
 ### Referências
-- [Biblioteca de referências](/ai/references/library.md) — pendente
+- [Direção aprovada do menu board](/ai/references/approved/menu-board-direction.md) — ativo
+- [Biblioteca de referências](/ai/references/library.md) — ativo
+- [Menu board esquemático](/ai/references/rejected/menu-board-schematic.md) — ativo
+- [Menu board com vazamento de UI](/ai/references/rejected/menu-board-ui-leakage.md) — ativo
 - [Tipos de referência](/ai/references/types.md) — ativo
 
 ### Decisões

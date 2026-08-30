@@ -228,6 +228,8 @@ Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, lo
 
 Classificar cada entrada como [mood reference, brand reference ou source of truth](../references/types.md). Registrar o que uma referência de direção exemplifica — ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo — sem pedir apenas para “copiar o estilo”.
 
+Antes da exploração, consultar as referências relevantes do canal na [biblioteca](../references/library.md), quando existirem. **Rules constrain. References calibrate.** Referências ajudam a reconhecer quality bar, ritmo, escala e impacto, mas não substituem briefing, fontes de verdade, regras de marca ou decisões homologadas. Uma referência aprovada não autoriza copiar literalmente sua composição.
+
 ## 3. Exploração visual
 
 Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
@@ -358,6 +360,12 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 **Observação:** o refinamento funcionou melhor com feedback específico — indicando o elemento, o problema e a mudança esperada — do que com regenerações totais.
 
 **Aprendizado reutilizável:** uma decisão aprovada não deve voltar a ser variável por padrão. Se precisar mudar, deve ser explicitamente reaberta.
+
+## Calibração por referências
+
+**Observação:** as regras textuais passaram a evitar invenções factuais, reconstruções de assets e parte do vazamento de UI, mas ainda permitiam direções conceituais corretas demais e publicitariamente fracas.
+
+**Aprendizado reutilizável:** **Rules constrain. References calibrate.** Regras delimitam erros; referências aprovadas ajudam a reconhecer o nível desejado de impacto, ritmo, escala, profundidade e acabamento. A [biblioteca de referências](../references/library.md) registra a direção aprovada e os testes rejeitados como memória crítica, sem transformar nenhum layout em template universal.
 
 ## Conteúdo comercial e fidelidade
 
@@ -963,6 +971,8 @@ Este guide orienta trabalhos cujo objetivo principal é comunicar, vender, gerar
 
 Quando houver conflito, as exigências do meio prevalecem sobre padrões genéricos de aplicação. Consulte [Composição](../foundations/composition.md) para os princípios transversais.
 
+A qualidade publicitária deve ser calibrada pelas [referências aprovadas do canal](../references/library.md), quando existirem. Elas estabelecem um quality bar de impacto, ritmo e acabamento sem funcionar como templates de composição.
+
 ## Formas não são componentes por padrão
 
 Em marketing, uma forma arredondada pode funcionar como:
@@ -1156,11 +1166,64 @@ Não produzir uma representação factual de SUNNY sem receber essas fontes.
 
 ---
 
+<!-- source: docs/references/approved/menu-board-direction.md -->
+
+# Direção aprovada do menu board
+
+Status: ativo
+Última revisão: 2026-08-30
+
+- **Classificação editorial:** aprovada.
+- **Tipo de referência:** Mood reference.
+- **Canal:** Marketing / Commercial Creative — menu board.
+- **Asset visual associado:** pendente; o arquivo do estudo aprovado ainda não está no repositório.
+- **Data do caso:** 2026-08-30.
+- **Decisão relacionada:** [Fluxo criativo em etapas](../../decisions/2026-08-30-staged-ai-creative-process.md), que formaliza o processo, não este layout como regra universal.
+
+## Contexto
+
+Esta foi a direção escolhida como melhor caminho durante o processo documentado no [case study do menu board](../../case-studies/menu-board.md). Seu valor é calibrar o quality bar publicitário esperado, não fornecer um template para reprodução.
+
+## O que observar
+
+- Composição percebida como uma peça publicitária única.
+- Quatro famílias presentes sem parecer quatro cards independentes.
+- Fotografia e produto com papel dominante.
+- Massas visuais fortes, profundidade e sobreposição.
+- Assimetria controlada.
+- Tipografia e preço integrados à direção de arte.
+- Cor organizando territórios sem transformar tudo em módulos de interface.
+- Linguagem de fast-food contemporâneo.
+- Sensação comercial e desejável.
+- Leitura rápida à distância.
+
+## Por que foi aprovada
+
+A direção conciliou identidade Beegloo, impacto publicitário, presença de produto e clareza comercial sem importar automaticamente a arquitetura de uma interface. Ela tornou avaliáveis ritmo, escala, hierarquia e desejo.
+
+## Princípios reutilizáveis
+
+- Construir uma composição integrada, com relações entre produto, tipo e grafismo.
+- Usar contraste de escala, recorte, profundidade e sobreposição para produzir impacto.
+- Organizar variedade sem reduzir cada família a um módulo equivalente.
+- Avaliar marketing por desejo, leitura e força publicitária, além de correção formal.
+
+## O que não deve ser copiado
+
+- Layout, posições, proporções ou quantidade de áreas.
+- Recortes, sobreposições ou distribuição cromática específicos.
+- Conteúdo, preço, fotografia, produto ou embalagem vistos no estudo.
+- Qualquer detalhe factual que não esteja disponível como source of truth.
+
+O registro é um quality bar e uma direção aprovada para este caso. Não homologa uma estética obrigatória para outros menu boards, campanhas, PDV ou canais.
+
+---
+
 <!-- source: docs/references/library.md -->
 
 # Biblioteca de referências
 
-Status: pendente
+Status: ativo
 Última revisão: 2026-08-30
 
 Antes de registrar uma peça, classifique seu papel conforme [Tipos de referência](types.md) e indique a quais canais ela se aplica. Aprovação editorial, função da referência e canal são dimensões diferentes: uma peça aprovada ainda deve ser identificada como mood reference, brand reference ou source of truth e não se torna padrão universal de composição.
@@ -1169,19 +1232,122 @@ Antes de registrar uma peça, classifique seu papel conforme [Tipos de referênc
 
 Peças validadas que representam corretamente o sistema. Cada registro deve explicar o que funciona, qual decisão exemplifica e em quais contextos pode orientar novos trabalhos.
 
-Nenhuma peça foi registrada formalmente nesta categoria ainda.
+- [Direção aprovada do menu board](approved/menu-board-direction.md) — quality bar de direção publicitária; não é template de layout.
 
 ## Rejeitadas
 
 Peças que se aproximaram do resultado, mas contêm problemas. Cada registro deve explicar o erro, se ele é estrutural ou de acabamento e o que não deve ser repetido.
 
-Nenhuma peça foi registrada formalmente nesta categoria ainda.
+- [Menu board com vazamento de UI](rejected/menu-board-ui-leakage.md) — exemplo crítico de gramática de interface aplicada a marketing.
+- [Menu board esquemático](rejected/menu-board-schematic.md) — exemplo crítico de placeholder sem peso visual suficiente.
 
 ## Exploratórias
 
 Estudos ainda não homologados. Devem permanecer claramente identificados como não oficiais.
 
 Uma peça gerada por IA somente pode entrar em “aprovadas” após validação humana explícita.
+
+## Como usar a biblioteca
+
+**Rules constrain. References calibrate.** Regras evitam erros; referências ajudam a reconhecer nível de qualidade, ritmo, escala, impacto e direção. Consulte registros do canal antes da exploração, mas preserve briefing, fontes de verdade, regras de marca e decisões homologadas como autoridades próprias.
+
+Referências aprovadas calibram o olhar e não autorizam copiar literalmente composição, identidade proprietária ou solução de layout. Referências rejeitadas servem para crítica e diagnóstico; não são fontes de verdade nem exemplos a reproduzir.
+
+---
+
+<!-- source: docs/references/rejected/menu-board-schematic.md -->
+
+# Menu board esquemático
+
+Status: ativo
+Última revisão: 2026-08-30
+
+- **Classificação editorial:** rejeitada.
+- **Tipo de referência:** Mood reference usada para crítica negativa.
+- **Canal:** Marketing / Commercial Creative — menu board.
+- **Asset visual associado:** pendente; o arquivo do teste rejeitado ainda não está no repositório.
+- **Data do caso:** 2026-08-30.
+- **Decisão relacionada:** [Fluxo criativo em etapas](../../decisions/2026-08-30-staged-ai-creative-process.md).
+
+## Contexto
+
+O agente evitou inventar produtos e representou CROC, SHAKE, SUNNY e CREMIX com quatro formas abstratas alinhadas. A cautela factual funcionou, mas a direção perdeu força visual.
+
+## O que observar
+
+- Composição excessivamente uniforme.
+- Quatro colunas com peso quase idêntico.
+- Placeholders abstratos demais e pouco relacionados à silhueta real dos produtos.
+- Baixa profundidade, pouca sobreposição e ausência de escala dramática ou recorte.
+- Baixo desejo e impacto publicitário.
+- Aparência de infografia conceitual.
+- Anotações de processo dentro da composição dirigida ao consumidor.
+
+## Por que foi rejeitada
+
+O estudo comunicava organização e pendência, mas não permitia avaliar adequadamente uma direção de arte publicitária. A neutralidade dos placeholders eliminou massa, presença e relações espaciais relevantes para a decisão.
+
+## Princípios reutilizáveis
+
+- **Conceptual ≠ schematic.** Direção conceitual ainda precisa ser visualmente avaliável.
+- **Placeholder preserves visual weight, not factual detail.** Preserve massa, escala, posição, proporção, recorte, presença e impacto sem inventar fatos.
+- Anotações de processo ficam normalmente fora da peça dirigida ao consumidor.
+
+## O que não deve ser copiado
+
+- Formas genéricas que apagam a presença esperada do produto.
+- Colunas uniformes como substituição automática de direção de arte.
+- Simetria e equivalência sem intenção comercial.
+- Labels de processo incorporados à comunicação final ou conceitual para consumidor.
+
+Esta referência não exige fotografias factuais durante toda exploração. Ela exige que qualquer representação conceitual preserve o peso visual necessário para julgar a composição.
+
+---
+
+<!-- source: docs/references/rejected/menu-board-ui-leakage.md -->
+
+# Menu board com vazamento de UI
+
+Status: ativo
+Última revisão: 2026-08-30
+
+- **Classificação editorial:** rejeitada.
+- **Tipo de referência:** Mood reference usada para crítica negativa.
+- **Canal:** Marketing / Commercial Creative — menu board.
+- **Asset visual associado:** pendente; o arquivo do teste rejeitado ainda não está no repositório.
+- **Data do caso:** 2026-08-30.
+- **Decisão relacionada:** [Fluxo criativo em etapas](../../decisions/2026-08-30-staged-ai-creative-process.md).
+
+## Contexto
+
+O teste respeitou melhor parte das restrições factuais, mas aplicou ao menu board uma gramática composicional próxima de interface ou dashboard.
+
+## O que observar
+
+- Quatro blocos equivalentes.
+- Uso dominante de cards e pills.
+- Organização excessivamente modular.
+- Pouca variação de escala e baixa tensão composicional.
+- Sensação funcional maior que a sensação publicitária.
+
+## Por que foi rejeitada
+
+A estrutura facilitava organização, mas enfraquecia desejo, protagonismo do produto e impacto. As famílias pareciam componentes independentes em vez de partes de uma peça publicitária integrada.
+
+## Princípios reutilizáveis
+
+- Marketing não deve herdar automaticamente gramática de UI.
+- Correção, alinhamento e modularidade não garantem qualidade publicitária.
+- Requisitos do canal prevalecem sobre padrões genéricos de aplicação.
+
+## O que não deve ser copiado
+
+- Divisão automática de uma família por card.
+- Pills tratadas como solução padrão para preços.
+- Equivalência visual rígida entre todos os produtos.
+- Aparência de dashboard, catálogo de componentes ou wireframe.
+
+Esta referência ajuda a reconhecer um problema, não autoriza reutilizar sua solução visual.
 
 ---
 

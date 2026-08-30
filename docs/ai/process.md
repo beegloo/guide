@@ -60,6 +60,8 @@ Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, lo
 
 Classificar cada entrada como [mood reference, brand reference ou source of truth](../references/types.md). Registrar o que uma referência de direção exemplifica — ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo — sem pedir apenas para “copiar o estilo”.
 
+Antes da exploração, consultar as referências relevantes do canal na [biblioteca](../references/library.md), quando existirem. **Rules constrain. References calibrate.** Referências ajudam a reconhecer quality bar, ritmo, escala e impacto, mas não substituem briefing, fontes de verdade, regras de marca ou decisões homologadas. Uma referência aprovada não autoriza copiar literalmente sua composição.
+
 ## 3. Exploração visual
 
 Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
