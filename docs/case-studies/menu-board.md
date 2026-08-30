@@ -39,6 +39,14 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** geração e composição têm responsabilidades diferentes. A geração cria o ambiente; a composição insere fontes de verdade. Quando um asset oficial influencia a avaliação visual, seu arquivo real deve ser composto no estudo em vez de ser omitido ou reconstruído pelo modelo.
 
+## Teste de continuidade com pendências
+
+**Observação:** em um novo teste, o agente respeitou melhor as fontes de verdade e evitou inventar assets ausentes.
+
+**Observação:** o excesso de cautela reduziu a proatividade. O agente interrompeu a exploração cedo e solicitou imagens antes de verificar se elas eram indispensáveis para a decisão conceitual em curso.
+
+**Aprendizado reutilizável:** uma pendência factual limita o que pode ser validado com fidelidade, mas não bloqueia necessariamente a exploração. Quando o asset não for indispensável para a etapa atual, o processo pode continuar com placeholder neutro ou representação claramente conceitual, sem transformar ausência em invenção.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.

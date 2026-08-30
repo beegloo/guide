@@ -33,6 +33,7 @@ Status: ativo
 - [ ] O nível de maturidade visual — conceitual, validável ou final — foi identificado.
 - [ ] A geração criou apenas o ambiente; assets oficiais e factuais foram inseridos por composição a partir de fontes de verdade.
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
+- [ ] Cada pendência foi avaliada conforme a etapa; somente assets indispensáveis bloquearam a validação.
 - [ ] O resultado foi comparado com referências reais.
 - [ ] Estudos conceituais estão identificados.
 - [ ] A aprovação humana e a decisão reutilizável foram registradas.

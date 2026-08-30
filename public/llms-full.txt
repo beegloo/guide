@@ -137,6 +137,7 @@ Status: ativo
 - [ ] O nível de maturidade visual — conceitual, validável ou final — foi identificado.
 - [ ] A geração criou apenas o ambiente; assets oficiais e factuais foram inseridos por composição a partir de fontes de verdade.
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
+- [ ] Cada pendência foi avaliada conforme a etapa; somente assets indispensáveis bloquearam a validação.
 - [ ] O resultado foi comparado com referências reais.
 - [ ] Estudos conceituais estão identificados.
 - [ ] A aprovação humana e a decisão reutilizável foram registradas.
@@ -164,11 +165,21 @@ Não peça à IA para resolver simultaneamente várias decisões criativas ainda
 
 Quando logo, wordmark, rótulo, texto impresso ou outro asset oficial influencia peso, posição, contraste, respiro ou hierarquia, use o arquivo oficial já durante a validação da direção de arte. Não remova automaticamente o logo de um estudo conceitual quando sua presença for necessária para avaliar a composição. A regra é **não gerar o logo**, e não “não usar logo”.
 
+**Missing factual assets should constrain fidelity, not stop exploration.** A ausência de assets factuais deve limitar a fidelidade, não interromper a exploração criativa. Não trate toda pendência como bloqueio automático: diferencie “não posso validar fidelidade” de “não posso continuar explorando”.
+
+Ao encontrar um asset ausente:
+
+1. Marque-o como pendente e verifique se é indispensável para a decisão criativa da etapa atual.
+2. Se não for indispensável, continue a direção conceitual com placeholder neutro ou representação claramente conceitual, preservando espaço para a fonte real.
+3. Se for indispensável para validar a decisão, solicite o asset antes de avançar essa validação.
+
+Nunca substitua uma ausência factual por invenção. Uma resposta adequada é: “Ainda não tenho fotografias oficiais suficientes para validar produto e embalagem. Posso, porém, continuar com estudos de direção conceitual usando placeholders neutros e preservar áreas para os assets reais.”
+
 ## Níveis de maturidade visual
 
 ### 1. Direção conceitual
 
-Pode usar placeholders quando os fatos reais ainda não forem necessários para avaliar a direção. O estudo deve permanecer identificado como conceitual.
+Pode avançar com placeholders neutros quando os fatos reais ainda não forem necessários para avaliar a direção. O estudo deve permanecer identificado como conceitual e não valida fidelidade.
 
 ### 2. Direção de arte validável
 
@@ -317,6 +328,14 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 **Observação:** a falha ocorreu na produção. O modelo redesenhou e inventou o logo dentro da imagem gerada, embora o asset oficial devesse ter sido preservado.
 
 **Aprendizado reutilizável:** geração e composição têm responsabilidades diferentes. A geração cria o ambiente; a composição insere fontes de verdade. Quando um asset oficial influencia a avaliação visual, seu arquivo real deve ser composto no estudo em vez de ser omitido ou reconstruído pelo modelo.
+
+## Teste de continuidade com pendências
+
+**Observação:** em um novo teste, o agente respeitou melhor as fontes de verdade e evitou inventar assets ausentes.
+
+**Observação:** o excesso de cautela reduziu a proatividade. O agente interrompeu a exploração cedo e solicitou imagens antes de verificar se elas eram indispensáveis para a decisão conceitual em curso.
+
+**Aprendizado reutilizável:** uma pendência factual limita o que pode ser validado com fidelidade, mas não bloqueia necessariamente a exploração. Quando o asset não for indispensável para a etapa atual, o processo pode continuar com placeholder neutro ou representação claramente conceitual, sem transformar ausência em invenção.
 
 ## Escolha e congelamento
 

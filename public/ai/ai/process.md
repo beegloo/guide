@@ -17,11 +17,21 @@ Não peça à IA para resolver simultaneamente várias decisões criativas ainda
 
 Quando logo, wordmark, rótulo, texto impresso ou outro asset oficial influencia peso, posição, contraste, respiro ou hierarquia, use o arquivo oficial já durante a validação da direção de arte. Não remova automaticamente o logo de um estudo conceitual quando sua presença for necessária para avaliar a composição. A regra é **não gerar o logo**, e não “não usar logo”.
 
+**Missing factual assets should constrain fidelity, not stop exploration.** A ausência de assets factuais deve limitar a fidelidade, não interromper a exploração criativa. Não trate toda pendência como bloqueio automático: diferencie “não posso validar fidelidade” de “não posso continuar explorando”.
+
+Ao encontrar um asset ausente:
+
+1. Marque-o como pendente e verifique se é indispensável para a decisão criativa da etapa atual.
+2. Se não for indispensável, continue a direção conceitual com placeholder neutro ou representação claramente conceitual, preservando espaço para a fonte real.
+3. Se for indispensável para validar a decisão, solicite o asset antes de avançar essa validação.
+
+Nunca substitua uma ausência factual por invenção. Uma resposta adequada é: “Ainda não tenho fotografias oficiais suficientes para validar produto e embalagem. Posso, porém, continuar com estudos de direção conceitual usando placeholders neutros e preservar áreas para os assets reais.”
+
 ## Níveis de maturidade visual
 
 ### 1. Direção conceitual
 
-Pode usar placeholders quando os fatos reais ainda não forem necessários para avaliar a direção. O estudo deve permanecer identificado como conceitual.
+Pode avançar com placeholders neutros quando os fatos reais ainda não forem necessários para avaliar a direção. O estudo deve permanecer identificado como conceitual e não valida fidelidade.
 
 ### 2. Direção de arte validável
 
