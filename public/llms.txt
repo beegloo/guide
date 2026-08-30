@@ -7,6 +7,7 @@
 - [Contexto portátil completo](/ai/ai/brand-context.md)
 - [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
+- [Processo criativo com IA](/ai/ai/process.md)
 - [Checklist de entrega](/ai/ai/delivery-checklist.md)
 - [Catálogo e pendências de produto](/ai/products/catalog.md)
 - [Contexto integral em um arquivo](/llms-full.txt)
@@ -54,10 +55,15 @@
 - [Processo criativo com IA](/ai/ai/process.md) — ativo
 - [Contrato de prompt para IA](/ai/ai/prompt-contract.md) — ativo
 
+### Estudos de caso
+- [Case study — processo criativo do menu board](/ai/case-studies/menu-board.md) — ativo
+
 ### Referências
 - [Biblioteca de referências](/ai/references/library.md) — pendente
+- [Tipos de referência](/ai/references/types.md) — ativo
 
 ### Decisões
+- [Decisão criativa — 2026-08-30 — Fluxo criativo em etapas](/ai/decisions/2026-08-30-staged-ai-creative-process.md) — oficial
 - [Decisão criativa — AAAA-MM-DD](/ai/decisions/_template.md) — exploratório
 
 

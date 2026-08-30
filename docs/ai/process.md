@@ -3,30 +3,42 @@
 Status: ativo
 Última revisão: 2026-08-30
 
+## Princípios do processo
+
+**Exploration ≠ Execution.** Na exploração, o objetivo é produzir diversidade real entre direções e tornar escolhas visíveis. Depois que uma direção é escolhida, o objetivo muda para fidelidade, preservação e acabamento.
+
+Decisões aprovadas ficam **congeladas**. A IA não deve reinterpretá-las em rodadas posteriores, salvo quando a decisão for explicitamente reaberta. Feedback específico deve alterar apenas o que foi apontado.
+
+A liberdade criativa deve diminuir conforme aumenta a importância factual. Logo, produto, embalagem, preço, naming, ingredientes e demais fatos reais têm liberdade criativa praticamente nula. Composição, fundo, luz, enquadramento e formas de apoio podem ter maior liberdade quando o briefing permitir. As listas canônicas de elementos imutáveis e exploráveis estão no [contrato de prompt](prompt-contract.md) e em [fidelidade de produtos e embalagens](../products/product-fidelity.md).
+
+Não peça à IA para resolver simultaneamente várias decisões criativas ainda abertas. Separe direção de arte, escolha de direção, fidelidade factual, composição comercial e acabamento em rodadas com critérios próprios.
+
 ## 1. Briefing factual
 
-Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, logos, fotografias, embalagens, restrições e decisão sobre mascote.
+Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, logos, fotografias, embalagens, restrições e decisão sobre mascote. Classificar o que é imutável, explorável e pendente antes de criar.
 
 ## 2. Referência de direção
 
-Selecionar uma peça aprovada e registrar o que ela exemplifica: ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo. Não pedir apenas para “copiar o estilo”.
+Classificar cada entrada como [mood reference, brand reference ou source of truth](../references/types.md). Registrar o que uma referência de direção exemplifica — ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo — sem pedir apenas para “copiar o estilo”.
 
 ## 3. Exploração visual
 
-Gerar estudos de direção antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial.
+Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
+
+Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
 
 ## 4. Produto por produto
 
-Trabalhar CROC, SHAKE, SUNNY e CREMIX separadamente quando necessário. Validar fidelidade, embalagem, cor, forma, ingredientes, sabor, escala e recorte.
+Trabalhar CROC, SHAKE, SUNNY e CREMIX separadamente quando necessário. Validar fidelidade, embalagem, cor, forma, ingredientes, sabor, escala e recorte contra fontes de verdade, sem usar exploração visual para preencher fatos ausentes.
 
 ## 5. Composição comercial
 
-Montar produto, naming, preço, hierarquia, branding, respiro e restrições legais.
+Montar produto, naming, preço, hierarquia, branding, respiro e restrições legais somente depois que a direção estiver escolhida e os fatos necessários estiverem disponíveis.
 
 ## 6. Crítica por rodada
 
-Revisar uma classe de problema de cada vez: fidelidade, direção de arte, hierarquia, legibilidade, consistência e acabamento.
+Revisar uma classe de problema de cada vez: fidelidade, direção de arte, hierarquia, legibilidade, consistência e acabamento. Refinar por feedback específico em vez de regenerar toda a peça. Se uma decisão congelada precisar mudar, reabri-la nominalmente e registrar o motivo.
 
 ## 7. Validação final
 
-Comparar o resultado com fatos imutáveis, referências reais e checklist de entrega. A aprovação humana deve ser registrada.
+Comparar o resultado com fatos imutáveis, referências reais e [checklist de entrega](delivery-checklist.md). A aprovação humana deve ser registrada em `docs/decisions/` quando estabelecer ou alterar uma regra reutilizável.

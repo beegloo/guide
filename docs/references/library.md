@@ -3,6 +3,8 @@
 Status: pendente
 Última revisão: 2026-08-30
 
+Antes de registrar uma peça, classifique seu papel conforme [Tipos de referência](types.md). Aprovação editorial e função da referência são dimensões diferentes: uma peça aprovada ainda deve ser identificada como mood reference, brand reference ou source of truth.
+
 ## Aprovadas
 
 Peças validadas que representam corretamente o sistema. Cada registro deve explicar o que funciona, qual decisão exemplifica e em quais contextos pode orientar novos trabalhos.

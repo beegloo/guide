@@ -4,8 +4,9 @@
 
 1. Comece por `docs/ai/brand-context.md`. Ele contém o contexto portátil, as invariantes da marca e os limites contra inferência.
 2. Consulte `docs/foundations/sources-of-truth.md` para resolver precedência e conflitos entre fontes.
-3. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
-4. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
+3. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
+4. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
+5. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
 
 ## Arquitetura de conteúdo
 

@@ -28,7 +28,8 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 - `photography/`: direção e fidelidade.
 - `commercial/`: menu boards, hierarquia e preços.
 - `applications/`: composição e aplicações prioritárias.
-- `ai/`: contexto portátil, contrato de prompt e checklist.
+- `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
+- `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.
-- `references/`: exemplos aprovados, rejeitados e exploratórios.
+- `references/`: tipos de referência e exemplos aprovados, rejeitados ou exploratórios.
 - `tokens/`: dados estruturados consumíveis por software.

@@ -32,9 +32,10 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 - `photography/`: direção e fidelidade.
 - `commercial/`: menu boards, hierarquia e preços.
 - `applications/`: composição e aplicações prioritárias.
-- `ai/`: contexto portátil, contrato de prompt e checklist.
+- `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
+- `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.
-- `references/`: exemplos aprovados, rejeitados e exploratórios.
+- `references/`: tipos de referência e exemplos aprovados, rejeitados ou exploratórios.
 - `tokens/`: dados estruturados consumíveis por software.
 
 ---
@@ -86,6 +87,8 @@ Em menu boards, o público deve identificar rapidamente categoria, produto, dife
 Quando houver construção oficial, o mascote poderá orientar, celebrar, educar ou cumprir função narrativa. Normalmente deve ser evitado quando o produto precisa dominar, em menu boards densos, comunicação premium, materiais técnicos ou layouts pequenos. Nunca substitui o logo.
 
 ## Regra operacional para IA
+
+Para conduzir trabalhos criativos, siga o [Processo criativo com IA](process.md). O documento separa exploração de execução e aponta as regras canônicas de fidelidade sem substituir este contexto.
 
 Antes de produzir qualquer saída, separe explicitamente:
 
@@ -144,33 +147,45 @@ Status: ativo
 Status: ativo
 Última revisão: 2026-08-30
 
+## Princípios do processo
+
+**Exploration ≠ Execution.** Na exploração, o objetivo é produzir diversidade real entre direções e tornar escolhas visíveis. Depois que uma direção é escolhida, o objetivo muda para fidelidade, preservação e acabamento.
+
+Decisões aprovadas ficam **congeladas**. A IA não deve reinterpretá-las em rodadas posteriores, salvo quando a decisão for explicitamente reaberta. Feedback específico deve alterar apenas o que foi apontado.
+
+A liberdade criativa deve diminuir conforme aumenta a importância factual. Logo, produto, embalagem, preço, naming, ingredientes e demais fatos reais têm liberdade criativa praticamente nula. Composição, fundo, luz, enquadramento e formas de apoio podem ter maior liberdade quando o briefing permitir. As listas canônicas de elementos imutáveis e exploráveis estão no [contrato de prompt](prompt-contract.md) e em [fidelidade de produtos e embalagens](../products/product-fidelity.md).
+
+Não peça à IA para resolver simultaneamente várias decisões criativas ainda abertas. Separe direção de arte, escolha de direção, fidelidade factual, composição comercial e acabamento em rodadas com critérios próprios.
+
 ## 1. Briefing factual
 
-Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, logos, fotografias, embalagens, restrições e decisão sobre mascote.
+Reunir objetivo, formato, canal, público, produtos, naming, preços, textos, logos, fotografias, embalagens, restrições e decisão sobre mascote. Classificar o que é imutável, explorável e pendente antes de criar.
 
 ## 2. Referência de direção
 
-Selecionar uma peça aprovada e registrar o que ela exemplifica: ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo. Não pedir apenas para “copiar o estilo”.
+Classificar cada entrada como [mood reference, brand reference ou source of truth](../references/types.md). Registrar o que uma referência de direção exemplifica — ritmo, paleta, peso das formas, hierarquia, luz, respiro e relação entre produto e grafismo — sem pedir apenas para “copiar o estilo”.
 
 ## 3. Exploração visual
 
-Gerar estudos de direção antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial.
+Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
+
+Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
 
 ## 4. Produto por produto
 
-Trabalhar CROC, SHAKE, SUNNY e CREMIX separadamente quando necessário. Validar fidelidade, embalagem, cor, forma, ingredientes, sabor, escala e recorte.
+Trabalhar CROC, SHAKE, SUNNY e CREMIX separadamente quando necessário. Validar fidelidade, embalagem, cor, forma, ingredientes, sabor, escala e recorte contra fontes de verdade, sem usar exploração visual para preencher fatos ausentes.
 
 ## 5. Composição comercial
 
-Montar produto, naming, preço, hierarquia, branding, respiro e restrições legais.
+Montar produto, naming, preço, hierarquia, branding, respiro e restrições legais somente depois que a direção estiver escolhida e os fatos necessários estiverem disponíveis.
 
 ## 6. Crítica por rodada
 
-Revisar uma classe de problema de cada vez: fidelidade, direção de arte, hierarquia, legibilidade, consistência e acabamento.
+Revisar uma classe de problema de cada vez: fidelidade, direção de arte, hierarquia, legibilidade, consistência e acabamento. Refinar por feedback específico em vez de regenerar toda a peça. Se uma decisão congelada precisar mudar, reabri-la nominalmente e registrar o motivo.
 
 ## 7. Validação final
 
-Comparar o resultado com fatos imutáveis, referências reais e checklist de entrega. A aprovação humana deve ser registrada.
+Comparar o resultado com fatos imutáveis, referências reais e [checklist de entrega](delivery-checklist.md). A aprovação humana deve ser registrada em `docs/decisions/` quando estabelecer ou alterar uma regra reutilizável.
 
 ---
 
@@ -236,6 +251,71 @@ Status: ativo
 - Fotografia e campanhas de produto.
 
 Cada aplicação crítica ainda precisa de pelo menos uma referência explicitamente aprovada.
+
+---
+
+<!-- source: docs/case-studies/menu-board.md -->
+
+# Case study — processo criativo do menu board
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Este documento registra o aprendizado de processo do primeiro caso real usado para validar o fluxo criativo com IA. Ele não homologa detalhes visuais, preços, produtos ou especificações do menu board.
+
+## Como ler este caso
+
+- **Observação:** o que ocorreu neste trabalho.
+- **Aprendizado reutilizável:** princípio que pode orientar trabalhos futuros.
+- **Decisão oficial:** regra formal registrada em `docs/decisions/`.
+
+## Contexto e problema
+
+**Observação:** era necessário desenvolver um menu board coerente com a Beegloo, comercialmente claro e confiável em seus elementos reais. A entrega combinava decisões de direção de arte com fotografia, embalagem, branding, preço, conteúdo e layout.
+
+## Abordagem inicial
+
+**Observação:** as primeiras tentativas pediam à IA que resolvesse simultaneamente layout final, fotografia, embalagem, branding, preço e direção de arte.
+
+**Observação:** os resultados ficaram genéricos ou pouco confiáveis. Muitas variáveis abertas no mesmo pedido dificultaram avaliar a direção visual e aumentaram a chance de a IA improvisar fatos, descaracterizar elementos aprovados ou trocar uma decisão já boa ao corrigir outra.
+
+**Aprendizado reutilizável:** uma rodada não deve concentrar várias decisões criativas ainda abertas. Quanto mais objetivos independentes existem em uma geração, menor é o controle sobre cada um.
+
+## Mudança para direção de arte
+
+**Observação:** o processo melhorou quando foi criada uma etapa exclusiva de direção de arte, anterior à execução final. Nela, o objetivo era comparar alternativas de linguagem e composição, não produzir uma peça pronta.
+
+**Observação:** múltiplas direções foram geradas antes da execução. A diversidade entre propostas tornou a escolha mais consciente e evitou confundir pequenas variações com caminhos realmente distintos.
+
+**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md).
+
+## Escolha e congelamento
+
+**Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.
+
+**Observação:** o refinamento funcionou melhor com feedback específico — indicando o elemento, o problema e a mudança esperada — do que com regenerações totais.
+
+**Aprendizado reutilizável:** uma decisão aprovada não deve voltar a ser variável por padrão. Se precisar mudar, deve ser explicitamente reaberta.
+
+## Conteúdo comercial e fidelidade
+
+**Observação:** preços e conteúdo comercial entraram depois da definição da direção, quando já podiam ser tratados como informação a compor, e não como parte da exploração visual.
+
+**Observação:** produto e embalagem reais precisaram ser tratados como fontes de verdade, não como sugestões estéticas. As regras aplicáveis já estão documentadas em [Fontes de verdade](../foundations/sources-of-truth.md) e [Fidelidade de produtos e embalagens](../products/product-fidelity.md).
+
+**Aprendizado reutilizável:** a liberdade criativa diminui à medida que cresce a importância factual do elemento.
+
+## Decisão oficial
+
+O fluxo criativo em etapas passa a ser o processo recomendado para trabalhos criativos com IA na Beegloo. A decisão formal, suas consequências e seus limites estão em [Fluxo criativo em etapas](../decisions/2026-08-30-staged-ai-creative-process.md).
+
+## Limites da generalização
+
+O caso valida um método, não uma estética específica. Layout, quantidade de direções, estilo fotográfico, hierarquia, dimensões, preços e demais detalhes deste menu board não se tornam regras universais sem homologação própria. Pendências existentes continuam pendentes.
+
+## Principal aprendizado
+
+Usar IA como processo criativo em etapas, e não como gerador de peça final em um único pedido.
 
 ---
 
@@ -348,6 +428,63 @@ O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o
 - Combos, adicionais e tamanhos.
 - Alinhamento e espaçamento.
 - Informações legais obrigatórias por canal.
+
+---
+
+<!-- source: docs/decisions/2026-08-30-staged-ai-creative-process.md -->
+
+# Decisão criativa — 2026-08-30 — Fluxo criativo em etapas
+
+Status: oficial
+Última revisão: 2026-08-30
+
+## Contexto
+
+Trabalhos criativos com IA para a Beegloo podem combinar decisões de direção de arte, fidelidade factual, composição comercial e acabamento. O primeiro caso real documentado foi o desenvolvimento de um menu board.
+
+## Problema
+
+Solicitar todas essas decisões em uma única geração produziu resultados genéricos, dificultou a avaliação e aumentou o risco de reinterpretar elementos aprovados ou inventar fatos.
+
+## Motivação
+
+Separar exploração de execução tornou as escolhas comparáveis, reduziu variáveis por rodada e permitiu preservar decisões aprovadas enquanto problemas específicos eram refinados.
+
+## Decisão aprovada
+
+O fluxo criativo em etapas passa a ser o processo recomendado para trabalhos criativos com IA na Beegloo. O trabalho deve separar briefing factual, classificação de referências, exploração de direções, escolha e congelamento, execução factual, composição comercial, refinamento específico e validação.
+
+## O que passa a ser regra
+
+- Exploração e execução têm objetivos diferentes e não devem ser comprimidas em um único pedido.
+- Direções distintas devem ser avaliadas antes da execução quando houver decisões relevantes ainda abertas.
+- Decisões aprovadas ficam congeladas até serem explicitamente reabertas.
+- A liberdade criativa diminui conforme aumenta a importância factual.
+- Feedback de refinamento deve ser específico e preservar tudo que não foi reaberto.
+- O processo detalhado vive em [Processo criativo com IA](../ai/process.md).
+
+## Consequências
+
+Briefings e revisões passam a declarar a etapa atual, as decisões abertas e as decisões congeladas. A aprovação intermediária ganha valor documental, e regenerações totais deixam de ser a resposta padrão para ajustes localizados.
+
+## O que vale apenas para esta peça
+
+As soluções visuais, a quantidade de estudos, a composição, o conteúdo e qualquer especificação observada no menu board permanecem circunstanciais até homologação própria.
+
+## Fora de escopo
+
+Esta decisão não homologa catálogo, preços, produtos, embalagens, fotografia, mascote, regras de logo, safe areas, dimensões tipográficas ou uma ferramenta específica de IA. Também não cria uma Skill paralela.
+
+## Referências
+
+- [Case study do menu board](../case-studies/menu-board.md)
+- [Tipos de referência](../references/types.md)
+- [Contrato de prompt](../ai/prompt-contract.md)
+- [Fontes de verdade](../foundations/sources-of-truth.md)
+
+## Aprovação
+
+Processo registrado como oficial em 2026-08-30 a partir da validação prática relatada pelo mantenedor do repositório. Deve ser substituído por uma nova decisão datada caso o método seja alterado.
 
 ---
 
@@ -868,6 +1005,8 @@ Não produzir uma representação factual de SUNNY sem receber essas fontes.
 Status: pendente
 Última revisão: 2026-08-30
 
+Antes de registrar uma peça, classifique seu papel conforme [Tipos de referência](types.md). Aprovação editorial e função da referência são dimensões diferentes: uma peça aprovada ainda deve ser identificada como mood reference, brand reference ou source of truth.
+
 ## Aprovadas
 
 Peças validadas que representam corretamente o sistema. Cada registro deve explicar o que funciona, qual decisão exemplifica e em quais contextos pode orientar novos trabalhos.
@@ -885,3 +1024,28 @@ Nenhuma peça foi registrada formalmente nesta categoria ainda.
 Estudos ainda não homologados. Devem permanecer claramente identificados como não oficiais.
 
 Uma peça gerada por IA somente pode entrar em “aprovadas” após validação humana explícita.
+
+---
+
+<!-- source: docs/references/types.md -->
+
+# Tipos de referência
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Classifique cada referência antes de iniciar uma exploração. O tipo define o que pode ser interpretado e o que deve ser preservado.
+
+## Mood reference
+
+Inspira atmosfera, ritmo, energia, composição e nível de acabamento. Deve ser traduzida para o sistema Beegloo, não copiada literalmente. Não autoriza reproduzir identidade, produto ou elementos proprietários de outra peça.
+
+## Brand reference
+
+Define identidade, paleta, tipografia, linguagem visual e comportamento da marca. Deve ser aplicada de acordo com seu status e com a [ordem de precedência das fontes](../foundations/sources-of-truth.md).
+
+## Source of truth
+
+Representa um fato real que deve ser preservado fielmente, como logo oficial, produto, embalagem, fotografia real, preço aprovado ou especificação. Uma source of truth nunca deve ser tratada apenas como inspiração visual, estilizada para combinar com um mood ou substituída por uma aproximação.
+
+Quando uma mesma entrega contiver os três tipos, mantenha seus papéis separados: o mood orienta direção, a brand reference orienta identidade e a source of truth limita a execução factual.

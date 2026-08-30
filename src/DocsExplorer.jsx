@@ -9,27 +9,42 @@ const categoryNames = {
   commercial: 'Comercial',
   applications: 'Aplicações',
   ai: 'Inteligência artificial',
+  'case-studies': 'Estudos de caso',
   decisions: 'Decisões',
   references: 'Referências',
 }
 
 const statusNames = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'references', 'decisions']
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'case-studies', 'references', 'decisions']
 
 const specialLine = /^(#{1,6}\s|[-*]\s|\d+\.\s|>\s|```|---$|\|)/
 
-function Inline({ children }) {
+function resolveHref(href, currentPath) {
+  if (!currentPath || href.startsWith('/') || href.startsWith('#') || /^[a-z][a-z0-9+.-]*:/i.test(href)) return href
+  const relativePath = href.split('#')[0]
+  if (!relativePath.endsWith('.md')) return href
+
+  const segments = currentPath.split('/')
+  segments.pop()
+  relativePath.split('/').forEach((segment) => {
+    if (segment === '..') segments.pop()
+    else if (segment !== '.') segments.push(segment)
+  })
+  return `/docs?doc=${encodeURIComponent(segments.join('/'))}#docs`
+}
+
+function Inline({ children, currentPath }) {
   const parts = String(children).split(/(`[^`]+`|\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g)
   return parts.map((part, index) => {
     if (part.startsWith('`') && part.endsWith('`')) return <code key={index}>{part.slice(1, -1)}</code>
     if (part.startsWith('**') && part.endsWith('**')) return <strong key={index}>{part.slice(2, -2)}</strong>
     const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
-    if (link) return <a key={index} href={link[2]}>{link[1]}</a>
+    if (link) return <a key={index} href={resolveHref(link[2], currentPath)}>{link[1]}</a>
     return part
   })
 }
 
-function Markdown({ source }) {
+function Markdown({ source, currentPath }) {
   const lines = source.replace(/\r/g, '').split('\n')
   const blocks = []
   let index = 0
@@ -42,7 +57,7 @@ function Markdown({ source }) {
     const heading = line.match(/^(#{1,6})\s+(.+)$/)
     if (heading) {
       const Level = `h${heading[1].length}`
-      blocks.push(<Level key={`block-${blockIndex++}`}><Inline>{heading[2]}</Inline></Level>)
+      blocks.push(<Level key={`block-${blockIndex++}`}><Inline currentPath={currentPath}>{heading[2]}</Inline></Level>)
       index += 1
       continue
     }
@@ -59,21 +74,21 @@ function Markdown({ source }) {
     if (/^[-*]\s/.test(line)) {
       const items = []
       while (index < lines.length && /^[-*]\s/.test(lines[index])) items.push(lines[index++].replace(/^[-*]\s/, ''))
-      blocks.push(<ul key={`block-${blockIndex++}`}>{items.map((item, itemIndex) => <li key={itemIndex}><Inline>{item}</Inline></li>)}</ul>)
+      blocks.push(<ul key={`block-${blockIndex++}`}>{items.map((item, itemIndex) => <li key={itemIndex}><Inline currentPath={currentPath}>{item}</Inline></li>)}</ul>)
       continue
     }
 
     if (/^\d+\.\s/.test(line)) {
       const items = []
       while (index < lines.length && /^\d+\.\s/.test(lines[index])) items.push(lines[index++].replace(/^\d+\.\s/, ''))
-      blocks.push(<ol key={`block-${blockIndex++}`}>{items.map((item, itemIndex) => <li key={itemIndex}><Inline>{item}</Inline></li>)}</ol>)
+      blocks.push(<ol key={`block-${blockIndex++}`}>{items.map((item, itemIndex) => <li key={itemIndex}><Inline currentPath={currentPath}>{item}</Inline></li>)}</ol>)
       continue
     }
 
     if (line.startsWith('> ')) {
       const quote = []
       while (index < lines.length && lines[index].startsWith('> ')) quote.push(lines[index++].slice(2))
-      blocks.push(<blockquote key={`block-${blockIndex++}`}><Inline>{quote.join(' ')}</Inline></blockquote>)
+      blocks.push(<blockquote key={`block-${blockIndex++}`}><Inline currentPath={currentPath}>{quote.join(' ')}</Inline></blockquote>)
       continue
     }
 
@@ -81,7 +96,7 @@ function Markdown({ source }) {
       const rows = []
       while (index < lines.length && lines[index].startsWith('|')) rows.push(lines[index++].split('|').slice(1, -1).map((cell) => cell.trim()))
       const [header, , ...body] = rows
-      blocks.push(<div className="doc-table-wrap" key={`block-${blockIndex++}`}><table><thead><tr>{header.map((cell, cellIndex) => <th key={cellIndex}><Inline>{cell}</Inline></th>)}</tr></thead><tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}><Inline>{cell}</Inline></td>)}</tr>)}</tbody></table></div>)
+      blocks.push(<div className="doc-table-wrap" key={`block-${blockIndex++}`}><table><thead><tr>{header.map((cell, cellIndex) => <th key={cellIndex}><Inline currentPath={currentPath}>{cell}</Inline></th>)}</tr></thead><tbody>{body.map((row, rowIndex) => <tr key={rowIndex}>{row.map((cell, cellIndex) => <td key={cellIndex}><Inline currentPath={currentPath}>{cell}</Inline></td>)}</tr>)}</tbody></table></div>)
       continue
     }
 
@@ -90,7 +105,7 @@ function Markdown({ source }) {
     const paragraph = [line]
     index += 1
     while (index < lines.length && lines[index].trim() && !specialLine.test(lines[index])) paragraph.push(lines[index++])
-    blocks.push(<p key={`block-${blockIndex++}`}><Inline>{paragraph.join(' ')}</Inline></p>)
+    blocks.push(<p key={`block-${blockIndex++}`}><Inline currentPath={currentPath}>{paragraph.join(' ')}</Inline></p>)
   }
 
   return <div className="markdown">{blocks}</div>
@@ -193,7 +208,7 @@ export default function DocsExplorer() {
     </aside>
     <article className="docs-reader" aria-live="polite">
       <header><div><small>FONTE CANÔNICA · MARKDOWN</small><strong>{current?.path || selected}</strong></div><div className="docs-actions">{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}<button type="button" onClick={copyLink}>{copyState}</button></div></header>
-      {error ? <p className="docs-error">{error}</p> : content ? <Markdown source={content}/> : <p className="docs-loading">Carregando documento…</p>}
+      {error ? <p className="docs-error">{error}</p> : content ? <Markdown source={content} currentPath={selected}/> : <p className="docs-loading">Carregando documento…</p>}
     </article>
   </div>
 }

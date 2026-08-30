@@ -21,8 +21,8 @@ const markdownFiles = allFiles.filter((file) => file.endsWith('.md'))
 const colors = JSON.parse(await readFile(path.join(docsRoot, 'tokens/colors.json'), 'utf8'))
 const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
 const statusLabels = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', photography: 'Fotografia', commercial: 'Comercial', applications: 'Aplicações', ai: 'Inteligência artificial', references: 'Referências', decisions: 'Decisões' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'references', 'decisions']
+const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', photography: 'Fotografia', commercial: 'Comercial', applications: 'Aplicações', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', decisions: 'Decisões' }
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'case-studies', 'references', 'decisions']
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
@@ -79,6 +79,7 @@ const llms = `# Beegloo Brand Guide
 - [Contexto portátil completo](/ai/ai/brand-context.md)
 - [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
+- [Processo criativo com IA](/ai/ai/process.md)
 - [Checklist de entrega](/ai/ai/delivery-checklist.md)
 - [Catálogo e pendências de produto](/ai/products/catalog.md)
 - [Contexto integral em um arquivo](/llms-full.txt)

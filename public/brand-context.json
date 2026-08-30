@@ -128,9 +128,11 @@
     "/ai/ai/process.md",
     "/ai/ai/prompt-contract.md",
     "/ai/applications/composition.md",
+    "/ai/case-studies/menu-board.md",
     "/ai/commercial/hierarchy.md",
     "/ai/commercial/menu-boards.md",
     "/ai/commercial/pricing.md",
+    "/ai/decisions/2026-08-30-staged-ai-creative-process.md",
     "/ai/decisions/_template.md",
     "/ai/foundations/brand-essence.md",
     "/ai/foundations/sources-of-truth.md",
@@ -146,7 +148,8 @@
     "/ai/products/product-fidelity.md",
     "/ai/products/shake.md",
     "/ai/products/sunny.md",
-    "/ai/references/library.md"
+    "/ai/references/library.md",
+    "/ai/references/types.md"
   ],
   "documentIndex": [
     {
@@ -198,6 +201,14 @@
       "source": "/ai/applications/composition.md"
     },
     {
+      "path": "case-studies/menu-board.md",
+      "title": "Case study — processo criativo do menu board",
+      "category": "case-studies",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/case-studies/menu-board.md"
+    },
+    {
       "path": "commercial/hierarchy.md",
       "title": "Hierarquia comercial",
       "category": "commercial",
@@ -220,6 +231,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/commercial/pricing.md"
+    },
+    {
+      "path": "decisions/2026-08-30-staged-ai-creative-process.md",
+      "title": "Decisão criativa — 2026-08-30 — Fluxo criativo em etapas",
+      "category": "decisions",
+      "status": "official",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/decisions/2026-08-30-staged-ai-creative-process.md"
     },
     {
       "path": "decisions/_template.md",
@@ -348,6 +367,14 @@
       "status": "pending",
       "lastReviewed": "2026-08-30",
       "source": "/ai/references/library.md"
+    },
+    {
+      "path": "references/types.md",
+      "title": "Tipos de referência",
+      "category": "references",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/references/types.md"
     }
   ]
 }

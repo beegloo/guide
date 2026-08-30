@@ -44,6 +44,8 @@ Quando houver construção oficial, o mascote poderá orientar, celebrar, educar
 
 ## Regra operacional para IA
 
+Para conduzir trabalhos criativos, siga o [Processo criativo com IA](process.md). O documento separa exploração de execução e aponta as regras canônicas de fidelidade sem substituir este contexto.
+
 Antes de produzir qualquer saída, separe explicitamente:
 
 - Imutável: logo, produto, embalagem, naming, preços, textos aprovados, sabores, quantidades, formato final e restrições legais.
