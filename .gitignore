@@ -17,5 +17,5 @@ dist/
 .idea/
 .vscode/
 
-# Vercel local state
-.vercel/
+# Cloudflare local state
+.wrangler/

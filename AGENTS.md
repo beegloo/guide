@@ -55,6 +55,6 @@ Não trate essas pendências como defeitos do sistema e não as resolva por supo
 - Antes de remover qualquer temporário, confirme que nenhum conteúdo exclusivo ficou fora deste repositório.
 - Mantenha o código em `src/` e arquivos estáticos em `public/`.
 - Use nomes de arquivos, pastas, identificadores e URLs em inglês. Mantenha textos exibidos ao usuário em português.
-- Não versione segredos, arquivos `.env`, `node_modules/`, `dist/` ou `.vercel/`.
-- Mantenha as mudanças acessíveis, responsivas e adequadas à publicação na Vercel.
+- Não versione segredos, arquivos `.env`, `node_modules/`, `dist/` ou `.wrangler/`.
+- Mantenha as mudanças acessíveis, responsivas e adequadas à publicação no Cloudflare Pages.
 - Não publique sem solicitação explícita.

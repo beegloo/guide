@@ -26,7 +26,7 @@ npm run build
 npm run preview
 ```
 
-The production output is written to `dist/`. Vite's default build settings are compatible with a later Vercel deployment; this repository does not deploy automatically.
+The production output is written to `dist/`. The project is compatible with Cloudflare Pages using `npm run build` and the `dist` output directory.
 
 ## Contexto para IA
 
