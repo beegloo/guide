@@ -150,6 +150,8 @@ Status: ativo
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
+- [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
+- [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
 - [ ] O uso ou a ausência do mascote foi consciente.
@@ -240,6 +242,8 @@ Não consulte `docs/benchmarks/` durante briefing ou exploração. **A benchmark
 Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
 
 **Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
+
+Na exploração de Marketing, antes de desenhar containers, teste se o assunto pode gerar a composição por meio de massa, silhueta, escala, recorte, tipo, ritmo e espaço. Preserve nos placeholders a silhueta composicional conhecida sem inventar detalhes factuais. Esta orientação não se aplica como regra aos fluxos de UI.
 
 Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
 
@@ -359,6 +363,16 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 **Observação:** a gramática de UI dominou a composição e reduziu desejo, impacto comercial e qualidade da direção de arte. Notas de processo também passaram a competir com a peça dirigida ao consumidor.
 
 **Aprendizado reutilizável:** conceptual ≠ schematic. Um placeholder deve preservar peso visual sem inventar detalhe factual; marketing não herda automaticamente a gramática de interface; anotações de processo ficam normalmente fora da composição para consumidor. O guide de [Marketing e criação comercial](../marketing/principles.md) registra essas regras sem transformar a estética deste menu board em padrão universal.
+
+## Teste de composição container-first
+
+**Observação:** um teste posterior usou formas grandes, cor, assimetria e alguma variação de escala, melhorando em relação ao wireframe anterior. Ainda assim, grandes módulos arredondados definiram primeiro a estrutura e cada família permaneceu contida em sua própria área.
+
+**Observação:** os placeholders eram ovais genéricos, “preço pendente” virou pill e “estudo conceitual” entrou na peça. O resultado ficou entre interface, editorial e infografia, sem atingir o nível desejado de food advertising.
+
+**Aprendizado reutilizável:** evite container-first composition como default. Quando o canal pedir protagonismo visual, teste se assunto, produto, silhueta, massa, escala, recorte, tipo e espaço podem gerar a composição. Estrutura pode ser implícita, e placeholders devem preservar silhueta composicional além de área aproximada.
+
+Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem transforma uma solução específica em regra universal.
 
 ## Escolha e congelamento
 
@@ -833,6 +847,26 @@ Quando o canal pedir impacto, use conscientemente sobreposição, recorte, escal
 
 Produto não é apenas conteúdo a encaixar. Pode atuar como hero, âncora, elemento de profundidade, ruptura de grid ou massa dominante, sempre preservando [fidelidade factual](../products/product-fidelity.md).
 
+## Componha a partir do assunto, não dos containers
+
+**Compose from the subject, not from containers.** Em Marketing / Commercial Creative, não comece automaticamente desenhando caixas, cards ou painéis para depois preenchê-los. A composição pode nascer da massa e direção da fotografia, silhueta, recorte, escala, overlap, tipografia, espaço negativo e relações entre primeiro plano, plano médio e fundo. Em food advertising, o produto pode definir a arquitetura da peça.
+
+Evite usar como default o fluxo “criar containers, atribuir uma categoria a cada um e inserir produto, nome e preço dentro de cada módulo”. Ele tende a produzir catálogo, interface ou infografia. Zonas e territórios visuais podem existir sem serem materializados como cards.
+
+Containers continuam válidos quando cumprem uma intenção composicional real. A regra orienta o ponto de partida e não proíbe uma solução de layout.
+
+## Estrutura pode ser implícita
+
+**Structure can be implicit.** Organização pode surgir de alinhamento, proximidade, contraste, escala, cor, direção, overlap, repetição com variação, ritmo, espaço negativo, eixo visual e relações entre elementos. A ausência de uma superfície fechada não significa ausência de estrutura.
+
+Evite converter automaticamente toda hierarquia em card, painel, pill, box ou módulo. Em uma composição publicitária, a estrutura pode ser percebida sem estar literalmente desenhada.
+
+## Silhueta antes do detalhe factual
+
+**Product silhouette matters before product detail.** Preservar peso visual também exige preservar a silhueta composicional relevante quando ela for conhecida. Em estudos conceituais, placeholders podem representar orientação, altura e largura relativas, proporção, centro de massa, presença vertical ou horizontal, base, topo, recorte provável e ocupação no quadro.
+
+O placeholder permanece abstrato o suficiente para não inventar produto, embalagem, ingrediente, rótulo ou acabamento, mas específico o suficiente para permitir julgar direção de arte. Se essas diferenças afetarem a composição, um cone, um copo alto e um pote baixo não devem ser reduzidos ao mesmo oval genérico.
+
 ## Integração entre fotografia, tipografia e grafismo
 
 Não trate automaticamente foto, nome, preço e fundo como camadas independentes. Faça-os participar de uma mesma composição. Tipografia também pode funcionar como massa visual sem perder leitura ou alterar conteúdo aprovado.
@@ -852,7 +886,7 @@ Avalie apetite, desejo, impacto, proximidade sensorial, força de produto e ener
 ## Princípios conectados
 
 - **Conceptual ≠ schematic.** Uma direção conceitual continua precisando ser visualmente avaliável.
-- **Placeholder preserves visual weight, not factual detail.** Preserve massa, escala, posição, proporção, recorte, presença e impacto sem inventar fatos.
+- **Placeholder preserves visual weight, not factual detail.** Preserve também a silhueta composicional necessária, sem inventar fatos.
 - **Rules constrain. References calibrate.** Regras limitam erros; [referências gerais](../references/library.md) ajudam a calibrar o olhar sem oferecer uma resposta-alvo.
 - **Exploration ≠ Execution.** Explore diversidade antes de congelar e preservar uma direção.
 - A liberdade criativa diminui conforme aumenta a importância factual.

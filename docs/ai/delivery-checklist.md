@@ -27,6 +27,8 @@ Status: ativo
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
+- [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
+- [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
 - [ ] O uso ou a ausência do mascote foi consciente.

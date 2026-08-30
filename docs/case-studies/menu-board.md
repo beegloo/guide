@@ -55,6 +55,16 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** conceptual ≠ schematic. Um placeholder deve preservar peso visual sem inventar detalhe factual; marketing não herda automaticamente a gramática de interface; anotações de processo ficam normalmente fora da composição para consumidor. O guide de [Marketing e criação comercial](../marketing/principles.md) registra essas regras sem transformar a estética deste menu board em padrão universal.
 
+## Teste de composição container-first
+
+**Observação:** um teste posterior usou formas grandes, cor, assimetria e alguma variação de escala, melhorando em relação ao wireframe anterior. Ainda assim, grandes módulos arredondados definiram primeiro a estrutura e cada família permaneceu contida em sua própria área.
+
+**Observação:** os placeholders eram ovais genéricos, “preço pendente” virou pill e “estudo conceitual” entrou na peça. O resultado ficou entre interface, editorial e infografia, sem atingir o nível desejado de food advertising.
+
+**Aprendizado reutilizável:** evite container-first composition como default. Quando o canal pedir protagonismo visual, teste se assunto, produto, silhueta, massa, escala, recorte, tipo e espaço podem gerar a composição. Estrutura pode ser implícita, e placeholders devem preservar silhueta composicional além de área aproximada.
+
+Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem transforma uma solução específica em regra universal.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.
