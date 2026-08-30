@@ -116,6 +116,10 @@
   ],
   "productCatalogStatus": "pending",
   "mascotAssetStatus": "missing",
+  "channelGuides": {
+    "marketing": "/ai/marketing/principles.md",
+    "ui": "/ai/ui/principles.md"
+  },
   "invariants": [
     "Never recreate or modify official logos.",
     "Never infer product, packaging, naming, flavor, price, or legal facts.",
@@ -127,21 +131,22 @@
     "/ai/ai/delivery-checklist.md",
     "/ai/ai/process.md",
     "/ai/ai/prompt-contract.md",
-    "/ai/applications/composition.md",
     "/ai/case-studies/menu-board.md",
-    "/ai/commercial/hierarchy.md",
-    "/ai/commercial/menu-boards.md",
-    "/ai/commercial/pricing.md",
     "/ai/decisions/2026-08-30-staged-ai-creative-process.md",
     "/ai/decisions/_template.md",
     "/ai/foundations/brand-essence.md",
+    "/ai/foundations/composition.md",
     "/ai/foundations/sources-of-truth.md",
     "/ai/identity/colors.md",
     "/ai/identity/logo.md",
     "/ai/identity/mascot.md",
-    "/ai/identity/shapes-and-ui.md",
+    "/ai/identity/shapes.md",
     "/ai/identity/typography.md",
-    "/ai/photography/principles.md",
+    "/ai/marketing/commercial-hierarchy.md",
+    "/ai/marketing/menu-boards.md",
+    "/ai/marketing/photography.md",
+    "/ai/marketing/pricing.md",
+    "/ai/marketing/principles.md",
     "/ai/products/catalog.md",
     "/ai/products/cremix.md",
     "/ai/products/croc.md",
@@ -149,7 +154,8 @@
     "/ai/products/shake.md",
     "/ai/products/sunny.md",
     "/ai/references/library.md",
-    "/ai/references/types.md"
+    "/ai/references/types.md",
+    "/ai/ui/principles.md"
   ],
   "documentIndex": [
     {
@@ -193,44 +199,12 @@
       "source": "/ai/ai/prompt-contract.md"
     },
     {
-      "path": "applications/composition.md",
-      "title": "Composição e aplicações",
-      "category": "applications",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/applications/composition.md"
-    },
-    {
       "path": "case-studies/menu-board.md",
       "title": "Case study — processo criativo do menu board",
       "category": "case-studies",
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/case-studies/menu-board.md"
-    },
-    {
-      "path": "commercial/hierarchy.md",
-      "title": "Hierarquia comercial",
-      "category": "commercial",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/commercial/hierarchy.md"
-    },
-    {
-      "path": "commercial/menu-boards.md",
-      "title": "Menu boards",
-      "category": "commercial",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/commercial/menu-boards.md"
-    },
-    {
-      "path": "commercial/pricing.md",
-      "title": "Sistema de preços",
-      "category": "commercial",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/commercial/pricing.md"
     },
     {
       "path": "decisions/2026-08-30-staged-ai-creative-process.md",
@@ -255,6 +229,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/foundations/brand-essence.md"
+    },
+    {
+      "path": "foundations/composition.md",
+      "title": "Composição",
+      "category": "foundations",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/foundations/composition.md"
     },
     {
       "path": "foundations/sources-of-truth.md",
@@ -289,12 +271,12 @@
       "source": "/ai/identity/mascot.md"
     },
     {
-      "path": "identity/shapes-and-ui.md",
-      "title": "Formas e interface",
+      "path": "identity/shapes.md",
+      "title": "Formas da identidade",
       "category": "identity",
       "status": "active",
       "lastReviewed": "2026-08-30",
-      "source": "/ai/identity/shapes-and-ui.md"
+      "source": "/ai/identity/shapes.md"
     },
     {
       "path": "identity/typography.md",
@@ -305,12 +287,44 @@
       "source": "/ai/identity/typography.md"
     },
     {
-      "path": "photography/principles.md",
-      "title": "Direção fotográfica",
-      "category": "photography",
+      "path": "marketing/commercial-hierarchy.md",
+      "title": "Hierarquia comercial",
+      "category": "marketing",
       "status": "active",
       "lastReviewed": "2026-08-30",
-      "source": "/ai/photography/principles.md"
+      "source": "/ai/marketing/commercial-hierarchy.md"
+    },
+    {
+      "path": "marketing/menu-boards.md",
+      "title": "Menu boards",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/menu-boards.md"
+    },
+    {
+      "path": "marketing/photography.md",
+      "title": "Direção fotográfica",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/photography.md"
+    },
+    {
+      "path": "marketing/pricing.md",
+      "title": "Sistema de preços",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/pricing.md"
+    },
+    {
+      "path": "marketing/principles.md",
+      "title": "Marketing e criação comercial",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/principles.md"
     },
     {
       "path": "products/catalog.md",
@@ -375,6 +389,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/references/types.md"
+    },
+    {
+      "path": "ui/principles.md",
+      "title": "Produto e UI",
+      "category": "ui",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/ui/principles.md"
     }
   ]
 }

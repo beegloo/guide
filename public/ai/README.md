@@ -20,14 +20,23 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 - `pendente`: informação ausente; a IA deve perguntar e não inferir.
 - `substituído`: preservado apenas como histórico, com link para a regra vigente.
 
+## Camadas editoriais
+
+**Brand foundations define identity. Channel guides define behavior.**
+
+- Brand Foundations explicam como a Beegloo se identifica em qualquer aplicação; não impõem layout de canal.
+- Marketing / Commercial Creative explica como a Beegloo comunica, vende e gera desejo.
+- Product / UI explica como a Beegloo funciona em interfaces e experiências digitais.
+
+Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
+
 ## Estrutura
 
-- `foundations/`: princípios e precedência das fontes.
+- `foundations/`: essência, composição transversal e precedência das fontes.
 - `identity/`: logo, cor, tipografia, formas e mascote.
 - `products/`: catálogo factual e famílias.
-- `photography/`: direção e fidelidade.
-- `commercial/`: menu boards, hierarquia e preços.
-- `applications/`: composição e aplicações prioritárias.
+- `marketing/`: guide de canal e especializações para fotografia, menu boards, hierarquia e preços.
+- `ui/`: guide de canal para produto digital e interfaces funcionais.
 - `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
 - `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.

@@ -6,7 +6,7 @@ Todo briefing para IA deve conter estes blocos:
 
 ## Objetivo e entrega
 
-Canal, formato, dimensões, público, ação esperada e prazo.
+Canal, guide específico, formato, dimensões, público, ação esperada e prazo. Declare se a entrega pertence a Marketing / Commercial Creative ou Product / UI antes de definir a gramática composicional.
 
 ## Fontes anexadas
 

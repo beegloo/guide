@@ -3,6 +3,8 @@
 Status: ativo
 Última revisão: 2026-08-30
 
+Este documento especializa o guide de [Marketing e criação comercial](principles.md) para leitura comercial à distância.
+
 ## Objetivo comercial
 
 Em poucos segundos e à distância, o cliente deve identificar:
@@ -25,6 +27,8 @@ Em poucos segundos e à distância, o cliente deve identificar:
 - Branding sustentando a venda sem competir com ela.
 
 Evitar aparência de catálogo ou aplicativo, excesso de badges, selos, efeitos e textos auxiliares.
+
+Uma direção conceitual de menu board ainda deve comunicar desejo, impacto, escala e hierarquia. Placeholders precisam preservar peso visual; não organize automaticamente a tela como uma coleção de cards equivalentes. Anotações de processo ficam fora da composição dirigida ao consumidor.
 
 ## Formato 1920 × 1080
 

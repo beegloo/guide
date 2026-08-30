@@ -3,6 +3,17 @@
 Status: ativo
 Última revisão: 2026-08-30
 
+## Roteamento antes da criação
+
+1. Identifique o canal e o objetivo principal da entrega.
+2. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
+3. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
+4. Identifique o nível de maturidade visual e a etapa atual do processo.
+5. Separe o que é imutável, explorável e pendente.
+6. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
+
+**Brand foundations define identity. Channel guides define behavior.** Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
+
 ## Princípios do processo
 
 **Exploration ≠ Execution.** Na exploração, o objetivo é produzir diversidade real entre direções e tornar escolhas visíveis. Depois que uma direção é escolhida, o objetivo muda para fidelidade, preservação e acabamento.
@@ -52,6 +63,8 @@ Classificar cada entrada como [mood reference, brand reference ou source of trut
 ## 3. Exploração visual
 
 Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
+
+**Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
 
 Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
 

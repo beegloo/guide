@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T20:43:48.375Z",
+  "generatedAt": "2026-08-30T21:51:59.436Z",
   "documents": [
     {
       "path": "README.md",
@@ -42,44 +42,12 @@
       "source": "/ai/ai/prompt-contract.md"
     },
     {
-      "path": "applications/composition.md",
-      "title": "Composição e aplicações",
-      "category": "applications",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/applications/composition.md"
-    },
-    {
       "path": "case-studies/menu-board.md",
       "title": "Case study — processo criativo do menu board",
       "category": "case-studies",
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/case-studies/menu-board.md"
-    },
-    {
-      "path": "commercial/hierarchy.md",
-      "title": "Hierarquia comercial",
-      "category": "commercial",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/commercial/hierarchy.md"
-    },
-    {
-      "path": "commercial/menu-boards.md",
-      "title": "Menu boards",
-      "category": "commercial",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/commercial/menu-boards.md"
-    },
-    {
-      "path": "commercial/pricing.md",
-      "title": "Sistema de preços",
-      "category": "commercial",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/commercial/pricing.md"
     },
     {
       "path": "decisions/2026-08-30-staged-ai-creative-process.md",
@@ -104,6 +72,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/foundations/brand-essence.md"
+    },
+    {
+      "path": "foundations/composition.md",
+      "title": "Composição",
+      "category": "foundations",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/foundations/composition.md"
     },
     {
       "path": "foundations/sources-of-truth.md",
@@ -138,12 +114,12 @@
       "source": "/ai/identity/mascot.md"
     },
     {
-      "path": "identity/shapes-and-ui.md",
-      "title": "Formas e interface",
+      "path": "identity/shapes.md",
+      "title": "Formas da identidade",
       "category": "identity",
       "status": "active",
       "lastReviewed": "2026-08-30",
-      "source": "/ai/identity/shapes-and-ui.md"
+      "source": "/ai/identity/shapes.md"
     },
     {
       "path": "identity/typography.md",
@@ -154,12 +130,44 @@
       "source": "/ai/identity/typography.md"
     },
     {
-      "path": "photography/principles.md",
-      "title": "Direção fotográfica",
-      "category": "photography",
+      "path": "marketing/commercial-hierarchy.md",
+      "title": "Hierarquia comercial",
+      "category": "marketing",
       "status": "active",
       "lastReviewed": "2026-08-30",
-      "source": "/ai/photography/principles.md"
+      "source": "/ai/marketing/commercial-hierarchy.md"
+    },
+    {
+      "path": "marketing/menu-boards.md",
+      "title": "Menu boards",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/menu-boards.md"
+    },
+    {
+      "path": "marketing/photography.md",
+      "title": "Direção fotográfica",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/photography.md"
+    },
+    {
+      "path": "marketing/pricing.md",
+      "title": "Sistema de preços",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/pricing.md"
+    },
+    {
+      "path": "marketing/principles.md",
+      "title": "Marketing e criação comercial",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/marketing/principles.md"
     },
     {
       "path": "products/catalog.md",
@@ -224,6 +232,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/references/types.md"
+    },
+    {
+      "path": "ui/principles.md",
+      "title": "Produto e UI",
+      "category": "ui",
+      "status": "active",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/ui/principles.md"
     }
   ]
 }

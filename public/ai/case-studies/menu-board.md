@@ -47,6 +47,14 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** uma pendência factual limita o que pode ser validado com fidelidade, mas não bloqueia necessariamente a exploração. Quando o asset não for indispensável para a etapa atual, o processo pode continuar com placeholder neutro ou representação claramente conceitual, sem transformar ausência em invenção.
 
+## Teste de gramática do canal
+
+**Observação:** o agente avançou sem inventar fatos e usou placeholders, mas a direção conceitual ficou esquemática demais. Quatro blocos equivalentes, placeholders geométricos, pills de preço e organização modular aproximaram o menu board de um wireframe ou interface.
+
+**Observação:** a gramática de UI dominou a composição e reduziu desejo, impacto comercial e qualidade da direção de arte. Notas de processo também passaram a competir com a peça dirigida ao consumidor.
+
+**Aprendizado reutilizável:** conceptual ≠ schematic. Um placeholder deve preservar peso visual sem inventar detalhe factual; marketing não herda automaticamente a gramática de interface; anotações de processo ficam normalmente fora da composição para consumidor. O guide de [Marketing e criação comercial](../marketing/principles.md) registra essas regras sem transformar a estética deste menu board em padrão universal.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.

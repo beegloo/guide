@@ -9,7 +9,7 @@ O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o
 
 - Valores nunca podem ser inventados.
 - Preços e textos comerciais vêm do briefing aprovado.
-- Em estudos sem valor aprovado, usar marcador claramente fictício ou indicar a pendência.
+- Em estudos sem valor aprovado, preservar o peso visual necessário com placeholder neutro e registrar a pendência fora da composição dirigida ao consumidor.
 - Não apresentar preço anterior, desconto, adicional ou combo sem fonte comercial atual.
 
 ## Pendente de homologação

@@ -24,14 +24,23 @@ Não edite manualmente arquivos marcados como gerados em `public/ai/`, `public/l
 - `pendente`: informação ausente; a IA deve perguntar e não inferir.
 - `substituído`: preservado apenas como histórico, com link para a regra vigente.
 
+## Camadas editoriais
+
+**Brand foundations define identity. Channel guides define behavior.**
+
+- Brand Foundations explicam como a Beegloo se identifica em qualquer aplicação; não impõem layout de canal.
+- Marketing / Commercial Creative explica como a Beegloo comunica, vende e gera desejo.
+- Product / UI explica como a Beegloo funciona em interfaces e experiências digitais.
+
+Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
+
 ## Estrutura
 
-- `foundations/`: princípios e precedência das fontes.
+- `foundations/`: essência, composição transversal e precedência das fontes.
 - `identity/`: logo, cor, tipografia, formas e mascote.
 - `products/`: catálogo factual e famílias.
-- `photography/`: direção e fidelidade.
-- `commercial/`: menu boards, hierarquia e preços.
-- `applications/`: composição e aplicações prioritárias.
+- `marketing/`: guide de canal e especializações para fotografia, menu boards, hierarquia e preços.
+- `ui/`: guide de canal para produto digital e interfaces funcionais.
 - `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
 - `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.
@@ -58,9 +67,18 @@ A Beegloo é leve antes de pesada, divertida sem excesso, acolhedora sem infanti
 - Outfit é a tipografia principal.
 - Azul e rosa formam o núcleo cromático.
 - Marrom e verde são famílias complementares.
-- Use fundos pastel suaves, grandes superfícies, cards sem borda pesada, raios fortes e bastante espaço negativo.
+- Use fundos pastel suaves, formas macias, grandes superfícies e bastante espaço negativo quando forem adequados ao canal.
 - Cor e formas devem orientar hierarquia; não são decoração automática.
 - Evite cantos duros dominantes, sombras pesadas, neon, fundo preto dominante, saturação agressiva, excesso de blobs, estética SaaS genérica, estética genérica de confeitaria e luxo escuro.
+
+## Comportamento por canal
+
+**Brand foundations define identity. Channel guides define behavior.** Uma interface, um menu board, uma campanha, uma embalagem e uma peça de PDV podem parecer Beegloo sem usar a mesma arquitetura visual.
+
+- Para comunicar, vender, gerar desejo ou apresentar produto, use [Marketing e criação comercial](../marketing/principles.md).
+- Para interfaces digitais e experiências funcionais, use [Produto e UI](../ui/principles.md).
+
+Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação. Cards, pills, módulos e componentes não são padrões universais da marca.
 
 ## Identidade imutável
 
@@ -128,6 +146,8 @@ Status: ativo
 
 ## Direção de arte
 
+- [ ] O canal foi identificado e seu guide específico foi aplicado.
+- [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
 - [ ] O uso ou a ausência do mascote foi consciente.
@@ -150,6 +170,17 @@ Status: ativo
 
 Status: ativo
 Última revisão: 2026-08-30
+
+## Roteamento antes da criação
+
+1. Identifique o canal e o objetivo principal da entrega.
+2. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
+3. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
+4. Identifique o nível de maturidade visual e a etapa atual do processo.
+5. Separe o que é imutável, explorável e pendente.
+6. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
+
+**Brand foundations define identity. Channel guides define behavior.** Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
 
 ## Princípios do processo
 
@@ -201,6 +232,8 @@ Classificar cada entrada como [mood reference, brand reference ou source of trut
 
 Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
 
+**Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
+
 Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
 
 ## 4. Produto por produto
@@ -231,7 +264,7 @@ Todo briefing para IA deve conter estes blocos:
 
 ## Objetivo e entrega
 
-Canal, formato, dimensões, público, ação esperada e prazo.
+Canal, guide específico, formato, dimensões, público, ação esperada e prazo. Declare se a entrega pertence a Marketing / Commercial Creative ou Product / UI antes de definir a gramática composicional.
 
 ## Fontes anexadas
 
@@ -256,33 +289,6 @@ Fidelidade, aderência à marca, hierarquia, legibilidade, clareza comercial e a
 ## Instrução de abertura recomendada
 
 “Leia primeiro o contexto oficial da Beegloo no link fornecido. Resuma os fatos imutáveis, os elementos exploráveis e as pendências. Não inicie a criação até demonstrar que distinguiu esses três grupos.”
-
----
-
-<!-- source: docs/applications/composition.md -->
-
-# Composição e aplicações
-
-Status: ativo
-Última revisão: 2026-08-30
-
-## Ritmo
-
-- Começar com uma ideia dominante.
-- Agrupar elementos por sentido, não apenas por proximidade.
-- Alternar momentos densos com áreas de pausa.
-- Tratar espaço vazio como sinal de clareza e confiança.
-- Manter produto, naming e preço como um conjunto comercial legível.
-
-## Aplicações prioritárias
-
-- Cardápio e menu board.
-- Loja e sinalização.
-- Social.
-- Experiências digitais.
-- Fotografia e campanhas de produto.
-
-Cada aplicação crítica ainda precisa de pelo menos uma referência explicitamente aprovada.
 
 ---
 
@@ -337,6 +343,14 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** uma pendência factual limita o que pode ser validado com fidelidade, mas não bloqueia necessariamente a exploração. Quando o asset não for indispensável para a etapa atual, o processo pode continuar com placeholder neutro ou representação claramente conceitual, sem transformar ausência em invenção.
 
+## Teste de gramática do canal
+
+**Observação:** o agente avançou sem inventar fatos e usou placeholders, mas a direção conceitual ficou esquemática demais. Quatro blocos equivalentes, placeholders geométricos, pills de preço e organização modular aproximaram o menu board de um wireframe ou interface.
+
+**Observação:** a gramática de UI dominou a composição e reduziu desejo, impacto comercial e qualidade da direção de arte. Notas de processo também passaram a competir com a peça dirigida ao consumidor.
+
+**Aprendizado reutilizável:** conceptual ≠ schematic. Um placeholder deve preservar peso visual sem inventar detalhe factual; marketing não herda automaticamente a gramática de interface; anotações de processo ficam normalmente fora da composição para consumidor. O guide de [Marketing e criação comercial](../marketing/principles.md) registra essas regras sem transformar a estética deste menu board em padrão universal.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.
@@ -364,118 +378,6 @@ O caso valida um método, não uma estética específica. Layout, quantidade de 
 ## Principal aprendizado
 
 Usar IA como processo criativo em etapas, e não como gerador de peça final em um único pedido.
-
----
-
-<!-- source: docs/commercial/hierarchy.md -->
-
-# Hierarquia comercial
-
-Status: ativo
-Última revisão: 2026-08-30
-
-## Ordem de informação
-
-1. Categoria.
-2. Nome do produto.
-3. Descrição.
-4. Preço.
-5. Complemento comercial.
-6. Observação legal.
-
-## Regras
-
-- Produto e preço devem ser encontrados rapidamente.
-- Usar poucos níveis tipográficos.
-- A categoria orienta sem competir com o produto.
-- A descrição ajuda a decidir; não deve transformar a peça em catálogo.
-- Informações legais permanecem legíveis no tamanho final.
-- A hierarquia deve ser testada à distância e em poucos segundos.
-
----
-
-<!-- source: docs/commercial/menu-boards.md -->
-
-# Menu boards
-
-Status: ativo
-Última revisão: 2026-08-30
-
-## Objetivo comercial
-
-Em poucos segundos e à distância, o cliente deve identificar:
-
-1. A categoria.
-2. O produto.
-3. A diferença entre opções.
-4. O preço.
-5. A decisão esperada.
-
-## Princípios
-
-- Produto e preço em primeiro plano.
-- Uma ideia comercial forte por tela.
-- Poucos níveis de informação.
-- Contraste suficiente para leitura à distância.
-- Fotos grandes e reconhecíveis.
-- Naming curto e consistente.
-- Respiro entre categorias.
-- Branding sustentando a venda sem competir com ela.
-
-Evitar aparência de catálogo ou aplicativo, excesso de badges, selos, efeitos e textos auxiliares.
-
-## Formato 1920 × 1080
-
-Ainda precisam ser homologados:
-
-- Safe areas e margens mínimas.
-- Regiões críticas da tela.
-- Distância estimada de visualização.
-- Tamanhos mínimos de categoria, produto, descrição e preço.
-- Limite de produtos por tela.
-- Relação mínima entre fotografia e área total.
-
-Toda peça deve passar por teste em escala reduzida e, quando possível, em monitor ou televisão real.
-
-## Estruturas previstas
-
-- Produto-herói.
-- Duas categorias lado a lado.
-- Grade curta de produtos.
-- Família com variações.
-- Combo.
-- Lançamento.
-- Promoção temporária.
-
-Os exemplos aprovados para cada estrutura ainda estão pendentes.
-
----
-
-<!-- source: docs/commercial/pricing.md -->
-
-# Sistema de preços
-
-Status: ativo
-Última revisão: 2026-08-30
-
-O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o produto.
-
-## Regras permanentes
-
-- Valores nunca podem ser inventados.
-- Preços e textos comerciais vêm do briefing aprovado.
-- Em estudos sem valor aprovado, usar marcador claramente fictício ou indicar a pendência.
-- Não apresentar preço anterior, desconto, adicional ou combo sem fonte comercial atual.
-
-## Pendente de homologação
-
-- Uso formal de `R$`.
-- Separação e escala de reais e centavos.
-- “A partir de”.
-- Preço promocional e preço anterior.
-- Combos, adicionais e tamanhos.
-- Alinhamento e espaçamento.
-- Informações legais obrigatórias por canal.
 
 ---
 
@@ -615,6 +517,41 @@ A Beegloo é:
 - Infantilização automática.
 - Luxo escuro incompatível com a marca.
 - Logo, produto ou embalagem recriados.
+
+---
+
+<!-- source: docs/foundations/composition.md -->
+
+# Composição
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Ritmo
+
+- Começar com uma ideia dominante.
+- Agrupar elementos por sentido, não apenas por proximidade.
+- Alternar momentos densos com áreas de pausa.
+- Tratar espaço vazio como sinal de clareza e confiança.
+- Usar escala, contraste, posição e ritmo de acordo com o objetivo da aplicação.
+
+Esses princípios orientam identidade, não impõem um layout único. **The requirements of the medium take precedence over generic application patterns.** Uma aplicação pode parecer Beegloo sem reproduzir a arquitetura visual de outro canal.
+
+## Escolha da gramática
+
+- Para comunicar, vender, gerar desejo ou apresentar produto, use [Marketing e criação comercial](../marketing/principles.md).
+- Para interfaces digitais e experiências funcionais, use [Produto e UI](../ui/principles.md).
+- Para fatos de produto e embalagem, aplique [Fidelidade de produtos e embalagens](../products/product-fidelity.md) independentemente do canal.
+
+## Aplicações prioritárias
+
+- Cardápio e menu board.
+- Loja e sinalização.
+- Social.
+- Experiências digitais.
+- Fotografia e campanhas de produto.
+
+Cada aplicação crítica ainda precisa de pelo menos uma referência explicitamente aprovada.
 
 ---
 
@@ -773,31 +710,32 @@ O repositório ainda não contém uma construção homologada do mascote. Até q
 
 ---
 
-<!-- source: docs/identity/shapes-and-ui.md -->
+<!-- source: docs/identity/shapes.md -->
 
-# Formas e interface
+# Formas da identidade
 
 Status: ativo
 Última revisão: 2026-08-30
 
-## Linguagem
+Este documento define qualidades formais transversais da marca, não uma arquitetura de layout. **Brand foundations define identity. Channel guides define behavior.**
+
+## Princípios transversais
 
 - Superfícies claras e amplas.
-- Cards sem borda pesada.
-- Separação por tonalidade, respiro e forma.
-- Raios generosos.
-- Controles arredondados.
+- Formas macias e arredondadas usadas com intenção.
+- Separação por tonalidade, respiro, escala e forma.
 - Poucas sombras e baixa intensidade.
 - Movimento orgânico usado com intenção.
+- Espaço negativo como parte da identidade.
 
-## Raios de referência
+Essas qualidades não obrigam todas as aplicações a usar cards, módulos equivalentes, pills ou uma grade de interface. A forma deve assumir o comportamento adequado ao canal.
 
-- 16 px para elementos compactos.
-- 28 px para cards e painéis médios.
-- 44 px para grandes superfícies editoriais.
-- Formato de pílula para tags, chips e ações curtas.
+## Comportamento por canal
 
-Os valores são referências do guia visual atual. Um sistema formal de tokens de interface ainda deve ser homologado.
+- Em marketing, consulte [Marketing e criação comercial](../marketing/principles.md). Formas podem atuar como massa gráfica, fundo, recorte, enquadramento, separação de planos ou ritmo sem virar componentes.
+- Em produto digital, consulte [Produto e UI](../ui/principles.md). Cards, grids, controles e raios podem ter função estrutural e semântica.
+
+Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
 
 ---
 
@@ -837,12 +775,102 @@ Outfit é a família tipográfica principal.
 
 ---
 
-<!-- source: docs/photography/principles.md -->
+<!-- source: docs/marketing/commercial-hierarchy.md -->
+
+# Hierarquia comercial
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Ordem de informação
+
+1. Categoria.
+2. Nome do produto.
+3. Descrição.
+4. Preço.
+5. Complemento comercial.
+6. Observação legal.
+
+## Regras
+
+- Produto e preço devem ser encontrados rapidamente.
+- Usar poucos níveis tipográficos.
+- A categoria orienta sem competir com o produto.
+- A descrição ajuda a decidir; não deve transformar a peça em catálogo.
+- Informações legais permanecem legíveis no tamanho final.
+- A hierarquia deve ser testada à distância e em poucos segundos.
+
+---
+
+<!-- source: docs/marketing/menu-boards.md -->
+
+# Menu boards
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Este documento especializa o guide de [Marketing e criação comercial](principles.md) para leitura comercial à distância.
+
+## Objetivo comercial
+
+Em poucos segundos e à distância, o cliente deve identificar:
+
+1. A categoria.
+2. O produto.
+3. A diferença entre opções.
+4. O preço.
+5. A decisão esperada.
+
+## Princípios
+
+- Produto e preço em primeiro plano.
+- Uma ideia comercial forte por tela.
+- Poucos níveis de informação.
+- Contraste suficiente para leitura à distância.
+- Fotos grandes e reconhecíveis.
+- Naming curto e consistente.
+- Respiro entre categorias.
+- Branding sustentando a venda sem competir com ela.
+
+Evitar aparência de catálogo ou aplicativo, excesso de badges, selos, efeitos e textos auxiliares.
+
+Uma direção conceitual de menu board ainda deve comunicar desejo, impacto, escala e hierarquia. Placeholders precisam preservar peso visual; não organize automaticamente a tela como uma coleção de cards equivalentes. Anotações de processo ficam fora da composição dirigida ao consumidor.
+
+## Formato 1920 × 1080
+
+Ainda precisam ser homologados:
+
+- Safe areas e margens mínimas.
+- Regiões críticas da tela.
+- Distância estimada de visualização.
+- Tamanhos mínimos de categoria, produto, descrição e preço.
+- Limite de produtos por tela.
+- Relação mínima entre fotografia e área total.
+
+Toda peça deve passar por teste em escala reduzida e, quando possível, em monitor ou televisão real.
+
+## Estruturas previstas
+
+- Produto-herói.
+- Duas categorias lado a lado.
+- Grade curta de produtos.
+- Família com variações.
+- Combo.
+- Lançamento.
+- Promoção temporária.
+
+Os exemplos aprovados para cada estrutura ainda estão pendentes.
+
+---
+
+<!-- source: docs/marketing/photography.md -->
 
 # Direção fotográfica
 
 Status: ativo
 Última revisão: 2026-08-30
+
+Este documento especializa o guide de [Marketing e criação comercial](principles.md). As decisões fotográficas devem apoiar desejo e clareza sem alterar fatos do produto.
 
 ## Princípios
 
@@ -882,6 +910,88 @@ Para CROC, SHAKE, SUNNY e CREMIX ainda precisam ser definidos:
 - Necessidade de mostrar embalagem, textura ou interior.
 - Recorte permitido.
 - Relação entre foto principal e miniaturas.
+
+---
+
+<!-- source: docs/marketing/pricing.md -->
+
+# Sistema de preços
+
+Status: ativo
+Última revisão: 2026-08-30
+
+O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o produto.
+
+## Regras permanentes
+
+- Valores nunca podem ser inventados.
+- Preços e textos comerciais vêm do briefing aprovado.
+- Em estudos sem valor aprovado, preservar o peso visual necessário com placeholder neutro e registrar a pendência fora da composição dirigida ao consumidor.
+- Não apresentar preço anterior, desconto, adicional ou combo sem fonte comercial atual.
+
+## Pendente de homologação
+
+- Uso formal de `R$`.
+- Separação e escala de reais e centavos.
+- “A partir de”.
+- Preço promocional e preço anterior.
+- Combos, adicionais e tamanhos.
+- Alinhamento e espaçamento.
+- Informações legais obrigatórias por canal.
+
+---
+
+<!-- source: docs/marketing/principles.md -->
+
+# Marketing e criação comercial
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Este guide orienta trabalhos cujo objetivo principal é comunicar, vender, gerar desejo ou apresentar produto: campanhas, lançamentos, promoções, PDV, social comercial, peças institucionais de marketing e menu boards.
+
+**Marketing is advertising, not interface.** A identidade Beegloo deve permanecer reconhecível, mas a composição não deve herdar automaticamente a gramática de cards, pills, módulos, grids ou componentes de produto digital.
+
+## Prioridades do canal
+
+- Desejo e impacto publicitário.
+- Produto reconhecível e, quando aplicável, protagonista.
+- Hierarquia comercial clara.
+- Relação expressiva entre produto, tipografia e grafismo.
+- Leitura compatível com distância, tempo de atenção e formato.
+- Uma direção de arte avaliável, não apenas uma organização correta de informações.
+
+Quando houver conflito, as exigências do meio prevalecem sobre padrões genéricos de aplicação. Consulte [Composição](../foundations/composition.md) para os princípios transversais.
+
+## Formas não são componentes por padrão
+
+Em marketing, uma forma arredondada pode funcionar como:
+
+- massa gráfica;
+- fundo;
+- recorte ou enquadramento;
+- separação de planos;
+- elemento de ritmo;
+- estrutura da composição.
+
+Ela não precisa virar um card. Evite transformar automaticamente produto, preço e texto em quatro blocos equivalentes, badges, pills ou módulos com aparência de wireframe.
+
+## Direção conceitual
+
+**Conceptual ≠ schematic.** Uma direção conceitual pode não ter fidelidade factual completa, mas ainda precisa permitir avaliação de desejo, impacto, hierarquia, ritmo e presença visual.
+
+**Placeholder preserves visual weight, not factual detail.** Um placeholder deve preservar massa visual, escala, posição, proporção, recorte, presença e impacto necessários para julgar a composição. Não deve inventar embalagem, ingrediente, sabor, cobertura, rótulo ou detalhes de produto. Um círculo cinza genérico é inadequado quando elimina a capacidade de avaliar a direção de arte.
+
+## Anotações de processo
+
+Textos como “estudo conceitual”, “preço pendente”, “imagem pendente”, “placeholder” e outras notas de processo devem normalmente ficar na apresentação, legenda ou anotação externa. Não os transforme em conteúdo da peça dirigida ao consumidor sem motivo explícito.
+
+## Guias especializados
+
+- [Menu boards](menu-boards.md)
+- [Hierarquia comercial](commercial-hierarchy.md)
+- [Sistema de preços](pricing.md)
+- [Direção fotográfica](photography.md)
 
 ---
 
@@ -1053,7 +1163,7 @@ Não produzir uma representação factual de SUNNY sem receber essas fontes.
 Status: pendente
 Última revisão: 2026-08-30
 
-Antes de registrar uma peça, classifique seu papel conforme [Tipos de referência](types.md). Aprovação editorial e função da referência são dimensões diferentes: uma peça aprovada ainda deve ser identificada como mood reference, brand reference ou source of truth.
+Antes de registrar uma peça, classifique seu papel conforme [Tipos de referência](types.md) e indique a quais canais ela se aplica. Aprovação editorial, função da referência e canal são dimensões diferentes: uma peça aprovada ainda deve ser identificada como mood reference, brand reference ou source of truth e não se torna padrão universal de composição.
 
 ## Aprovadas
 
@@ -1097,3 +1207,41 @@ Define identidade, paleta, tipografia, linguagem visual e comportamento da marca
 Representa um fato real que deve ser preservado fielmente, como logo oficial, produto, embalagem, fotografia real, preço aprovado ou especificação. Uma source of truth nunca deve ser tratada apenas como inspiração visual, estilizada para combinar com um mood ou substituída por uma aproximação.
 
 Quando uma mesma entrega contiver os três tipos, mantenha seus papéis separados: o mood orienta direção, a brand reference orienta identidade e a source of truth limita a execução factual.
+
+---
+
+<!-- source: docs/ui/principles.md -->
+
+# Produto e UI
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Este guide orienta interfaces digitais e experiências funcionais: sites, aplicativos, dashboards, portais, fluxos de serviço e ferramentas internas.
+
+## Prioridades do canal
+
+- Hierarquia funcional e previsível.
+- Navegação clara.
+- Estados e feedback compreensíveis.
+- Controles com função semântica.
+- Densidade adequada à tarefa.
+- Acessibilidade, responsividade e interação por teclado e toque.
+- Consistência entre telas e fluxos.
+
+## Gramática de interface
+
+Cards, grids, componentes, spacing, raios e controles arredondados podem estruturar informação e comportamento quando cumprem uma função real. Não devem existir apenas para decorar ou fragmentar conteúdo.
+
+Referências atuais, ainda sem sistema formal de tokens homologado:
+
+- 16 px para elementos compactos.
+- 28 px para cards e painéis médios.
+- 44 px para grandes superfícies editoriais.
+- Formato de pílula para tags, chips e ações curtas.
+
+Esses valores pertencem à aplicação de UI e não são regras universais para marketing, embalagem, fotografia, PDV ou menu boards.
+
+## Relação com a marca
+
+Use Outfit, a paleta canônica, formas macias, superfícies claras e respiro conforme a tarefa permitir. A identidade não substitui requisitos de usabilidade, e padrões de UI não devem ser exportados automaticamente para peças publicitárias.

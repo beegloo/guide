@@ -2,11 +2,12 @@
 
 ## Ordem de leitura para agentes
 
-1. Comece por `docs/ai/brand-context.md`. Ele contém o contexto portátil, as invariantes da marca e os limites contra inferência.
-2. Consulte `docs/foundations/sources-of-truth.md` para resolver precedência e conflitos entre fontes.
-3. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
-4. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
-5. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
+1. Comece pelos fundamentos: `docs/ai/brand-context.md` como contexto portátil, `docs/foundations/brand-essence.md` para identidade e `docs/foundations/sources-of-truth.md` para precedência e conflitos.
+2. Identifique o canal antes de escolher a gramática composicional.
+3. Para trabalhos que comunicam ou vendem, leia `docs/marketing/principles.md`. Para interfaces funcionais, leia `docs/ui/principles.md`.
+4. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
+5. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
+6. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
 
 ## Arquitetura de conteúdo
 
@@ -47,11 +48,14 @@ Não trate essas pendências como defeitos do sistema e não as resolva por supo
 ## Regras permanentes de marca
 
 - Este repositório é a cópia canônica local do Beegloo Brand Guide.
-- Preserve fundos pastel suaves, grandes superfícies e cards sem borda, raios fortes e bastante respiro.
+- Preserve fundos pastel suaves, formas macias, grandes superfícies e bastante respiro quando forem adequados ao canal.
 - Use Outfit como tipografia principal.
 - Azul e rosa formam o núcleo cromático; marrom e verde são complementares.
 - Mantenha completas as escalas de cor 50–950.
-- Cubra Linguagem Visual, Logo, Cores, Tipografia, Formas/UI, Mascote, Composição, Aplicações e Diretrizes para IA.
+- Fundamentos de marca definem identidade; guides de canal definem comportamento.
+- Marketing não deve herdar automaticamente cards, pills, módulos ou outros padrões de UI.
+- Em conflitos, requisitos do meio prevalecem sobre padrões genéricos de aplicação.
+- Cubra Linguagem Visual, Logo, Cores, Tipografia, Formas, Mascote, Marketing, Produto/UI, Composição, Aplicações e Diretrizes para IA.
 - Antes de remover qualquer temporário, confirme que nenhum conteúdo exclusivo ficou fora deste repositório.
 - Mantenha o código em `src/` e arquivos estáticos em `public/`.
 - Use nomes de arquivos, pastas, identificadores e URLs em inglês. Mantenha textos exibidos ao usuário em português.

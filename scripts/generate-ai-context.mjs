@@ -21,8 +21,8 @@ const markdownFiles = allFiles.filter((file) => file.endsWith('.md'))
 const colors = JSON.parse(await readFile(path.join(docsRoot, 'tokens/colors.json'), 'utf8'))
 const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
 const statusLabels = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', photography: 'Fotografia', commercial: 'Comercial', applications: 'Aplicações', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', decisions: 'Decisões' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'photography', 'commercial', 'applications', 'ai', 'case-studies', 'references', 'decisions']
+const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', marketing: 'Marketing e criação comercial', ui: 'Produto e UI', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', decisions: 'Decisões' }
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'case-studies', 'references', 'decisions']
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
@@ -78,6 +78,8 @@ const llms = `# Beegloo Brand Guide
 
 - [Contexto portátil completo](/ai/ai/brand-context.md)
 - [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
+- [Marketing e criação comercial](/ai/marketing/principles.md)
+- [Produto e UI](/ai/ui/principles.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
 - [Processo criativo com IA](/ai/ai/process.md)
 - [Checklist de entrega](/ai/ai/delivery-checklist.md)
@@ -119,6 +121,7 @@ const manifest = {
   knownProductFamilies: ['CROC', 'SHAKE', 'SUNNY', 'CREMIX'],
   productCatalogStatus: 'pending',
   mascotAssetStatus: 'missing',
+  channelGuides: { marketing: '/ai/marketing/principles.md', ui: '/ai/ui/principles.md' },
   invariants: [
     'Never recreate or modify official logos.',
     'Never infer product, packaging, naming, flavor, price, or legal facts.',

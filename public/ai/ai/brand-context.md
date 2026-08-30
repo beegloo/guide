@@ -14,9 +14,18 @@ A Beegloo é leve antes de pesada, divertida sem excesso, acolhedora sem infanti
 - Outfit é a tipografia principal.
 - Azul e rosa formam o núcleo cromático.
 - Marrom e verde são famílias complementares.
-- Use fundos pastel suaves, grandes superfícies, cards sem borda pesada, raios fortes e bastante espaço negativo.
+- Use fundos pastel suaves, formas macias, grandes superfícies e bastante espaço negativo quando forem adequados ao canal.
 - Cor e formas devem orientar hierarquia; não são decoração automática.
 - Evite cantos duros dominantes, sombras pesadas, neon, fundo preto dominante, saturação agressiva, excesso de blobs, estética SaaS genérica, estética genérica de confeitaria e luxo escuro.
+
+## Comportamento por canal
+
+**Brand foundations define identity. Channel guides define behavior.** Uma interface, um menu board, uma campanha, uma embalagem e uma peça de PDV podem parecer Beegloo sem usar a mesma arquitetura visual.
+
+- Para comunicar, vender, gerar desejo ou apresentar produto, use [Marketing e criação comercial](../marketing/principles.md).
+- Para interfaces digitais e experiências funcionais, use [Produto e UI](../ui/principles.md).
+
+Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação. Cards, pills, módulos e componentes não são padrões universais da marca.
 
 ## Identidade imutável
 

@@ -6,6 +6,8 @@
 
 - [Contexto portátil completo](/ai/ai/brand-context.md)
 - [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
+- [Marketing e criação comercial](/ai/marketing/principles.md)
+- [Produto e UI](/ai/ui/principles.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
 - [Processo criativo com IA](/ai/ai/process.md)
 - [Checklist de entrega](/ai/ai/delivery-checklist.md)
@@ -21,13 +23,14 @@
 
 ### Fundamentos
 - [Essência da marca](/ai/foundations/brand-essence.md) — ativo
+- [Composição](/ai/foundations/composition.md) — ativo
 - [Fontes de verdade](/ai/foundations/sources-of-truth.md) — oficial
 
 ### Identidade
 - [Sistema de cores](/ai/identity/colors.md) — ativo
 - [Sistema de logo](/ai/identity/logo.md) — ativo
 - [Uso do mascote](/ai/identity/mascot.md) — pendente
-- [Formas e interface](/ai/identity/shapes-and-ui.md) — ativo
+- [Formas da identidade](/ai/identity/shapes.md) — ativo
 - [Sistema tipográfico](/ai/identity/typography.md) — ativo
 
 ### Produtos
@@ -38,16 +41,15 @@
 - [SHAKE](/ai/products/shake.md) — pendente
 - [SUNNY](/ai/products/sunny.md) — pendente
 
-### Fotografia
-- [Direção fotográfica](/ai/photography/principles.md) — ativo
+### Marketing e criação comercial
+- [Hierarquia comercial](/ai/marketing/commercial-hierarchy.md) — ativo
+- [Menu boards](/ai/marketing/menu-boards.md) — ativo
+- [Direção fotográfica](/ai/marketing/photography.md) — ativo
+- [Sistema de preços](/ai/marketing/pricing.md) — ativo
+- [Marketing e criação comercial](/ai/marketing/principles.md) — ativo
 
-### Comercial
-- [Hierarquia comercial](/ai/commercial/hierarchy.md) — ativo
-- [Menu boards](/ai/commercial/menu-boards.md) — ativo
-- [Sistema de preços](/ai/commercial/pricing.md) — ativo
-
-### Aplicações
-- [Composição e aplicações](/ai/applications/composition.md) — ativo
+### Produto e UI
+- [Produto e UI](/ai/ui/principles.md) — ativo
 
 ### Inteligência artificial
 - [Contexto portátil da marca Beegloo](/ai/ai/brand-context.md) — ativo

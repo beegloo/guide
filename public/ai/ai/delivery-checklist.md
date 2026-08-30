@@ -24,6 +24,8 @@ Status: ativo
 
 ## Direção de arte
 
+- [ ] O canal foi identificado e seu guide específico foi aplicado.
+- [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
 - [ ] O uso ou a ausência do mascote foi consciente.

@@ -3,6 +3,8 @@
 Status: ativo
 Última revisão: 2026-08-30
 
+Este documento especializa o guide de [Marketing e criação comercial](principles.md). As decisões fotográficas devem apoiar desejo e clareza sem alterar fatos do produto.
+
 ## Princípios
 
 A fotografia Beegloo deve ser:
