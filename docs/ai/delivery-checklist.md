@@ -27,6 +27,7 @@ Status: ativo
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
 - [ ] Brand readiness foi confirmada: Outfit, logo, paleta, naming e regras necessárias estão corretos ou previstos para composição oficial.
 - [ ] Subject readiness foi confirmada: produto ou proxy tem fidelidade semântica e visual suficiente para avaliar a direção.
+- [ ] Quando existia working proxy válido, ele foi reutilizado em vez de livremente regenerado.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
 - [ ] Quando a tarefa justificava exploração, foram comparadas direções com hipóteses distintas — não variantes cosméticas.
 - [ ] Os assets determinantes e o nível de representação necessário foram definidos antes dos estudos.
@@ -36,6 +37,7 @@ Status: ativo
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
 - [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
+- [ ] Crop e perspectiva são intencionais; recipiente, silhueta, ingredientes visíveis, cobertura e proporções essenciais continuam reconhecíveis.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
 - [ ] O uso ou a ausência do mascote foi consciente.

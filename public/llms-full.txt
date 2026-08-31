@@ -150,6 +150,7 @@ Status: ativo
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
 - [ ] Brand readiness foi confirmada: Outfit, logo, paleta, naming e regras necessárias estão corretos ou previstos para composição oficial.
 - [ ] Subject readiness foi confirmada: produto ou proxy tem fidelidade semântica e visual suficiente para avaliar a direção.
+- [ ] Quando existia working proxy válido, ele foi reutilizado em vez de livremente regenerado.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
 - [ ] Quando a tarefa justificava exploração, foram comparadas direções com hipóteses distintas — não variantes cosméticas.
 - [ ] Os assets determinantes e o nível de representação necessário foram definidos antes dos estudos.
@@ -159,6 +160,7 @@ Status: ativo
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
 - [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
+- [ ] Crop e perspectiva são intencionais; recipiente, silhueta, ingredientes visíveis, cobertura e proporções essenciais continuam reconhecíveis.
 - [ ] A composição é leve, arejada e comercialmente clara.
 - [ ] As formas têm função e o produto continua protagonista.
 - [ ] O uso ou a ausência do mascote foi consciente.
@@ -258,6 +260,8 @@ Se a ferramenta generativa não preservar texto, tipografia ou logo corretamente
 ### Subject readiness
 
 Pergunte: **Do I have enough subject fidelity to evaluate the art direction?** Para Marketing orientado a produto, identifique se source of truth, asset real provisório, referência representativa ou proxy sintético controlado preserva categoria visual, silhueta, massa e presença suficientes. **When the subject is visually determinant, abstract placeholders are not sufficient for art-direction validation.**
+
+Quando houver working proxy válido e registrado para a tarefa, use-o como base visual antes de tentar gerar outro assunto. Preserve sua identidade durante todas as direções; regenere apenas quando o briefing exigir explicitamente e o quality gate puder verificar a correspondência.
 
 Se um insumo essencial estiver ausente, resolva o problema de entrada antes de compensar com invenção visual sem relação. Solicite o asset, procure representação adequada, produza proxy controlado ou mantenha o estudo como exploração inicial incompleta.
 
@@ -1051,6 +1055,10 @@ Toda peça deve passar por teste em escala reduzida e, quando possível, em moni
 
 Os exemplos aprovados para cada estrutura ainda estão pendentes.
 
+## Working set da rodada atual
+
+Para estudos desta rodada, use o [working asset pack de produtos-proxy](../products/working-proxies.md). Os quatro PNGs fornecem subject readiness para CROC, SHAKE, SUNNY e CREMIX, mas são provisional / direction-only e precisam ser substituídos antes da produção final. Naming e preços continuam subordinados ao briefing e às fontes factuais; valores ausentes não podem ser inventados.
+
 ---
 
 <!-- source: docs/marketing/photography.md -->
@@ -1306,6 +1314,16 @@ Quando o assunto for visualmente determinante, placeholder abstrato não é sufi
 
 **If an essential input is missing, solve the input problem before compensating with unrelated visual invention.** Esculturas, recipientes ou objetos cenográficos sem correspondência semântica suficiente não substituem produto ausente. Identifique limites de estudos conceituais e nunca apresente invenção como produto final.
 
+## Working proxies
+
+Quando existir um working proxy válido para a tarefa, use-o antes de gerar outro assunto. **If a valid working proxy already exists, use it. Do not regenerate the subject unless the task explicitly requires it.** Um proxy é provisório e não homologa produto, mas deve permanecer visualmente estável durante a comparação de direções.
+
+**Recompose the product; do not redesign the product.** Adapte escala, posição, crop, enquadramento, profundidade e integração ao contexto antes de alterar o asset. Mudanças de orientação ou perspectiva só são válidas quando preservam categoria, silhueta, recipiente, ingredientes visíveis, cobertura e proporções essenciais.
+
+**Intentional crop is allowed. Accidental loss of product identity is not.** Se a ferramenta não preservar a identidade em nova perspectiva ou regeneração, mantenha o asset original e transforme a composição ao redor dele.
+
+O working set específico da rodada atual está documentado em [Working asset pack — menu board](working-proxies.md).
+
 ---
 
 <!-- source: docs/products/shake.md -->
@@ -1353,6 +1371,56 @@ Grafia conhecida: `SUNNY`. Não traduzir, pluralizar, abreviar ou completar.
 - Exemplos corretos e erros comuns.
 
 Não produzir uma representação factual de SUNNY sem receber essas fontes.
+
+---
+
+<!-- source: docs/products/working-proxies.md -->
+
+# Working asset pack — menu board
+
+Status: exploratório
+Última revisão: 2026-08-30
+
+- **Status dos assets:** provisional / direction-only.
+- **Canal:** Marketing / menu board.
+- **Finalidade:** subject readiness, exploração de direção de arte e comparação composicional desta rodada.
+- **Autoridade:** não são source of truth, produto oficial, embalagem homologada ou fotografia final.
+- **Substituição obrigatória:** trocar por sources of truth antes de produção ou comunicação final.
+
+## Assets
+
+| Família | Conteúdo pedido para a rodada | Working proxy | Limite factual |
+| --- | --- | --- | --- |
+| CROC | recheado | [croc.png](/assets/proxies/menu-board/croc.png) | O asset fornece cone, soft serve, silhueta e massa; não homologa recheio, cobertura, proporção ou fotografia oficial. |
+| SHAKE | morango | [shake.png](/assets/proxies/menu-board/shake.png) | A imagem matriz fornece copo alto, silhueta, proporção e massa de shake. Mesmo quando coincide com o conteúdo pedido, não use o proxy para homologar ingrediente, sabor ou cor final. |
+| SUNNY | morango | [sunny.png](/assets/proxies/menu-board/sunny.png) | O asset fornece silhueta de sundae, copo e presença de morango; não homologa receita, cobertura, quantidade ou fotografia oficial. |
+| CREMIX | Oreo | [cremix.png](/assets/proxies/menu-board/cremix.png) | O asset fornece pote de papel, massa e presença visual de biscoito; não homologa embalagem, proporção, topping, licenciamento ou fotografia oficial. |
+
+Os nomes de conteúdo acima pertencem somente ao briefing desta rodada e não atualizam o [catálogo factual](catalog.md). Nenhum preço canônico ou provisório está registrado atualmente no repositório; valores permanecem pendentes e não podem ser inventados.
+
+Estes arquivos funcionam como imagens matriz. Seu papel é preservar categoria visual, recipiente, silhueta, proporção e massa composicional; o sabor aparente não é factual nem precisa coincidir com o conteúdo pedido para a rodada. Nunca derive catálogo, ingrediente, topping ou cor oficial a partir deles.
+
+Na comparação desta rodada, CROC, SHAKE, SUNNY e CREMIX têm prioridade equivalente; nenhuma família deve dominar. Isso é uma condição do briefing atual, não uma regra universal de composição.
+
+## Regra de preservação
+
+**Recompose the product; do not redesign the product.** Use cada proxy como matéria visual estável. Transforme a composição ao redor do asset antes de transformar o próprio asset.
+
+Pode alterar escala, posição, enquadramento, crop, sobreposição, profundidade e integração de luz ou sombra. Orientação e perspectiva podem mudar apenas quando o produto continuar semanticamente o mesmo e sua silhueta, recipiente, cone, cobertura, ingredientes e proporções essenciais permanecerem reconhecíveis.
+
+Não altere recipiente, formato de cone, ingredientes, cobertura, textura principal, sabor aparente ou proporções essenciais. Não gere uma versão apenas “inspirada” no proxy nem o reconstrua livremente dentro de cada direção.
+
+## Crop e perspectiva
+
+**Intentional crop is allowed. Accidental loss of product identity is not.** Close dramático, recorte lateral, sobreposição e produto parcialmente fora do quadro são válidos quando intencionais. Uma geração que perde partes essenciais por acidente deve ser rejeitada.
+
+Se a ferramenta não conseguir mudar a perspectiva preservando a identidade, mantenha o asset original e trabalhe cenário, escala, enquadramento e demais elementos ao redor dele.
+
+## Uso na geração
+
+Prefira gerar ambiente, cenário, luz, fundo, massas gráficas, espaço e elementos secundários; depois componha o PNG real. Embora estes proxies não sejam truth final, o princípio operacional permanece: **Generation creates the environment. Composition inserts the truth.** Neste caso, a composição insere a matéria visual provisória conhecida.
+
+Antes de apresentar uma direção, confirme que produto, recipiente, ingredientes visíveis, cobertura, crop e perspectiva ainda correspondem ao proxy fornecido. Se a identidade mudar, rejeite e refaça a direção.
 
 ---
 

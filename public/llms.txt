@@ -41,6 +41,7 @@
 - [Fidelidade de produtos e embalagens](/ai/products/product-fidelity.md) — oficial
 - [SHAKE](/ai/products/shake.md) — pendente
 - [SUNNY](/ai/products/sunny.md) — pendente
+- [Working asset pack — menu board](/ai/products/working-proxies.md) — exploratório
 
 ### Marketing e criação comercial
 - [Princípios de direção de arte](/ai/marketing/art-direction.md) — ativo

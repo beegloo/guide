@@ -32,6 +32,7 @@
   - `/brand/logos/icon-pink.svg`
 - Nunca substitua logos oficiais por aproximações, texto, CSS, redesenho ou geração por IA.
 - Se um asset estiver ausente ou uma regra de aplicação ainda não estiver homologada, sinalize a pendência.
+- Para a rodada atual de menu board, consulte `docs/products/working-proxies.md`. Os arquivos em `public/assets/proxies/menu-board/` são provisórios e exclusivos para direção de arte; nunca os trate como assets oficiais ou produto final.
 
 ## Pendências factuais conhecidas
 

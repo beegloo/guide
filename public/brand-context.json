@@ -158,6 +158,7 @@
     "/ai/products/product-fidelity.md",
     "/ai/products/shake.md",
     "/ai/products/sunny.md",
+    "/ai/products/working-proxies.md",
     "/ai/references/library.md",
     "/ai/references/types.md",
     "/ai/ui/principles.md"
@@ -386,6 +387,14 @@
       "status": "pending",
       "lastReviewed": "2026-08-30",
       "source": "/ai/products/sunny.md"
+    },
+    {
+      "path": "products/working-proxies.md",
+      "title": "Working asset pack — menu board",
+      "category": "products",
+      "status": "exploratory",
+      "lastReviewed": "2026-08-30",
+      "source": "/ai/products/working-proxies.md"
     },
     {
       "path": "references/library.md",

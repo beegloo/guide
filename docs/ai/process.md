@@ -78,6 +78,8 @@ Se a ferramenta generativa não preservar texto, tipografia ou logo corretamente
 
 Pergunte: **Do I have enough subject fidelity to evaluate the art direction?** Para Marketing orientado a produto, identifique se source of truth, asset real provisório, referência representativa ou proxy sintético controlado preserva categoria visual, silhueta, massa e presença suficientes. **When the subject is visually determinant, abstract placeholders are not sufficient for art-direction validation.**
 
+Quando houver working proxy válido e registrado para a tarefa, use-o como base visual antes de tentar gerar outro assunto. Preserve sua identidade durante todas as direções; regenere apenas quando o briefing exigir explicitamente e o quality gate puder verificar a correspondência.
+
 Se um insumo essencial estiver ausente, resolva o problema de entrada antes de compensar com invenção visual sem relação. Solicite o asset, procure representação adequada, produza proxy controlado ou mantenha o estudo como exploração inicial incompleta.
 
 Somente quando marca, assunto, canal e representação permitirem avaliar desejo, hierarquia e composição a etapa passa de exploração inicial para direção de arte validável.
