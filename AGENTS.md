@@ -10,7 +10,6 @@
 6. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
 7. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
 8. Não carregue `docs/benchmarks/` antes da criação. Benchmarks são holdouts de avaliação e só podem ser consultados depois que a direção candidata estiver criada e congelada.
-9. Antes de apresentar direções de Marketing, confirme brand readiness, subject readiness e quality readiness. Diversidade não compensa identidade aproximada, assunto irreconhecível ou baixa qualidade comercial.
 
 ## Arquitetura de conteúdo
 
