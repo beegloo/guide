@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T22:35:25.828Z",
+  "generatedAt": "2026-08-31T23:25:19.221Z",
   "documents": [
     {
       "path": "README.md",
@@ -40,62 +40,6 @@
       "status": "active",
       "lastReviewed": "2026-08-31",
       "source": "/ai/ai/process.md"
-    },
-    {
-      "path": "benchmarks/README.md",
-      "title": "Benchmarks de avaliação",
-      "category": "benchmarks",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/benchmarks/README.md"
-    },
-    {
-      "path": "benchmarks/menu-board/approved-direction.md",
-      "title": "Benchmark — direção aprovada do Lovart",
-      "category": "benchmarks",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/benchmarks/menu-board/approved-direction.md"
-    },
-    {
-      "path": "benchmarks/menu-board/rejected-schematic.md",
-      "title": "Benchmark crítico — direção esquemática",
-      "category": "benchmarks",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/benchmarks/menu-board/rejected-schematic.md"
-    },
-    {
-      "path": "benchmarks/menu-board/rejected-ui-leakage.md",
-      "title": "Benchmark crítico — vazamento de UI",
-      "category": "benchmarks",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/benchmarks/menu-board/rejected-ui-leakage.md"
-    },
-    {
-      "path": "case-studies/menu-board.md",
-      "title": "Case study — processo criativo do menu board",
-      "category": "case-studies",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/case-studies/menu-board.md"
-    },
-    {
-      "path": "decisions/2026-08-30-staged-ai-creative-process.md",
-      "title": "Decisão criativa — 2026-08-30 — Fluxo criativo em etapas",
-      "category": "decisions",
-      "status": "official",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/decisions/2026-08-30-staged-ai-creative-process.md"
-    },
-    {
-      "path": "decisions/_template.md",
-      "title": "Decisão criativa — AAAA-MM-DD",
-      "category": "decisions",
-      "status": "exploratory",
-      "lastReviewed": null,
-      "source": "/ai/decisions/_template.md"
     },
     {
       "path": "foundations/brand-essence.md",
@@ -218,44 +162,12 @@
       "source": "/ai/products/catalog.md"
     },
     {
-      "path": "products/cremix.md",
-      "title": "CREMIX",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/cremix.md"
-    },
-    {
-      "path": "products/croc.md",
-      "title": "CROC",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/croc.md"
-    },
-    {
       "path": "products/product-fidelity.md",
       "title": "Fidelidade de produtos e embalagens",
       "category": "products",
       "status": "official",
       "lastReviewed": "2026-08-30",
       "source": "/ai/products/product-fidelity.md"
-    },
-    {
-      "path": "products/shake.md",
-      "title": "SHAKE",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/shake.md"
-    },
-    {
-      "path": "products/sunny.md",
-      "title": "SUNNY",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/sunny.md"
     },
     {
       "path": "references/library.md",

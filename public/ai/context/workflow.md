@@ -52,7 +52,7 @@ Explore diversidade estrutural antes do acabamento. Cada direção deve testar u
 
 Todas as opções apresentadas precisam superar o mesmo piso de marca, assunto e qualidade. Quantidade não compensa propostas fracas.
 
-Durante esta etapa, não consulte [benchmarks de avaliação](../benchmarks/README.md).
+Durante esta etapa, não consulte [benchmarks de avaliação](/evaluation/benchmarks/README.md).
 
 ## 4. Escolher e congelar
 
@@ -74,7 +74,7 @@ Preserve assuntos estáveis e concentre a liberdade no que permanece explorável
 
 Aplique o [checklist de entrega](delivery-checklist.md). Depois que uma direção candidata estiver criada e congelada, benchmarks podem entrar como holdout de avaliação, nunca como resposta-alvo.
 
-Registre decisões reutilizáveis em `docs/decisions/`. Observações de um trabalho específico pertencem ao case study ou ao workspace desse trabalho e só viram regra após validação explícita.
+Incorpore decisões reutilizáveis na documentação canônica e registre a mudança no `CHANGELOG.md`. Observações de um trabalho específico pertencem ao workspace ou ao arquivo histórico e só viram regra após validação explícita.
 
 ---
 
@@ -119,7 +119,7 @@ Quando uma entrega combinar papéis, mantenha-os separados: fontes de verdade li
 
 ## Benchmark não é tipo de referência
 
-Um benchmark é um holdout usado para avaliar qualidade depois da criação. Ele não deve ser classificado como creative input nem carregado durante exploração. Os inputs acima orientam ou limitam o trabalho; [benchmarks](../benchmarks/README.md) medem posteriormente uma direção já produzida e congelada.
+Um benchmark é um holdout usado para avaliar qualidade depois da criação. Ele não deve ser classificado como creative input nem carregado durante exploração. Os inputs acima orientam ou limitam o trabalho; [benchmarks](/evaluation/benchmarks/README.md) medem posteriormente uma direção já produzida e congelada.
 
 ---
 
@@ -202,7 +202,7 @@ Adjustable permite microespaçamento, escala fina, crop, posição, refinamento 
 
 Handoff não é source of truth de marca, catálogo factual, benchmark ou decisão institucional. Ele registra o estado temporário de uma execução e referencia assets canônicos em vez de duplicá-los.
 
-`docs/decisions/` permanece reservado à memória institucional reutilizável. `docs/case-studies/` registra aprendizados de casos. O workspace do trabalho guarda handoffs ativos, imagens escolhidas, arquivos temporários e versões.
+`archive/decisions/` e `archive/case-studies/` preservam memória institucional e aprendizados históricos fora do guide vigente. O workspace do trabalho guarda handoffs ativos, imagens escolhidas, arquivos temporários e versões.
 
 Atualize a instância a cada mudança relevante de estado. Ao finalizar, substituir ou abandonar o trabalho, marque seu estado e aponte para o sucessor quando houver.
 

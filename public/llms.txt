@@ -13,7 +13,6 @@
 ## Ferramentas de trabalho
 
 - [Template de creative brief](/ai/templates/creative-brief.md)
-- [Benchmarks de avaliação — carregar somente depois da criação](/ai/benchmarks/README.md)
 - [Manifesto estruturado JSON](/brand-context.json)
 - [Documentação para pessoas](/docs)
 

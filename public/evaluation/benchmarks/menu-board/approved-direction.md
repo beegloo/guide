@@ -8,11 +8,11 @@ Status: ativo
 - **Canal:** Marketing / Commercial Creative — menu board.
 - **Asset visual associado:** pendente; o arquivo do estudo aprovado ainda não está no repositório.
 - **Data do caso:** 2026-08-30.
-- **Decisão relacionada:** [Fluxo criativo em etapas](../../decisions/2026-08-30-staged-ai-creative-process.md), que formaliza o processo, não este layout como regra universal.
+- **Decisão relacionada:** `archive/decisions/2026-08-30-staged-ai-creative-process.md`, que formaliza o processo, não este layout como regra universal.
 
 ## Contexto
 
-Esta foi a direção escolhida como melhor caminho durante o processo documentado no [case study do menu board](../../case-studies/menu-board.md). Seu valor é medir posteriormente o quality bar publicitário de uma direção produzida de forma independente.
+Esta foi a direção escolhida como melhor caminho durante o processo documentado em `archive/case-studies/menu-board.md`. Seu valor é medir posteriormente o quality bar publicitário de uma direção produzida de forma independente.
 
 **A benchmark evaluates quality after creation; it must not leak the target solution into exploration.** Este documento não integra creative input, briefing, referência pré-criação ou contexto automático de exploração.
 

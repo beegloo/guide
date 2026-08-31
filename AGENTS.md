@@ -9,7 +9,7 @@
 5. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
 6. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
 7. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
-8. Não carregue `docs/benchmarks/` antes da criação. Benchmarks são holdouts de avaliação e só podem ser consultados depois que a direção candidata estiver criada e congelada.
+8. Não carregue `benchmarks/` antes da criação. Benchmarks são holdouts de avaliação e só podem ser consultados depois que a direção candidata estiver criada e congelada.
 
 ## Arquitetura de conteúdo
 
@@ -17,12 +17,12 @@
 - Edite regras, decisões e conteúdo de marca somente em `docs/`.
 - `public/ai/`, `public/llms.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
 - `public/llms.txt` roteia agentes para bundles em `public/ai/context/`.
-- Case studies, decisões e estado de projeto não entram nos bundles padrão. Benchmarks permanecem separados para avaliação posterior.
+- `archive/` preserva cases e decisões históricas fora da documentação vigente. `benchmarks/` permanece separado para avaliação posterior.
 - `docs/ai/creative-handoff.md` define o protocolo reutilizável. Instâncias reais de handoff vivem no workspace do trabalho, não neste Brand Guide.
 - Briefs, handoffs ativos, imagens e working proxies de uma execução pertencem ao workspace do projeto. Não registre estado circunstancial como regra permanente do guide.
 - Após qualquer mudança em `docs/`, execute `npm run generate:ai` e versione os artefatos públicos atualizados junto com a fonte.
 - Antes de concluir mudanças relevantes, execute `npm run build`.
-- Registre novas consultorias, decisões, exceções, substituições de regra e homologações em `docs/decisions/`. Use `docs/decisions/_template.md` como base e preserve o histórico; não reescreva silenciosamente decisões anteriores.
+- Incorpore regras vigentes nos documentos canônicos e registre mudanças significativas em `CHANGELOG.md`. Quando o racional histórico precisar ser preservado, use `archive/decisions/_template.md` e não o exponha como documentação vigente.
 
 ## Assets e logos
 

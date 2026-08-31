@@ -15,7 +15,7 @@ Nenhuma referência geral de canal foi registrada formalmente nesta categoria ai
 
 Peças que se aproximaram do resultado, mas contêm problemas. Cada registro deve explicar o erro, se ele é estrutural ou de acabamento e o que não deve ser repetido.
 
-Nenhuma referência geral foi registrada formalmente nesta categoria. Exemplos específicos usados apenas para comparação posterior pertencem a `docs/benchmarks/` e não devem ser consultados antes da criação.
+Nenhuma referência geral foi registrada formalmente nesta categoria. Exemplos específicos usados apenas para comparação posterior pertencem a `benchmarks/` e não devem ser consultados antes da criação.
 
 ## Exploratórias
 

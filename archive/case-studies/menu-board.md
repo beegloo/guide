@@ -9,7 +9,7 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 - **Observação:** o que ocorreu neste trabalho.
 - **Aprendizado reutilizável:** princípio que pode orientar trabalhos futuros.
-- **Decisão oficial:** regra formal registrada em `docs/decisions/`.
+- **Decisão oficial:** regra formal preservada em `archive/decisions/`.
 
 ## Contexto e problema
 
@@ -31,7 +31,7 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Aprendizado reutilizável:** diversidade vem antes da fidelidade. Direções devem representar hipóteses composicionais, não variações cosméticas; uma opção precisa ser escolhida e congelada antes do refinamento. Em exploração de Marketing, quatro propostas podem funcionar como default útil quando a tarefa comportar esse espaço, sem se tornar regra universal.
 
-**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md). Nesta fase, o método criativo deve ser validado antes da otimização de custo.
+**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../../docs/ai/process.md). Nesta fase, o método criativo deve ser validado antes da otimização de custo.
 
 ## Teste posterior de produção
 
@@ -55,7 +55,7 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Observação:** a gramática de UI dominou a composição e reduziu desejo, impacto comercial e qualidade da direção de arte. Notas de processo também passaram a competir com a peça dirigida ao consumidor.
 
-**Aprendizado reutilizável:** conceptual ≠ schematic. Um placeholder deve preservar peso visual sem inventar detalhe factual; marketing não herda automaticamente a gramática de interface; anotações de processo ficam normalmente fora da composição para consumidor. O guide de [Marketing e criação comercial](../marketing/principles.md) registra essas regras sem transformar a estética deste menu board em padrão universal.
+**Aprendizado reutilizável:** conceptual ≠ schematic. Um placeholder deve preservar peso visual sem inventar detalhe factual; marketing não herda automaticamente a gramática de interface; anotações de processo ficam normalmente fora da composição para consumidor. O guide de [Marketing e criação comercial](../../docs/marketing/principles.md) registra essas regras sem transformar a estética deste menu board em padrão universal.
 
 ## Teste de composição container-first
 
@@ -105,7 +105,7 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 
 **Observação:** inicialmente, a direção aprovada no Lovart foi registrada junto às referências de calibração. Percebemos que carregá-la antes da criação contaminaria o experimento: um agente poderia convergir para a solução conhecida em vez de demonstrar que aprendeu direção de arte com o guide.
 
-**Observação:** a direção aprovada e os testes rejeitados específicos foram isolados como holdouts. O agente deve produzir e congelar uma direção usando fundamentos, guide de Marketing, princípios gerais de direção de arte e referências gerais permitidas. Só depois a avaliação pode abrir os [benchmarks](../benchmarks/README.md).
+**Observação:** a direção aprovada e os testes rejeitados específicos foram isolados como holdouts. O agente deve produzir e congelar uma direção usando fundamentos, guide de Marketing, princípios gerais de direção de arte e referências gerais permitidas. Só depois a avaliação pode abrir os [benchmarks](../../benchmarks/README.md).
 
 **Aprendizado reutilizável:** não treine a exploração com a resposta que pretende testar. Um benchmark avalia qualidade depois da criação; não deve vazar a solução-alvo para o creative input.
 
@@ -113,7 +113,7 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 
 **Observação:** quatro direções foram geradas e uma foi escolhida, mas a escolha permaneceu no contexto e nos artefatos locais daquela execução. Em um novo chat, “Direção 01” não tinha referência visual nem descrição autossuficiente e não podia ser refinada com segurança.
 
-**Aprendizado reutilizável:** congelar uma direção sem preservar seu estado em artefatos é insuficiente. **A frozen direction must be portable.** Depois da escolha, o processo deve gerar um [handoff criativo](../ai/creative-handoff.md) no workspace da execução antes do refinamento.
+**Aprendizado reutilizável:** congelar uma direção sem preservar seu estado em artefatos é insuficiente. **A frozen direction must be portable.** Depois da escolha, o processo deve gerar um [handoff criativo](../../docs/ai/creative-handoff.md) no workspace da execução antes do refinamento.
 
 **Aprendizado reutilizável:** o estado deve viver em artifacts, não apenas na conversa. Nomes numéricos ou relativos precisam vir acompanhados de imagem, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo e próximos passos. O case ensina essa lição; o Brand Guide não mantém a instância operacional daquele trabalho.
 
@@ -121,7 +121,7 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 
 **Observação:** preços e conteúdo comercial entraram depois da definição da direção, quando já podiam ser tratados como informação a compor, e não como parte da exploração visual.
 
-**Observação:** produto e embalagem reais precisaram ser tratados como fontes de verdade, não como sugestões estéticas. As regras aplicáveis já estão documentadas em [Fontes de verdade](../foundations/sources-of-truth.md) e [Fidelidade de produtos e embalagens](../products/product-fidelity.md).
+**Observação:** produto e embalagem reais precisaram ser tratados como fontes de verdade, não como sugestões estéticas. As regras aplicáveis já estão documentadas em [Fontes de verdade](../../docs/foundations/sources-of-truth.md) e [Fidelidade de produtos e embalagens](../../docs/products/product-fidelity.md).
 
 **Aprendizado reutilizável:** a liberdade criativa diminui à medida que cresce a importância factual do elemento.
 

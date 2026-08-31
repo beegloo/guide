@@ -120,7 +120,7 @@ Não substitua a referência por outro produto. Preserve recipiente, silhueta, i
 
 ## Fatos ainda pendentes
 
-Categoria e descrição oficiais, sabores, variações, tamanhos, receitas, ingredientes, embalagens, fotografias finais e situação comercial permanecem pendentes até homologação. Não derive esses fatos da aparência das working references.
+Categoria e descrição oficiais, características visuais homologadas, sabores, variações, tamanhos, receitas, ingredientes, embalagens, fotografias finais, elementos imutáveis específicos, situação comercial, exemplos corretos e erros comuns permanecem pendentes até homologação. Não derive esses fatos da aparência das working references.
 
 Não traduza, pluralize, abrevie, complete ou altere os nomes CROC, SHAKE, SUNNY e CREMIX.
 

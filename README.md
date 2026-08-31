@@ -5,6 +5,8 @@ Fonte canônica local do Brand Guide da Beegloo, construída para dois públicos
 - pessoas, por meio da experiência editorial em React;
 - agentes de IA, por meio de Markdown, `llms.txt` e JSON estruturado.
 
+O conhecimento vigente vive em `docs/`. Memória histórica vive em `archive/`, benchmarks de avaliação pós-criação em `benchmarks/` e mudanças significativas em `CHANGELOG.md`.
+
 ## Requirements
 
 - Node.js 20.19 or later

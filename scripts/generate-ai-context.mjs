@@ -3,9 +3,11 @@ import path from 'node:path'
 
 const root = process.cwd()
 const docsRoot = path.join(root, 'docs')
+const benchmarksRoot = path.join(root, 'benchmarks')
 const publicRoot = path.join(root, 'public')
 const aiRoot = path.join(publicRoot, 'ai')
 const brandRoot = path.join(publicRoot, 'brand')
+const evaluationRoot = path.join(publicRoot, 'evaluation')
 
 const walk = async (directory) => {
   const entries = await readdir(directory, { withFileTypes: true })
@@ -23,9 +25,11 @@ const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exp
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
+await rm(evaluationRoot, { recursive: true, force: true })
 await rm(path.join(publicRoot, 'llms-full.txt'), { force: true })
 await mkdir(aiRoot, { recursive: true })
 await mkdir(path.join(brandRoot, 'logos'), { recursive: true })
+await mkdir(path.join(evaluationRoot, 'benchmarks'), { recursive: true })
 
 const logoAliases = {
   'primary.svg': 'Padrão.svg',
@@ -64,6 +68,14 @@ for (const source of markdownFiles) {
   })
 }
 
+const benchmarkFiles = (await walk(benchmarksRoot)).filter((file) => file.endsWith('.md'))
+for (const source of benchmarkFiles) {
+  const relative = path.relative(benchmarksRoot, source)
+  const destination = path.join(evaluationRoot, 'benchmarks', relative)
+  await mkdir(path.dirname(destination), { recursive: true })
+  await copyFile(source, destination)
+}
+
 const bundleSpecs = {
   core: {
     title: 'Contexto essencial',
@@ -97,7 +109,6 @@ for (const [name, bundle] of Object.entries(bundleSpecs)) {
   await writeFile(path.join(aiRoot, 'context', `${name}.md`), `# ${bundle.title}\n\n> Bundle gerado. Edite apenas as fontes indicadas em cada seção.\n\n${body}\n`)
 }
 
-const creativeDocuments = documents.filter((document) => document.category !== 'benchmarks')
 const llms = `# Beegloo Brand Guide
 
 > Roteador oficial de contexto. Carregue o menor bundle que corresponda à intenção do trabalho.
@@ -113,7 +124,6 @@ const llms = `# Beegloo Brand Guide
 ## Ferramentas de trabalho
 
 - [Template de creative brief](/ai/templates/creative-brief.md)
-- [Benchmarks de avaliação — carregar somente depois da criação](/ai/benchmarks/README.md)
 - [Manifesto estruturado JSON](/brand-context.json)
 - [Documentação para pessoas](/docs)
 
@@ -153,14 +163,14 @@ const manifest = {
   },
   mascotAssetStatus: 'missing',
   channelGuides: { marketing: '/ai/context/marketing.md', ui: '/ai/context/ui.md' },
-  evaluation: { index: '/ai/benchmarks/README.md', loadPolicy: 'after-creation-only' },
+  evaluation: { index: '/evaluation/benchmarks/README.md', loadPolicy: 'after-creation-only' },
   invariants: [
     'Never recreate or modify official logos.',
     'Never infer product, packaging, naming, flavor, price, or legal facts.',
     'AI output is not an official reference without explicit human approval.',
   ],
-  documents: creativeDocuments.map((document) => document.source),
-  documentIndex: creativeDocuments,
+  documents: documents.map((document) => document.source),
+  documentIndex: documents,
 }
 
 await writeFile(path.join(publicRoot, 'llms.txt'), llms)

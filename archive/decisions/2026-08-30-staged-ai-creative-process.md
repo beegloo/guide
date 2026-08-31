@@ -26,7 +26,7 @@ O fluxo criativo em etapas passa a ser o processo recomendado para trabalhos cri
 - Decisões aprovadas ficam congeladas até serem explicitamente reabertas.
 - A liberdade criativa diminui conforme aumenta a importância factual.
 - Feedback de refinamento deve ser específico e preservar tudo que não foi reaberto.
-- O processo detalhado vive em [Processo criativo com IA](../ai/process.md).
+- O processo detalhado vive em [Processo criativo com IA](../../docs/ai/process.md).
 
 ## Consequências
 
@@ -43,9 +43,9 @@ Esta decisão não homologa catálogo, preços, produtos, embalagens, fotografia
 ## Referências
 
 - [Case study do menu board](../case-studies/menu-board.md)
-- [Tipos de referência](../references/types.md)
-- [Template de creative brief](../templates/creative-brief.md)
-- [Fontes de verdade](../foundations/sources-of-truth.md)
+- [Tipos de referência](../../docs/references/types.md)
+- [Template de creative brief](../../docs/templates/creative-brief.md)
+- [Fontes de verdade](../../docs/foundations/sources-of-truth.md)
 
 ## Aprovação
 

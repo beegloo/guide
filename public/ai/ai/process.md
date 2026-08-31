@@ -46,7 +46,7 @@ Explore diversidade estrutural antes do acabamento. Cada direção deve testar u
 
 Todas as opções apresentadas precisam superar o mesmo piso de marca, assunto e qualidade. Quantidade não compensa propostas fracas.
 
-Durante esta etapa, não consulte [benchmarks de avaliação](../benchmarks/README.md).
+Durante esta etapa, não consulte [benchmarks de avaliação](/evaluation/benchmarks/README.md).
 
 ## 4. Escolher e congelar
 
@@ -68,4 +68,4 @@ Preserve assuntos estáveis e concentre a liberdade no que permanece explorável
 
 Aplique o [checklist de entrega](delivery-checklist.md). Depois que uma direção candidata estiver criada e congelada, benchmarks podem entrar como holdout de avaliação, nunca como resposta-alvo.
 
-Registre decisões reutilizáveis em `docs/decisions/`. Observações de um trabalho específico pertencem ao case study ou ao workspace desse trabalho e só viram regra após validação explícita.
+Incorpore decisões reutilizáveis na documentação canônica e registre a mudança no `CHANGELOG.md`. Observações de um trabalho específico pertencem ao workspace ou ao arquivo histórico e só viram regra após validação explícita.

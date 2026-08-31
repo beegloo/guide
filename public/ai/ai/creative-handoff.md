@@ -32,7 +32,7 @@ Adjustable permite microespaçamento, escala fina, crop, posição, refinamento 
 
 Handoff não é source of truth de marca, catálogo factual, benchmark ou decisão institucional. Ele registra o estado temporário de uma execução e referencia assets canônicos em vez de duplicá-los.
 
-`docs/decisions/` permanece reservado à memória institucional reutilizável. `docs/case-studies/` registra aprendizados de casos. O workspace do trabalho guarda handoffs ativos, imagens escolhidas, arquivos temporários e versões.
+`archive/decisions/` e `archive/case-studies/` preservam memória institucional e aprendizados históricos fora do guide vigente. O workspace do trabalho guarda handoffs ativos, imagens escolhidas, arquivos temporários e versões.
 
 Atualize a instância a cada mudança relevante de estado. Ao finalizar, substituir ou abandonar o trabalho, marque seu estado e aponte para o sucessor quando houver.
 

@@ -8,7 +8,7 @@ Status: ativo
 - **Canal:** Marketing / Commercial Creative — menu board.
 - **Asset visual associado:** pendente; o arquivo do teste rejeitado ainda não está no repositório.
 - **Data do caso:** 2026-08-30.
-- **Decisão relacionada:** [Fluxo criativo em etapas](../../decisions/2026-08-30-staged-ai-creative-process.md).
+- **Decisão relacionada:** `archive/decisions/2026-08-30-staged-ai-creative-process.md`.
 
 ## Contexto
 

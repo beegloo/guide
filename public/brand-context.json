@@ -133,7 +133,7 @@
     "ui": "/ai/context/ui.md"
   },
   "evaluation": {
-    "index": "/ai/benchmarks/README.md",
+    "index": "/evaluation/benchmarks/README.md",
     "loadPolicy": "after-creation-only"
   },
   "invariants": [
@@ -147,9 +147,6 @@
     "/ai/ai/creative-handoff.md",
     "/ai/ai/delivery-checklist.md",
     "/ai/ai/process.md",
-    "/ai/case-studies/menu-board.md",
-    "/ai/decisions/2026-08-30-staged-ai-creative-process.md",
-    "/ai/decisions/_template.md",
     "/ai/foundations/brand-essence.md",
     "/ai/foundations/composition.md",
     "/ai/foundations/sources-of-truth.md",
@@ -165,11 +162,7 @@
     "/ai/marketing/pricing.md",
     "/ai/marketing/principles.md",
     "/ai/products/catalog.md",
-    "/ai/products/cremix.md",
-    "/ai/products/croc.md",
     "/ai/products/product-fidelity.md",
-    "/ai/products/shake.md",
-    "/ai/products/sunny.md",
     "/ai/references/library.md",
     "/ai/references/types.md",
     "/ai/templates/creative-brief.md",
@@ -215,30 +208,6 @@
       "status": "active",
       "lastReviewed": "2026-08-31",
       "source": "/ai/ai/process.md"
-    },
-    {
-      "path": "case-studies/menu-board.md",
-      "title": "Case study — processo criativo do menu board",
-      "category": "case-studies",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/case-studies/menu-board.md"
-    },
-    {
-      "path": "decisions/2026-08-30-staged-ai-creative-process.md",
-      "title": "Decisão criativa — 2026-08-30 — Fluxo criativo em etapas",
-      "category": "decisions",
-      "status": "official",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/decisions/2026-08-30-staged-ai-creative-process.md"
-    },
-    {
-      "path": "decisions/_template.md",
-      "title": "Decisão criativa — AAAA-MM-DD",
-      "category": "decisions",
-      "status": "exploratory",
-      "lastReviewed": null,
-      "source": "/ai/decisions/_template.md"
     },
     {
       "path": "foundations/brand-essence.md",
@@ -361,44 +330,12 @@
       "source": "/ai/products/catalog.md"
     },
     {
-      "path": "products/cremix.md",
-      "title": "CREMIX",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/cremix.md"
-    },
-    {
-      "path": "products/croc.md",
-      "title": "CROC",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/croc.md"
-    },
-    {
       "path": "products/product-fidelity.md",
       "title": "Fidelidade de produtos e embalagens",
       "category": "products",
       "status": "official",
       "lastReviewed": "2026-08-30",
       "source": "/ai/products/product-fidelity.md"
-    },
-    {
-      "path": "products/shake.md",
-      "title": "SHAKE",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/shake.md"
-    },
-    {
-      "path": "products/sunny.md",
-      "title": "SUNNY",
-      "category": "products",
-      "status": "pending",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/sunny.md"
     },
     {
       "path": "references/library.md",
