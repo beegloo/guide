@@ -89,13 +89,15 @@ Somente quando marca, assunto, canal e representação permitirem avaliar desejo
 
 Gerar de três a quatro estudos de direção genuinamente distintos antes de tentar fechar a peça final. Em trabalhos de Marketing com espaço real de exploração, prefira quatro direções como conjunto inicial padrão. Tarefas simples podem justificar menos, e casos excepcionais podem exigir outra abordagem; o número não substitui julgamento criativo.
 
-Cada direção deve ter uma hipótese composicional própria, conforme os [princípios de direção de arte](../marketing/art-direction.md). Quatro cores, rearranjos superficiais dos mesmos blocos ou pequenas mudanças de escala na mesma arquitetura contam como variantes, não como direções distintas.
+Cada direção deve ter uma hipótese composicional própria, conforme os [princípios de direção de arte](../marketing/art-direction.md). Quatro cores, backgrounds ou cenários sobre relações semelhantes entre produto, tipografia e espaço contam como variantes, não como direções distintas.
 
 Antes da rodada, identifique quais assets são visualmente determinantes, o nível de representação necessário para comparar as hipóteses, quais sources of truth estão disponíveis e onde será necessário usar asset provisório, referência representativa ou proxy claramente identificado. Não construa a comparação com placeholders abstratos inadequados quando presença ou silhueta de produto determinar a decisão.
 
 As propostas não precisam de acabamento final, mas devem permitir comparar impacto, hierarquia, desejo, escala, composição, presença do produto, legibilidade e relação entre elementos. **Low finish is acceptable. Low evaluability is not.**
 
-Explore internamente quantas tentativas forem necessárias sem impor um número fixo. Rejeite ou regenere opções fracas antes da rodada apresentada. **Do not present four directions merely because they are different.** Cada candidata deve passar individualmente pelo quality gate: aderência à marca e ao canal, avaliabilidade, plausibilidade comercial, fidelidade suficiente ao assunto, distinção das demais e defesa como direção de arte — não apenas experimento gráfico.
+Explore internamente quantas tentativas forem necessárias sem impor um número fixo. Rejeite ou regenere opções fracas antes da rodada apresentada. **Do not present four directions merely because they are different.** Cada candidata deve passar individualmente pelo quality gate: aderência à marca e ao canal, avaliabilidade, plausibilidade comercial, fidelidade suficiente ao assunto, distinção estrutural e defesa como direção de arte — não apenas experimento gráfico.
+
+Para Marketing, aplique também o teste de potência publicitária: existe uma ideia visual reconhecível, hierarquia forte, tensão, desejo, protagonismo do produto, tipografia integrada, memorabilidade e funcionamento em escala reduzida? Rejeite product parade automático, ambiente decorativo conduzindo a solução ou naming usado apenas como legenda quando esses sinais revelarem direção genérica.
 
 Apresente cada direção aprovada pelo gate de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
 

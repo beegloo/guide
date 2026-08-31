@@ -77,6 +77,16 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 
 **Aprendizado reutilizável:** quatro é alvo de apresentação, não substituto de controle de qualidade. O objetivo é apresentar quatro direções distintas e good enough to compare, não apenas quatro resultados diferentes.
 
+## Teste de compliance sem potência publicitária
+
+**Observação:** quatro direções posteriores respeitaram melhor processo e product fidelity, mas convergiram para produtos isolados, tamanhos semelhantes, espaçamento previsível, naming como legenda e cenários decorativos fazendo a principal diferenciação. Houve pouca sobreposição, tensão ou interação entre produto, tipo e espaço.
+
+**Observação:** as propostas diferiam mais pelo background do que por suas hipóteses composicionais. A diversidade superficial e o cumprimento dos guardrails não produziram, sozinhos, direção de arte forte.
+
+**Aprendizado reutilizável:** **Compliance is a floor, not the creative goal.** **Equal commercial priority does not require equal visual treatment.** Uma composição pode equilibrar famílias no conjunto usando escala, planos, agrupamento, crop, assimetria e relações diferentes.
+
+**Aprendizado reutilizável:** **A decorative environment is not an art direction. Typography is not a caption.** Produto, tipografia e espaço precisam formar a ideia visual; cenários apoiam essa relação em vez de substituir estrutura e potência publicitária.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.

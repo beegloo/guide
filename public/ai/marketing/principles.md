@@ -22,6 +22,8 @@ A qualidade publicitária deve ser construída com os [princípios gerais de dir
 
 **Diversity is not enough. Every direction must first pass brand, subject and quality readiness.** Uma hipótese diferente só entra na rodada apresentada quando também for fiel à identidade necessária, adequada ao assunto e comercialmente defensável.
 
+**Compliance is a floor, not the creative goal.** Para Marketing, correção precisa evoluir para uma ideia visual forte em que produto, tipografia e espaço construam juntos desejo, impacto e memorabilidade.
+
 ## Formas não são componentes por padrão
 
 Em marketing, uma forma arredondada pode funcionar como:
