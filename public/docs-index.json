@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T13:12:16.487Z",
+  "generatedAt": "2026-08-31T17:30:09.857Z",
   "documents": [
     {
       "path": "README.md",
@@ -270,7 +270,7 @@
       "title": "Tipos de referência",
       "category": "references",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/references/types.md"
     },
     {

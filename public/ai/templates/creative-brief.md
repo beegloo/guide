@@ -25,13 +25,27 @@ Use este template no workspace do trabalho. Ele não é uma decisão de marca e 
 - Prioridades secundárias:
 - Informações legais ou obrigatórias:
 
-## Fontes e autoridade
+## Visual input roles
 
-Liste cada arquivo, link ou decisão com seu status: fonte de verdade, referência de marca, mood reference, exploratório ou pendente.
+Antes de criar, classifique cada input conforme os [tipos de referência](../references/types.md): source of truth, creative reference, brand reference ou exploratory asset.
 
 - Fonte:
 - Papel:
 - Status:
+
+**Priority rule: source of truth always overrides creative reference.**
+
+**Use creative references to transform the composition, not the subject.**
+
+**Recompose the product; do not redesign the product.**
+
+## Visual sources
+
+- Product references:
+- Official logo/assets:
+- Brand colors/type:
+- Creative reference:
+- Exploratory assets:
 
 ## Imutável
 
