@@ -23,6 +23,7 @@ const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exp
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
+await rm(path.join(publicRoot, 'llms-full.txt'), { force: true })
 await mkdir(aiRoot, { recursive: true })
 await mkdir(path.join(brandRoot, 'logos'), { recursive: true })
 
@@ -38,7 +39,6 @@ await Promise.all(Object.entries(logoAliases).map(([alias, source]) => copyFile(
   path.join(brandRoot, 'logos', alias),
 )))
 
-const sections = []
 const documents = []
 const contents = new Map()
 for (const source of markdownFiles) {
@@ -50,7 +50,6 @@ for (const source of markdownFiles) {
   await mkdir(path.dirname(destination), { recursive: true })
   await writeFile(destination, content)
   const category = relative.includes(path.sep) ? relative.split(path.sep)[0] : 'general'
-  if (category !== 'benchmarks') sections.push(`<!-- source: docs/${relative} -->\n\n${content.trim()}`)
   const title = content.match(/^#\s+(.+)$/m)?.[1] ?? path.basename(relative, '.md')
   const statusLabel = content.match(/^Status:\s*([^\n]+)/mi)?.[1]?.trim() ?? 'ativo'
   const status = statusValues[statusLabel.toLocaleLowerCase('pt-BR')] ?? 'active'
@@ -80,7 +79,7 @@ const bundleSpecs = {
   },
   'menu-board': {
     title: 'Contexto de menu board',
-    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'marketing/principles.md', 'marketing/art-direction.md', 'marketing/menu-boards.md', 'marketing/commercial-hierarchy.md', 'marketing/pricing.md', 'products/product-fidelity.md'],
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'products/catalog.md', 'products/product-fidelity.md', 'marketing/principles.md', 'marketing/art-direction.md', 'marketing/menu-boards.md', 'marketing/commercial-hierarchy.md', 'marketing/pricing.md'],
   },
   workflow: {
     title: 'Workflow criativo com IA',
@@ -115,7 +114,6 @@ const llms = `# Beegloo Brand Guide
 
 - [Template de creative brief](/ai/templates/creative-brief.md)
 - [Benchmarks de avaliação — carregar somente depois da criação](/ai/benchmarks/README.md)
-- [Contexto editorial ampliado — fallback, não padrão](/llms-full.txt)
 - [Manifesto estruturado JSON](/brand-context.json)
 - [Documentação para pessoas](/docs)
 
@@ -132,7 +130,7 @@ const manifest = {
   brand: 'Beegloo',
   language: 'pt-BR',
   lastReviewed: '2026-08-31',
-  entrypoints: { default: '/ai/context/core.md', concise: '/llms.txt', completeFallback: '/llms-full.txt', human: '/', humanDocs: '/docs?doc=ai/brand-context.md#docs' },
+  entrypoints: { default: '/ai/context/core.md', concise: '/llms.txt', human: '/', humanDocs: '/docs?doc=ai/brand-context.md#docs' },
   contextBundles: Object.fromEntries(Object.keys(bundleSpecs).map((name) => [name, `/ai/context/${name}.md`])),
   authorityOrder: [
     'approved-asset-or-document',
@@ -147,7 +145,12 @@ const manifest = {
   typography: { primary: 'Outfit' },
   colors,
   knownProductFamilies: ['CROC', 'SHAKE', 'SUNNY', 'CREMIX'],
-  productCatalogStatus: 'pending',
+  productCatalog: {
+    status: 'active',
+    source: '/ai/products/catalog.md',
+    workingReferencesStatus: 'active',
+    finalProductAssetsStatus: 'pending',
+  },
   mascotAssetStatus: 'missing',
   channelGuides: { marketing: '/ai/context/marketing.md', ui: '/ai/context/ui.md' },
   evaluation: { index: '/ai/benchmarks/README.md', loadPolicy: 'after-creation-only' },
@@ -161,6 +164,5 @@ const manifest = {
 }
 
 await writeFile(path.join(publicRoot, 'llms.txt'), llms)
-await writeFile(path.join(publicRoot, 'llms-full.txt'), `# Beegloo Brand Guide — contexto editorial ampliado\n\n> Fallback gerado. Para uso normal, escolha um bundle em /llms.txt.\n\n${sections.join('\n\n---\n\n')}\n`)
 await writeFile(path.join(publicRoot, 'brand-context.json'), `${JSON.stringify(manifest, null, 2)}\n`)
 await writeFile(path.join(publicRoot, 'docs-index.json'), `${JSON.stringify({ generatedAt: new Date().toISOString(), documents }, null, 2)}\n`)

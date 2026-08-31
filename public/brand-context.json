@@ -6,7 +6,6 @@
   "entrypoints": {
     "default": "/ai/context/core.md",
     "concise": "/llms.txt",
-    "completeFallback": "/llms-full.txt",
     "human": "/",
     "humanDocs": "/docs?doc=ai/brand-context.md#docs"
   },
@@ -122,7 +121,12 @@
     "SUNNY",
     "CREMIX"
   ],
-  "productCatalogStatus": "pending",
+  "productCatalog": {
+    "status": "active",
+    "source": "/ai/products/catalog.md",
+    "workingReferencesStatus": "active",
+    "finalProductAssetsStatus": "pending"
+  },
   "mascotAssetStatus": "missing",
   "channelGuides": {
     "marketing": "/ai/context/marketing.md",

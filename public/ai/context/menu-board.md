@@ -82,6 +82,108 @@ Se um ativo ou fato necessário estiver ausente, interrompa a produção factual
 
 ---
 
+<!-- source: docs/products/catalog.md -->
+
+# Catálogo de produtos
+
+Status: ativo
+Última revisão: 2026-08-31
+
+Este catálogo reúne os dados disponíveis sem converter referências de trabalho em homologação final.
+
+## Hierarquia de representação
+
+Para cada família, use uma única rota:
+
+1. **Official:** use o produto ou asset final homologado, quando existir.
+2. **Working:** na ausência do final, use a working reference aprovada como subject visual obrigatório da etapa.
+3. **Pending:** considere o produto ausente somente quando não existir nem asset oficial nem working reference.
+
+**Use the working reference as the product for this stage. Recompose it; do not redesign it.** O status provisório indica substituição futura pelo asset final; não autoriza ignorar, reinterpretar ou redesenhar a referência durante direção de arte.
+
+## Working product references
+
+| Família / nome | Referência visual de trabalho | Identificação visual da referência | Formato / recipiente esperado nesta etapa | Preço de trabalho | Status |
+| --- | --- | --- | --- | --- | --- |
+| CROC | [croc.png](/assets/products/working/croc.png) | Soft serve em cone, conforme a imagem matriz. | Cone com silhueta e massa visual da referência. | A PARTIR DE R$ 4,90 | Working reference e preço de trabalho; produto, receita, cobertura, proporções e fotografia final não homologados. |
+| SHAKE | [shake.png](/assets/products/working/shake.png) | Shake em copo alto, conforme a imagem matriz. | Copo alto com silhueta e massa visual da referência. | A PARTIR DE R$ 17,90 | Working reference e preço de trabalho; sabor, ingrediente, cor, recipiente e fotografia final não homologados. |
+| SUNNY | [sunny.png](/assets/products/working/sunny.png) | Sundae em copo, conforme a imagem matriz. | Copo com silhueta e massa visual da referência. | R$ 11,90 | Working reference e preço de trabalho; receita, cobertura, quantidade, recipiente e fotografia final não homologados. |
+| CREMIX | [cremix.png](/assets/products/working/cremix.png) | Sobremesa cremosa em pote, conforme a imagem matriz. | Pote com silhueta e massa visual da referência. | A PARTIR DE R$ 14,90 | Working reference e preço de trabalho; embalagem, ingrediente, topping, licenciamento e fotografia final não homologados. |
+
+Os preços acima são dados de trabalho para composição e hierarquia comercial, não tabela comercial final homologada. Não extrapole tamanhos, descontos, adicionais ou variações.
+
+## Uso composicional
+
+Pode ampliar, reduzir, reposicionar, recortar, sobrepor, integrar com tipografia, trabalhar profundidade e ajustar orientação quando a identidade visual permanecer clara.
+
+Não substitua a referência por outro produto. Preserve recipiente, silhueta, ingredientes visíveis, cobertura e proporções reconhecíveis na imagem matriz. Se uma transformação não preservar o subject, mantenha o asset original e transforme a composição ao redor dele.
+
+## Fatos ainda pendentes
+
+Categoria e descrição oficiais, sabores, variações, tamanhos, receitas, ingredientes, embalagens, fotografias finais e situação comercial permanecem pendentes até homologação. Não derive esses fatos da aparência das working references.
+
+Não traduza, pluralize, abrevie, complete ou altere os nomes CROC, SHAKE, SUNNY e CREMIX.
+
+---
+
+<!-- source: docs/products/product-fidelity.md -->
+
+# Fidelidade de produtos e embalagens
+
+Status: oficial
+Última revisão: 2026-08-30
+
+> Produtos, fotografias e embalagens fornecidos são fontes de verdade. Não inventar, redesenhar, completar, substituir ou “melhorar” formato, volume, tampa, copo, pote, rótulo, marca, texto, cor, ingrediente, cobertura ou proporção sem autorização explícita.
+
+## Pode ser explorado quando o briefing permitir
+
+- Fundo.
+- Cenografia.
+- Composição.
+- Formas gráficas de apoio.
+- Luz ambiental.
+- Sombras externas.
+- Recorte.
+- Enquadramento.
+- Relação espacial entre elementos.
+
+## Deve permanecer imutável
+
+- Geometria da embalagem.
+- Tampa e fechamento.
+- Rótulo, logo e textos impressos.
+- Cor oficial.
+- Formato do produto.
+- Ingredientes visíveis.
+- Cobertura e recheio.
+- Quantidade aparente.
+- Proporção entre produto e embalagem.
+- Sabor representado.
+
+## Referência insuficiente
+
+Se a imagem fornecida não permitir reprodução fiel:
+
+1. Priorizar source of truth final.
+2. Quando ela não estiver disponível, avaliar asset real provisório.
+3. Depois, usar referência representativa cuja limitação esteja identificada.
+4. Se necessário, criar proxy sintético controlado que preserve categoria, silhueta e massa sem inventar fatos específicos.
+5. Usar placeholder abstrato apenas quando o assunto não for visualmente determinante para a decisão.
+
+Quando o assunto for visualmente determinante, placeholder abstrato não é suficiente para validar direção de arte. Solicite novas fotos ou ângulos se nenhuma representação disponível alcançar o nível necessário.
+
+**If an essential input is missing, solve the input problem before compensating with unrelated visual invention.** Esculturas, recipientes ou objetos cenográficos sem correspondência semântica suficiente não substituem produto ausente. Identifique limites de estudos conceituais e nunca apresente invenção como produto final.
+
+## Working proxies
+
+Quando existir um working proxy válido para a tarefa, use-o antes de gerar outro assunto. **If a valid working proxy already exists, use it. Do not regenerate the subject unless the task explicitly requires it.** Um proxy é provisório e não homologa produto, mas deve permanecer visualmente estável durante a comparação de direções.
+
+**Recompose the product; do not redesign the product.** Adapte escala, posição, crop, enquadramento, profundidade e integração ao contexto antes de alterar o asset. Mudanças de orientação ou perspectiva só são válidas quando preservam categoria, silhueta, recipiente, ingredientes visíveis, cobertura e proporções essenciais.
+
+**Intentional crop is allowed. Accidental loss of product identity is not.** Se a ferramenta não preservar a identidade em nova perspectiva ou regeneração, mantenha o asset original e transforme a composição ao redor dele.
+
+---
+
 <!-- source: docs/marketing/principles.md -->
 
 # Marketing e criação comercial
@@ -295,61 +397,3 @@ O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o
 - Combos, adicionais e tamanhos.
 - Alinhamento e espaçamento.
 - Informações legais obrigatórias por canal.
-
----
-
-<!-- source: docs/products/product-fidelity.md -->
-
-# Fidelidade de produtos e embalagens
-
-Status: oficial
-Última revisão: 2026-08-30
-
-> Produtos, fotografias e embalagens fornecidos são fontes de verdade. Não inventar, redesenhar, completar, substituir ou “melhorar” formato, volume, tampa, copo, pote, rótulo, marca, texto, cor, ingrediente, cobertura ou proporção sem autorização explícita.
-
-## Pode ser explorado quando o briefing permitir
-
-- Fundo.
-- Cenografia.
-- Composição.
-- Formas gráficas de apoio.
-- Luz ambiental.
-- Sombras externas.
-- Recorte.
-- Enquadramento.
-- Relação espacial entre elementos.
-
-## Deve permanecer imutável
-
-- Geometria da embalagem.
-- Tampa e fechamento.
-- Rótulo, logo e textos impressos.
-- Cor oficial.
-- Formato do produto.
-- Ingredientes visíveis.
-- Cobertura e recheio.
-- Quantidade aparente.
-- Proporção entre produto e embalagem.
-- Sabor representado.
-
-## Referência insuficiente
-
-Se a imagem fornecida não permitir reprodução fiel:
-
-1. Priorizar source of truth final.
-2. Quando ela não estiver disponível, avaliar asset real provisório.
-3. Depois, usar referência representativa cuja limitação esteja identificada.
-4. Se necessário, criar proxy sintético controlado que preserve categoria, silhueta e massa sem inventar fatos específicos.
-5. Usar placeholder abstrato apenas quando o assunto não for visualmente determinante para a decisão.
-
-Quando o assunto for visualmente determinante, placeholder abstrato não é suficiente para validar direção de arte. Solicite novas fotos ou ângulos se nenhuma representação disponível alcançar o nível necessário.
-
-**If an essential input is missing, solve the input problem before compensating with unrelated visual invention.** Esculturas, recipientes ou objetos cenográficos sem correspondência semântica suficiente não substituem produto ausente. Identifique limites de estudos conceituais e nunca apresente invenção como produto final.
-
-## Working proxies
-
-Quando existir um working proxy válido para a tarefa, use-o antes de gerar outro assunto. **If a valid working proxy already exists, use it. Do not regenerate the subject unless the task explicitly requires it.** Um proxy é provisório e não homologa produto, mas deve permanecer visualmente estável durante a comparação de direções.
-
-**Recompose the product; do not redesign the product.** Adapte escala, posição, crop, enquadramento, profundidade e integração ao contexto antes de alterar o asset. Mudanças de orientação ou perspectiva só são válidas quando preservam categoria, silhueta, recipiente, ingredientes visíveis, cobertura e proporções essenciais.
-
-**Intentional crop is allowed. Accidental loss of product identity is not.** Se a ferramenta não preservar a identidade em nova perspectiva ou regeneração, mantenha o asset original e transforme a composição ao redor dele.

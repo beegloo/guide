@@ -14,7 +14,6 @@
 
 - [Template de creative brief](/ai/templates/creative-brief.md)
 - [Benchmarks de avaliação — carregar somente depois da criação](/ai/benchmarks/README.md)
-- [Contexto editorial ampliado — fallback, não padrão](/llms-full.txt)
 - [Manifesto estruturado JSON](/brand-context.json)
 - [Documentação para pessoas](/docs)
 

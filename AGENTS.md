@@ -15,8 +15,8 @@
 
 - `docs/` é a fonte canônica editorial do Beegloo Brand Guide.
 - Edite regras, decisões e conteúdo de marca somente em `docs/`.
-- `public/ai/`, `public/llms.txt`, `public/llms-full.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
-- `public/llms.txt` roteia agentes para bundles em `public/ai/context/`. `public/llms-full.txt` é fallback ampliado, não contexto padrão.
+- `public/ai/`, `public/llms.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
+- `public/llms.txt` roteia agentes para bundles em `public/ai/context/`.
 - Case studies, decisões e estado de projeto não entram nos bundles padrão. Benchmarks permanecem separados para avaliação posterior.
 - `docs/ai/creative-handoff.md` define o protocolo reutilizável. Instâncias reais de handoff vivem no workspace do trabalho, não neste Brand Guide.
 - Briefs, handoffs ativos, imagens e working proxies de uma execução pertencem ao workspace do projeto. Não registre estado circunstancial como regra permanente do guide.

@@ -28,7 +28,7 @@ Comece por um bundle de contexto, não por toda a documentação:
 - `/ai/context/menu-board.md`: task guide de menu board;
 - `/ai/context/workflow.md`: processo criativo e continuidade.
 
-`/llms.txt` funciona como roteador. `/llms-full.txt` é um fallback editorial ampliado, não o contexto recomendado por padrão.
+`/llms.txt` funciona como roteador para os bundles por intenção.
 
 ## Fonte de verdade e geração
 
@@ -38,7 +38,7 @@ Comece por um bundle de contexto, não por toda a documentação:
 4. `npm run generate:ai` publica cópias, bundles e manifestos para máquinas.
 5. `npm run build` executa essa geração antes de compilar o site.
 
-Não edite manualmente `public/ai/`, `public/llms.txt`, `public/llms-full.txt`, `public/brand-context.json` ou `public/docs-index.json`.
+Não edite manualmente `public/ai/`, `public/llms.txt`, `public/brand-context.json` ou `public/docs-index.json`.
 
 ## Estados editoriais
 
