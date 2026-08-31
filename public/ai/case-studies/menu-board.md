@@ -99,6 +99,14 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 
 **Aprendizado reutilizável:** não treine a exploração com a resposta que pretende testar. Um benchmark avalia qualidade depois da criação; não deve vazar a solução-alvo para o creative input.
 
+## Congelamento sem handoff portátil
+
+**Observação:** quatro direções foram geradas e uma foi escolhida, mas a escolha permaneceu no contexto e nos artefatos locais daquela execução. Em um novo chat, “Direção 01” não tinha referência visual nem descrição autossuficiente e não podia ser refinada com segurança.
+
+**Aprendizado reutilizável:** congelar uma direção sem preservar seu estado em artefatos é insuficiente. **A frozen direction must be portable.** Depois da escolha, o processo deve gerar um [creative handoff](../handoffs/README.md) antes do refinamento.
+
+**Aprendizado reutilizável:** o estado deve viver em artifacts, não apenas na conversa. Nomes numéricos ou relativos precisam vir acompanhados de imagem, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo e próximos passos.
+
 ## Conteúdo comercial e fidelidade
 
 **Observação:** preços e conteúdo comercial entraram depois da definição da direção, quando já podiam ser tratados como informação a compor, e não como parte da exploração visual.

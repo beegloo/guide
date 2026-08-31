@@ -5,12 +5,13 @@ Status: ativo
 
 ## Roteamento antes da criação
 
-1. Identifique o canal e o objetivo principal da entrega.
-2. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
-3. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) e [Princípios de direção de arte](../marketing/art-direction.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
-4. Identifique o nível de maturidade visual e a etapa atual do processo.
-5. Separe o que é imutável, explorável e pendente.
-6. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
+1. Se o trabalho já existe, procure primeiro um [creative handoff](../handoffs/README.md) ativo e valide se ele é autossuficiente.
+2. Identifique o canal e o objetivo principal da entrega.
+3. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
+4. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) e [Princípios de direção de arte](../marketing/art-direction.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
+5. Identifique o nível de maturidade visual e a etapa atual do processo.
+6. Separe o que é imutável, explorável e pendente.
+7. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
 
 **Brand foundations define identity. Channel guides define behavior.** Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
 
@@ -104,7 +105,11 @@ As opções apresentadas devem estar **good enough to compare**. **Four is a pre
 
 Na exploração de Marketing, antes de desenhar containers, teste se o assunto pode gerar a composição por meio de massa, silhueta, escala, recorte, tipo, ritmo e espaço. Preserve nos placeholders a silhueta composicional conhecida sem inventar detalhes factuais. Esta orientação não se aplica como regra aos fluxos de UI.
 
-Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Só então invista em fidelidade e refinamento. Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita.
+Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Em seguida, crie ou atualize o [creative handoff](../handoffs/README.md), incluindo nome descritivo, referência visual, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo, pendências e próximos passos. Só então invista em fidelidade e refinamento.
+
+Congelar uma direção não congela todos os pixels. Frozen protege estrutura conceitual, hipótese, hierarquia, relações principais e linguagem aprovada; adjustable permite microespaçamento, escala fina, crop, posição, tipografia, conteúdo, luz e acabamento quando não alteram a direção. Se uma mudança ameaçar frozen, reabra a decisão explicitamente.
+
+Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita. **A frozen direction must be portable. Do not rely on chat memory to preserve creative decisions.**
 
 Nesta etapa, valide o método criativo antes de otimizar custo ou tokens. Eficiência pode ser revista futuramente, depois que qualidade e consistência estiverem demonstradas.
 

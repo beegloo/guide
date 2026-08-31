@@ -8,6 +8,7 @@ const categoryNames = {
   marketing: 'Marketing e criação comercial',
   ui: 'Produto e UI',
   ai: 'Inteligência artificial',
+  handoffs: 'Handoffs criativos',
   'case-studies': 'Estudos de caso',
   decisions: 'Decisões',
   references: 'Referências',
@@ -15,7 +16,7 @@ const categoryNames = {
 }
 
 const statusNames = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'case-studies', 'references', 'benchmarks', 'decisions']
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'handoffs', 'case-studies', 'references', 'benchmarks', 'decisions']
 
 const specialLine = /^(#{1,6}\s|[-*]\s|\d+\.\s|>\s|```|---$|\|)/
 

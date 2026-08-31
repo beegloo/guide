@@ -21,8 +21,8 @@ const markdownFiles = allFiles.filter((file) => file.endsWith('.md'))
 const colors = JSON.parse(await readFile(path.join(docsRoot, 'tokens/colors.json'), 'utf8'))
 const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
 const statusLabels = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', marketing: 'Marketing e criação comercial', ui: 'Produto e UI', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', benchmarks: 'Benchmarks de avaliação', decisions: 'Decisões' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'case-studies', 'references', 'benchmarks', 'decisions']
+const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', marketing: 'Marketing e criação comercial', ui: 'Produto e UI', ai: 'Inteligência artificial', handoffs: 'Handoffs criativos', 'case-studies': 'Estudos de caso', references: 'Referências', benchmarks: 'Benchmarks de avaliação', decisions: 'Decisões' }
+const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'handoffs', 'case-studies', 'references', 'benchmarks', 'decisions']
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
@@ -85,6 +85,7 @@ const llms = `# Beegloo Brand Guide
 - [Produto e UI](/ai/ui/principles.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
 - [Processo criativo com IA](/ai/ai/process.md)
+- [Handoffs criativos](/ai/handoffs/README.md)
 - [Checklist de entrega](/ai/ai/delivery-checklist.md)
 - [Catálogo e pendências de produto](/ai/products/catalog.md)
 - [Contexto integral em um arquivo](/llms-full.txt)

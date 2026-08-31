@@ -44,6 +44,10 @@ Status: ativo
 
 ## IA e aprovação
 
+- [ ] A direção escolhida possui nome descritivo e referência visual acessível.
+- [ ] Frozen e adjustable estão separados no creative handoff.
+- [ ] Outro agente conseguiria continuar sem a conversa anterior.
+- [ ] O handoff referencia assets, proxies, conteúdo vigente, maturidade, pendências e próximos passos.
 - [ ] O nível de maturidade visual — conceitual, validável ou final — foi identificado.
 - [ ] A geração criou apenas o ambiente; assets oficiais e factuais foram inseridos por composição a partir de fontes de verdade.
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.

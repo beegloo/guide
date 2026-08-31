@@ -43,6 +43,7 @@ Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéric
 - `ui/`: guide de canal para produto digital e interfaces funcionais.
 - `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
 - `benchmarks/`: holdouts específicos carregados somente após a criação, durante avaliação.
+- `handoffs/`: estado operacional portátil de trabalhos e direções em andamento.
 - `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.
 - `references/`: tipos de referência e exemplos aprovados, rejeitados ou exploratórios.
@@ -167,6 +168,10 @@ Status: ativo
 
 ## IA e aprovação
 
+- [ ] A direção escolhida possui nome descritivo e referência visual acessível.
+- [ ] Frozen e adjustable estão separados no creative handoff.
+- [ ] Outro agente conseguiria continuar sem a conversa anterior.
+- [ ] O handoff referencia assets, proxies, conteúdo vigente, maturidade, pendências e próximos passos.
 - [ ] O nível de maturidade visual — conceitual, validável ou final — foi identificado.
 - [ ] A geração criou apenas o ambiente; assets oficiais e factuais foram inseridos por composição a partir de fontes de verdade.
 - [ ] Fatos imutáveis, exploráveis e pendentes foram separados.
@@ -188,12 +193,13 @@ Status: ativo
 
 ## Roteamento antes da criação
 
-1. Identifique o canal e o objetivo principal da entrega.
-2. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
-3. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) e [Princípios de direção de arte](../marketing/art-direction.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
-4. Identifique o nível de maturidade visual e a etapa atual do processo.
-5. Separe o que é imutável, explorável e pendente.
-6. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
+1. Se o trabalho já existe, procure primeiro um [creative handoff](../handoffs/README.md) ativo e valide se ele é autossuficiente.
+2. Identifique o canal e o objetivo principal da entrega.
+3. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
+4. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) e [Princípios de direção de arte](../marketing/art-direction.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
+5. Identifique o nível de maturidade visual e a etapa atual do processo.
+6. Separe o que é imutável, explorável e pendente.
+7. Aplique a fidelidade compatível com a etapa sem importar a gramática de outro canal.
 
 **Brand foundations define identity. Channel guides define behavior.** Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
 
@@ -287,7 +293,11 @@ As opções apresentadas devem estar **good enough to compare**. **Four is a pre
 
 Na exploração de Marketing, antes de desenhar containers, teste se o assunto pode gerar a composição por meio de massa, silhueta, escala, recorte, tipo, ritmo e espaço. Preserve nos placeholders a silhueta composicional conhecida sem inventar detalhes factuais. Esta orientação não se aplica como regra aos fluxos de UI.
 
-Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Só então invista em fidelidade e refinamento. Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita.
+Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Em seguida, crie ou atualize o [creative handoff](../handoffs/README.md), incluindo nome descritivo, referência visual, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo, pendências e próximos passos. Só então invista em fidelidade e refinamento.
+
+Congelar uma direção não congela todos os pixels. Frozen protege estrutura conceitual, hipótese, hierarquia, relações principais e linguagem aprovada; adjustable permite microespaçamento, escala fina, crop, posição, tipografia, conteúdo, luz e acabamento quando não alteram a direção. Se uma mudança ameaçar frozen, reabra a decisão explicitamente.
+
+Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita. **A frozen direction must be portable. Do not rely on chat memory to preserve creative decisions.**
 
 Nesta etapa, valide o método criativo antes de otimizar custo ou tokens. Eficiência pode ser revista futuramente, depois que qualidade e consistência estiverem demonstradas.
 
@@ -451,6 +461,14 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 **Observação:** a direção aprovada e os testes rejeitados específicos foram isolados como holdouts. O agente deve produzir e congelar uma direção usando fundamentos, guide de Marketing, princípios gerais de direção de arte e referências gerais permitidas. Só depois a avaliação pode abrir os [benchmarks](../benchmarks/README.md).
 
 **Aprendizado reutilizável:** não treine a exploração com a resposta que pretende testar. Um benchmark avalia qualidade depois da criação; não deve vazar a solução-alvo para o creative input.
+
+## Congelamento sem handoff portátil
+
+**Observação:** quatro direções foram geradas e uma foi escolhida, mas a escolha permaneceu no contexto e nos artefatos locais daquela execução. Em um novo chat, “Direção 01” não tinha referência visual nem descrição autossuficiente e não podia ser refinada com segurança.
+
+**Aprendizado reutilizável:** congelar uma direção sem preservar seu estado em artefatos é insuficiente. **A frozen direction must be portable.** Depois da escolha, o processo deve gerar um [creative handoff](../handoffs/README.md) antes do refinamento.
+
+**Aprendizado reutilizável:** o estado deve viver em artifacts, não apenas na conversa. Nomes numéricos ou relativos precisam vir acompanhados de imagem, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo e próximos passos.
 
 ## Conteúdo comercial e fidelidade
 
@@ -679,6 +697,132 @@ Quando duas fontes entrarem em conflito, use esta ordem:
 - Uma imagem gerada por IA nunca se torna automaticamente referência oficial.
 
 Se um ativo ou fato necessário estiver ausente, interrompa a produção factual, registre a pendência e solicite a fonte correta. Não complete lacunas por inferência.
+
+---
+
+<!-- source: docs/handoffs/README.md -->
+
+# Handoffs criativos
+
+Status: ativo
+Última revisão: 2026-08-30
+
+Handoff criativo é o estado operacional portátil de uma peça em andamento. Ele permite que outro agente continue o trabalho sem histórico do chat, memória da sessão ou arquivos privados da execução anterior.
+
+**A frozen direction must be portable.** **State must live in artifacts, not only in conversation.** Nomes como “Direção 01”, “Opção 2”, “a escolhida” ou “a anterior” não identificam uma direção sozinhos.
+
+## Onde vive
+
+- Um handoff por trabalho ou direção ativa em `docs/handoffs/`.
+- Referências visuais específicas em `public/assets/handoffs/<project>/<direction>/`, quando existirem.
+- Assets oficiais continuam em suas áreas canônicas; o handoff apenas aponta para eles.
+- Working proxies continuam provisórios e são referenciados, não duplicados.
+
+Use [_template.md](_template.md) para novos registros. Um handoff sem referência visual, frozen/adjustable ou maturidade declarada está incompleto e não autoriza refinamento.
+
+## Descoberta e ciclo de vida
+
+Antes de continuar um trabalho existente, procure aqui um handoff com estado `active`. Leia-o antes do case study ou da conversa anterior.
+
+Após escolher uma direção:
+
+1. dê nome descritivo à direção;
+2. salve ou referencie sua imagem;
+3. registre hipótese e objetivo;
+4. separe frozen de adjustable;
+5. liste assets, readiness, conteúdo, pendências e próximos passos;
+6. marque o handoff como `active` somente quando estiver autossuficiente;
+7. atualize-o a cada mudança de estado relevante.
+
+Ao finalizar, substituir ou abandonar o trabalho, altere o estado operacional e aponte para o sucessor quando houver. Preserve o histórico necessário sem transformar o handoff em regra institucional.
+
+## Limites de autoridade
+
+Handoff não é source of truth de marca, catálogo factual, benchmark ou decisão reutilizável. Ele registra o estado de uma execução específica. `docs/decisions/` permanece reservado à memória institucional; fatos e assets continuam subordinados às fontes canônicas.
+
+**Do not rely on chat memory to preserve creative decisions.** Se uma informação necessária existe apenas na conversa, ela ainda não foi entregue ao próximo agente.
+
+## Handoffs ativos
+
+Nenhum handoff autossuficiente está ativo atualmente. A antiga “Direção 01” do menu board não pode ser reconstruída porque sua referência visual e descrição congelada não foram preservadas no repositório.
+
+---
+
+<!-- source: docs/handoffs/_template.md -->
+
+# Handoff criativo — [project] — [direction name]
+
+Status: pendente
+Última revisão: YYYY-MM-DD
+
+- **Operational state:** draft | active | superseded | completed.
+- **Direction name:** nome descritivo; não usar apenas número ou posição.
+- **Visual reference:** caminho para a imagem escolhida; obrigatório para `active`.
+- **Objective:** objetivo concreto da peça.
+- **Channel:** canal e comportamento aplicável.
+- **Format:** dimensões, proporção e suporte.
+- **Current maturity:** direção conceitual | direção de arte validável | execução final.
+
+## Short description
+
+Descrição curta que permita reconhecer a direção sem a conversa original.
+
+## Compositional hypothesis
+
+Hipótese que define a direção e a distingue das alternativas.
+
+## Frozen
+
+- Estrutura conceitual.
+- Hipótese composicional.
+- Lógica de hierarquia.
+- Relações principais.
+- Linguagem aprovada.
+- Outras decisões que definem esta direção.
+
+Remova itens genéricos que não se aplicam e registre decisões concretas. Uma mudança que ameace esta seção exige reabertura explícita.
+
+## Adjustable
+
+- Microespaçamento.
+- Escala fina.
+- Crop e posição.
+- Refinamento tipográfico.
+- Integração de conteúdo comercial.
+- Luz, integração e acabamento.
+- Outros elementos que não alterem a direção.
+
+Adapte a lista ao trabalho. Congelar uma direção não significa congelar todos os pixels.
+
+## Assets and proxies
+
+Liste links para logos, imagens, working proxies e demais assets usados, com status e função. Não duplique os arquivos canônicos.
+
+## Readiness
+
+- **Brand readiness:** ready | partial | blocked — justificativa.
+- **Subject readiness:** ready | partial | blocked — justificativa.
+- **Quality readiness:** ready | partial | blocked — justificativa.
+
+## Current content
+
+Naming, preços, textos e conteúdo comercial vigentes, sempre com fonte e status. Referencie catálogo ou briefing em vez de duplicar fatos permanentes.
+
+## Pending
+
+Lacunas factuais, assets ausentes, validações e decisões abertas.
+
+## Next steps
+
+Próximas ações em ordem, incluindo quality gate aplicável.
+
+## Do not reopen
+
+Liste explicitamente o que o próximo agente não deve explorar novamente sem decisão humana.
+
+## Related artifacts
+
+Links para case study, decisão institucional, briefing ou handoff substituído, quando aplicável.
 
 ---
 
