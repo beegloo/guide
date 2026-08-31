@@ -16,4 +16,4 @@ Grafia conhecida: `SUNNY`. Não traduzir, pluralizar, abreviar ou completar.
 - Situação comercial: permanente, sazonal ou promocional.
 - Exemplos corretos e erros comuns.
 
-Não produzir uma representação factual de SUNNY sem receber essas fontes.
+Enquanto essas fontes finais não existirem, use a entrada de SUNNY no [catálogo](catalog.md) e sua working reference como subject obrigatório de direção de arte. O status provisório não autoriza inventar outra representação.

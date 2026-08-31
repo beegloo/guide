@@ -191,6 +191,8 @@ Status: ativo
 
 Este documento especializa o guide de [Marketing e criação comercial](principles.md) para leitura comercial à distância.
 
+Para produto, representação visual e preço de trabalho, consulte o [catálogo](../products/catalog.md). A ausência de asset final não invalida uma working reference registrada.
+
 ## Objetivo comercial
 
 Em poucos segundos e à distância, o cliente deve identificar:
