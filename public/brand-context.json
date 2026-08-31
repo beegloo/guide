@@ -2,12 +2,20 @@
   "schemaVersion": "1.0",
   "brand": "Beegloo",
   "language": "pt-BR",
-  "lastReviewed": "2026-08-30",
+  "lastReviewed": "2026-08-31",
   "entrypoints": {
+    "default": "/ai/context/core.md",
     "concise": "/llms.txt",
-    "complete": "/llms-full.txt",
+    "completeFallback": "/llms-full.txt",
     "human": "/",
     "humanDocs": "/docs?doc=ai/brand-context.md#docs"
+  },
+  "contextBundles": {
+    "core": "/ai/context/core.md",
+    "marketing": "/ai/context/marketing.md",
+    "ui": "/ai/context/ui.md",
+    "menu-board": "/ai/context/menu-board.md",
+    "workflow": "/ai/context/workflow.md"
   },
   "authorityOrder": [
     "approved-asset-or-document",
@@ -117,8 +125,8 @@
   "productCatalogStatus": "pending",
   "mascotAssetStatus": "missing",
   "channelGuides": {
-    "marketing": "/ai/marketing/principles.md",
-    "ui": "/ai/ui/principles.md"
+    "marketing": "/ai/context/marketing.md",
+    "ui": "/ai/context/ui.md"
   },
   "evaluation": {
     "index": "/ai/benchmarks/README.md",
@@ -135,7 +143,6 @@
     "/ai/ai/creative-handoff.md",
     "/ai/ai/delivery-checklist.md",
     "/ai/ai/process.md",
-    "/ai/ai/prompt-contract.md",
     "/ai/case-studies/menu-board.md",
     "/ai/decisions/2026-08-30-staged-ai-creative-process.md",
     "/ai/decisions/_template.md",
@@ -159,9 +166,9 @@
     "/ai/products/product-fidelity.md",
     "/ai/products/shake.md",
     "/ai/products/sunny.md",
-    "/ai/products/working-proxies.md",
     "/ai/references/library.md",
     "/ai/references/types.md",
+    "/ai/templates/creative-brief.md",
     "/ai/ui/principles.md"
   ],
   "documentIndex": [
@@ -175,10 +182,10 @@
     },
     {
       "path": "ai/brand-context.md",
-      "title": "Contexto portátil da marca Beegloo",
+      "title": "Contexto essencial da Beegloo",
       "category": "ai",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/ai/brand-context.md"
     },
     {
@@ -194,7 +201,7 @@
       "title": "Checklist de entrega",
       "category": "ai",
       "status": "active",
-      "lastReviewed": null,
+      "lastReviewed": "2026-08-31",
       "source": "/ai/ai/delivery-checklist.md"
     },
     {
@@ -202,16 +209,8 @@
       "title": "Processo criativo com IA",
       "category": "ai",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/ai/process.md"
-    },
-    {
-      "path": "ai/prompt-contract.md",
-      "title": "Contrato de prompt para IA",
-      "category": "ai",
-      "status": "active",
-      "lastReviewed": null,
-      "source": "/ai/ai/prompt-contract.md"
     },
     {
       "path": "case-studies/menu-board.md",
@@ -306,7 +305,7 @@
       "title": "Princípios de direção de arte",
       "category": "marketing",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/marketing/art-direction.md"
     },
     {
@@ -398,14 +397,6 @@
       "source": "/ai/products/sunny.md"
     },
     {
-      "path": "products/working-proxies.md",
-      "title": "Working asset pack — menu board",
-      "category": "products",
-      "status": "exploratory",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/working-proxies.md"
-    },
-    {
       "path": "references/library.md",
       "title": "Biblioteca de referências",
       "category": "references",
@@ -420,6 +411,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/references/types.md"
+    },
+    {
+      "path": "templates/creative-brief.md",
+      "title": "Template de creative brief",
+      "category": "templates",
+      "status": "active",
+      "lastReviewed": "2026-08-31",
+      "source": "/ai/templates/creative-brief.md"
     },
     {
       "path": "ui/principles.md",

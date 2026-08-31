@@ -1,64 +1,41 @@
-# Contexto portátil da marca Beegloo
+# Contexto essencial da Beegloo
 
 Status: ativo
-Última revisão: 2026-08-30
+Última revisão: 2026-08-31
 
-Use este documento como contexto inicial em qualquer ferramenta de IA antes de criar, revisar ou implementar trabalhos para a Beegloo.
+Use este documento como entrada padrão. **The guide should say fewer things with more authority.** O guide fornece contexto permanente; o briefing fornece contexto da tarefa; referências criativas calibram qualidade.
 
 ## Essência
 
-A Beegloo é leve antes de pesada, divertida sem excesso, acolhedora sem infantilização automática, contemporânea sem parecer corporativa genérica, arredondada, expressiva, arejada e comercialmente clara. Quando houver produto, o produto real é protagonista.
+A Beegloo é leve, acolhedora, contemporânea, arredondada, expressiva, arejada e comercialmente clara. É divertida sem excesso ou infantilização automática. Quando houver produto, o produto real é protagonista.
 
-## Sistema visual
+## Invariantes
 
-- Outfit é a tipografia principal.
-- Azul e rosa formam o núcleo cromático.
-- Marrom e verde são famílias complementares.
-- Use fundos pastel suaves, formas macias, grandes superfícies e bastante espaço negativo quando forem adequados ao canal.
-- Cor e formas devem orientar hierarquia; não são decoração automática.
-- Evite cantos duros dominantes, sombras pesadas, neon, fundo preto dominante, saturação agressiva, excesso de blobs, estética SaaS genérica, estética genérica de confeitaria e luxo escuro.
+- Outfit é a tipografia oficial; não aceite aproximação silenciosa.
+- Azul e rosa formam o núcleo cromático; marrom e verde são complementares.
+- Use somente logos oficiais. Nunca redesenhe, regenere, reformate ou substitua um logo.
+- Produto, embalagem, naming, ingrediente, preço e texto aprovado não podem ser inventados.
+- Resultado de IA não se torna automaticamente referência oficial.
+- Informação sem fonte é `pendente`, não licença para completar por inferência.
 
-## Comportamento por canal
+## Routing
 
-**Brand foundations define identity. Channel guides define behavior.** Uma interface, um menu board, uma campanha, uma embalagem e uma peça de PDV podem parecer Beegloo sem usar a mesma arquitetura visual.
+**Brand foundations define identity. Channel guides define behavior.** Carregue somente o contexto necessário:
 
-- Para comunicar, vender, gerar desejo ou apresentar produto, use [Marketing e criação comercial](../marketing/principles.md).
-- Para interfaces digitais e experiências funcionais, use [Produto e UI](../ui/principles.md).
+- [Core](/ai/context/core.md): entrada mínima para qualquer tarefa.
+- [Marketing](/ai/context/marketing.md): trabalhos que comunicam, vendem ou geram desejo.
+- [Produto e UI](/ai/context/ui.md): interfaces e experiências funcionais.
+- [Menu board](/ai/context/menu-board.md): Marketing mais regras específicas de menu board.
+- [Workflow](/ai/context/workflow.md): exploração, escolha, refinamento, avaliação e continuidade.
 
-Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação. Cards, pills, módulos e componentes não são padrões universais da marca.
+Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação. Cards, pills e módulos não são padrões universais da marca.
 
-## Identidade imutável
+## Autoridade
 
-Nunca redesenhe, reconstrua, vetorize novamente, aproxime com texto ou CSS, distorça, recolora arbitrariamente ou “melhore” um logo da Beegloo. Use apenas os SVGs oficiais listados em `sources-of-truth.md`.
+Siga a [ordem de precedência das fontes](../foundations/sources-of-truth.md). Antes de produzir, separe:
 
-Não existe atualmente um asset de mascote homologado neste repositório. Não invente poses, expressões ou uma construção do mascote. Trate seu uso como pendente até que o asset seja fornecido.
+- **Imutável:** fatos e assets aprovados.
+- **Explorável:** decisões visuais autorizadas pelo briefing e pelo canal.
+- **Pendente:** informação necessária ainda sem fonte.
 
-## Produtos e embalagens
-
-As famílias conhecidas são CROC, SHAKE, SUNNY e CREMIX. Grafia, sabores, tamanhos, ingredientes, variações, fotografias e embalagens ainda precisam de catálogo factual homologado. Não traduza, pluralize, abrevie, complete ou altere nomes; não invente sabores, ingredientes ou variantes.
-
-Produtos, fotografias e embalagens fornecidos são fontes de verdade. Não invente, redesenhe, complete, substitua ou “melhore” formato, volume, tampa, copo, pote, rótulo, marca, texto, cor, ingrediente, cobertura ou proporção sem autorização explícita.
-
-## Fotografia
-
-A fotografia deve ser apetitosa, clara, reconhecível, leve, contemporânea, fiel ao produto real, bem separada do fundo e compatível com a paleta. Evite comida plástica, brilho artificial intenso, ingredientes inexistentes, excesso de elementos voando, embalagem escondida, distorção de escala, perspectiva impossível e sombras inconsistentes.
-
-## Comunicação comercial
-
-Em menu boards, o público deve identificar rapidamente categoria, produto, diferença entre opções, preço e decisão esperada. Use produto e preço em primeiro plano, uma ideia comercial forte por tela, poucos níveis de informação, fotos grandes, naming consistente e contraste para leitura à distância. Valores e textos nunca podem ser inventados.
-
-## Mascote
-
-Quando houver construção oficial, o mascote poderá orientar, celebrar, educar ou cumprir função narrativa. Normalmente deve ser evitado quando o produto precisa dominar, em menu boards densos, comunicação premium, materiais técnicos ou layouts pequenos. Nunca substitui o logo.
-
-## Regra operacional para IA
-
-Para conduzir trabalhos criativos, siga o [Processo criativo com IA](process.md). O documento separa exploração de execução e aponta as regras canônicas de fidelidade sem substituir este contexto.
-
-Antes de produzir qualquer saída, separe explicitamente:
-
-- Imutável: logo, produto, embalagem, naming, preços, textos aprovados, sabores, quantidades, formato final e restrições legais.
-- Explorável: fundo, cenografia, composição, formas de apoio, luz ambiental, sombras externas, enquadramento, ritmo e espaço negativo.
-- Pendente: qualquer fato necessário que ainda não tenha fonte homologada.
-
-Se houver conflito, siga a ordem de precedência das fontes. Se faltar um fato imutável, pergunte; não improvise.
+Se faltar um fato imutável, sinalize a lacuna. A ausência limita fidelidade, mas só bloqueia a etapa quando impede a decisão atual.

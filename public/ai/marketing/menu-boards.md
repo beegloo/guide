@@ -54,7 +54,3 @@ Toda peça deve passar por teste em escala reduzida e, quando possível, em moni
 - Promoção temporária.
 
 Os exemplos aprovados para cada estrutura ainda estão pendentes.
-
-## Working set da rodada atual
-
-Para estudos desta rodada, use o [working asset pack de produtos-proxy](../products/working-proxies.md). Os quatro PNGs fornecem subject readiness para CROC, SHAKE, SUNNY e CREMIX, mas são provisional / direction-only e precisam ser substituídos antes da produção final. Naming e preços continuam subordinados ao briefing e às fontes factuais; valores ausentes não podem ser inventados.

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T04:06:56.676Z",
+  "generatedAt": "2026-08-31T13:12:16.487Z",
   "documents": [
     {
       "path": "README.md",
@@ -11,10 +11,10 @@
     },
     {
       "path": "ai/brand-context.md",
-      "title": "Contexto portátil da marca Beegloo",
+      "title": "Contexto essencial da Beegloo",
       "category": "ai",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/ai/brand-context.md"
     },
     {
@@ -30,7 +30,7 @@
       "title": "Checklist de entrega",
       "category": "ai",
       "status": "active",
-      "lastReviewed": null,
+      "lastReviewed": "2026-08-31",
       "source": "/ai/ai/delivery-checklist.md"
     },
     {
@@ -38,16 +38,8 @@
       "title": "Processo criativo com IA",
       "category": "ai",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/ai/process.md"
-    },
-    {
-      "path": "ai/prompt-contract.md",
-      "title": "Contrato de prompt para IA",
-      "category": "ai",
-      "status": "active",
-      "lastReviewed": null,
-      "source": "/ai/ai/prompt-contract.md"
     },
     {
       "path": "benchmarks/README.md",
@@ -174,7 +166,7 @@
       "title": "Princípios de direção de arte",
       "category": "marketing",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/marketing/art-direction.md"
     },
     {
@@ -266,14 +258,6 @@
       "source": "/ai/products/sunny.md"
     },
     {
-      "path": "products/working-proxies.md",
-      "title": "Working asset pack — menu board",
-      "category": "products",
-      "status": "exploratory",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/products/working-proxies.md"
-    },
-    {
       "path": "references/library.md",
       "title": "Biblioteca de referências",
       "category": "references",
@@ -288,6 +272,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/references/types.md"
+    },
+    {
+      "path": "templates/creative-brief.md",
+      "title": "Template de creative brief",
+      "category": "templates",
+      "status": "active",
+      "lastReviewed": "2026-08-31",
+      "source": "/ai/templates/creative-brief.md"
     },
     {
       "path": "ui/principles.md",

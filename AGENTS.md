@@ -2,9 +2,9 @@
 
 ## Ordem de leitura para agentes
 
-1. Comece pelos fundamentos: `docs/ai/brand-context.md` como contexto portátil, `docs/foundations/brand-essence.md` para identidade e `docs/foundations/sources-of-truth.md` para precedência e conflitos.
-2. Identifique o canal antes de escolher a gramática composicional.
-3. Para trabalhos que comunicam ou vendem, leia `docs/marketing/principles.md` e `docs/marketing/art-direction.md`. Para interfaces funcionais, leia `docs/ui/principles.md`.
+1. Comece pelo menor bundle adequado: `/ai/context/core.md` por padrão; `/ai/context/marketing.md`, `/ai/context/ui.md` ou `/ai/context/menu-board.md` conforme a intenção.
+2. Identifique o canal antes de escolher a gramática composicional. Use `/ai/context/workflow.md` quando houver exploração, execução ou continuidade criativa com IA.
+3. No repositório-fonte, consulte os documentos canônicos indicados pelo bundle antes de editar regras ou conteúdo.
 4. Antes de continuar uma peça existente, procure um handoff ativo no workspace da execução e valide-o conforme `docs/ai/creative-handoff.md`. Não dependa do histórico da conversa para identificar uma direção congelada.
 5. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
 6. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
@@ -17,8 +17,10 @@
 - `docs/` é a fonte canônica editorial do Beegloo Brand Guide.
 - Edite regras, decisões e conteúdo de marca somente em `docs/`.
 - `public/ai/`, `public/llms.txt`, `public/llms-full.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
-- `public/llms-full.txt` contém apenas creative input; benchmarks continuam disponíveis separadamente em `public/ai/benchmarks/` para avaliação posterior.
+- `public/llms.txt` roteia agentes para bundles em `public/ai/context/`. `public/llms-full.txt` é fallback ampliado, não contexto padrão.
+- Case studies, decisões e estado de projeto não entram nos bundles padrão. Benchmarks permanecem separados para avaliação posterior.
 - `docs/ai/creative-handoff.md` define o protocolo reutilizável. Instâncias reais de handoff vivem no workspace do trabalho, não neste Brand Guide.
+- Briefs, handoffs ativos, imagens e working proxies de uma execução pertencem ao workspace do projeto. Não registre estado circunstancial como regra permanente do guide.
 - Após qualquer mudança em `docs/`, execute `npm run generate:ai` e versione os artefatos públicos atualizados junto com a fonte.
 - Antes de concluir mudanças relevantes, execute `npm run build`.
 - Registre novas consultorias, decisões, exceções, substituições de regra e homologações em `docs/decisions/`. Use `docs/decisions/_template.md` como base e preserve o histórico; não reescreva silenciosamente decisões anteriores.
@@ -34,7 +36,6 @@
   - `/brand/logos/icon-pink.svg`
 - Nunca substitua logos oficiais por aproximações, texto, CSS, redesenho ou geração por IA.
 - Se um asset estiver ausente ou uma regra de aplicação ainda não estiver homologada, sinalize a pendência.
-- Para a rodada atual de menu board, consulte `docs/products/working-proxies.md`. Os arquivos em `public/assets/proxies/menu-board/` são provisórios e exclusivos para direção de arte; nunca os trate como assets oficiais ou produto final.
 
 ## Pendências factuais conhecidas
 

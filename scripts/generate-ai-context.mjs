@@ -20,9 +20,6 @@ const allFiles = await walk(docsRoot)
 const markdownFiles = allFiles.filter((file) => file.endsWith('.md'))
 const colors = JSON.parse(await readFile(path.join(docsRoot, 'tokens/colors.json'), 'utf8'))
 const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
-const statusLabels = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
-const categoryTitles = { general: 'Visão geral', foundations: 'Fundamentos', identity: 'Identidade', products: 'Produtos', marketing: 'Marketing e criação comercial', ui: 'Produto e UI', ai: 'Inteligência artificial', 'case-studies': 'Estudos de caso', references: 'Referências', benchmarks: 'Benchmarks de avaliação', decisions: 'Decisões' }
-const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'case-studies', 'references', 'benchmarks', 'decisions']
 
 await rm(aiRoot, { recursive: true, force: true })
 await rm(brandRoot, { recursive: true, force: true })
@@ -43,9 +40,12 @@ await Promise.all(Object.entries(logoAliases).map(([alias, source]) => copyFile(
 
 const sections = []
 const documents = []
+const contents = new Map()
 for (const source of markdownFiles) {
   const relative = path.relative(docsRoot, source)
   const content = await readFile(source, 'utf8')
+  const normalizedRelative = relative.split(path.sep).join('/')
+  contents.set(normalizedRelative, content)
   const destination = path.join(aiRoot, relative)
   await mkdir(path.dirname(destination), { recursive: true })
   await writeFile(destination, content)
@@ -56,45 +56,68 @@ for (const source of markdownFiles) {
   const status = statusValues[statusLabel.toLocaleLowerCase('pt-BR')] ?? 'active'
   const lastReviewed = content.match(/^Última revisão:\s*([^\n]+)/mi)?.[1]?.trim() ?? null
   documents.push({
-    path: relative.split(path.sep).join('/'),
+    path: normalizedRelative,
     title,
     category,
     status,
     lastReviewed,
-    source: `/ai/${relative.split(path.sep).join('/')}`,
+    source: `/ai/${normalizedRelative}`,
   })
 }
 
-const creativeDocuments = documents.filter((document) => document.category !== 'benchmarks')
-const documentIndex = categoryOrder.flatMap((category) => {
-  const categoryDocuments = creativeDocuments.filter((document) => document.category === category)
-  if (categoryDocuments.length === 0) return []
-  return [`### ${categoryTitles[category]}`, ...categoryDocuments.map((document) => `- [${document.title}](${document.source}) — ${statusLabels[document.status]}`), '']
-}).join('\n')
+const bundleSpecs = {
+  core: {
+    title: 'Contexto essencial',
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md'],
+  },
+  marketing: {
+    title: 'Contexto de Marketing',
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'marketing/principles.md', 'marketing/art-direction.md'],
+  },
+  ui: {
+    title: 'Contexto de Produto e UI',
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'ui/principles.md'],
+  },
+  'menu-board': {
+    title: 'Contexto de menu board',
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'marketing/principles.md', 'marketing/art-direction.md', 'marketing/menu-boards.md', 'marketing/commercial-hierarchy.md', 'marketing/pricing.md', 'products/product-fidelity.md'],
+  },
+  workflow: {
+    title: 'Workflow criativo com IA',
+    paths: ['ai/process.md', 'references/types.md', 'ai/delivery-checklist.md', 'ai/creative-handoff.md'],
+  },
+}
 
+await mkdir(path.join(aiRoot, 'context'), { recursive: true })
+for (const [name, bundle] of Object.entries(bundleSpecs)) {
+  const body = bundle.paths.map((documentPath) => {
+    const content = contents.get(documentPath)
+    if (!content) throw new Error(`Documento ausente no bundle ${name}: ${documentPath}`)
+    return `<!-- source: docs/${documentPath} -->\n\n${content.trim()}`
+  }).join('\n\n---\n\n')
+  await writeFile(path.join(aiRoot, 'context', `${name}.md`), `# ${bundle.title}\n\n> Bundle gerado. Edite apenas as fontes indicadas em cada seção.\n\n${body}\n`)
+}
+
+const creativeDocuments = documents.filter((document) => document.category !== 'benchmarks')
 const llms = `# Beegloo Brand Guide
 
-> Fonte oficial de contexto para pessoas e agentes de IA. Leia o contexto essencial antes de iniciar qualquer trabalho e consulte as fontes específicas quando necessário.
+> Roteador oficial de contexto. Carregue o menor bundle que corresponda à intenção do trabalho.
 
-## Comece aqui
+## Contexto por intenção
 
-- [Contexto portátil completo](/ai/ai/brand-context.md)
-- [Fontes de verdade e precedência](/ai/foundations/sources-of-truth.md)
-- [Marketing e criação comercial](/ai/marketing/principles.md)
-- [Princípios de direção de arte](/ai/marketing/art-direction.md)
-- [Produto e UI](/ai/ui/principles.md)
-- [Contrato de prompt](/ai/ai/prompt-contract.md)
-- [Processo criativo com IA](/ai/ai/process.md)
-- [Protocolo de handoff criativo](/ai/ai/creative-handoff.md)
-- [Checklist de entrega](/ai/ai/delivery-checklist.md)
-- [Catálogo e pendências de produto](/ai/products/catalog.md)
-- [Contexto integral em um arquivo](/llms-full.txt)
+- [Core: identidade e autoridade mínimas](/ai/context/core.md)
+- [Marketing: criação comercial](/ai/context/marketing.md)
+- [Produto e UI: interfaces funcionais](/ai/context/ui.md)
+- [Menu board: guide específico da tarefa](/ai/context/menu-board.md)
+- [Workflow: processo criativo e continuidade](/ai/context/workflow.md)
+
+## Ferramentas de trabalho
+
+- [Template de creative brief](/ai/templates/creative-brief.md)
+- [Benchmarks de avaliação — carregar somente depois da criação](/ai/benchmarks/README.md)
+- [Contexto editorial ampliado — fallback, não padrão](/llms-full.txt)
 - [Manifesto estruturado JSON](/brand-context.json)
 - [Documentação para pessoas](/docs)
-
-## Documentos disponíveis
-
-${documentIndex}
 
 ## Assets oficiais
 
@@ -108,8 +131,9 @@ const manifest = {
   schemaVersion: '1.0',
   brand: 'Beegloo',
   language: 'pt-BR',
-  lastReviewed: '2026-08-30',
-  entrypoints: { concise: '/llms.txt', complete: '/llms-full.txt', human: '/', humanDocs: '/docs?doc=ai/brand-context.md#docs' },
+  lastReviewed: '2026-08-31',
+  entrypoints: { default: '/ai/context/core.md', concise: '/llms.txt', completeFallback: '/llms-full.txt', human: '/', humanDocs: '/docs?doc=ai/brand-context.md#docs' },
+  contextBundles: Object.fromEntries(Object.keys(bundleSpecs).map((name) => [name, `/ai/context/${name}.md`])),
   authorityOrder: [
     'approved-asset-or-document',
     'current-approved-commercial-brief',
@@ -125,7 +149,7 @@ const manifest = {
   knownProductFamilies: ['CROC', 'SHAKE', 'SUNNY', 'CREMIX'],
   productCatalogStatus: 'pending',
   mascotAssetStatus: 'missing',
-  channelGuides: { marketing: '/ai/marketing/principles.md', ui: '/ai/ui/principles.md' },
+  channelGuides: { marketing: '/ai/context/marketing.md', ui: '/ai/context/ui.md' },
   evaluation: { index: '/ai/benchmarks/README.md', loadPolicy: 'after-creation-only' },
   invariants: [
     'Never recreate or modify official logos.',
@@ -137,6 +161,6 @@ const manifest = {
 }
 
 await writeFile(path.join(publicRoot, 'llms.txt'), llms)
-await writeFile(path.join(publicRoot, 'llms-full.txt'), `# Beegloo Brand Guide — contexto integral\n\n${sections.join('\n\n---\n\n')}\n`)
+await writeFile(path.join(publicRoot, 'llms-full.txt'), `# Beegloo Brand Guide — contexto editorial ampliado\n\n> Fallback gerado. Para uso normal, escolha um bundle em /llms.txt.\n\n${sections.join('\n\n---\n\n')}\n`)
 await writeFile(path.join(publicRoot, 'brand-context.json'), `${JSON.stringify(manifest, null, 2)}\n`)
 await writeFile(path.join(publicRoot, 'docs-index.json'), `${JSON.stringify({ generatedAt: new Date().toISOString(), documents }, null, 2)}\n`)

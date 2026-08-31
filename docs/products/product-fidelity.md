@@ -51,5 +51,3 @@ Quando existir um working proxy válido para a tarefa, use-o antes de gerar outr
 **Recompose the product; do not redesign the product.** Adapte escala, posição, crop, enquadramento, profundidade e integração ao contexto antes de alterar o asset. Mudanças de orientação ou perspectiva só são válidas quando preservam categoria, silhueta, recipiente, ingredientes visíveis, cobertura e proporções essenciais.
 
 **Intentional crop is allowed. Accidental loss of product identity is not.** Se a ferramenta não preservar a identidade em nova perspectiva ou regeneração, mantenha o asset original e transforme a composição ao redor dele.
-
-O working set específico da rodada atual está documentado em [Working asset pack — menu board](working-proxies.md).

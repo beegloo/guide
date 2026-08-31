@@ -44,7 +44,7 @@ Esta decisão não homologa catálogo, preços, produtos, embalagens, fotografia
 
 - [Case study do menu board](../case-studies/menu-board.md)
 - [Tipos de referência](../references/types.md)
-- [Contrato de prompt](../ai/prompt-contract.md)
+- [Template de creative brief](../templates/creative-brief.md)
 - [Fontes de verdade](../foundations/sources-of-truth.md)
 
 ## Aprovação

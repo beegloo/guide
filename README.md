@@ -30,9 +30,12 @@ The production output is written to `dist/`. The project is compatible with Clou
 
 ## Contexto para IA
 
-Após a publicação, use preferencialmente o link direto para `/llms-full.txt` ao iniciar um trabalho com uma IA. Os outros pontos de entrada são:
+Após a publicação, use `/llms.txt` para escolher o menor contexto adequado ao trabalho:
 
-- `/llms.txt`: índice curto e descoberta de fontes;
+- `/ai/context/core.md`: entrada mínima para qualquer tarefa;
+- `/ai/context/marketing.md`, `/ai/context/ui.md` e `/ai/context/menu-board.md`: contexto por intenção;
+- `/ai/context/workflow.md`: processo criativo e continuidade;
+- `/llms-full.txt`: fallback editorial ampliado, não recomendado como padrão;
 - `/brand-context.json`: manifesto, tokens e estados em formato estruturado;
 - `/ai/`: cópias públicas dos documentos canônicos.
 

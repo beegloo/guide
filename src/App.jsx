@@ -40,7 +40,7 @@ function GuidePage() {
 }
 
 function DocsPage() {
-  return <><header className="bar"><a className="brand" href="/">Beegloo · Guia</a><nav><a href="/">Voltar ao guia</a><a href="/llms-full.txt">Contexto para IA</a></nav></header><main className="wrap docs-page"><section id="docs" className="sec mint"><header className="head"><span className="icon" aria-hidden="true">≡</span><div><span className="k">FONTE CANÔNICA</span><h2>Documentação</h2><p className="lead">Leitura navegável dos arquivos Markdown que orientam pessoas e IAs.</p></div></header><DocsExplorer/></section></main><footer className="foot"><strong>Beegloo · Documentação</strong><a href="/">Voltar ao guia visual →</a></footer></>
+  return <><header className="bar"><a className="brand" href="/">Beegloo · Guia</a><nav><a href="/">Voltar ao guia</a><a href="/llms.txt">Contexto para IA</a></nav></header><main className="wrap docs-page"><section id="docs" className="sec mint"><header className="head"><span className="icon" aria-hidden="true">≡</span><div><span className="k">FONTE CANÔNICA</span><h2>Documentação</h2><p className="lead">Leitura navegável dos arquivos Markdown que orientam pessoas e IAs.</p></div></header><DocsExplorer/></section></main><footer className="foot"><strong>Beegloo · Documentação</strong><a href="/">Voltar ao guia visual →</a></footer></>
 }
 
 export default function App() {
