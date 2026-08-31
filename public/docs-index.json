@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:30:09.857Z",
+  "generatedAt": "2026-08-31T17:46:16.372Z",
   "documents": [
     {
       "path": "README.md",
@@ -206,7 +206,7 @@
       "title": "Marketing e criação comercial",
       "category": "marketing",
       "status": "active",
-      "lastReviewed": "2026-08-30",
+      "lastReviewed": "2026-08-31",
       "source": "/ai/marketing/principles.md"
     },
     {
@@ -275,7 +275,7 @@
     },
     {
       "path": "templates/creative-brief.md",
-      "title": "Template de creative brief",
+      "title": "Creative Brief",
       "category": "templates",
       "status": "active",
       "lastReviewed": "2026-08-31",

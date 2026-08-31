@@ -1,7 +1,7 @@
 # Marketing e criação comercial
 
 Status: ativo
-Última revisão: 2026-08-30
+Última revisão: 2026-08-31
 
 Este guide orienta trabalhos cujo objetivo principal é comunicar, vender, gerar desejo ou apresentar produto: campanhas, lançamentos, promoções, PDV, social comercial, peças institucionais de marketing e menu boards.
 
@@ -18,9 +18,7 @@ Este guide orienta trabalhos cujo objetivo principal é comunicar, vender, gerar
 
 Quando houver conflito, as exigências do meio prevalecem sobre padrões genéricos de aplicação. Consulte [Composição](../foundations/composition.md) para os princípios transversais.
 
-A qualidade publicitária deve ser construída com os [princípios gerais de direção de arte](art-direction.md) e calibrada por [referências gerais do canal](../references/library.md), quando existirem. Elas não funcionam como templates nem incluem benchmarks específicos reservados para avaliação posterior.
-
-**Diversity is not enough. Every direction must first pass brand, subject and quality readiness.** Uma hipótese diferente só entra na rodada apresentada quando também for fiel à identidade necessária, adequada ao assunto e comercialmente defensável.
+A qualidade publicitária deve ser construída com os [princípios gerais de direção de arte](art-direction.md) e calibrada por [referências gerais do canal](../references/library.md), quando existirem. Elas não funcionam como templates.
 
 **Compliance is a floor, not the creative goal.** Para Marketing, correção precisa evoluir para uma ideia visual forte em que produto, tipografia e espaço construam juntos desejo, impacto e memorabilidade.
 
@@ -36,16 +34,6 @@ Em marketing, uma forma arredondada pode funcionar como:
 - estrutura da composição.
 
 Ela não precisa virar um card. Evite transformar automaticamente produto, preço e texto em quatro blocos equivalentes, badges, pills ou módulos com aparência de wireframe.
-
-## Direção conceitual
-
-**Conceptual ≠ schematic.** Uma direção conceitual pode não ter fidelidade factual completa, mas ainda precisa permitir avaliação de desejo, impacto, hierarquia, ritmo e presença visual.
-
-**Placeholder preserves visual weight, not factual detail.** Um placeholder deve preservar massa visual, escala, posição, proporção, recorte, presença e impacto necessários para julgar a composição. Não deve inventar embalagem, ingrediente, sabor, cobertura, rótulo ou detalhes de produto. Um círculo cinza genérico é inadequado quando elimina a capacidade de avaliar a direção de arte.
-
-## Anotações de processo
-
-Textos como “estudo conceitual”, “preço pendente”, “imagem pendente”, “placeholder” e outras notas de processo devem normalmente ficar na apresentação, legenda ou anotação externa. Não os transforme em conteúdo da peça dirigida ao consumidor sem motivo explícito.
 
 ## Guias especializados
 

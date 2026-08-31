@@ -33,28 +33,14 @@ Produto não é conteúdo a encaixar e tipografia não é legenda. Naming e pre�
 
 O objetivo é uma composição mais forte ao redor de assuntos estáveis. Recipiente, silhueta essencial, ingredientes visíveis, cobertura e proporções conhecidas não são matéria de exploração.
 
-## Direções são hipóteses
+## Liberdade composicional
 
-**Each direction should test a different compositional hypothesis.** Varie estruturalmente dominância, hierarquia, escala, profundidade, agrupamento, produto, tipografia e espaço. Trocar apenas cor, cenário ou decoração produz variantes.
+A direção de arte deve ir além da organização correta de informações. Use a liberdade composicional para construir uma ideia visual reconhecível por meio de dominância, hierarquia, escala, profundidade, agrupamento, tipografia e espaço.
 
-Não deixe a primeira solução plausível encerrar a exploração, mas também não fabrique diversidade para cumprir quantidade. Todas as propostas apresentadas devem estar **good enough to compare**.
+Creative references podem calibrar energia, tensão, ritmo, acabamento e impacto sem prescrever layout ou solução. Elas transformam a composição, não os assuntos estáveis.
 
-## Piso de qualidade
+## Assuntos estáveis
 
-Antes de apresentar uma direção, confirme:
+Liberdade composicional não autoriza redesenhar fatos. Produto, embalagem, logo, naming, preços, textos e demais sources of truth devem permanecer reconhecíveis e fiéis às fontes aplicáveis.
 
-- **brand readiness:** parece Beegloo e preserva identidade;
-- **subject readiness:** o assunto tem fidelidade suficiente para a decisão;
-- **quality readiness:** há ideia visual, desejo, impacto, hierarquia e potencial real de refinamento.
-
-Conceptual não significa esquemático. Placeholders devem preservar peso e silhueta relevantes sem inventar detalhe factual.
-
-## Princípios conectados
-
-- Regras limitam erros; [referências](../references/types.md) calibram o olhar.
-- Explore diversidade antes de congelar e preservar uma direção.
-- A liberdade criativa diminui conforme aumenta a importância factual.
-- Geração cria o ambiente; composição insere as fontes de verdade.
-- Ausência factual limita fidelidade, não necessariamente a exploração.
-
-Consulte o [processo criativo com IA](../ai/process.md) para o workflow. Benchmarks só entram depois que a direção candidata estiver criada e congelada.
+Consulte os [tipos de referência](../references/types.md) para distinguir preservação factual de calibração criativa. Para aplicar estes princípios em trabalhos com IA, siga o [processo criativo](../ai/process.md).
