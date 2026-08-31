@@ -20,6 +20,8 @@ Quando houver conflito, as exigências do meio prevalecem sobre padrões genéri
 
 A qualidade publicitária deve ser construída com os [princípios gerais de direção de arte](art-direction.md) e calibrada por [referências gerais do canal](../references/library.md), quando existirem. Elas não funcionam como templates nem incluem benchmarks específicos reservados para avaliação posterior.
 
+**Diversity is not enough. Every direction must first pass brand, subject and quality readiness.** Uma hipótese diferente só entra na rodada apresentada quando também for fiel à identidade necessária, adequada ao assunto e comercialmente defensável.
+
 ## Formas não são componentes por padrão
 
 Em marketing, uma forma arredondada pode funcionar como:

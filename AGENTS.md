@@ -9,6 +9,7 @@
 5. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
 6. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
 7. Não carregue `docs/benchmarks/` antes da criação. Benchmarks são holdouts de avaliação e só podem ser consultados depois que a direção candidata estiver criada e congelada.
+8. Antes de apresentar direções de Marketing, confirme brand readiness, subject readiness e quality readiness. Diversidade não compensa identidade aproximada, assunto irreconhecível ou baixa qualidade comercial.
 
 ## Arquitetura de conteúdo
 
@@ -52,6 +53,7 @@ Não trate essas pendências como defeitos do sistema e não as resolva por supo
 - Este repositório é a cópia canônica local do Beegloo Brand Guide.
 - Preserve fundos pastel suaves, formas macias, grandes superfícies e bastante respiro quando forem adequados ao canal.
 - Use Outfit como tipografia principal.
+- Outfit é identidade imutável. Se a ferramenta generativa não puder preservá-la, componha a tipografia oficial posteriormente ou use uma ferramenta adequada; não aceite aproximação silenciosa.
 - Azul e rosa formam o núcleo cromático; marrom e verde são complementares.
 - Mantenha completas as escalas de cor 50–950.
 - Fundamentos de marca definem identidade; guides de canal definem comportamento.

@@ -64,6 +64,24 @@ Antes da exploração, consultar apenas referências gerais relevantes do canal 
 
 Não consulte `docs/benchmarks/` durante briefing ou exploração. **A benchmark evaluates quality after creation; it must not leak the target solution into exploration.** Benchmark é ferramenta de avaliação, não creative input ou briefing.
 
+## Art Direction Readiness
+
+Antes da exploração visual comparável, aplique dois gates obrigatórios.
+
+### Brand readiness
+
+Confirme canal, paleta, naming, regras de identidade, linguagem gráfica e os assets imutáveis necessários para avaliar a etapa. Outfit é a tipografia oficial e não pode ser substituída silenciosamente por aproximação. **Immutable brand elements must not be approximated merely to complete a concept.**
+
+Se a ferramenta generativa não preservar texto, tipografia ou logo corretamente, gere o ambiente sem esses elementos finais e componha depois os assets oficiais, ou use uma ferramenta capaz de preservá-los. **Generation may create the environment; composition must preserve the identity.**
+
+### Subject readiness
+
+Pergunte: **Do I have enough subject fidelity to evaluate the art direction?** Para Marketing orientado a produto, identifique se source of truth, asset real provisório, referência representativa ou proxy sintético controlado preserva categoria visual, silhueta, massa e presença suficientes. **When the subject is visually determinant, abstract placeholders are not sufficient for art-direction validation.**
+
+Se um insumo essencial estiver ausente, resolva o problema de entrada antes de compensar com invenção visual sem relação. Solicite o asset, procure representação adequada, produza proxy controlado ou mantenha o estudo como exploração inicial incompleta.
+
+Somente quando marca, assunto, canal e representação permitirem avaliar desejo, hierarquia e composição a etapa passa de exploração inicial para direção de arte validável.
+
 ## 3. Exploração visual
 
 Gerar de três a quatro estudos de direção genuinamente distintos antes de tentar fechar a peça final. Em trabalhos de Marketing com espaço real de exploração, prefira quatro direções como conjunto inicial padrão. Tarefas simples podem justificar menos, e casos excepcionais podem exigir outra abordagem; o número não substitui julgamento criativo.
@@ -74,7 +92,11 @@ Antes da rodada, identifique quais assets são visualmente determinantes, o nív
 
 As propostas não precisam de acabamento final, mas devem permitir comparar impacto, hierarquia, desejo, escala, composição, presença do produto, legibilidade e relação entre elementos. **Low finish is acceptable. Low evaluability is not.**
 
-Apresente cada direção de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
+Explore internamente quantas tentativas forem necessárias sem impor um número fixo. Rejeite ou regenere opções fracas antes da rodada apresentada. **Do not present four directions merely because they are different.** Cada candidata deve passar individualmente pelo quality gate: aderência à marca e ao canal, avaliabilidade, plausibilidade comercial, fidelidade suficiente ao assunto, distinção das demais e defesa como direção de arte — não apenas experimento gráfico.
+
+Apresente cada direção aprovada pelo gate de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
+
+As opções apresentadas devem estar **good enough to compare**. **Four is a presentation target, not a quality substitute.** Se ainda não houver quatro candidatas viáveis, continue a exploração interna ou explique por que a rodada não está pronta; não reduza o quality floor para preencher slots.
 
 **Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
 

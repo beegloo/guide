@@ -34,7 +34,12 @@ Status: oficial
 
 Se a imagem fornecida não permitir reprodução fiel:
 
-1. Solicitar novas fotos ou ângulos.
-2. Identificar a imagem como estudo conceitual.
-3. Usar espaço reservado quando apropriado.
-4. Nunca apresentar uma invenção como produto final.
+1. Priorizar source of truth final.
+2. Quando ela não estiver disponível, avaliar asset real provisório.
+3. Depois, usar referência representativa cuja limitação esteja identificada.
+4. Se necessário, criar proxy sintético controlado que preserve categoria, silhueta e massa sem inventar fatos específicos.
+5. Usar placeholder abstrato apenas quando o assunto não for visualmente determinante para a decisão.
+
+Quando o assunto for visualmente determinante, placeholder abstrato não é suficiente para validar direção de arte. Solicite novas fotos ou ângulos se nenhuma representação disponível alcançar o nível necessário.
+
+**If an essential input is missing, solve the input problem before compensating with unrelated visual invention.** Esculturas, recipientes ou objetos cenográficos sem correspondência semântica suficiente não substituem produto ausente. Identifique limites de estudos conceituais e nunca apresente invenção como produto final.

@@ -148,10 +148,14 @@ Status: ativo
 ## Direção de arte
 
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
+- [ ] Brand readiness foi confirmada: Outfit, logo, paleta, naming e regras necessárias estão corretos ou previstos para composição oficial.
+- [ ] Subject readiness foi confirmada: produto ou proxy tem fidelidade semântica e visual suficiente para avaliar a direção.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
 - [ ] Quando a tarefa justificava exploração, foram comparadas direções com hipóteses distintas — não variantes cosméticas.
 - [ ] Os assets determinantes e o nível de representação necessário foram definidos antes dos estudos.
 - [ ] Cada direção estava suficientemente desenvolvida para julgamento real, mesmo sem acabamento final.
+- [ ] Cada opção apresentada passou individualmente pelo quality gate; tentativas fracas foram descartadas ou regeneradas.
+- [ ] As opções estavam good enough to compare, e quatro não foi usado como substituto de qualidade.
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
 - [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
@@ -241,6 +245,24 @@ Antes da exploração, consultar apenas referências gerais relevantes do canal 
 
 Não consulte `docs/benchmarks/` durante briefing ou exploração. **A benchmark evaluates quality after creation; it must not leak the target solution into exploration.** Benchmark é ferramenta de avaliação, não creative input ou briefing.
 
+## Art Direction Readiness
+
+Antes da exploração visual comparável, aplique dois gates obrigatórios.
+
+### Brand readiness
+
+Confirme canal, paleta, naming, regras de identidade, linguagem gráfica e os assets imutáveis necessários para avaliar a etapa. Outfit é a tipografia oficial e não pode ser substituída silenciosamente por aproximação. **Immutable brand elements must not be approximated merely to complete a concept.**
+
+Se a ferramenta generativa não preservar texto, tipografia ou logo corretamente, gere o ambiente sem esses elementos finais e componha depois os assets oficiais, ou use uma ferramenta capaz de preservá-los. **Generation may create the environment; composition must preserve the identity.**
+
+### Subject readiness
+
+Pergunte: **Do I have enough subject fidelity to evaluate the art direction?** Para Marketing orientado a produto, identifique se source of truth, asset real provisório, referência representativa ou proxy sintético controlado preserva categoria visual, silhueta, massa e presença suficientes. **When the subject is visually determinant, abstract placeholders are not sufficient for art-direction validation.**
+
+Se um insumo essencial estiver ausente, resolva o problema de entrada antes de compensar com invenção visual sem relação. Solicite o asset, procure representação adequada, produza proxy controlado ou mantenha o estudo como exploração inicial incompleta.
+
+Somente quando marca, assunto, canal e representação permitirem avaliar desejo, hierarquia e composição a etapa passa de exploração inicial para direção de arte validável.
+
 ## 3. Exploração visual
 
 Gerar de três a quatro estudos de direção genuinamente distintos antes de tentar fechar a peça final. Em trabalhos de Marketing com espaço real de exploração, prefira quatro direções como conjunto inicial padrão. Tarefas simples podem justificar menos, e casos excepcionais podem exigir outra abordagem; o número não substitui julgamento criativo.
@@ -251,7 +273,11 @@ Antes da rodada, identifique quais assets são visualmente determinantes, o nív
 
 As propostas não precisam de acabamento final, mas devem permitir comparar impacto, hierarquia, desejo, escala, composição, presença do produto, legibilidade e relação entre elementos. **Low finish is acceptable. Low evaluability is not.**
 
-Apresente cada direção de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
+Explore internamente quantas tentativas forem necessárias sem impor um número fixo. Rejeite ou regenere opções fracas antes da rodada apresentada. **Do not present four directions merely because they are different.** Cada candidata deve passar individualmente pelo quality gate: aderência à marca e ao canal, avaliabilidade, plausibilidade comercial, fidelidade suficiente ao assunto, distinção das demais e defesa como direção de arte — não apenas experimento gráfico.
+
+Apresente cada direção aprovada pelo gate de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
+
+As opções apresentadas devem estar **good enough to compare**. **Four is a presentation target, not a quality substitute.** Se ainda não houver quatro candidatas viáveis, continue a exploração interna ou explique por que a rodada não está pronta; não reduza o quality floor para preencher slots.
 
 **Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
 
@@ -389,6 +415,16 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 **Aprendizado reutilizável:** evite container-first composition como default. Quando o canal pedir protagonismo visual, teste se assunto, produto, silhueta, massa, escala, recorte, tipo e espaço podem gerar a composição. Estrutura pode ser implícita, e placeholders devem preservar silhueta composicional além de área aproximada.
 
 Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem transforma uma solução específica em regra universal.
+
+## Teste de diversidade sem readiness
+
+**Observação:** o agente gerou quatro hipóteses realmente diferentes, validando parcialmente o processo de diversidade. Porém, nenhuma atingiu o quality bar necessário para comparação séria: Outfit não foi preservada, produtos foram substituídos por objetos abstratos sem correspondência suficiente, a identidade ficou genérica e o resultado permaneceu distante de food advertising.
+
+**Observação:** o agente tratou a existência de quatro layouts diferentes como sucesso, embora nenhuma proposta estivesse pronta para ser defendida como direção de arte.
+
+**Aprendizado reutilizável:** diversidade não garante qualidade. Brand readiness e subject readiness vêm antes da comparação, e cada direção precisa superar um quality floor de marca, canal, assunto, qualidade comercial e composição. Tentativas fracas devem ser rejeitadas ou regeneradas internamente antes de chegar ao usuário.
+
+**Aprendizado reutilizável:** quatro é alvo de apresentação, não substituto de controle de qualidade. O objetivo é apresentar quatro direções distintas e good enough to compare, não apenas quatro resultados diferentes.
 
 ## Escolha e congelamento
 
@@ -907,6 +943,14 @@ Trocar apenas cor, mover os mesmos blocos, aplicar estilos superficiais à mesma
 
 **Do not let the first plausible idea collapse the exploration space.** Uma primeira solução correta não encerra a busca quando a tarefa ainda comporta alternativas relevantes. Ao mesmo tempo, não fabrique diversidade artificial apenas para preencher uma quantidade de opções.
 
+## Quality floor das direções
+
+**Diversity is not enough. Every direction must first pass brand, subject and quality readiness.** Uma proposta diferente não é automaticamente uma direção apresentável. Antes de entrar na comparação, ela precisa parecer Beegloo com os elementos exigidos na etapa, representar o assunto com fidelidade suficiente, comportar-se como publicidade e sustentar desejo, impacto, hierarquia, protagonismo do produto e potencial real de refinamento.
+
+**Good enough to compare** é o nível mínimo compartilhado por todas as opções apresentadas. A diversidade deve acontecer acima desse floor: não compare uma direção viável com opções quebradas ou incompletas apenas para atingir uma quantidade.
+
+**Four is a presentation target, not a quality substitute.** A exploração interna pode produzir e rejeitar outras tentativas. Apresente normalmente quatro direções fortes quando a tarefa justificar, não as quatro primeiras saídas nem todo experimento gráfico.
+
 ## Princípios conectados
 
 - **Conceptual ≠ schematic.** Uma direção conceitual continua precisando ser visualmente avaliável.
@@ -1111,6 +1155,8 @@ Quando houver conflito, as exigências do meio prevalecem sobre padrões genéri
 
 A qualidade publicitária deve ser construída com os [princípios gerais de direção de arte](art-direction.md) e calibrada por [referências gerais do canal](../references/library.md), quando existirem. Elas não funcionam como templates nem incluem benchmarks específicos reservados para avaliação posterior.
 
+**Diversity is not enough. Every direction must first pass brand, subject and quality readiness.** Uma hipótese diferente só entra na rodada apresentada quando também for fiel à identidade necessária, adequada ao assunto e comercialmente defensável.
+
 ## Formas não são componentes por padrão
 
 Em marketing, uma forma arredondada pode funcionar como:
@@ -1250,10 +1296,15 @@ Status: oficial
 
 Se a imagem fornecida não permitir reprodução fiel:
 
-1. Solicitar novas fotos ou ângulos.
-2. Identificar a imagem como estudo conceitual.
-3. Usar espaço reservado quando apropriado.
-4. Nunca apresentar uma invenção como produto final.
+1. Priorizar source of truth final.
+2. Quando ela não estiver disponível, avaliar asset real provisório.
+3. Depois, usar referência representativa cuja limitação esteja identificada.
+4. Se necessário, criar proxy sintético controlado que preserve categoria, silhueta e massa sem inventar fatos específicos.
+5. Usar placeholder abstrato apenas quando o assunto não for visualmente determinante para a decisão.
+
+Quando o assunto for visualmente determinante, placeholder abstrato não é suficiente para validar direção de arte. Solicite novas fotos ou ângulos se nenhuma representação disponível alcançar o nível necessário.
+
+**If an essential input is missing, solve the input problem before compensating with unrelated visual invention.** Esculturas, recipientes ou objetos cenográficos sem correspondência semântica suficiente não substituem produto ausente. Identifique limites de estudos conceituais e nunca apresente invenção como produto final.
 
 ---
 

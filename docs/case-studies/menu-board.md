@@ -67,6 +67,16 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem transforma uma solução específica em regra universal.
 
+## Teste de diversidade sem readiness
+
+**Observação:** o agente gerou quatro hipóteses realmente diferentes, validando parcialmente o processo de diversidade. Porém, nenhuma atingiu o quality bar necessário para comparação séria: Outfit não foi preservada, produtos foram substituídos por objetos abstratos sem correspondência suficiente, a identidade ficou genérica e o resultado permaneceu distante de food advertising.
+
+**Observação:** o agente tratou a existência de quatro layouts diferentes como sucesso, embora nenhuma proposta estivesse pronta para ser defendida como direção de arte.
+
+**Aprendizado reutilizável:** diversidade não garante qualidade. Brand readiness e subject readiness vêm antes da comparação, e cada direção precisa superar um quality floor de marca, canal, assunto, qualidade comercial e composição. Tentativas fracas devem ser rejeitadas ou regeneradas internamente antes de chegar ao usuário.
+
+**Aprendizado reutilizável:** quatro é alvo de apresentação, não substituto de controle de qualidade. O objetivo é apresentar quatro direções distintas e good enough to compare, não apenas quatro resultados diferentes.
+
 ## Escolha e congelamento
 
 **Observação:** após a escolha de uma direção, as decisões aprovadas foram congeladas. As rodadas seguintes passaram a preservar o caminho escolhido.

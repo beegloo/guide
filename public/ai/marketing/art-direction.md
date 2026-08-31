@@ -75,6 +75,14 @@ Trocar apenas cor, mover os mesmos blocos, aplicar estilos superficiais à mesma
 
 **Do not let the first plausible idea collapse the exploration space.** Uma primeira solução correta não encerra a busca quando a tarefa ainda comporta alternativas relevantes. Ao mesmo tempo, não fabrique diversidade artificial apenas para preencher uma quantidade de opções.
 
+## Quality floor das direções
+
+**Diversity is not enough. Every direction must first pass brand, subject and quality readiness.** Uma proposta diferente não é automaticamente uma direção apresentável. Antes de entrar na comparação, ela precisa parecer Beegloo com os elementos exigidos na etapa, representar o assunto com fidelidade suficiente, comportar-se como publicidade e sustentar desejo, impacto, hierarquia, protagonismo do produto e potencial real de refinamento.
+
+**Good enough to compare** é o nível mínimo compartilhado por todas as opções apresentadas. A diversidade deve acontecer acima desse floor: não compare uma direção viável com opções quebradas ou incompletas apenas para atingir uma quantidade.
+
+**Four is a presentation target, not a quality substitute.** A exploração interna pode produzir e rejeitar outras tentativas. Apresente normalmente quatro direções fortes quando a tarefa justificar, não as quatro primeiras saídas nem todo experimento gráfico.
+
 ## Princípios conectados
 
 - **Conceptual ≠ schematic.** Uma direção conceitual continua precisando ser visualmente avaliável.
