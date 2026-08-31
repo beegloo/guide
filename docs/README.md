@@ -39,7 +39,6 @@ Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéric
 - `ui/`: guide de canal para produto digital e interfaces funcionais.
 - `ai/`: contexto portátil, contrato de prompt, processo criativo e checklist.
 - `benchmarks/`: holdouts específicos carregados somente após a criação, durante avaliação.
-- `handoffs/`: estado operacional portátil de trabalhos e direções em andamento.
 - `case-studies/`: aprendizados de casos reais, separados de decisões oficiais.
 - `decisions/`: memória datada das consultorias.
 - `references/`: tipos de referência e exemplos aprovados, rejeitados ou exploratórios.

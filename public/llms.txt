@@ -11,7 +11,7 @@
 - [Produto e UI](/ai/ui/principles.md)
 - [Contrato de prompt](/ai/ai/prompt-contract.md)
 - [Processo criativo com IA](/ai/ai/process.md)
-- [Handoffs criativos](/ai/handoffs/README.md)
+- [Protocolo de handoff criativo](/ai/ai/creative-handoff.md)
 - [Checklist de entrega](/ai/ai/delivery-checklist.md)
 - [Catálogo e pendências de produto](/ai/products/catalog.md)
 - [Contexto integral em um arquivo](/llms-full.txt)
@@ -57,13 +57,10 @@
 
 ### Inteligência artificial
 - [Contexto portátil da marca Beegloo](/ai/ai/brand-context.md) — ativo
+- [Protocolo de handoff criativo](/ai/ai/creative-handoff.md) — ativo
 - [Checklist de entrega](/ai/ai/delivery-checklist.md) — ativo
 - [Processo criativo com IA](/ai/ai/process.md) — ativo
 - [Contrato de prompt para IA](/ai/ai/prompt-contract.md) — ativo
-
-### Handoffs criativos
-- [Handoffs criativos](/ai/handoffs/README.md) — ativo
-- [Handoff criativo — [project] — [direction name]](/ai/handoffs/_template.md) — pendente
 
 ### Estudos de caso
 - [Case study — processo criativo do menu board](/ai/case-studies/menu-board.md) — ativo

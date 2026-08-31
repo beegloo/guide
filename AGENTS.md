@@ -5,7 +5,7 @@
 1. Comece pelos fundamentos: `docs/ai/brand-context.md` como contexto portátil, `docs/foundations/brand-essence.md` para identidade e `docs/foundations/sources-of-truth.md` para precedência e conflitos.
 2. Identifique o canal antes de escolher a gramática composicional.
 3. Para trabalhos que comunicam ou vendem, leia `docs/marketing/principles.md` e `docs/marketing/art-direction.md`. Para interfaces funcionais, leia `docs/ui/principles.md`.
-4. Antes de continuar uma peça existente, procure um handoff ativo em `docs/handoffs/`. Não dependa do histórico da conversa para identificar uma direção congelada.
+4. Antes de continuar uma peça existente, procure um handoff ativo no workspace da execução e valide-o conforme `docs/ai/creative-handoff.md`. Não dependa do histórico da conversa para identificar uma direção congelada.
 5. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
 6. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
 7. Trate qualquer informação marcada como `pendente` como desconhecida. Pergunte ou sinalize a lacuna; nunca complete por inferência.
@@ -18,7 +18,7 @@
 - Edite regras, decisões e conteúdo de marca somente em `docs/`.
 - `public/ai/`, `public/llms.txt`, `public/llms-full.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
 - `public/llms-full.txt` contém apenas creative input; benchmarks continuam disponíveis separadamente em `public/ai/benchmarks/` para avaliação posterior.
-- `docs/handoffs/` registra estado operacional temporário. Não trate handoffs como decisões oficiais, benchmarks, catálogo ou source of truth de marca.
+- `docs/ai/creative-handoff.md` define o protocolo reutilizável. Instâncias reais de handoff vivem no workspace do trabalho, não neste Brand Guide.
 - Após qualquer mudança em `docs/`, execute `npm run generate:ai` e versione os artefatos públicos atualizados junto com a fonte.
 - Antes de concluir mudanças relevantes, execute `npm run build`.
 - Registre novas consultorias, decisões, exceções, substituições de regra e homologações em `docs/decisions/`. Use `docs/decisions/_template.md` como base e preserve o histórico; não reescreva silenciosamente decisões anteriores.

@@ -103,9 +103,9 @@ Esse aprendizado orienta o processo, não proíbe cards, overlap ou simetria nem
 
 **Observação:** quatro direções foram geradas e uma foi escolhida, mas a escolha permaneceu no contexto e nos artefatos locais daquela execução. Em um novo chat, “Direção 01” não tinha referência visual nem descrição autossuficiente e não podia ser refinada com segurança.
 
-**Aprendizado reutilizável:** congelar uma direção sem preservar seu estado em artefatos é insuficiente. **A frozen direction must be portable.** Depois da escolha, o processo deve gerar um [creative handoff](../handoffs/README.md) antes do refinamento.
+**Aprendizado reutilizável:** congelar uma direção sem preservar seu estado em artefatos é insuficiente. **A frozen direction must be portable.** Depois da escolha, o processo deve gerar um [handoff criativo](../ai/creative-handoff.md) no workspace da execução antes do refinamento.
 
-**Aprendizado reutilizável:** o estado deve viver em artifacts, não apenas na conversa. Nomes numéricos ou relativos precisam vir acompanhados de imagem, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo e próximos passos.
+**Aprendizado reutilizável:** o estado deve viver em artifacts, não apenas na conversa. Nomes numéricos ou relativos precisam vir acompanhados de imagem, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo e próximos passos. O case ensina essa lição; o Brand Guide não mantém a instância operacional daquele trabalho.
 
 ## Conteúdo comercial e fidelidade
 

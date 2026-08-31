@@ -132,6 +132,7 @@
   "documents": [
     "/ai/README.md",
     "/ai/ai/brand-context.md",
+    "/ai/ai/creative-handoff.md",
     "/ai/ai/delivery-checklist.md",
     "/ai/ai/process.md",
     "/ai/ai/prompt-contract.md",
@@ -141,8 +142,6 @@
     "/ai/foundations/brand-essence.md",
     "/ai/foundations/composition.md",
     "/ai/foundations/sources-of-truth.md",
-    "/ai/handoffs/README.md",
-    "/ai/handoffs/_template.md",
     "/ai/identity/colors.md",
     "/ai/identity/logo.md",
     "/ai/identity/mascot.md",
@@ -181,6 +180,14 @@
       "status": "active",
       "lastReviewed": "2026-08-30",
       "source": "/ai/ai/brand-context.md"
+    },
+    {
+      "path": "ai/creative-handoff.md",
+      "title": "Protocolo de handoff criativo",
+      "category": "ai",
+      "status": "active",
+      "lastReviewed": "2026-08-31",
+      "source": "/ai/ai/creative-handoff.md"
     },
     {
       "path": "ai/delivery-checklist.md",
@@ -253,22 +260,6 @@
       "status": "official",
       "lastReviewed": "2026-08-30",
       "source": "/ai/foundations/sources-of-truth.md"
-    },
-    {
-      "path": "handoffs/README.md",
-      "title": "Handoffs criativos",
-      "category": "handoffs",
-      "status": "active",
-      "lastReviewed": "2026-08-30",
-      "source": "/ai/handoffs/README.md"
-    },
-    {
-      "path": "handoffs/_template.md",
-      "title": "Handoff criativo — [project] — [direction name]",
-      "category": "handoffs",
-      "status": "pending",
-      "lastReviewed": "YYYY-MM-DD",
-      "source": "/ai/handoffs/_template.md"
     },
     {
       "path": "identity/colors.md",

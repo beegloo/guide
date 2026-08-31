@@ -5,7 +5,7 @@ Status: ativo
 
 ## Roteamento antes da criação
 
-1. Se o trabalho já existe, procure primeiro um [creative handoff](../handoffs/README.md) ativo e valide se ele é autossuficiente.
+1. Se o trabalho já existe, procure primeiro um handoff ativo no workspace da execução e valide-o conforme o [protocolo de handoff criativo](creative-handoff.md).
 2. Identifique o canal e o objetivo principal da entrega.
 3. Carregue [Essência da marca](../foundations/brand-essence.md), [Fontes de verdade](../foundations/sources-of-truth.md) e os demais fundamentos aplicáveis.
 4. Carregue o guide específico do canal: [Marketing e criação comercial](../marketing/principles.md) e [Princípios de direção de arte](../marketing/art-direction.md) para peças que comunicam ou vendem; [Produto e UI](../ui/principles.md) para interfaces funcionais.
@@ -105,11 +105,11 @@ As opções apresentadas devem estar **good enough to compare**. **Four is a pre
 
 Na exploração de Marketing, antes de desenhar containers, teste se o assunto pode gerar a composição por meio de massa, silhueta, escala, recorte, tipo, ritmo e espaço. Preserve nos placeholders a silhueta composicional conhecida sem inventar detalhes factuais. Esta orientação não se aplica como regra aos fluxos de UI.
 
-Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Em seguida, crie ou atualize o [creative handoff](../handoffs/README.md), incluindo nome descritivo, referência visual, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo, pendências e próximos passos. Só então invista em fidelidade e refinamento.
+Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Salve a referência visual no workspace da execução e crie ou atualize o [handoff criativo](creative-handoff.md) daquele trabalho, incluindo nome descritivo, hipótese, frozen, adjustable, assets, readiness, maturidade, conteúdo, pendências e próximos passos. Só então invista em fidelidade e refinamento.
 
 Congelar uma direção não congela todos os pixels. Frozen protege estrutura conceitual, hipótese, hierarquia, relações principais e linguagem aprovada; adjustable permite microespaçamento, escala fina, crop, posição, tipografia, conteúdo, luz e acabamento quando não alteram a direção. Se uma mudança ameaçar frozen, reabra a decisão explicitamente.
 
-Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita. **A frozen direction must be portable. Do not rely on chat memory to preserve creative decisions.**
+Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita. **A frozen direction must be portable. Do not rely on chat memory to preserve creative decisions.** Artefatos aqui significam os arquivos do trabalho, não necessariamente arquivos deste Brand Guide.
 
 Nesta etapa, valide o método criativo antes de otimizar custo ou tokens. Eficiência pode ser revista futuramente, depois que qualidade e consistência estiverem demonstradas.
 
