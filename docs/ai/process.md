@@ -66,13 +66,23 @@ Não consulte `docs/benchmarks/` durante briefing ou exploração. **A benchmark
 
 ## 3. Exploração visual
 
-Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
+Gerar de três a quatro estudos de direção genuinamente distintos antes de tentar fechar a peça final. Em trabalhos de Marketing com espaço real de exploração, prefira quatro direções como conjunto inicial padrão. Tarefas simples podem justificar menos, e casos excepcionais podem exigir outra abordagem; o número não substitui julgamento criativo.
+
+Cada direção deve ter uma hipótese composicional própria, conforme os [princípios de direção de arte](../marketing/art-direction.md). Quatro cores, rearranjos superficiais dos mesmos blocos ou pequenas mudanças de escala na mesma arquitetura contam como variantes, não como direções distintas.
+
+Antes da rodada, identifique quais assets são visualmente determinantes, o nível de representação necessário para comparar as hipóteses, quais sources of truth estão disponíveis e onde será necessário usar asset provisório, referência representativa ou proxy claramente identificado. Não construa a comparação com placeholders abstratos inadequados quando presença ou silhueta de produto determinar a decisão.
+
+As propostas não precisam de acabamento final, mas devem permitir comparar impacto, hierarquia, desejo, escala, composição, presença do produto, legibilidade e relação entre elementos. **Low finish is acceptable. Low evaluability is not.**
+
+Apresente cada direção de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
 
 **Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
 
 Na exploração de Marketing, antes de desenhar containers, teste se o assunto pode gerar a composição por meio de massa, silhueta, escala, recorte, tipo, ritmo e espaço. Preserve nos placeholders a silhueta composicional conhecida sem inventar detalhes factuais. Esta orientação não se aplica como regra aos fluxos de UI.
 
-Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
+Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Só então invista em fidelidade e refinamento. Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita.
+
+Nesta etapa, valide o método criativo antes de otimizar custo ou tokens. Eficiência pode ser revista futuramente, depois que qualidade e consistência estiverem demonstradas.
 
 ## 4. Produto por produto
 

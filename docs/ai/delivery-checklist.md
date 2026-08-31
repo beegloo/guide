@@ -26,6 +26,9 @@ Status: ativo
 
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
+- [ ] Quando a tarefa justificava exploração, foram comparadas direções com hipóteses distintas — não variantes cosméticas.
+- [ ] Os assets determinantes e o nível de representação necessário foram definidos antes dos estudos.
+- [ ] Cada direção estava suficientemente desenvolvida para julgamento real, mesmo sem acabamento final.
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
 - [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
@@ -41,5 +44,6 @@ Status: ativo
 - [ ] Cada pendência foi avaliada conforme a etapa; somente assets indispensáveis bloquearam a validação.
 - [ ] O resultado foi comparado com referências reais.
 - [ ] Quando houver teste com holdout, o benchmark só foi aberto depois que a direção candidata estava criada e congelada.
+- [ ] Uma direção foi escolhida e congelada antes do refinamento; combinações entre opções foram decisões explícitas.
 - [ ] Estudos conceituais estão identificados.
 - [ ] A aprovação humana e a decisão reutilizável foram registradas.

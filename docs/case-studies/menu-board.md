@@ -29,7 +29,9 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Observação:** múltiplas direções foram geradas antes da execução. A diversidade entre propostas tornou a escolha mais consciente e evitou confundir pequenas variações com caminhos realmente distintos.
 
-**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md).
+**Aprendizado reutilizável:** diversidade vem antes da fidelidade. Direções devem representar hipóteses composicionais, não variações cosméticas; uma opção precisa ser escolhida e congelada antes do refinamento. Em exploração de Marketing, quatro propostas podem funcionar como default útil quando a tarefa comportar esse espaço, sem se tornar regra universal.
+
+**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md). Nesta fase, o método criativo deve ser validado antes da otimização de custo.
 
 ## Teste posterior de produção
 

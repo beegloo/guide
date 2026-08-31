@@ -67,6 +67,14 @@ Proximidade, overlap, recorte, contraste de escala, direção do olhar e relaç�
 
 Avalie apetite, desejo, impacto, proximidade sensorial, força de produto e energia publicitária. Uma composição pode estar correta e ainda ser pouco desejável.
 
+## Direções são hipóteses, não variantes
+
+**Each direction should test a different compositional hypothesis.** Direções distintas investigam relações realmente diferentes de dominância, hierarquia, escala, produto e tipografia, espaço, profundidade, ritmo, recorte, estrutura explícita ou implícita, equilíbrio, leitura, categorias, presença fotográfica ou tensão.
+
+Trocar apenas cor, mover os mesmos blocos, aplicar estilos superficiais à mesma arquitetura ou fazer pequenas variações de escala produz variantes da mesma direção. Se duas propostas compartilham essencialmente a mesma hipótese, trate-as como variantes, não como duas opções independentes.
+
+**Do not let the first plausible idea collapse the exploration space.** Uma primeira solução correta não encerra a busca quando a tarefa ainda comporta alternativas relevantes. Ao mesmo tempo, não fabrique diversidade artificial apenas para preencher uma quantidade de opções.
+
 ## Princípios conectados
 
 - **Conceptual ≠ schematic.** Uma direção conceitual continua precisando ser visualmente avaliável.

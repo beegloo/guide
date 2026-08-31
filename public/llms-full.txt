@@ -149,6 +149,9 @@ Status: ativo
 
 - [ ] O canal foi identificado e seu guide específico foi aplicado.
 - [ ] Para Marketing, os princípios gerais de direção de arte foram consultados sem carregar benchmarks durante a exploração.
+- [ ] Quando a tarefa justificava exploração, foram comparadas direções com hipóteses distintas — não variantes cosméticas.
+- [ ] Os assets determinantes e o nível de representação necessário foram definidos antes dos estudos.
+- [ ] Cada direção estava suficientemente desenvolvida para julgamento real, mesmo sem acabamento final.
 - [ ] A composição não herdou automaticamente padrões de UI inadequados ao meio.
 - [ ] A estrutura nasceu do assunto, da hierarquia e das relações visuais, ou containers prévios foram usados com intenção real.
 - [ ] Placeholders preservam peso e silhueta suficientes para avaliar a composição sem inventar detalhes.
@@ -164,6 +167,7 @@ Status: ativo
 - [ ] Cada pendência foi avaliada conforme a etapa; somente assets indispensáveis bloquearam a validação.
 - [ ] O resultado foi comparado com referências reais.
 - [ ] Quando houver teste com holdout, o benchmark só foi aberto depois que a direção candidata estava criada e congelada.
+- [ ] Uma direção foi escolhida e congelada antes do refinamento; combinações entre opções foram decisões explícitas.
 - [ ] Estudos conceituais estão identificados.
 - [ ] A aprovação humana e a decisão reutilizável foram registradas.
 
@@ -239,13 +243,23 @@ Não consulte `docs/benchmarks/` durante briefing ou exploração. **A benchmark
 
 ## 3. Exploração visual
 
-Gerar múltiplos estudos de direção genuinamente distintos antes de tentar fechar a peça final. Avaliar linguagem, composição, leitura, aderência à marca e potencial comercial sem exigir, nesta etapa, integração final de fotografias, embalagens, preços e acabamento de produção.
+Gerar de três a quatro estudos de direção genuinamente distintos antes de tentar fechar a peça final. Em trabalhos de Marketing com espaço real de exploração, prefira quatro direções como conjunto inicial padrão. Tarefas simples podem justificar menos, e casos excepcionais podem exigir outra abordagem; o número não substitui julgamento criativo.
+
+Cada direção deve ter uma hipótese composicional própria, conforme os [princípios de direção de arte](../marketing/art-direction.md). Quatro cores, rearranjos superficiais dos mesmos blocos ou pequenas mudanças de escala na mesma arquitetura contam como variantes, não como direções distintas.
+
+Antes da rodada, identifique quais assets são visualmente determinantes, o nível de representação necessário para comparar as hipóteses, quais sources of truth estão disponíveis e onde será necessário usar asset provisório, referência representativa ou proxy claramente identificado. Não construa a comparação com placeholders abstratos inadequados quando presença ou silhueta de produto determinar a decisão.
+
+As propostas não precisam de acabamento final, mas devem permitir comparar impacto, hierarquia, desejo, escala, composição, presença do produto, legibilidade e relação entre elementos. **Low finish is acceptable. Low evaluability is not.**
+
+Apresente cada direção de forma breve, com nome, hipótese, principal mecanismo composicional, prioridade, riscos e imagem ou estudo correspondente. A imagem é a principal evidência. Depois, compare qualitativamente adequação ao canal, força comercial, desejo, protagonismo do produto, clareza, originalidade, aderência à marca, potencial de refinamento, risco de virar UI, catálogo ou infografia e dependência de assets indisponíveis. Não exija pontuação matemática.
 
 **Conceptual ≠ schematic.** Placeholders podem reduzir fidelidade factual, mas não devem transformar uma direção de arte em wireframe. Preserve o peso visual necessário para avaliar a composição e mantenha anotações de processo fora da peça dirigida ao consumidor.
 
 Na exploração de Marketing, antes de desenhar containers, teste se o assunto pode gerar a composição por meio de massa, silhueta, escala, recorte, tipo, ritmo e espaço. Preserve nos placeholders a silhueta composicional conhecida sem inventar detalhes factuais. Esta orientação não se aplica como regra aos fluxos de UI.
 
-Escolher uma direção de forma explícita e registrar quais decisões foram aprovadas. A partir desse ponto, essas decisões ficam congeladas e a exploração divergente termina, salvo reabertura explícita.
+Primeiro compare; depois escolha uma direção, registre o que foi aprovado e congele essas decisões. Só então invista em fidelidade e refinamento. Não misture automaticamente “o melhor de cada direção”; qualquer combinação deve ser uma decisão explícita. A exploração divergente termina após a escolha, salvo reabertura explícita.
+
+Nesta etapa, valide o método criativo antes de otimizar custo ou tokens. Eficiência pode ser revista futuramente, depois que qualidade e consistência estiverem demonstradas.
 
 ## 4. Produto por produto
 
@@ -338,7 +352,9 @@ Este documento registra o aprendizado de processo do primeiro caso real usado pa
 
 **Observação:** múltiplas direções foram geradas antes da execução. A diversidade entre propostas tornou a escolha mais consciente e evitou confundir pequenas variações com caminhos realmente distintos.
 
-**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md).
+**Aprendizado reutilizável:** diversidade vem antes da fidelidade. Direções devem representar hipóteses composicionais, não variações cosméticas; uma opção precisa ser escolhida e congelada antes do refinamento. Em exploração de Marketing, quatro propostas podem funcionar como default útil quando a tarefa comportar esse espaço, sem se tornar regra universal.
+
+**Aprendizado reutilizável:** exploração deve ampliar possibilidades; execução deve reduzir variação. A separação está formalizada em [Processo criativo com IA](../ai/process.md). Nesta fase, o método criativo deve ser validado antes da otimização de custo.
 
 ## Teste posterior de produção
 
@@ -882,6 +898,14 @@ Proximidade, overlap, recorte, contraste de escala, direção do olhar e relaç�
 ## Desejo como critério
 
 Avalie apetite, desejo, impacto, proximidade sensorial, força de produto e energia publicitária. Uma composição pode estar correta e ainda ser pouco desejável.
+
+## Direções são hipóteses, não variantes
+
+**Each direction should test a different compositional hypothesis.** Direções distintas investigam relações realmente diferentes de dominância, hierarquia, escala, produto e tipografia, espaço, profundidade, ritmo, recorte, estrutura explícita ou implícita, equilíbrio, leitura, categorias, presença fotográfica ou tensão.
+
+Trocar apenas cor, mover os mesmos blocos, aplicar estilos superficiais à mesma arquitetura ou fazer pequenas variações de escala produz variantes da mesma direção. Se duas propostas compartilham essencialmente a mesma hipótese, trate-as como variantes, não como duas opções independentes.
+
+**Do not let the first plausible idea collapse the exploration space.** Uma primeira solução correta não encerra a busca quando a tarefa ainda comporta alternativas relevantes. Ao mesmo tempo, não fabrique diversidade artificial apenas para preencher uma quantidade de opções.
 
 ## Princípios conectados
 
