@@ -16,6 +16,11 @@
     "menu-board": "/ai/context/menu-board.md",
     "workflow": "/ai/context/workflow.md"
   },
+  "taskGuides": {
+    "menuBoard": "/ai/context/menu-board.md",
+    "menus": "/ai/marketing/menus.md",
+    "socialProduct": "/ai/marketing/social-product.md"
+  },
   "authorityOrder": [
     "approved-asset-or-document",
     "current-approved-commercial-brief",
@@ -158,9 +163,11 @@
     "/ai/marketing/art-direction.md",
     "/ai/marketing/commercial-hierarchy.md",
     "/ai/marketing/menu-boards.md",
+    "/ai/marketing/menus.md",
     "/ai/marketing/photography.md",
     "/ai/marketing/pricing.md",
     "/ai/marketing/principles.md",
+    "/ai/marketing/social-product.md",
     "/ai/products/catalog.md",
     "/ai/products/product-fidelity.md",
     "/ai/references/library.md",
@@ -298,6 +305,14 @@
       "source": "/ai/marketing/menu-boards.md"
     },
     {
+      "path": "marketing/menus.md",
+      "title": "Cardápios",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-09-01",
+      "source": "/ai/marketing/menus.md"
+    },
+    {
       "path": "marketing/photography.md",
       "title": "Direção fotográfica",
       "category": "marketing",
@@ -320,6 +335,14 @@
       "status": "active",
       "lastReviewed": "2026-08-31",
       "source": "/ai/marketing/principles.md"
+    },
+    {
+      "path": "marketing/social-product.md",
+      "title": "Social — post de produto",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-09-01",
+      "source": "/ai/marketing/social-product.md"
     },
     {
       "path": "products/catalog.md",

@@ -117,6 +117,8 @@ const llms = `# Beegloo Brand Guide
 
 - [Core: identidade e autoridade mínimas](/ai/context/core.md)
 - [Marketing: criação comercial](/ai/context/marketing.md)
+- [Cardápio: Marketing + comportamento editorial do meio](/ai/context/marketing.md) + [guide de cardápio](/ai/marketing/menus.md)
+- [Social / post de produto: Marketing + mensagem comercial](/ai/context/marketing.md) + [guide de social](/ai/marketing/social-product.md)
 - [Produto e UI: interfaces funcionais](/ai/context/ui.md)
 - [Menu board: guide específico da tarefa](/ai/context/menu-board.md)
 - [Workflow: processo criativo e continuidade](/ai/context/workflow.md)
@@ -142,6 +144,11 @@ const manifest = {
   lastReviewed: '2026-08-31',
   entrypoints: { default: '/ai/context/core.md', concise: '/llms.txt', human: '/', humanDocs: '/docs?doc=ai/brand-context.md#docs' },
   contextBundles: Object.fromEntries(Object.keys(bundleSpecs).map((name) => [name, `/ai/context/${name}.md`])),
+  taskGuides: {
+    menuBoard: '/ai/context/menu-board.md',
+    menus: '/ai/marketing/menus.md',
+    socialProduct: '/ai/marketing/social-product.md',
+  },
   authorityOrder: [
     'approved-asset-or-document',
     'current-approved-commercial-brief',

@@ -22,7 +22,7 @@ Status: ativo
 
 ## Conteúdo
 
-- O que deve aparecer:
+- O que deve aparecer — produto, headline / mensagem, preço, CTA e texto secundário, quando aplicável:
 
 ## Prioridade comercial
 

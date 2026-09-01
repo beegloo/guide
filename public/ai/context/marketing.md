@@ -125,6 +125,8 @@ Ela não precisa virar um card. Evite transformar automaticamente produto, preç
 
 - [Princípios de direção de arte](art-direction.md)
 - [Menu boards](menu-boards.md)
+- [Cardápios](menus.md)
+- [Social — post de produto](social-product.md)
 - [Hierarquia comercial](commercial-hierarchy.md)
 - [Sistema de preços](pricing.md)
 - [Direção fotográfica](photography.md)

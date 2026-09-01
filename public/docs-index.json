@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T12:18:34.082Z",
+  "generatedAt": "2026-09-01T17:44:40.281Z",
   "documents": [
     {
       "path": "README.md",
@@ -130,6 +130,14 @@
       "source": "/ai/marketing/menu-boards.md"
     },
     {
+      "path": "marketing/menus.md",
+      "title": "Cardápios",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-09-01",
+      "source": "/ai/marketing/menus.md"
+    },
+    {
       "path": "marketing/photography.md",
       "title": "Direção fotográfica",
       "category": "marketing",
@@ -152,6 +160,14 @@
       "status": "active",
       "lastReviewed": "2026-08-31",
       "source": "/ai/marketing/principles.md"
+    },
+    {
+      "path": "marketing/social-product.md",
+      "title": "Social — post de produto",
+      "category": "marketing",
+      "status": "active",
+      "lastReviewed": "2026-09-01",
+      "source": "/ai/marketing/social-product.md"
     },
     {
       "path": "products/catalog.md",
