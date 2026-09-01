@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
+# Agentes acionados por pessoas podem consultar o contexto público do guide.
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 # Contexto canônico para agentes: /llms.txt

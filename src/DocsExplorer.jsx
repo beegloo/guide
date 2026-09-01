@@ -117,7 +117,6 @@ export default function DocsExplorer() {
   const [documents, setDocuments] = useState([])
   const [selected, setSelected] = useState(selectedFromUrl)
   const [content, setContent] = useState('')
-  const [query, setQuery] = useState('')
   const [error, setError] = useState('')
   const [copyState, setCopyState] = useState('Copiar link')
 
@@ -147,17 +146,11 @@ export default function DocsExplorer() {
     return () => window.removeEventListener('popstate', onPopState)
   }, [])
 
-  const filtered = useMemo(() => {
-    const normalized = query.trim().toLocaleLowerCase('pt-BR')
-    if (!normalized) return documents
-    return documents.filter((document) => `${document.title} ${document.path} ${document.category} ${document.status} ${statusNames[document.status]}`.toLocaleLowerCase('pt-BR').includes(normalized))
-  }, [documents, query])
-
-  const grouped = useMemo(() => filtered.reduce((groups, document) => {
+  const grouped = useMemo(() => documents.reduce((groups, document) => {
     groups[document.category] ??= []
     groups[document.category].push(document)
     return groups
-  }, {}), [filtered])
+  }, {}), [documents])
   const current = documents.find((document) => document.path === selected)
   const stats = useMemo(() => documents.reduce((summary, document) => {
     summary.total += 1
@@ -192,8 +185,6 @@ export default function DocsExplorer() {
   return <div className="docs-shell">
     <aside className="docs-sidebar" aria-label="Documentos do guia">
       <div className="docs-summary"><strong>{stats.total}</strong><span>documentos</span><small>{stats.pending || 0} pendentes</small></div>
-      <label htmlFor="docs-search">Buscar documentação</label>
-      <input id="docs-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Nome, tema ou status"/>
       <nav>
         {categoryOrder.filter((category) => grouped[category]?.length).map((category) => <section key={category}>
           <h3>{categoryNames[category] || category}</h3>
@@ -202,7 +193,6 @@ export default function DocsExplorer() {
           </a>)}
         </section>)}
       </nav>
-      {documents.length > 0 && filtered.length === 0 ? <p className="docs-empty">Nenhum documento encontrado.</p> : null}
     </aside>
     <article className="docs-reader" aria-live="polite">
       <header><div><small>FONTE CANÔNICA · MARKDOWN</small><strong>{current?.path || selected}</strong></div><div className="docs-actions">{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}<button type="button" onClick={copyLink}>{copyState}</button></div></header>

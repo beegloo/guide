@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "brand": "Beegloo",
   "language": "pt-BR",
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-01",
   "entrypoints": {
     "default": "/ai/context/core.md",
     "concise": "/llms.txt",
@@ -14,12 +14,14 @@
     "marketing": "/ai/context/marketing.md",
     "ui": "/ai/context/ui.md",
     "menu-board": "/ai/context/menu-board.md",
+    "menus": "/ai/context/menus.md",
+    "social-product": "/ai/context/social-product.md",
     "workflow": "/ai/context/workflow.md"
   },
   "taskGuides": {
     "menuBoard": "/ai/context/menu-board.md",
-    "menus": "/ai/marketing/menus.md",
-    "socialProduct": "/ai/marketing/social-product.md"
+    "menus": "/ai/context/menus.md",
+    "socialProduct": "/ai/context/social-product.md"
   },
   "authorityOrder": [
     "approved-asset-or-document",

@@ -2,6 +2,12 @@
 
 Mudanças significativas no Beegloo Brand Guide. A documentação canônica descreve sempre o estado vigente; este arquivo registra apenas sua evolução.
 
+## 2026-09-01
+
+- **Experiência humana:** atualização da entrada visual do guide e simplificação da navegação documental.
+- **Contexto para IA:** entradas únicas para Cardápios e Social / post de produto, com catálogo, fidelidade e hierarquia relevantes no mesmo bundle.
+- **Descoberta:** conteúdo essencial e rotas para pessoas e agentes disponíveis no HTML inicial, mesmo sem execução de JavaScript.
+
 ## 2026-08-31
 
 - **Arquitetura editorial:** separação entre conhecimento vigente em `docs/`, memória histórica em `archive/` e avaliação pós-criação em `benchmarks/`.

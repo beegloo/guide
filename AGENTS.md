@@ -2,7 +2,7 @@
 
 ## Ordem de leitura para agentes
 
-1. Comece pelo menor bundle adequado: `/ai/context/core.md` por padrão; `/ai/context/marketing.md`, `/ai/context/ui.md` ou `/ai/context/menu-board.md` conforme a intenção.
+1. Comece pelo menor bundle adequado: `/ai/context/core.md` por padrão; `/ai/context/marketing.md`, `/ai/context/ui.md`, `/ai/context/menu-board.md`, `/ai/context/menus.md` ou `/ai/context/social-product.md` conforme a intenção.
 2. Identifique o canal antes de escolher a gramática composicional. Use `/ai/context/workflow.md` quando houver exploração, execução ou continuidade criativa com IA.
 3. No repositório-fonte, consulte os documentos canônicos indicados pelo bundle antes de editar regras ou conteúdo.
 4. Antes de continuar uma peça existente, procure um handoff ativo no workspace da execução e valide-o conforme `docs/ai/creative-handoff.md`. Não dependa do histórico da conversa para identificar uma direção congelada.

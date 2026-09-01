@@ -26,6 +26,8 @@ Comece por um bundle de contexto, não por toda a documentação:
 - `/ai/context/marketing.md`: criação comercial;
 - `/ai/context/ui.md`: interfaces funcionais;
 - `/ai/context/menu-board.md`: task guide de menu board;
+- `/ai/context/menus.md`: cardápios editoriais, produtos e hierarquia comercial;
+- `/ai/context/social-product.md`: posts comerciais centrados em produto e mensagem;
 - `/ai/context/workflow.md`: processo criativo e continuidade.
 
 `/llms.txt` funciona como roteador para os bundles por intenção.

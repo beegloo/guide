@@ -6,8 +6,8 @@
 
 - [Core: identidade e autoridade mínimas](/ai/context/core.md)
 - [Marketing: criação comercial](/ai/context/marketing.md)
-- [Cardápio: Marketing + comportamento editorial do meio](/ai/context/marketing.md) + [guide de cardápio](/ai/marketing/menus.md)
-- [Social / post de produto: Marketing + mensagem comercial](/ai/context/marketing.md) + [guide de social](/ai/marketing/social-product.md)
+- [Cardápio: contexto editorial, produtos e hierarquia comercial](/ai/context/menus.md)
+- [Social / post de produto: produto, mensagem e objetivo comercial](/ai/context/social-product.md)
 - [Produto e UI: interfaces funcionais](/ai/context/ui.md)
 - [Menu board: guide específico da tarefa](/ai/context/menu-board.md)
 - [Workflow: processo criativo e continuidade](/ai/context/workflow.md)

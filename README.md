@@ -35,7 +35,7 @@ The production output is written to `dist/`. The project is compatible with Clou
 Após a publicação, use `/llms.txt` para escolher o menor contexto adequado ao trabalho:
 
 - `/ai/context/core.md`: entrada mínima para qualquer tarefa;
-- `/ai/context/marketing.md`, `/ai/context/ui.md` e `/ai/context/menu-board.md`: contexto por intenção;
+- `/ai/context/marketing.md`, `/ai/context/ui.md`, `/ai/context/menu-board.md`, `/ai/context/menus.md` e `/ai/context/social-product.md`: contexto por intenção;
 - `/ai/context/workflow.md`: processo criativo e continuidade;
 - `/brand-context.json`: manifesto, tokens e estados em formato estruturado;
 - `/ai/`: cópias públicas dos documentos canônicos.

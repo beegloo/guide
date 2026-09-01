@@ -32,6 +32,8 @@ A Beegloo é leve, acolhedora, contemporânea, arredondada, expressiva, arejada 
 - [Marketing](/ai/context/marketing.md): trabalhos que comunicam, vendem ou geram desejo.
 - [Produto e UI](/ai/context/ui.md): interfaces e experiências funcionais.
 - [Menu board](/ai/context/menu-board.md): Marketing mais regras específicas de menu board.
+- [Cardápios](/ai/context/menus.md): Marketing mais comportamento editorial, produtos e hierarquia comercial.
+- [Social / post de produto](/ai/context/social-product.md): Marketing mais produto, mensagem e objetivo comercial.
 - [Workflow](/ai/context/workflow.md): exploração, escolha, refinamento, avaliação e continuidade.
 
 Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação. Cards, pills e módulos não são padrões universais da marca.

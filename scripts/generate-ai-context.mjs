@@ -93,6 +93,14 @@ const bundleSpecs = {
     title: 'Contexto de menu board',
     paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'products/catalog.md', 'products/product-fidelity.md', 'marketing/principles.md', 'marketing/art-direction.md', 'marketing/menu-boards.md', 'marketing/commercial-hierarchy.md', 'marketing/pricing.md'],
   },
+  menus: {
+    title: 'Contexto de cardápios',
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'products/catalog.md', 'products/product-fidelity.md', 'marketing/principles.md', 'marketing/art-direction.md', 'marketing/menus.md', 'marketing/commercial-hierarchy.md', 'marketing/pricing.md'],
+  },
+  'social-product': {
+    title: 'Contexto de social e post de produto',
+    paths: ['ai/brand-context.md', 'foundations/sources-of-truth.md', 'products/catalog.md', 'products/product-fidelity.md', 'marketing/principles.md', 'marketing/art-direction.md', 'marketing/social-product.md', 'marketing/commercial-hierarchy.md', 'marketing/pricing.md'],
+  },
   workflow: {
     title: 'Workflow criativo com IA',
     paths: ['ai/process.md', 'references/types.md', 'ai/delivery-checklist.md', 'ai/creative-handoff.md'],
@@ -117,8 +125,8 @@ const llms = `# Beegloo Brand Guide
 
 - [Core: identidade e autoridade mínimas](/ai/context/core.md)
 - [Marketing: criação comercial](/ai/context/marketing.md)
-- [Cardápio: Marketing + comportamento editorial do meio](/ai/context/marketing.md) + [guide de cardápio](/ai/marketing/menus.md)
-- [Social / post de produto: Marketing + mensagem comercial](/ai/context/marketing.md) + [guide de social](/ai/marketing/social-product.md)
+- [Cardápio: contexto editorial, produtos e hierarquia comercial](/ai/context/menus.md)
+- [Social / post de produto: produto, mensagem e objetivo comercial](/ai/context/social-product.md)
 - [Produto e UI: interfaces funcionais](/ai/context/ui.md)
 - [Menu board: guide específico da tarefa](/ai/context/menu-board.md)
 - [Workflow: processo criativo e continuidade](/ai/context/workflow.md)
@@ -141,13 +149,13 @@ const manifest = {
   schemaVersion: '1.0',
   brand: 'Beegloo',
   language: 'pt-BR',
-  lastReviewed: '2026-08-31',
+  lastReviewed: '2026-09-01',
   entrypoints: { default: '/ai/context/core.md', concise: '/llms.txt', human: '/', humanDocs: '/docs?doc=ai/brand-context.md#docs' },
   contextBundles: Object.fromEntries(Object.keys(bundleSpecs).map((name) => [name, `/ai/context/${name}.md`])),
   taskGuides: {
     menuBoard: '/ai/context/menu-board.md',
-    menus: '/ai/marketing/menus.md',
-    socialProduct: '/ai/marketing/social-product.md',
+    menus: '/ai/context/menus.md',
+    socialProduct: '/ai/context/social-product.md',
   },
   authorityOrder: [
     'approved-asset-or-document',

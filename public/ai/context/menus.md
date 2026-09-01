@@ -1,4 +1,4 @@
-# Contexto de Marketing
+# Contexto de cardápios
 
 > Bundle gerado. Edite apenas as fontes indicadas em cada seção.
 
@@ -81,6 +81,108 @@ Quando duas fontes entrarem em conflito, use esta ordem:
 - Uma imagem gerada por IA nunca se torna automaticamente referência oficial.
 
 Se um ativo ou fato necessário estiver ausente, interrompa a produção factual, registre a pendência e solicite a fonte correta. Não complete lacunas por inferência.
+
+---
+
+<!-- source: docs/products/catalog.md -->
+
+# Catálogo de produtos
+
+Status: ativo
+Última revisão: 2026-08-31
+
+Este catálogo reúne os dados disponíveis sem converter referências de trabalho em homologação final.
+
+## Hierarquia de representação
+
+Para cada família, use uma única rota:
+
+1. **Official:** use o produto ou asset final homologado, quando existir.
+2. **Working:** na ausência do final, use a working reference aprovada como subject visual obrigatório da etapa.
+3. **Pending:** considere o produto ausente somente quando não existir nem asset oficial nem working reference.
+
+**Use the working reference as the product for this stage. Recompose it; do not redesign it.** O status provisório indica substituição futura pelo asset final; não autoriza ignorar, reinterpretar ou redesenhar a referência durante direção de arte.
+
+## Working product references
+
+| Família / nome | Referência visual de trabalho | Identificação visual da referência | Formato / recipiente esperado nesta etapa | Preço de trabalho | Status |
+| --- | --- | --- | --- | --- | --- |
+| CROC | [croc.png](/assets/products/working/croc.png) | Soft serve em cone, conforme a imagem matriz. | Cone com silhueta e massa visual da referência. | A PARTIR DE R$ 4,90 | Working reference e preço de trabalho; produto, receita, cobertura, proporções e fotografia final não homologados. |
+| SHAKE | [shake.png](/assets/products/working/shake.png) | Shake em copo alto, conforme a imagem matriz. | Copo alto com silhueta e massa visual da referência. | A PARTIR DE R$ 17,90 | Working reference e preço de trabalho; sabor, ingrediente, cor, recipiente e fotografia final não homologados. |
+| SUNNY | [sunny.png](/assets/products/working/sunny.png) | Sundae em copo, conforme a imagem matriz. | Copo com silhueta e massa visual da referência. | R$ 11,90 | Working reference e preço de trabalho; receita, cobertura, quantidade, recipiente e fotografia final não homologados. |
+| CREMIX | [cremix.png](/assets/products/working/cremix.png) | Sobremesa cremosa em pote, conforme a imagem matriz. | Pote com silhueta e massa visual da referência. | A PARTIR DE R$ 14,90 | Working reference e preço de trabalho; embalagem, ingrediente, topping, licenciamento e fotografia final não homologados. |
+
+Os preços acima são dados de trabalho para composição e hierarquia comercial, não tabela comercial final homologada. Não extrapole tamanhos, descontos, adicionais ou variações.
+
+## Uso composicional
+
+Pode ampliar, reduzir, reposicionar, recortar, sobrepor, integrar com tipografia, trabalhar profundidade e ajustar orientação quando a identidade visual permanecer clara.
+
+Não substitua a referência por outro produto. Preserve recipiente, silhueta, ingredientes visíveis, cobertura e proporções reconhecíveis na imagem matriz. Se uma transformação não preservar o subject, mantenha o asset original e transforme a composição ao redor dele.
+
+## Fatos ainda pendentes
+
+Categoria e descrição oficiais, características visuais homologadas, sabores, variações, tamanhos, receitas, ingredientes, embalagens, fotografias finais, elementos imutáveis específicos, situação comercial, exemplos corretos e erros comuns permanecem pendentes até homologação. Não derive esses fatos da aparência das working references.
+
+Não traduza, pluralize, abrevie, complete ou altere os nomes CROC, SHAKE, SUNNY e CREMIX.
+
+---
+
+<!-- source: docs/products/product-fidelity.md -->
+
+# Fidelidade de produtos e embalagens
+
+Status: oficial
+Última revisão: 2026-08-30
+
+> Produtos, fotografias e embalagens fornecidos são fontes de verdade. Não inventar, redesenhar, completar, substituir ou “melhorar” formato, volume, tampa, copo, pote, rótulo, marca, texto, cor, ingrediente, cobertura ou proporção sem autorização explícita.
+
+## Pode ser explorado quando o briefing permitir
+
+- Fundo.
+- Cenografia.
+- Composição.
+- Formas gráficas de apoio.
+- Luz ambiental.
+- Sombras externas.
+- Recorte.
+- Enquadramento.
+- Relação espacial entre elementos.
+
+## Deve permanecer imutável
+
+- Geometria da embalagem.
+- Tampa e fechamento.
+- Rótulo, logo e textos impressos.
+- Cor oficial.
+- Formato do produto.
+- Ingredientes visíveis.
+- Cobertura e recheio.
+- Quantidade aparente.
+- Proporção entre produto e embalagem.
+- Sabor representado.
+
+## Referência insuficiente
+
+Se a imagem fornecida não permitir reprodução fiel:
+
+1. Priorizar source of truth final.
+2. Quando ela não estiver disponível, avaliar asset real provisório.
+3. Depois, usar referência representativa cuja limitação esteja identificada.
+4. Se necessário, criar proxy sintético controlado que preserve categoria, silhueta e massa sem inventar fatos específicos.
+5. Usar placeholder abstrato apenas quando o assunto não for visualmente determinante para a decisão.
+
+Quando o assunto for visualmente determinante, placeholder abstrato não é suficiente para validar direção de arte. Solicite novas fotos ou ângulos se nenhuma representação disponível alcançar o nível necessário.
+
+**If an essential input is missing, solve the input problem before compensating with unrelated visual invention.** Esculturas, recipientes ou objetos cenográficos sem correspondência semântica suficiente não substituem produto ausente. Identifique limites de estudos conceituais e nunca apresente invenção como produto final.
+
+## Working proxies
+
+Quando existir um working proxy válido para a tarefa, use-o antes de gerar outro assunto. **If a valid working proxy already exists, use it. Do not regenerate the subject unless the task explicitly requires it.** Um proxy é provisório e não homologa produto, mas deve permanecer visualmente estável durante a comparação de direções.
+
+**Recompose the product; do not redesign the product.** Adapte escala, posição, crop, enquadramento, profundidade e integração ao contexto antes de alterar o asset. Mudanças de orientação ou perspectiva só são válidas quando preservam categoria, silhueta, recipiente, ingredientes visíveis, cobertura e proporções essenciais.
+
+**Intentional crop is allowed. Accidental loss of product identity is not.** Se a ferramenta não preservar a identidade em nova perspectiva ou regeneração, mantenha o asset original e transforme a composição ao redor dele.
 
 ---
 
@@ -195,3 +297,89 @@ Trocas de fundo, paleta, posição ou curva decorativa sobre a mesma arquitetura
 Avalie a peça pela capacidade de aproximar o produto, despertar desejo e sustentar impacto em leitura rápida. Uma composição forte mantém assuntos estáveis reconhecíveis enquanto constrói ao redor deles relações mais expressivas.
 
 Creative references podem calibrar energia, tensão, ritmo, escala, acabamento e impacto sem prescrever uma solução. Elas transformam a composição, não o subject. Para aplicar estes princípios em trabalhos com IA, siga o [processo criativo](../ai/process.md).
+
+---
+
+<!-- source: docs/marketing/menus.md -->
+
+# Cardápios
+
+Status: ativo
+Última revisão: 2026-09-01
+
+Este guide especializa [Marketing e criação comercial](principles.md) para cardápios impressos ou digitais cuja leitura acontece em sequência. Ele define comportamento editorial do meio, não um layout.
+
+## Comportamento do canal
+
+Cardápio combina desejo e informação suficiente para decidir. A composição conduz o olhar por uma sequência: estabelece uma entrada visual, organiza ofertas, alterna momentos de produto e informação e cria pausas que mantêm a leitura clara mesmo com maior densidade.
+
+Agrupamentos podem aproximar itens de uma família, evidenciar relações comerciais ou separar tipos de decisão. Repetição com variação ajuda o leitor a reconhecer padrões sem transformar todas as ofertas em módulos idênticos.
+
+Áreas mais visuais e áreas mais informativas podem assumir densidades diferentes. O ritmo nasce da alternância entre produto, naming, preço, descrição e respiro, preservando uma hierarquia contínua ao longo da página ou sequência de páginas.
+
+## Cardápio não é menu board vertical
+
+Menu board privilegia decisão rápida e leitura à distância. Cardápio pode exigir fluxo mais longo, agrupamentos editoriais, relações entre famílias e zonas de informação mais estruturadas.
+
+Essa estrutura organiza a oferta sem precisar assumir gramática de aplicativo ou grade rígida. A página deve ser percebida como composição editorial, não apenas como uma tela horizontal reorganizada verticalmente.
+
+## Produto na arquitetura editorial
+
+Produto participa da entrada, dos agrupamentos e do ritmo. Itens podem assumir escalas, crops e níveis de presença diferentes conforme sua função na sequência; nem todos precisam aparecer inteiros, isolados ou acompanhados pelo naming na mesma posição.
+
+Use a [fidelidade de produto](../products/product-fidelity.md) como fonte canônica de preservação. Para outputs de exploração, direção validável, refinamento e produção, siga o [workflow criativo](../ai/process.md).
+
+---
+
+<!-- source: docs/marketing/commercial-hierarchy.md -->
+
+# Hierarquia comercial
+
+Status: ativo
+Última revisão: 2026-08-30
+
+## Ordem de informação
+
+1. Categoria.
+2. Nome do produto.
+3. Descrição.
+4. Preço.
+5. Complemento comercial.
+6. Observação legal.
+
+## Regras
+
+- Produto e preço devem ser encontrados rapidamente.
+- Usar poucos níveis tipográficos.
+- A categoria orienta sem competir com o produto.
+- A descrição ajuda a decidir; não deve transformar a peça em catálogo.
+- Informações legais permanecem legíveis no tamanho final.
+- A hierarquia deve ser testada à distância e em poucos segundos.
+
+---
+
+<!-- source: docs/marketing/pricing.md -->
+
+# Sistema de preços
+
+Status: ativo
+Última revisão: 2026-08-30
+
+O preço precisa ser encontrado imediatamente, sem dominar a ponto de esconder o produto.
+
+## Regras permanentes
+
+- Valores nunca podem ser inventados.
+- Preços e textos comerciais vêm do briefing aprovado.
+- Em estudos sem valor aprovado, preservar o peso visual necessário com placeholder neutro e registrar a pendência fora da composição dirigida ao consumidor.
+- Não apresentar preço anterior, desconto, adicional ou combo sem fonte comercial atual.
+
+## Pendente de homologação
+
+- Uso formal de `R$`.
+- Separação e escala de reais e centavos.
+- “A partir de”.
+- Preço promocional e preço anterior.
+- Combos, adicionais e tamanhos.
+- Alinhamento e espaçamento.
+- Informações legais obrigatórias por canal.
