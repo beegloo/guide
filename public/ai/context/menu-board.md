@@ -240,47 +240,59 @@ Ela não precisa virar um card. Evite transformar automaticamente produto, preç
 Status: ativo
 Última revisão: 2026-08-31
 
-Este guide orienta Marketing / Commercial Creative. **Marketing is advertising, not interface.** Organização e compliance são o piso; direção de arte também precisa construir desejo, impacto, tensão, memorabilidade e integração.
+Este guide orienta Marketing / Commercial Creative. **Marketing is advertising, not interface.** Organização e compliance são o piso; direção de arte constrói desejo, impacto, ritmo, tensão, memorabilidade e uma relação intencional entre produto, tipografia e espaço.
 
-## Dominância e equivalência
+## Dominância e ritmo
 
-Defina o que domina, apoia e aparece depois. **Equal commercial priority does not require equal visual treatment.** Famílias equivalentes podem variar em escala, posição, crop, plano e peso tipográfico sem que uma se torne comercialmente inferior.
+Defina o que domina, o que apoia e o que aparece depois. **Equal commercial priority does not require equal visual treatment.** Famílias equivalentes podem assumir escalas, posições, crops, planos e pesos tipográficos diferentes e ainda permanecer equilibradas no conjunto.
 
-Unidade não exige módulos idênticos. Evite transformar automaticamente categorias em cards, colunas iguais ou quatro zonas equivalentes.
+Construa ritmo com contrastes claros: grande e pequeno, cheio e vazio, próximo e distante, denso e respirado, tensão e pausa. Uma diferença radical de escala pode estabelecer a entrada visual, aproximar sensorialmente o produto e dar energia à peça. Unidade nasce da relação entre elementos, não da repetição uniforme de módulos.
 
-## Composição nasce do assunto
+## Composição nasce do subject
 
-**Compose from the subject, not from containers.** Fotografia, silhueta, massa, recorte, tipografia e espaço devem gerar a arquitetura da peça. Containers são válidos quando cumprem uma intenção, não como ponto de partida automático.
+**Compose from the subject, not from containers.** Fotografia, silhueta e massa visual podem determinar curvas, eixos, agrupamentos e áreas de respiro. Um crop profundo pode transformar o produto em borda ou primeiro plano; dois produtos podem construir um eixo, contraste ou encontro; uma silhueta vertical pode orientar o fluxo; o espaço negativo pode surgir entre essas forças em vez de ser reservado por uma grade anterior.
 
-Em food advertising, o produto pode ser hero, âncora, ruptura de grid, elemento de profundidade ou massa dominante, sempre preservando a [fidelidade factual](../products/product-fidelity.md).
+**The subject must generate the composition.** Explore produto × tipografia, produto × produto, escala extrema, crop, overlap, direção, densidade e vazio como relações capazes de produzir a ideia. O ambiente entra para ampliar essas relações — não apenas como cenário abstrato que recebe subjects depois de pronto.
 
-**Structure can be implicit.** Alinhamento, proximidade, contraste, escala, overlap, ritmo, direção e espaço negativo organizam sem exigir superfícies fechadas.
+Produto pode atuar como hero, âncora, ruptura intencional de alinhamento, massa dominante ou elemento de profundidade. Sua presença deve participar da arquitetura da peça, sempre preservando a [fidelidade aplicável](../products/product-fidelity.md).
 
-## Escala, ritmo e profundidade
+## Escala, crop e planos
 
-Use contraste entre grande e pequeno, cheio e vazio, próximo e distante, denso e respirado. Sobreposição, recorte, assimetria e planos podem aumentar energia e proximidade sensorial quando preservam legibilidade e identidade.
+Use primeiro plano, plano médio e fundo como níveis ativos da composição. Overlap, recorte e diferença de escala criam proximidade, profundidade e tensão entre subjects estáveis. Elementos parcialmente fora do quadro podem expandir a cena e aumentar a sensação de abundância ou proximidade sensorial.
 
-Equilíbrio não exige simetria. Tensão composicional é uma ferramenta; acabamento correto sem tensão pode continuar genérico.
+Crop profundo é uma decisão de direção quando reforça presença, leitura e desejo. Assimetria controlada e ruptura de grid podem criar movimento e caráter editorial sem eliminar clareza. O equilíbrio pode vir de massas, direções e espaços complementares, não apenas de alinhamento ou simetria.
 
-## Produto, tipografia e ambiente
+## Produto, tipografia e preço
 
-Produto não é conteúdo a encaixar e tipografia não é legenda. Naming e preço podem funcionar como massa composicional, estabelecer a entrada visual, criar escala e interagir com o produto.
+Produto, naming e preço devem participar da mesma ideia visual. **Typography is a compositional mass, not a caption.** Tipo pode ocupar o espaço criado pela fotografia, estabelecer contraste de escala, atravessar planos, acompanhar um eixo ou equilibrar a massa do produto.
 
-**A decorative environment is not an art direction.** Fundo, cenografia e grafismos devem amplificar a relação entre produto, tipo, hierarquia e desejo. Se o ambiente sustenta toda a ideia e aceita qualquer produto sem alteração estrutural, a direção provavelmente é genérica.
+Naming pode funcionar como entrada, ritmo ou contraponto; preço pode integrar a massa tipográfica e a hierarquia em vez de parecer um componente anexado. Fotografia, tipo e grafismo ganham força quando respondem uns aos outros e constroem uma leitura única.
 
-O objetivo é uma composição mais forte ao redor de assuntos estáveis. Recipiente, silhueta essencial, ingredientes visíveis, cobertura e proporções conhecidas não são matéria de exploração.
+## Product parade e ambiente
 
-## Liberdade composicional
+Distribuir todos os produtos corretamente ainda não constitui, por si só, uma direção. Quando subjects aparecem inteiros, independentes, com escala semelhante e naming funcionando como legenda, a composição tende a se tornar uma **product parade**.
 
-A direção de arte deve ir além da organização correta de informações. Use a liberdade composicional para construir uma ideia visual reconhecível por meio de dominância, hierarquia, escala, profundidade, agrupamento, tipografia e espaço.
+Uma direção mais potente cria relações entre produto, tipo, preço, crop, escala, profundidade e espaço. Os subjects podem se aproximar, contrastar, formar grupos, ocupar planos diferentes ou participar de uma sequência visual sem precisar virar quatro unidades equivalentes.
 
-Creative references podem calibrar energia, tensão, ritmo, acabamento e impacto sem prescrever layout ou solução. Elas transformam a composição, não os assuntos estáveis.
+Fundo, cenografia e grafismos sustentam a ideia ao amplificar ritmo, hierarquia e desejo. Uma hipótese visual robusta depende da relação específica entre seus subjects: se qualquer conjunto de produtos puder substituir os atuais sem mudar a estrutura, o ambiente provavelmente está conduzindo mais do que a direção de arte.
 
-## Assuntos estáveis
+## Estrutura explícita e implícita
 
-Liberdade composicional não autoriza redesenhar fatos. Produto, embalagem, logo, naming, preços, textos e demais sources of truth devem permanecer reconhecíveis e fiéis às fontes aplicáveis.
+**Structure can be implicit.** Alinhamento, proximidade, direção, escala, contraste, overlap, repetição com variação e espaço negativo podem organizar a peça sem superfícies fechadas. Territórios visuais podem existir por relações de massa e cor, sem se materializar necessariamente como cards ou painéis.
 
-Consulte os [tipos de referência](../references/types.md) para distinguir preservação factual de calibração criativa. Para aplicar estes princípios em trabalhos com IA, siga o [processo criativo](../ai/process.md).
+Containers continuam disponíveis quando cumprem uma intenção composicional real. A força está em fazer estrutura e subject nascerem juntos, de modo que hierarquia, produto e mensagem pareçam partes da mesma peça.
+
+## Direções são hipóteses estruturais
+
+**Each direction should test a different compositional hypothesis.** Uma direção muda onde nasce a hierarquia, qual elemento cria a entrada, a relação entre produto e tipo, a escala, os planos, a densidade, o ritmo, o agrupamento ou o uso do espaço.
+
+Trocas de fundo, paleta, posição ou curva decorativa sobre a mesma arquitetura produzem variantes. Direções realmente distintas reorganizam as forças da composição: uma pode nascer de escala extrema, outra de tipografia dominante, outra do encontro entre subjects ou de profundidade e crop. Esses mecanismos são possibilidades, não templates.
+
+## Desejo e assuntos estáveis
+
+Avalie a peça pela capacidade de aproximar o produto, despertar desejo e sustentar impacto em leitura rápida. Uma composição forte mantém assuntos estáveis reconhecíveis enquanto constrói ao redor deles relações mais expressivas.
+
+Creative references podem calibrar energia, tensão, ritmo, escala, acabamento e impacto sem prescrever uma solução. Elas transformam a composição, não o subject. Para aplicar estes princípios em trabalhos com IA, siga o [processo criativo](../ai/process.md).
 
 ---
 
