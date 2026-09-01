@@ -51,7 +51,7 @@ Last updated: YYYY-MM-DD
 - **Objective:** objetivo concreto da peça.
 - **Channel:** canal e comportamento aplicável.
 - **Format:** dimensões, proporção e suporte.
-- **Current maturity:** direção conceitual | direção de arte validável | execução final.
+- **Current stage:** exploração | direção de arte validável | refinamento | final / produção.
 
 ## Short description
 

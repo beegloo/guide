@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T01:30:59.041Z",
+  "generatedAt": "2026-09-01T12:18:34.082Z",
   "documents": [
     {
       "path": "README.md",
@@ -38,7 +38,7 @@
       "title": "Processo criativo com IA",
       "category": "ai",
       "status": "active",
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-01",
       "source": "/ai/ai/process.md"
     },
     {

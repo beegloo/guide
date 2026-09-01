@@ -17,7 +17,7 @@ Use este checklist como quality gate. As regras completas permanecem nos documen
 - [ ] Produto, embalagem ou proxy preserva silhueta, proporções e detalhes factuais conhecidos.
 - [ ] Nenhuma ausência factual foi substituída por invenção.
 - [ ] Pendências indispensáveis bloquearam apenas a validação afetada; as demais não interromperam a exploração.
-- [ ] O nível de maturidade — conceitual, validável ou final — está declarado.
+- [ ] O estágio — exploração, direção de arte validável, refinamento ou final — está declarado.
 
 ## Canal e qualidade
 
