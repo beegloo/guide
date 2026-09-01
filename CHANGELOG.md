@@ -7,6 +7,7 @@ Mudanças significativas no Beegloo Brand Guide. A documentação canônica desc
 - **Experiência humana:** atualização da entrada visual do guide e simplificação da navegação documental.
 - **Contexto para IA:** entradas únicas para Cardápios e Social / post de produto, com catálogo, fidelidade e hierarquia relevantes no mesmo bundle.
 - **Descoberta:** conteúdo essencial e rotas para pessoas e agentes disponíveis no HTML inicial, mesmo sem execução de JavaScript.
+- **Processo criativo:** esclarecimento de que uma passagem generativa de ambiente deve responder a uma composição previamente definida, nunca originar um cenário vazio para inserção posterior dos subjects.
 
 ## 2026-08-31
 

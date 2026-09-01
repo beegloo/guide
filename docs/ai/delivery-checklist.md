@@ -29,6 +29,7 @@ Use este checklist como quality gate. As regras completas permanecem nos documen
 
 ## Processo e entrega
 
+- [ ] Nenhum ambiente genérico foi gerado primeiro para receber os subjects depois; passagens generativas separadas respeitaram posições, escalas, crops, silhuetas e áreas tipográficas já bloqueadas.
 - [ ] Direções comparadas testam hipóteses estruturais distintas, não variantes cosméticas.
 - [ ] Tentativas abaixo do piso comum de qualidade não foram apresentadas apenas para completar quantidade.
 - [ ] A direção escolhida foi congelada antes da execução.

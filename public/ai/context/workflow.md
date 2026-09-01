@@ -21,6 +21,8 @@ Este documento é o workflow para criação, continuação e execução com IA. 
 
 O background pode existir tecnicamente como camada, máscara ou passagem de geração, mas somente depois que as relações entre subject, tipo e mensagem estiverem definidas. Ele não é concebido, aprovado ou entregue isoladamente; o ambiente responde à composição.
 
+**Generation creates the environment. Composition inserts the truth** separa responsabilidades técnicas, não define uma sequência de criação. A frase não autoriza gerar um cenário vazio e distribuir os elementos factuais posteriormente. Quando o ambiente exigir uma passagem generativa separada, essa passagem deve partir de uma composição já resolvida e permanecer condicionada por posições, escalas, crops, overlaps, silhuetas e áreas tipográficas bloqueadas. A composição posterior substitui proxies ou máscaras pelos assets verdadeiros sem redesenhar as relações espaciais que originaram o ambiente.
+
 **A liberdade criativa diminui conforme aumenta a importância factual.** Logo, produto, embalagem, naming, preço, ingredientes e textos aprovados têm liberdade praticamente nula. Composição, fundo, luz, enquadramento, ritmo e formas de apoio podem ser explorados dentro da marca e do canal.
 
 **Missing factual assets should constrain fidelity, not stop exploration.** Marque a ausência e verifique se ela é indispensável para a decisão atual. Se não for, continue com representação claramente conceitual. Se for, solicite o asset. Nunca substitua ausência factual por invenção.
@@ -67,6 +69,8 @@ Durante esta etapa, não consulte [benchmarks de avaliação](/evaluation/benchm
 O objetivo é permitir escolha real entre direções. Entregue uma peça visual completa por direção, com proporção ou dimensão correta e fidelidade suficiente para julgar a hipótese.
 
 O primeiro visual avaliável integra produto, tipografia, naming, preço ou mensagem, grafismos, espaço negativo e ambiente. Subject, tipo e conteúdo comercial determinam juntos escala, crop, overlap, hierarquia e planos; o background não precede essas relações.
+
+Gerar um ambiente genérico e inserir os produtos depois não atende a este estágio, mesmo que o arquivo apresentado contenha todos os elementos obrigatórios. Presença final não comprova integração de origem: o ambiente precisa ter sido construído em resposta à composição específica.
 
 Prefira preview raster quando o meio final não exigir outro formato nesta etapa. Não produza automaticamente PDF final, arquivo pronto para impressão, assets separados, exports derivados ou múltiplos formatos, salvo solicitação explícita do briefing.
 
@@ -180,6 +184,7 @@ Use este checklist como quality gate. As regras completas permanecem nos documen
 
 ## Processo e entrega
 
+- [ ] Nenhum ambiente genérico foi gerado primeiro para receber os subjects depois; passagens generativas separadas respeitaram posições, escalas, crops, silhuetas e áreas tipográficas já bloqueadas.
 - [ ] Direções comparadas testam hipóteses estruturais distintas, não variantes cosméticas.
 - [ ] Tentativas abaixo do piso comum de qualidade não foram apresentadas apenas para completar quantidade.
 - [ ] A direção escolhida foi congelada antes da execução.
