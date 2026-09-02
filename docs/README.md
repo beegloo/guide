@@ -1,42 +1,33 @@
-# Beegloo Brand Guide — fonte canônica
+# Beegloo Brand Guide
 
-Este diretório guarda o conhecimento editorial da marca. A interface importa estes arquivos diretamente para leitura humana; a Beegloo Prompt Builder seleciona o conteúdo aplicável e o transforma em prompts para outras IAs.
+Este guide reúne o conhecimento vigente da marca: fundamentos, identidade, produtos, aplicações, referências e processo criativo.
 
-## Princípio de arquitetura
+## Princípio editorial
 
-**The guide should say fewer things with more authority.** Regras permanentes, instruções do trabalho e referências criativas têm funções diferentes e não devem ser acumuladas em um único contexto.
+O guide deve dizer menos coisas, com mais autoridade. Regras permanentes, contexto específico de um trabalho e referências criativas cumprem funções diferentes e não devem ser confundidos.
 
-## Camadas
+## Organização
 
-- **Core:** essência e precedência em `foundations/`, mais o contexto mínimo em `ai/brand-context.md`.
-- **Channel Guides:** comportamento de Marketing em `marketing/principles.md` e de Produto / UI em `ui/principles.md`.
-- **Task Guides:** regras específicas, como menu boards, preços, fotografia e fidelidade de produto; carregadas apenas quando aplicáveis.
-- **Workflow:** processo, handoff e checklist em `ai/`; orientam como trabalhar, não como a marca deve parecer.
-- **Creative References:** tipos e biblioteca em `references/`; calibram qualidade sem prescrever solução.
-- **Project State:** brief, handoff ativo, imagens e proxies de uma execução vivem no workspace do projeto, fora deste guide.
-- **Templates:** estruturas reutilizáveis em `templates/`, copiadas para o workspace do trabalho.
+- **Fundamentos:** essência, composição e ordem de precedência das fontes.
+- **Identidade:** logo, cores, tipografia, formas e mascote.
+- **Produtos:** catálogo disponível e regras de fidelidade.
+- **Marketing:** princípios comerciais e comportamentos específicos de cada canal.
+- **Produto e UI:** princípios para interfaces e experiências funcionais.
+- **Processo criativo:** exploração, escolha, refinamento, continuidade e entrega.
+- **Referências:** função e uso adequado de cada tipo de referência visual.
+- **Templates:** estruturas reutilizáveis para preparar e registrar trabalhos.
 
-Fora deste diretório, `archive/` preserva memória histórica, `benchmarks/` contém holdouts de avaliação pós-criação e `CHANGELOG.md` resume mudanças significativas.
+## Como consultar
 
-## Roteamento
+Comece pelo [contexto essencial da marca](ai/brand-context.md) e pelas [fontes de verdade](foundations/sources-of-truth.md). Em seguida, combine apenas as diretrizes que correspondem ao trabalho:
 
-Comece por `ai/brand-context.md` e `foundations/sources-of-truth.md`. Depois carregue somente:
+- [Marketing e criação comercial](marketing/principles.md) ou [Produto e UI](ui/principles.md), conforme o canal;
+- o guia específico da aplicação, como [menu boards](marketing/menu-boards.md), [cardápios](marketing/menus.md) ou [social](marketing/social-product.md);
+- [catálogo](products/catalog.md) e [fidelidade de produto](products/product-fidelity.md) quando houver produtos;
+- [processo criativo](ai/process.md) e [checklist de entrega](ai/delivery-checklist.md) quando houver exploração, refinamento ou execução;
+- [protocolo de handoff](ai/creative-handoff.md) quando uma direção aprovada precisar continuar.
 
-- o canal aplicável em `marketing/` ou `ui/`;
-- o guide específico da tarefa, quando existir;
-- `products/catalog.md` e `products/product-fidelity.md` quando houver produto;
-- `ai/process.md`, `references/types.md` e `ai/delivery-checklist.md` quando houver trabalho criativo com IA;
-- `ai/creative-handoff.md` somente para continuar uma direção existente.
-
-A skill em `skills/beegloo-prompt-builder/` aplica esse roteamento para gerar prompts autossuficientes. Ela não é uma segunda fonte de regras.
-
-## Fonte de verdade e publicação
-
-1. Conhecimento vigente vive em `docs/`.
-2. Tokens estruturados vivem em `docs/tokens/`.
-3. Assets oficiais vivem em `public/logos/` e nunca são reformatados.
-4. A aplicação inclui os Markdown no build sem criar uma árvore editorial paralela em `public/`.
-5. `npm run build` prepara os aliases públicos dos logos e compila o site.
+Quando houver conflito, fatos e assets oficiais prevalecem sobre referências criativas. Os requisitos do meio prevalecem sobre padrões genéricos de aplicação.
 
 ## Estados editoriais
 

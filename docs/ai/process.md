@@ -1,7 +1,7 @@
 # Processo criativo com IA
 
 Status: ativo
-Última revisão: 2026-09-01
+Última revisão: 2026-09-02
 
 Este documento é o workflow para criação, continuação e execução com IA. Ele não substitui o [contexto essencial](brand-context.md), os guides de canal nem o brief do trabalho.
 
@@ -9,13 +9,19 @@ Este documento é o workflow para criação, continuação e execução com IA. 
 
 **Exploration ≠ Execution.** Antes da escolha, procure hipóteses realmente distintas e invista em comparação visual. Depois da escolha, preserve a direção e concentre esforço em refinamento e produção.
 
+**Creative prompting ≠ quality review.** Durante exploração, a instrução de criação deve proteger os fatos e abrir uma hipótese composicional clara, não antecipar todo o checklist de aprovação. Catálogos completos de tokens, listas extensas de proibições e critérios de revisão simultâneos empurram a geração para soluções defensivas. Selecione a paleta aplicável, declare poucos bloqueios críticos e descreva positivamente a tensão visual que deve ser explorada. Aplique o quality gate depois que a candidata existir.
+
 **Low finish is acceptable. Low evaluability is not.** Uma direção pode ter acabamento provisório, mas precisa permitir julgamento real de composição, hierarquia, desejo, ritmo, escala, mensagem, identidade, relação produto/tipo e uso do espaço.
 
-**Product, typography and commercial message must enter the composition together.** Durante exploração e direção de arte validável, a primeira materialização visual já deve integrar subject, naming, preço ou mensagem, tipografia e ambiente. A hipótese não nasce de um background ao qual esses elementos são adicionados posteriormente.
+**Product, typography and commercial message must enter the composition together.** Durante exploração e direção de arte validável de qualquer aplicação visual não-UI, a primeira materialização já integra subject, naming, preço ou mensagem, tipografia, branding e ambiente no canvas final.
 
-O background pode existir tecnicamente como camada, máscara ou passagem de geração, mas somente depois que as relações entre subject, tipo e mensagem estiverem definidas. Ele não é concebido, aprovado ou entregue isoladamente; o ambiente responde à composição.
+**The truth must be present while the environment is created.** Não existe etapa independente de background: não gere, aprove ou reutilize cenário vazio, superfície abstrata ou ambiente isolado para receber os elementos depois. A proibição continua válida quando a ferramenta descreve o background como camada, máscara, passagem generativa ou asset intermediário. Se ela não consegue construir o ambiente dentro da composição completa, preservando os assets factuais visíveis, use outro fluxo ou outra ferramenta.
 
-**Generation creates the environment. Composition inserts the truth** separa responsabilidades técnicas, não define uma sequência de criação. A frase não autoriza gerar um cenário vazio e distribuir os elementos factuais posteriormente. Quando o ambiente exigir uma passagem generativa separada, essa passagem deve partir de uma composição já resolvida e permanecer condicionada por posições, escalas, crops, overlaps, silhuetas e áreas tipográficas bloqueadas. A composição posterior substitui proxies ou máscaras pelos assets verdadeiros sem redesenhar as relações espaciais que originaram o ambiente.
+**Typography is also a subject.** Naming, preço e mensagem precisam ter geometria definida antes da criação do ambiente: posição, largura, escala, quebras, inclinação e relação com os demais subjects participam da hipótese desde o início. Quando a ferramenta generativa não carregar Outfit, componha o texto exato externamente e insira-o como SVG ou PNG transparente bloqueado na composição inicial. Rasterizar a tipografia oficial não é aproximá-la; gerar letras parecidas ou encaixar texto em um cenário pronto é.
+
+Se a entrega final exigir texto editável, reconstrua-o em Outfit fora do modelo preservando exatamente a geometria que condicionou o ambiente. A troca técnica não pode reabrir layout, fluxo ou hierarquia.
+
+Essa regra não se aplica a interfaces funcionais, nas quais superfícies e fundos cumprem funções de navegação, organização e estado conforme o guide de UI.
 
 **A liberdade criativa diminui conforme aumenta a importância factual.** Logo, produto, embalagem, naming, preço, ingredientes e textos aprovados têm liberdade praticamente nula. Composição, fundo, luz, enquadramento, ritmo e formas de apoio podem ser explorados dentro da marca e do canal.
 
@@ -54,6 +60,8 @@ O objetivo é testar hipóteses visuais rapidamente. Produza previews de baixa o
 
 Cada hipótese deve variar estruturalmente hierarquia, escala, crop, profundidade, agrupamento, ritmo, densidade, produto, tipografia ou espaço — não apenas fundo, paleta ou decoração.
 
+Defina direções distintas antes da materialização, mas desenvolva uma hipótese por geração ou por prompt independente. Não peça à mesma geração que resolva simultaneamente várias direções, todos os mecanismos composicionais e todo o checklist. A diversidade vem de hipóteses claras, não do acúmulo de comandos.
+
 A saída não é PDF final, arquivo de impressão, pacote de produção, coleção de layers, background isolado, moodboard, wireframe ou estudo de ambiente separado. Imperfeições de acabamento são aceitáveis quando a ideia permanece julgável.
 
 Durante esta etapa, não consulte os benchmarks de avaliação em `benchmarks/`.
@@ -88,7 +96,7 @@ Aplique o [checklist de entrega](delivery-checklist.md) conforme o estágio decl
 
 Antes de apresentar exploração ou direção validável, confirme:
 
-1. nenhum background foi concebido ou aprovado antes dos subjects;
+1. nenhum background isolado foi gerado, aprovado ou reutilizado em qualquer momento;
 2. o ambiente depende das relações específicas entre produto, tipo e mensagem;
 3. os produtos participam da estrutura em vez de apenas ocupar uma superfície pronta;
 4. naming e preço participam da composição em vez de funcionar somente como legendas;

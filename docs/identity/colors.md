@@ -1,7 +1,7 @@
 # Sistema de cores
 
 Status: ativo
-Última revisão: 2026-08-30
+Última revisão: 2026-09-02
 
 Os valores estruturados canônicos vivem em `docs/tokens/colors.json` e são consumidos diretamente pela aplicação.
 
@@ -19,6 +19,7 @@ Os valores estruturados canônicos vivem em `docs/tokens/colors.json` e são con
 - Usar marrom e verde para complementar, não substituir automaticamente o núcleo.
 - Preservar respiro entre grandes áreas de cor.
 - Validar contraste de texto e controles antes da aprovação.
+- Tratar as escalas 50–950 como vocabulário de escolha, não como paleta simultânea. Cada direção deve selecionar um conjunto intencional e limitado de tokens com funções claras.
 
 ## Pendente de homologação
 

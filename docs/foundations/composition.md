@@ -1,7 +1,7 @@
 # Composição
 
 Status: ativo
-Última revisão: 2026-08-30
+Última revisão: 2026-09-02
 
 ## Ritmo
 
@@ -12,6 +12,10 @@ Status: ativo
 - Usar escala, contraste, posição e ritmo de acordo com o objetivo da aplicação.
 
 Esses princípios orientam identidade, não impõem um layout único. **The requirements of the medium take precedence over generic application patterns.** Uma aplicação pode parecer Beegloo sem reproduzir a arquitetura visual de outro canal.
+
+Em qualquer aplicação visual que não seja uma interface funcional, **the subject must generate the composition**. Produto, imagem principal, tipografia, mensagem e assets de marca devem estar presentes no canvas final desde o início; formas, cor, luz, profundidade e ambiente são construídos em resposta a essas relações. Não gere, aprove ou reutilize um background isolado para receber os elementos depois. Se a ferramenta não conseguir trabalhar sobre a composição completa preservando os assets, escolha outro fluxo ou outra ferramenta.
+
+Interfaces funcionais seguem sua própria gramática estrutural: superfícies e fundos podem existir como partes do sistema de navegação, organização e estado, não como cenografia anterior aos assuntos.
 
 ## Escolha da gramática
 

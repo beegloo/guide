@@ -1,7 +1,7 @@
 # Princípios de direção de arte
 
 Status: ativo
-Última revisão: 2026-08-31
+Última revisão: 2026-09-02
 
 Este guide orienta Marketing / Commercial Creative. **Marketing is advertising, not interface.** Organização e compliance são o piso; direção de arte constrói desejo, impacto, ritmo, tensão, memorabilidade e uma relação intencional entre produto, tipografia e espaço.
 
@@ -15,7 +15,9 @@ Construa ritmo com contrastes claros: grande e pequeno, cheio e vazio, próximo 
 
 **Compose from the subject, not from containers.** Fotografia, silhueta e massa visual podem determinar curvas, eixos, agrupamentos e áreas de respiro. Um crop profundo pode transformar o produto em borda ou primeiro plano; dois produtos podem construir um eixo, contraste ou encontro; uma silhueta vertical pode orientar o fluxo; o espaço negativo pode surgir entre essas forças em vez de ser reservado por uma grade anterior.
 
-**The subject must generate the composition.** Explore produto × tipografia, produto × produto, escala extrema, crop, overlap, direção, densidade e vazio como relações capazes de produzir a ideia. O ambiente entra para ampliar essas relações — não apenas como cenário abstrato que recebe subjects depois de pronto.
+**The subject must generate the composition.** Explore produto × tipografia, produto × produto, escala extrema, crop, overlap, direção, densidade e vazio como relações capazes de produzir a ideia. Produto, tipo, mensagem e branding permanecem visíveis no canvas enquanto o ambiente é construído ao redor dessas relações.
+
+Não existe etapa independente de background em direção de arte para Marketing. Não gere, aprove ou reutilize cenário vazio, superfície abstrata ou ambiente isolado para inserir os subjects depois. Essa proibição também vale quando a ferramenta chama o background de camada, passagem generativa ou asset intermediário. Se ela não consegue construir o ambiente dentro da composição completa, não use esse recurso como atalho.
 
 Produto pode atuar como hero, âncora, ruptura intencional de alinhamento, massa dominante ou elemento de profundidade. Sua presença deve participar da arquitetura da peça, sempre preservando a [fidelidade aplicável](../products/product-fidelity.md).
 
@@ -37,7 +39,7 @@ Distribuir todos os produtos corretamente ainda não constitui, por si só, uma 
 
 Uma direção mais potente cria relações entre produto, tipo, preço, crop, escala, profundidade e espaço. Os subjects podem se aproximar, contrastar, formar grupos, ocupar planos diferentes ou participar de uma sequência visual sem precisar virar quatro unidades equivalentes.
 
-Fundo, cenografia e grafismos sustentam a ideia ao amplificar ritmo, hierarquia e desejo. Uma hipótese visual robusta depende da relação específica entre seus subjects: se qualquer conjunto de produtos puder substituir os atuais sem mudar a estrutura, o ambiente provavelmente está conduzindo mais do que a direção de arte.
+Fundo, cenografia e grafismos sustentam a ideia ao amplificar ritmo, hierarquia e desejo, mas só existem dentro da composição completa. Uma hipótese visual robusta depende da relação específica entre seus subjects: se qualquer conjunto de produtos puder substituir os atuais sem mudar a estrutura, o ambiente provavelmente está conduzindo mais do que a direção de arte.
 
 ## Estrutura explícita e implícita
 
@@ -50,6 +52,8 @@ Containers continuam disponíveis quando cumprem uma intenção composicional re
 **Each direction should test a different compositional hypothesis.** Uma direção muda onde nasce a hierarquia, qual elemento cria a entrada, a relação entre produto e tipo, a escala, os planos, a densidade, o ritmo, o agrupamento ou o uso do espaço.
 
 Trocas de fundo, paleta, posição ou curva decorativa sobre a mesma arquitetura produzem variantes. Direções realmente distintas reorganizam as forças da composição: uma pode nascer de escala extrema, outra de tipografia dominante, outra do encontro entre subjects ou de profundidade e crop. Esses mecanismos são possibilidades, não templates.
+
+Ao materializar uma direção, trabalhe uma hipótese forte por vez. Descreva positivamente a relação que deve gerar energia, tensão e unidade; regras de fidelidade protegem os subjects, mas não devem converter o pedido criativo em checklist. Critérios completos de aprovação entram depois que a candidata visual existe.
 
 ## Desejo e assuntos estáveis
 

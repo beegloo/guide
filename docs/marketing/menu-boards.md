@@ -1,7 +1,7 @@
 # Menu boards
 
 Status: ativo
-Última revisão: 2026-08-30
+Última revisão: 2026-09-02
 
 Este documento especializa o guide de [Marketing e criação comercial](principles.md) para leitura comercial à distância.
 
@@ -29,6 +29,8 @@ Em poucos segundos e à distância, o cliente deve identificar:
 - Branding sustentando a venda sem competir com ela.
 
 Evitar aparência de catálogo ou aplicativo, excesso de badges, selos, efeitos e textos auxiliares.
+
+Quando famílias tiverem prioridade comercial equivalente, avalie o equilíbrio no conjunto. Não reserve automaticamente um território, quadrante ou lockup repetido para cada produto; igualdade de importância não exige igualdade de escala, posição ou tratamento visual.
 
 ## Formato 1920 × 1080
 

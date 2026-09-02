@@ -186,7 +186,7 @@ export default function DocsExplorer() {
       </nav>
     </aside>
     <article className="docs-reader" aria-live="polite">
-      <header><div><small>FONTE CANÔNICA · MARKDOWN</small><strong>{current?.path || selected}</strong></div><div className="docs-actions">{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}<button type="button" onClick={copyLink}>{copyState}</button></div></header>
+      <header><div><small>DOCUMENTO VIGENTE</small><strong>{current?.path || selected}</strong></div><div className="docs-actions">{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}<button type="button" onClick={copyLink}>{copyState}</button></div></header>
       {content ? <Markdown source={content} currentPath={selected}/> : <p className="docs-error">Documento indisponível</p>}
     </article>
   </div>

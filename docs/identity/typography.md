@@ -23,6 +23,12 @@ Outfit é a família tipográfica principal.
 - Tratar números e preços como informação comercial, não como ornamento.
 - Garantir contraste e legibilidade no tamanho final de uso.
 
+## Ferramentas sem suporte à fonte
+
+Quando uma ferramenta generativa não puder carregar Outfit, componha o texto exato fora dela e use SVG ou PNG transparente como asset bloqueado. Esse asset deve participar da composição desde o início, com posição, largura, escala, quebras e inclinação já definidas enquanto o ambiente é construído.
+
+Rasterização preserva a identidade tipográfica quando parte da Outfit verdadeira. Aproximação generativa não preserva. Se a entrega exigir editabilidade, mantenha ou reconstrua a camada editável em Outfit na mesma geometria; não encaixe o texto depois em um ambiente já resolvido.
+
 ## Pendente
 
 - Escala tipográfica por aplicação.

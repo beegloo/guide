@@ -1,7 +1,7 @@
 # Checklist de entrega
 
 Status: ativo
-Última revisão: 2026-08-31
+Última revisão: 2026-09-02
 
 Use este checklist como quality gate. As regras completas permanecem nos documentos vinculados.
 
@@ -9,6 +9,7 @@ Use este checklist como quality gate. As regras completas permanecem nos documen
 
 - [ ] Logo veio de arquivo oficial; não foi reconstruído ou alterado.
 - [ ] Outfit, paleta e demais invariantes foram preservados.
+- [ ] Quando a ferramenta não suportava Outfit, o texto exato pré-renderizado participou da composição inicial; não foi aproximado nem encaixado posteriormente.
 - [ ] Naming, preço, textos e fatos vieram de fontes com autoridade adequada.
 - [ ] Assets oficiais necessários para validar peso, posição, contraste e hierarquia foram inseridos por composição.
 
@@ -29,7 +30,7 @@ Use este checklist como quality gate. As regras completas permanecem nos documen
 
 ## Processo e entrega
 
-- [ ] Nenhum ambiente genérico foi gerado primeiro para receber os subjects depois; passagens generativas separadas respeitaram posições, escalas, crops, silhuetas e áreas tipográficas já bloqueadas.
+- [ ] Em aplicações visuais não-UI, nenhum background isolado foi gerado, aprovado ou reutilizado; subject, tipografia, mensagem e branding permaneceram presentes enquanto o ambiente foi construído no canvas final.
 - [ ] Direções comparadas testam hipóteses estruturais distintas, não variantes cosméticas.
 - [ ] Tentativas abaixo do piso comum de qualidade não foram apresentadas apenas para completar quantidade.
 - [ ] A direção escolhida foi congelada antes da execução.
