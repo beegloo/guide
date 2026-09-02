@@ -1,6 +1,6 @@
 # Beegloo Brand Guide — fonte canônica
 
-Este diretório guarda o conhecimento editorial da marca. A interface apresenta o conteúdo para pessoas; os artefatos em `public/` oferecem rotas menores e legíveis para agentes de IA.
+Este diretório guarda o conhecimento editorial da marca. A interface importa estes arquivos diretamente para leitura humana; a Beegloo Prompt Builder seleciona o conteúdo aplicável e o transforma em prompts para outras IAs.
 
 ## Princípio de arquitetura
 
@@ -18,29 +18,25 @@ Este diretório guarda o conhecimento editorial da marca. A interface apresenta 
 
 Fora deste diretório, `archive/` preserva memória histórica, `benchmarks/` contém holdouts de avaliação pós-criação e `CHANGELOG.md` resume mudanças significativas.
 
-## Roteamento para agentes
+## Roteamento
 
-Comece por um bundle de contexto, não por toda a documentação:
+Comece por `ai/brand-context.md` e `foundations/sources-of-truth.md`. Depois carregue somente:
 
-- `/ai/context/core.md`: identidade e autoridade mínimas;
-- `/ai/context/marketing.md`: criação comercial;
-- `/ai/context/ui.md`: interfaces funcionais;
-- `/ai/context/menu-board.md`: task guide de menu board;
-- `/ai/context/menus.md`: cardápios editoriais, produtos e hierarquia comercial;
-- `/ai/context/social-product.md`: posts comerciais centrados em produto e mensagem;
-- `/ai/context/workflow.md`: processo criativo e continuidade.
+- o canal aplicável em `marketing/` ou `ui/`;
+- o guide específico da tarefa, quando existir;
+- `products/catalog.md` e `products/product-fidelity.md` quando houver produto;
+- `ai/process.md`, `references/types.md` e `ai/delivery-checklist.md` quando houver trabalho criativo com IA;
+- `ai/creative-handoff.md` somente para continuar uma direção existente.
 
-`/llms.txt` funciona como roteador para os bundles por intenção.
+A skill em `skills/beegloo-prompt-builder/` aplica esse roteamento para gerar prompts autossuficientes. Ela não é uma segunda fonte de regras.
 
-## Fonte de verdade e geração
+## Fonte de verdade e publicação
 
 1. Conhecimento vigente vive em `docs/`.
 2. Tokens estruturados vivem em `docs/tokens/`.
 3. Assets oficiais vivem em `public/logos/` e nunca são reformatados.
-4. `npm run generate:ai` publica cópias, bundles e manifestos para máquinas.
-5. `npm run build` executa essa geração antes de compilar o site.
-
-Não edite manualmente `public/ai/`, `public/llms.txt`, `public/brand-context.json` ou `public/docs-index.json`.
+4. A aplicação inclui os Markdown no build sem criar uma árvore editorial paralela em `public/`.
+5. `npm run build` prepara os aliases públicos dos logos e compila o site.
 
 ## Estados editoriais
 

@@ -20,15 +20,13 @@ A Beegloo é leve, acolhedora, contemporânea, arredondada, expressiva, arejada 
 
 ## Routing
 
-**Brand foundations define identity. Channel guides define behavior.** Carregue somente o contexto necessário:
+**Brand foundations define identity. Channel guides define behavior.** Depois deste contexto, carregue somente os documentos canônicos necessários:
 
-- [Core](/ai/context/core.md): entrada mínima para qualquer tarefa.
-- [Marketing](/ai/context/marketing.md): trabalhos que comunicam, vendem ou geram desejo.
-- [Produto e UI](/ai/context/ui.md): interfaces e experiências funcionais.
-- [Menu board](/ai/context/menu-board.md): Marketing mais regras específicas de menu board.
-- [Cardápios](/ai/context/menus.md): Marketing mais comportamento editorial, produtos e hierarquia comercial.
-- [Social / post de produto](/ai/context/social-product.md): Marketing mais produto, mensagem e objetivo comercial.
-- [Workflow](/ai/context/workflow.md): exploração, escolha, refinamento, avaliação e continuidade.
+- [Marketing](../marketing/principles.md): trabalhos que comunicam, vendem ou geram desejo.
+- [Produto e UI](../ui/principles.md): interfaces e experiências funcionais.
+- [Menu board](../marketing/menu-boards.md), [Cardápios](../marketing/menus.md) ou [Social / post de produto](../marketing/social-product.md): comportamento específico do meio.
+- [Catálogo](../products/catalog.md) e [Fidelidade de produto](../products/product-fidelity.md): trabalhos que usam produto.
+- [Processo criativo](process.md): exploração, escolha, refinamento, avaliação e continuidade.
 
 Quando houver conflito, os requisitos do meio prevalecem sobre padrões genéricos de aplicação. Cards, pills e módulos não são padrões universais da marca.
 

@@ -13,7 +13,20 @@ const categoryNames = {
 }
 
 const statusNames = { official: 'oficial', active: 'ativo', exploratory: 'exploratório', pending: 'pendente', superseded: 'substituído' }
+const statusValues = { oficial: 'official', ativo: 'active', exploratório: 'exploratory', pendente: 'pending', substituído: 'superseded' }
 const categoryOrder = ['general', 'foundations', 'identity', 'products', 'marketing', 'ui', 'ai', 'templates', 'references']
+const docSources = import.meta.glob('../docs/**/*.md', { eager: true, query: '?raw', import: 'default' })
+
+const documentContents = new Map()
+const documents = Object.entries(docSources).map(([modulePath, content]) => {
+  const documentPath = modulePath.replace('../docs/', '')
+  const category = documentPath.includes('/') ? documentPath.split('/')[0] : 'general'
+  const title = content.match(/^#\s+(.+)$/m)?.[1] ?? documentPath.replace(/\.md$/, '')
+  const statusLabel = content.match(/^Status:\s*([^\n]+)/mi)?.[1]?.trim().toLocaleLowerCase('pt-BR') ?? 'ativo'
+  const status = statusValues[statusLabel] ?? 'active'
+  documentContents.set(documentPath, content)
+  return { path: documentPath, title, category, status }
+}).sort((a, b) => a.path.localeCompare(b.path, 'pt-BR'))
 
 const specialLine = /^(#{1,6}\s|[-*]\s|\d+\.\s|>\s|```|---$|\|)/
 
@@ -114,31 +127,8 @@ function selectedFromUrl() {
 }
 
 export default function DocsExplorer() {
-  const [documents, setDocuments] = useState([])
   const [selected, setSelected] = useState(selectedFromUrl)
-  const [content, setContent] = useState('')
-  const [error, setError] = useState('')
   const [copyState, setCopyState] = useState('Copiar link')
-
-  useEffect(() => {
-    const controller = new AbortController()
-    fetch('/docs-index.json', { signal: controller.signal })
-      .then((response) => response.ok ? response.json() : Promise.reject(new Error('Índice indisponível')))
-      .then((data) => setDocuments(data.documents))
-      .catch((reason) => { if (reason.name !== 'AbortError') setError(reason.message) })
-    return () => controller.abort()
-  }, [])
-
-  useEffect(() => {
-    const controller = new AbortController()
-    setContent('')
-    setError('')
-    fetch(`/ai/${selected}`, { signal: controller.signal })
-      .then((response) => response.ok ? response.text() : Promise.reject(new Error('Documento indisponível')))
-      .then(setContent)
-      .catch((reason) => { if (reason.name !== 'AbortError') setError(reason.message) })
-    return () => controller.abort()
-  }, [selected])
 
   useEffect(() => {
     const onPopState = () => setSelected(selectedFromUrl())
@@ -152,6 +142,7 @@ export default function DocsExplorer() {
     return groups
   }, {}), [documents])
   const current = documents.find((document) => document.path === selected)
+  const content = documentContents.get(selected) || ''
   const stats = useMemo(() => documents.reduce((summary, document) => {
     summary.total += 1
     summary[document.status] = (summary[document.status] || 0) + 1
@@ -196,7 +187,7 @@ export default function DocsExplorer() {
     </aside>
     <article className="docs-reader" aria-live="polite">
       <header><div><small>FONTE CANÔNICA · MARKDOWN</small><strong>{current?.path || selected}</strong></div><div className="docs-actions">{current ? <span className={`status status-${current.status}`}>{statusNames[current.status] || current.status}</span> : null}<button type="button" onClick={copyLink}>{copyState}</button></div></header>
-      {error ? <p className="docs-error">{error}</p> : content ? <Markdown source={content} currentPath={selected}/> : <p className="docs-loading">Carregando documento…</p>}
+      {content ? <Markdown source={content} currentPath={selected}/> : <p className="docs-error">Documento indisponível</p>}
     </article>
   </div>
 }

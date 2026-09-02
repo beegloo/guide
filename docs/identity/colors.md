@@ -3,7 +3,7 @@
 Status: ativo
 Última revisão: 2026-08-30
 
-Os valores estruturados canônicos vivem em `docs/tokens/colors.json` e são publicados em `/brand-context.json`.
+Os valores estruturados canônicos vivem em `docs/tokens/colors.json` e são consumidos diretamente pela aplicação.
 
 ## Papéis cromáticos
 

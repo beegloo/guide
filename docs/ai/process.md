@@ -25,7 +25,7 @@ Decisões aprovadas ficam **congeladas**. Não as reinterprete, combine ou reabr
 
 ## 1. Enquadrar o trabalho
 
-Identifique canal, formato, objetivo, conteúdo, prioridade, estágio e entrega. Preencha o [creative brief](../templates/creative-brief.md) e carregue apenas o bundle adequado.
+Identifique canal, formato, objetivo, conteúdo, prioridade, estágio e entrega. Preencha o [creative brief](../templates/creative-brief.md) e carregue apenas a documentação canônica necessária.
 
 Separe:
 
@@ -56,7 +56,7 @@ Cada hipótese deve variar estruturalmente hierarquia, escala, crop, profundidad
 
 A saída não é PDF final, arquivo de impressão, pacote de produção, coleção de layers, background isolado, moodboard, wireframe ou estudo de ambiente separado. Imperfeições de acabamento são aceitáveis quando a ideia permanece julgável.
 
-Durante esta etapa, não consulte [benchmarks de avaliação](/evaluation/benchmarks/README.md).
+Durante esta etapa, não consulte os benchmarks de avaliação em `benchmarks/`.
 
 ### 3.2 Direção de arte validável
 

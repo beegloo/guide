@@ -8,9 +8,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "generate:ai": "node scripts/generate-ai-context.mjs",
-    "predev": "npm run generate:ai",
-    "build": "npm run generate:ai && vite build",
+    "prepare:assets": "node scripts/prepare-public-assets.mjs",
+    "predev": "npm run prepare:assets",
+    "build": "npm run prepare:assets && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

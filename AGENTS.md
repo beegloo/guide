@@ -2,9 +2,9 @@
 
 ## Ordem de leitura para agentes
 
-1. Comece pelo menor bundle adequado: `/ai/context/core.md` por padrão; `/ai/context/marketing.md`, `/ai/context/ui.md`, `/ai/context/menu-board.md`, `/ai/context/menus.md` ou `/ai/context/social-product.md` conforme a intenção.
-2. Identifique o canal antes de escolher a gramática composicional. Use `/ai/context/workflow.md` quando houver exploração, execução ou continuidade criativa com IA.
-3. No repositório-fonte, consulte os documentos canônicos indicados pelo bundle antes de editar regras ou conteúdo.
+1. Comece por `docs/ai/brand-context.md` e `docs/foundations/sources-of-truth.md`.
+2. Identifique o canal e leia diretamente o guide aplicável em `docs/marketing/` ou `docs/ui/`.
+3. Acrescente o guide específico da tarefa e os documentos de produto relacionados, sem carregar áreas irrelevantes.
 4. Antes de continuar uma peça existente, procure um handoff ativo no workspace da execução e valide-o conforme `docs/ai/creative-handoff.md`. Não dependa do histórico da conversa para identificar uma direção congelada.
 5. Em trabalhos criativos com IA, leia `docs/ai/process.md` antes de iniciar exploração ou execução.
 6. Leia os documentos específicos em `docs/` relacionados à tarefa antes de editar código, conteúdo ou assets.
@@ -15,12 +15,11 @@
 
 - `docs/` é a fonte canônica editorial do Beegloo Brand Guide.
 - Edite regras, decisões e conteúdo de marca somente em `docs/`.
-- `public/ai/`, `public/llms.txt`, `public/brand-context.json` e `public/docs-index.json` são artefatos gerados. Nunca os edite manualmente.
-- `public/llms.txt` roteia agentes para bundles em `public/ai/context/`.
+- A interface importa os Markdown diretamente de `docs/` durante o build; não existe uma cópia editorial pública paralela.
+- `skills/beegloo-prompt-builder/` contém o comportamento que transforma o conhecimento canônico em prompts para outras IAs. Não duplique regras da marca na skill.
 - `archive/` preserva cases e decisões históricas fora da documentação vigente. `benchmarks/` permanece separado para avaliação posterior.
 - `docs/ai/creative-handoff.md` define o protocolo reutilizável. Instâncias reais de handoff vivem no workspace do trabalho, não neste Brand Guide.
 - Briefs, handoffs ativos, imagens e working proxies de uma execução pertencem ao workspace do projeto. Não registre estado circunstancial como regra permanente do guide.
-- Após qualquer mudança em `docs/`, execute `npm run generate:ai` e versione os artefatos públicos atualizados junto com a fonte.
 - Antes de concluir mudanças relevantes, execute `npm run build`.
 - Incorpore regras vigentes nos documentos canônicos e registre mudanças significativas em `CHANGELOG.md`. Quando o racional histórico precisar ser preservado, use `archive/decisions/_template.md` e não o exponha como documentação vigente.
 
@@ -28,7 +27,7 @@
 
 - `public/logos/Padrão.svg`, `public/logos/Sobre.svg`, `public/logos/Ícone Azul.svg` e `public/logos/Ícone Rosa.svg` são fontes oficiais imutáveis. Não altere, otimize, reformate ou regrave nenhum byte interno.
 - A aplicação usa as versões aprovadas para renderização em `public/logos/display/`.
-- O gerador publica cópias dessas versões em URLs estáveis e em inglês dentro de `/brand/logos/`:
+- O preparo de assets publica cópias dessas versões em URLs estáveis e em inglês dentro de `/brand/logos/`:
   - `/brand/logos/primary.svg`
   - `/brand/logos/on-color.svg`
   - `/brand/logos/icon-blue.svg`

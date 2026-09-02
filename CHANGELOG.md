@@ -4,6 +4,7 @@ Mudanças significativas no Beegloo Brand Guide. A documentação canônica desc
 
 ## 2026-09-01
 
+- **Arquitetura:** remoção da distribuição editorial paralela para agentes; `docs/` passa a alimentar diretamente o site e a skill de geração de prompts.
 - **Experiência humana:** atualização da entrada visual do guide e simplificação da navegação documental.
 - **Contexto para IA:** entradas únicas para Cardápios e Social / post de produto, com catálogo, fidelidade e hierarquia relevantes no mesmo bundle.
 - **Descoberta:** conteúdo essencial e rotas para pessoas e agentes disponíveis no HTML inicial, mesmo sem execução de JavaScript.
