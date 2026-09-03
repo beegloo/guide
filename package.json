@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "creative": "node --env-file-if-exists=.env tools/creative/generate.mjs",
     "prepare:assets": "node scripts/prepare-public-assets.mjs",
     "predev": "npm run prepare:assets",
     "build": "npm run prepare:assets && vite build",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^6.1.1",
+    "sharp": "^0.35.4",
     "vite": "^8.2.2"
   }
 }

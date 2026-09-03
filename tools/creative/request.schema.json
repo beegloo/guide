@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Beegloo creative generation request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["model", "size", "finalSize", "quality", "assets", "prompt"],
+  "properties": {
+    "model": { "type": "string", "minLength": 1 },
+    "size": { "type": "string", "pattern": "^[0-9]+x[0-9]+$" },
+    "finalSize": { "type": "string", "pattern": "^[0-9]+x[0-9]+$" },
+    "quality": { "enum": ["low", "medium", "high", "auto"] },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "path", "description"],
+        "properties": {
+          "role": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "description": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "allowedText": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "maskRect": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["left", "top", "width", "height"],
+      "properties": {
+        "left": { "type": "integer", "minimum": 0 },
+        "top": { "type": "integer", "minimum": 0 },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "prompt": { "type": "string", "minLength": 1 }
+  }
+}

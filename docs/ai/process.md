@@ -64,8 +64,6 @@ Defina direções distintas antes da materialização, mas desenvolva uma hipót
 
 A saída não é PDF final, arquivo de impressão, pacote de produção, coleção de layers, background isolado, moodboard, wireframe ou estudo de ambiente separado. Imperfeições de acabamento são aceitáveis quando a ideia permanece julgável.
 
-Durante esta etapa, não consulte os benchmarks de avaliação em `benchmarks/`.
-
 ### 3.2 Direção de arte validável
 
 O objetivo é permitir escolha real entre direções. Entregue uma peça visual completa por direção, com proporção ou dimensão correta e fidelidade suficiente para julgar a hipótese.
@@ -92,7 +90,7 @@ Produto, embalagem, logo, preço, textos e demais fatos devem vir de fontes de v
 
 ## 4. Avaliar e entregar
 
-Aplique o [checklist de entrega](delivery-checklist.md) conforme o estágio declarado. Depois que uma direção candidata estiver criada e congelada, benchmarks podem entrar como holdout de avaliação, nunca como resposta-alvo.
+Aplique o [checklist de entrega](delivery-checklist.md) conforme o estágio declarado.
 
 Antes de apresentar exploração ou direção validável, confirme:
 
@@ -105,3 +103,17 @@ Antes de apresentar exploração ou direção validável, confirme:
 Se algum dos quatro primeiros critérios falhar, ou se as diferenças forem superficiais, a direção ainda não está pronta para apresentação.
 
 Incorpore decisões reutilizáveis na documentação canônica e registre a mudança no `CHANGELOG.md`. Observações específicas pertencem ao workspace ou ao arquivo histórico.
+
+## 5. Ciclo operacional assistido
+
+Quando um agente também operar a ferramenta de geração, use este ciclo sem substituir as etapas criativas acima:
+
+1. **Briefing:** identificar canal, formato, objetivo, conteúdo aprovado, produtos, estágio e entrega.
+2. **Compilação:** selecionar somente o contexto aplicável e criar um prompt autossuficiente. Um prompt light reduz formulação e repetição, não identidade, fatos, assets ou a hipótese composicional.
+3. **Preflight:** validar localmente prompt, dimensões, ordem dos assets, whitelist de texto e saída esperada sem realizar chamada paga.
+4. **Autorização:** mostrar quais assets serão enviados e obter aprovação explícita antes de qualquer upload ou cobrança externa.
+5. **Geração:** produzir uma hipótese por chamada, começando pela qualidade econômica suficiente para avaliar a direção.
+6. **Avaliação:** inspecionar produto, conteúdo, branding, tipografia, hierarquia, integração subject-first e adequação ao canal antes de propor nova chamada.
+7. **Continuidade:** congelar a direção aprovada; usar edição localizada para refinamentos visuais e composição determinística quando fatos finais exigirem preservação absoluta.
+
+Prompt, requisição, modelo, uso, hashes e output de cada rodada pertencem ao workspace da execução, não à documentação canônica. Uma máscara restringe a intenção de uma edição generativa, mas não comprova preservação pixel a pixel fora da área editada.

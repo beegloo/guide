@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beegloo Creative Generator"
+  short_description: "Gera e refina artes Beegloo pela API"
+  default_prompt: "Use $creative-generator para criar uma peça Beegloo com preflight e geração pela API."

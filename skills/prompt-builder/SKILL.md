@@ -1,11 +1,20 @@
 ---
-name: beegloo-prompt-builder
+name: prompt-builder
 description: Gera prompts autossuficientes para criar peças Beegloo em outra IA, incluindo o design system e as regras específicas da tarefa. Use quando o usuário pedir ajuda para montar, preparar, revisar ou adaptar um prompt criativo da Beegloo; não use para criar a arte nem para editar o Brand Guide.
 ---
 
 # Beegloo Prompt Builder
 
 Transforme um briefing em um prompt pronto para outra ferramenta de IA. O prompt final não deve depender de conhecimento prévio do Beegloo Guide.
+
+Quando usada isoladamente, encerre após entregar o prompt. Quando `creative-generator` usar esta skill como dependência, entregue a ela o prompt compilado; a skill operadora continua responsável por preflight, autorização e execução.
+
+## Modos de saída
+
+- **Standard:** use quando o usuário quer um prompt completo para uma ferramenta externa.
+- **Light:** use quando o usuário pedir concisão, rapidez ou um prompt curto. Light reduz explicações, racional, exemplos e repetição; nunca remove fatos, assets, identidade aplicável ou a hipótese composicional.
+
+Mesmo no modo light, preserve uma cápsula mínima rastreável: objetivo e formato; conteúdo exato; papéis dos assets; paleta selecionada com hex; Outfit e hierarquia; formas e espaço; uso do logo; uma hipótese composicional positiva; processo subject-first sem background separado; imutáveis e entrega.
 
 ## Fonte vigente
 
@@ -21,7 +30,7 @@ Use o repositório Beegloo Guide aberto no workspace. Se ele não estiver aberto
 5. Quando houver exploração, execução ou continuidade criativa, leia `docs/ai/process.md`, `docs/references/types.md` e `docs/ai/delivery-checklist.md`.
 6. Leia `docs/ai/creative-handoff.md` somente para continuar uma direção existente.
 
-Nunca carregue `benchmarks/` antes da criação nem use `archive/` como contexto normal. Não transforme conteúdo marcado como `pendente` em fato.
+Não transforme conteúdo marcado como `pendente` em fato.
 
 ## Completar o briefing
 
@@ -89,7 +98,7 @@ Antes de entregar, faça internamente uma verificação de rastreabilidade. Conf
 8. produtos, conteúdo e fatos;
 9. estágio, processo e entrega.
 
-Se uma área for aplicável e não estiver protegida ou orientada, o prompt está incompleto. A verificação é interna: não a transforme em uma lista extensa no prompt final. Se uma área não for aplicável, omita-a sem adicionar justificativa.
+Se uma área for aplicável e não estiver protegida ou orientada, o prompt está incompleto, inclusive no modo light. A verificação é interna: não a transforme em uma lista extensa no prompt final. Se uma área não for aplicável, omita-a sem adicionar justificativa.
 
 ## Assets visuais
 
@@ -107,10 +116,10 @@ Se algum asset indispensável estiver ausente ou inacessível, sinalize-o antes 
 
 Quando houver informação suficiente:
 
-1. entregue um único prompt copiável, sem preâmbulo explicativo;
+1. entregue um único prompt copiável, sem preâmbulo explicativo, no modo solicitado;
 2. inclua somente as seções necessárias à tarefa;
 3. acrescente `Anexar junto` apenas quando aplicável;
-4. não crie a arte, não execute geração de imagem e não altere o guide;
+4. não execute geração de imagem por conta própria nem altere o Guide;
 5. não faça commit, push, publicação ou qualquer outra mutação externa.
 
 Se o usuário pedir uma versão mais curta, reduza formulações, racional e repetição. Nunca remova a cápsula visual aplicável, fatos, fontes de verdade ou restrições que previnam falha conhecida.

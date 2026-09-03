@@ -34,7 +34,3 @@ Quando uma entrega combinar papéis, mantenha-os separados: fontes de verdade li
 **Use creative references to transform the composition, not the subject.**
 
 **Recompose the product; do not redesign the product.**
-
-## Benchmark não é tipo de referência
-
-Um benchmark é um holdout usado para avaliar qualidade depois da criação. Ele não deve ser classificado como creative input nem carregado durante exploração. Os inputs acima orientam ou limitam o trabalho; os arquivos em `benchmarks/` medem posteriormente uma direção já produzida e congelada.

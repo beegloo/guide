@@ -1,0 +1,4 @@
+interface:
+  display_name: "Beegloo Prompt Builder"
+  short_description: "Gera prompts Beegloo completos ou light"
+  default_prompt: "Use $prompt-builder para criar um prompt Beegloo autossuficiente para outra IA."

@@ -3,6 +3,7 @@ node_modules/
 
 # Build output
 dist/
+creative-runs/
 
 # Local environment files
 .env

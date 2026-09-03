@@ -3,9 +3,9 @@
 Fonte canônica local do Brand Guide da Beegloo, com duas formas de uso:
 
 - leitura humana por meio da experiência editorial em React;
-- geração de prompts para outras IAs por meio da skill `beegloo-prompt-builder`.
+- criação assistida por meio das skills `prompt-builder` e `creative-generator`.
 
-O conhecimento vigente vive em `docs/`. Memória histórica vive em `archive/`, benchmarks de avaliação pós-criação em `benchmarks/` e mudanças significativas em `CHANGELOG.md`.
+O conhecimento vigente vive em `docs/` e as mudanças significativas são registradas em `CHANGELOG.md`.
 
 ## Requirements
 
@@ -30,9 +30,11 @@ npm run preview
 
 The production output is written to `dist/`. The project is compatible with Cloudflare Pages using `npm run build` and the `dist` output directory.
 
-## Prompts para IA
+## Workflow criativo
 
-A skill versionada em `skills/beegloo-prompt-builder/` lê diretamente os documentos canônicos e gera prompts autossuficientes para ferramentas criativas externas. Regras continuam somente em `docs/`; a skill contém comportamento de seleção e compilação, não uma cópia do Brand Guide.
+`skills/prompt-builder/` compila prompts autossuficientes, inclusive em modo light. `skills/creative-generator/` conduz o fluxo completo com preflight, autorização, geração, avaliação e continuidade.
+
+O executor em `tools/creative/` transporta prompt e assets para a API e registra cada rodada em `creative-runs/`. Ele não contém regras da marca. O processo vigente está em `docs/ai/process.md`.
 
 ## Assets
 

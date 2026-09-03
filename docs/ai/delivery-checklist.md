@@ -36,5 +36,4 @@ Use este checklist como quality gate. As regras completas permanecem nos documen
 - [ ] A direção escolhida foi congelada antes da execução.
 - [ ] O [creative handoff](creative-handoff.md) registra imagem, frozen, adjustable, fontes, pendências e próximo passo.
 - [ ] Outro agente consegue continuar sem depender do histórico da conversa.
-- [ ] Benchmarks, quando usados, só foram abertos depois da criação e do congelamento.
 - [ ] Aprovações e decisões reutilizáveis foram registradas no lugar correto.

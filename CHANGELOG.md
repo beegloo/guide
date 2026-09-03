@@ -2,6 +2,13 @@
 
 Mudanças significativas no Beegloo Brand Guide. A documentação canônica descreve sempre o estado vigente; este arquivo registra apenas sua evolução.
 
+## 2026-09-03
+
+- **Workflow criativo:** adoção do ciclo briefing → compilação → preflight → autorização → geração → avaliação → continuidade para trabalhos operados por agente.
+- **Skills:** separação entre construção de prompt e operação da geração, com nomes diretos e modo light mantendo a cobertura essencial da marca.
+- **Ferramenta criativa:** consolidação do executor da API como funcionalidade neutra e reutilizável, sem presets de testes ou regras editoriais duplicadas.
+- **Saneamento editorial:** remoção de material histórico já absorvido pela documentação canônica.
+
 ## 2026-09-02
 
 - **Exploração criativa:** separação entre prompt de geração e quality review; prompts passam a trabalhar uma hipótese por vez, com paleta selecionada e menos carga prescritiva.
@@ -21,7 +28,7 @@ Mudanças significativas no Beegloo Brand Guide. A documentação canônica desc
 
 ## 2026-08-31
 
-- **Arquitetura editorial:** separação entre conhecimento vigente em `docs/`, memória histórica em `archive/` e avaliação pós-criação em `benchmarks/`.
+- **Arquitetura editorial:** consolidação do conhecimento vigente em `docs/`.
 - **Contexto para IA:** adoção de bundles por intenção e remoção do fallback editorial completo.
 - **Produtos:** inclusão de working product references e preços de trabalho para CROC, SHAKE, SUNNY e CREMIX no catálogo.
 - **Processo criativo:** separação entre princípios permanentes de Marketing, workflow com IA e contexto variável do creative brief.
@@ -29,4 +36,3 @@ Mudanças significativas no Beegloo Brand Guide. A documentação canônica desc
 ## 2026-08-30
 
 - **Processo criativo:** formalização do fluxo em etapas, com exploração, escolha, congelamento, execução e handoff.
-- **Avaliação:** isolamento de benchmarks para uso somente depois da criação.

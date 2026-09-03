@@ -15,7 +15,7 @@ Nenhuma referência geral de canal foi registrada formalmente nesta categoria ai
 
 Peças que se aproximaram do resultado, mas contêm problemas. Cada registro deve explicar o erro, se ele é estrutural ou de acabamento e o que não deve ser repetido.
 
-Nenhuma referência geral foi registrada formalmente nesta categoria. Exemplos específicos usados apenas para comparação posterior pertencem a `benchmarks/` e não devem ser consultados antes da criação.
+Nenhuma referência geral foi registrada formalmente nesta categoria.
 
 ## Exploratórias
 
@@ -27,4 +27,4 @@ Uma peça gerada por IA somente pode entrar em “aprovadas” após validação
 
 **Rules constrain. References calibrate.** Regras evitam erros; referências gerais ajudam a reconhecer nível de qualidade, ritmo, escala, impacto e direção. Consulte apenas registros permitidos do canal antes da exploração e preserve briefing, fontes de verdade, regras de marca e decisões homologadas como autoridades próprias.
 
-Referências aprovadas calibram o olhar e não autorizam copiar literalmente composição, identidade proprietária ou solução de layout. Um benchmark específico não é referência pré-criação: ele permanece isolado até a etapa de avaliação.
+Referências aprovadas calibram o olhar e não autorizam copiar literalmente composição, identidade proprietária ou solução de layout.
